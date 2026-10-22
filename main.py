@@ -7,6 +7,7 @@
 import argparse
 import datetime
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -49,6 +50,10 @@ def publish() -> None:
     meta = json.loads(META.read_text(encoding="utf-8"))
     results = publish_all(FINAL, meta)
     print("\n".join(results))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")  # GitHub Actions run sahifasida ko'rinadi
+    if summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("### Nashr natijalari\n" + "\n".join(f"- {r}" for r in results) + "\n")
     if any("XATO" in r for r in results):
         sys.exit(1)
 
