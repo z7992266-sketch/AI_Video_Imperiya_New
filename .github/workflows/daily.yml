@@ -1,0 +1,54 @@
+name: Kunlik video
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # har kuni 04:00 UTC (Toshkent 09:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ffmpeg va shrift
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+
+      - name: Video yaratish
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_BASE_URL: https://openrouter.ai/api/v1
+        run: python main.py generate
+
+      - name: Ochiq URL uchun release (Instagram talabi; repo public bo'lishi kerak)
+        id: rel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="video-${{ github.run_id }}"
+          gh release create "$TAG" output/final.mp4 --title "Video $TAG" --notes "Avto-generatsiya"
+          echo "url=https://github.com/${{ github.repository }}/releases/download/$TAG/final.mp4" >> "$GITHUB_OUTPUT"
+
+      - name: Nashr qilish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          VIDEO_PUBLIC_URL: ${{ steps.rel.outputs.url }}
+        run: python main.py publish
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: output/
