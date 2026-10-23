@@ -1,0 +1,74 @@
+name: Uzbek TTS (zaxira ovoz)
+
+# 'media' branch'dagi tts/<ish>/script.txt fayllarini tekshiradi va hali ovozlanmaganlarini
+# Microsoft Neural o'zbek ovozi (Edge TTS, bepul) bilan seg_NN.mp3 qilib qaytaradi.
+# Ish yo'q bo'lsa ~15 soniyada tugaydi.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tts
+  cancel-in-progress: false
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: media
+      - name: Navbatni tekshirish
+        id: q
+        run: |
+          pending=0
+          for s in tts/*/script.txt; do
+            [ -f "$s" ] || continue
+            [ -f "$(dirname "$s")/done.txt" ] || pending=1
+          done
+          echo "pending=$pending" >> "$GITHUB_OUTPUT"
+      - if: steps.q.outputs.pending == '1'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - if: steps.q.outputs.pending == '1'
+        run: pip install edge-tts==7.0.2
+      - if: steps.q.outputs.pending == '1'
+        name: Ovoz yaratish
+        run: |
+          python - <<'PY'
+          import asyncio, pathlib, edge_tts
+          async def main():
+              for script in sorted(pathlib.Path("tts").glob("*/script.txt")):
+                  folder = script.parent
+                  if (folder / "done.txt").exists():
+                      continue
+                  cfg = {"voice": "uz-UZ-SardorNeural", "rate": "+6%", "pitch": "+0Hz"}
+                  lines = []
+                  for raw in script.read_text(encoding="utf-8").splitlines():
+                      raw = raw.strip()
+                      if not raw:
+                          continue
+                      if raw.startswith("#") and "=" in raw:
+                          k, v = raw[1:].split("=", 1); cfg[k.strip()] = v.strip(); continue
+                      lines.append(raw)
+                  for i, text in enumerate(lines):
+                      out = folder / f"seg_{i:02d}.mp3"
+                      await edge_tts.Communicate(text, cfg["voice"], rate=cfg["rate"], pitch=cfg["pitch"]).save(str(out))
+                      print("ok", out)
+                  (folder / "done.txt").write_text(f"{len(lines)} segments, {cfg}\n", encoding="utf-8")
+          asyncio.run(main())
+          PY
+      - if: steps.q.outputs.pending == '1'
+        name: Natijani saqlash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tts
+          git diff --cached --quiet || git commit -m "TTS natijalari"
+          git push origin HEAD:media
