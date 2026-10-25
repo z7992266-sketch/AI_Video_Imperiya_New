@@ -47,8 +47,10 @@ jobs:
         working-directory: control_center
         run: |
           set -o pipefail
-          flutter build apk --release 2>&1 | tail -n 120 | tee ../build.txt
-          cp build/app/outputs/flutter-apk/app-release.apk ../B2BSAS-ControlCenter.apk
+          flutter build apk --release --split-per-abi --target-platform android-arm64,android-arm 2>&1 | tail -n 120 | tee ../build.txt
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk ../ControlCenter-arm64.apk
+          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ../ControlCenter-old-phones.apk
+          ls -la ../*.apk
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
@@ -57,7 +59,9 @@ jobs:
           name: Control Center v1.0.${{ github.run_number }}
           prerelease: true
           target_commitish: ${{ github.sha }}
-          files: B2BSAS-ControlCenter.apk
+          files: |
+            ControlCenter-arm64.apk
+            ControlCenter-old-phones.apk
           body: B2B SAS Control Center — Android APK (internal test build).
 
       - name: Save CI logs to the branch
