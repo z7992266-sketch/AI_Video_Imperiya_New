@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>B2B SAS</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="B2B SAS — mobil ilovalar, zamonaviy saytlar, professional montaj va AI videolar. Smart Sistem — restoranlar uchun tayyor tizim.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: one 1120px column of full-bleed dark bands; gold is reserved for actions and key facts. Brand is dark-only by design. */
+:root{
+  --bg:#0B0B0C; --band:#111113; --card:#151517; --line:#2A2A2E;
+  --gold:#F2D27A; --gold-deep:#C9962F; --gold-bg:#1F1A10; --gold-line:#4A3C1C;
+  --text:#F5F1E8; --muted:#A39F95; --ok:#3FBF7F; --bad:#FF8A8E;
+  --display:"Unbounded", "Manrope", system-ui, sans-serif;
+  --body:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --r:18px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+a{color:var(--gold)}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:8px}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(11,11,12,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:20px;padding-block:14px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);margin-right:auto}
+.mark{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--gold),var(--gold-deep));display:grid;place-items:center;color:var(--bg);font-family:var(--display);font-weight:800;font-size:13px}
+.brand b{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.02em}
+.links{display:flex;gap:22px}
+.links a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px}
+.links a:hover{color:var(--text)}
+.lang{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--muted);font:700 12px var(--body);padding:7px 9px;cursor:pointer;letter-spacing:.04em}
+.lang button[aria-pressed="true"]{background:var(--gold-bg);color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:14px;font:800 15px var(--body);text-decoration:none;cursor:pointer;border:0;transition:transform .15s,filter .15s}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:var(--bg)}
+.btn-gold:hover{filter:brightness(1.07);transform:translateY(-1px)}
+.btn-ghost{background:var(--card);color:var(--text);border:1px solid var(--line)}
+.btn-ghost:hover{border-color:var(--gold-line)}
+.nav .btn{min-height:40px;padding:0 16px;font-size:14px}
+@media (max-width:860px){.links{display:none}}
+@media (max-width:480px){.nav .btn{display:none}}
+
+/* hero */
+.hero{padding-block:72px 64px;background:radial-gradient(90% 70% at 85% 0%, #2A2112 0%, transparent 60%)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,5.4vw,60px);line-height:1.05;margin:14px 0 18px;text-wrap:balance;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--gold)}
+.lead{color:var(--muted);font-size:18px;max-width:52ch;margin:0 0 28px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;color:var(--muted)}
+/* phone mock: the product itself is the hero image */
+.phone{justify-self:center;width:min(300px,100%);aspect-ratio:9/18.5;max-width:100%;border-radius:38px;padding:12px;background:#1b1b1e;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 6px #0f0f11}
+.screen{height:100%;border-radius:28px;background:var(--bg);padding:18px 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+.s-top{display:flex;justify-content:space-between;align-items:center}
+.s-top small{color:var(--gold-deep);font-weight:800;letter-spacing:.14em;font-size:9px}
+.s-top b{display:block;font-size:15px}
+.s-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;display:flex;align-items:center;gap:10px;font-size:12px}
+.s-card .sq{width:30px;height:30px;border-radius:9px;background:var(--gold-bg);border:1px solid var(--gold-line);display:grid;place-items:center;color:var(--gold);font-weight:800;font-size:10px;flex:none}
+.s-card span{flex:1;min-width:0}
+.s-card i{font-style:normal;color:var(--ok);font-weight:700;font-size:10px}
+.s-bonus{border-radius:16px;padding:14px;background:linear-gradient(135deg,#2A2112,#151517);border:1px solid var(--gold-line)}
+.s-bonus small{color:var(--muted);font-size:10px}
+.s-bonus b{display:block;font-family:var(--display);color:var(--gold);font-size:18px;margin-top:2px}
+.s-pay{margin-top:auto;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:var(--bg);text-align:center;font-weight:800;font-size:13px;padding:11px}
+@media (max-width:860px){.hero-grid{grid-template-columns:minmax(0,1fr)}.phone{width:min(260px,80%)}}
+
+/* sections */
+section{padding-block:72px}
+.band{background:var(--band);border-block:1px solid var(--line)}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,3.6vw,38px);line-height:1.15;margin:10px 0 14px;text-wrap:balance}
+.sub{color:var(--muted);max-width:60ch;margin:0 0 36px}
+.grid{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:980px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.g4,.g2{grid-template-columns:minmax(0,1fr)}}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.svc .ico{width:44px;height:44px;border-radius:13px;background:var(--gold-bg);border:1px solid var(--gold-line);display:grid;place-items:center;color:var(--gold)}
+.svc h3{margin:0;font-size:18px;font-weight:800}
+.svc p{margin:0;color:var(--muted);font-size:14px}
+.svc ul{margin:0;padding-left:18px;color:var(--text);font-size:14px;display:grid;gap:4px}
+.svc a{margin-top:auto;font-weight:700;font-size:14px;text-decoration:none}
+
+/* smart sistem */
+.ss{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:760px){.ss{grid-template-columns:minmax(0,1fr)}}
+.panel{border-radius:var(--r);padding:24px;border:1px solid var(--line);background:var(--card);min-width:0}
+.panel.gold{border-color:var(--gold-line);background:linear-gradient(160deg,#1c170d,var(--card) 55%)}
+.panel h3{margin:0 0 4px;font-size:20px;font-weight:800}
+.panel .tag{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep)}
+.feat{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:10px}
+.feat li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.feat li::before{content:"";flex:none;width:18px;height:18px;margin-top:3px;border-radius:6px;background:var(--gold-bg);border:1px solid var(--gold-line);box-shadow:inset 0 0 0 4px var(--gold-bg),inset 0 0 0 9px var(--gold)}
+
+/* steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;counter-reset:s}
+@media (max-width:980px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.steps{grid-template-columns:minmax(0,1fr)}}
+.steps li{counter-increment:s;border-top:2px solid var(--gold-line);padding-top:14px;min-width:0}
+.steps li::before{content:counter(s);font-family:var(--display);font-weight:800;color:var(--gold);font-size:22px;display:block;margin-bottom:6px}
+.steps b{display:block;margin-bottom:4px}
+.steps span{color:var(--muted);font-size:14px}
+
+/* order form */
+.order{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:start}
+@media (max-width:860px){.order{grid-template-columns:minmax(0,1fr)}}
+.contacts{display:grid;gap:10px;margin-top:20px}
+.contact{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--text)}
+.contact small{display:block;color:var(--muted);font-size:12px}
+.contact b{font-weight:700}
+form{background:var(--card);border:1px solid var(--gold-line);border-radius:22px;padding:24px;display:grid;gap:14px}
+.row2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+@media (max-width:520px){.row2{grid-template-columns:minmax(0,1fr)}}
+label{display:grid;gap:6px;font-size:13px;font-weight:700;color:var(--muted)}
+input,select,textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:13px 14px;font:500 15px var(--body)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+textarea{min-height:110px;resize:vertical}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.note{font-size:12px;color:var(--muted);margin:0}
+.status{font-size:14px;font-weight:700;margin:0;min-height:1.4em}
+.status.ok{color:var(--ok)} .status.err{color:var(--bad)}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding-block:16px}
+summary{cursor:pointer;font-weight:700;font-size:16px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--gold);font-weight:800;font-size:20px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin:10px 0 0;max-width:70ch}
+
+footer{border-top:1px solid var(--line);padding-block:32px;color:var(--muted);font-size:14px}
+.foot{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+</style>
+
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="B2B SAS"><span class="mark">B2B</span><b>B2B SAS</b></a>
+    <nav class="links" aria-label="Menu">
+      <a href="#services" data-i="nav_services">Xizmatlar</a>
+      <a href="#smart" data-i="nav_smart">Smart Sistem</a>
+      <a href="#process" data-i="nav_process">Qanday ishlaymiz</a>
+      <a href="#faq" data-i="nav_faq">Savollar</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Til / Язык / Language">
+      <button type="button" data-lang="uz" aria-pressed="true">UZ</button>
+      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn-gold" href="#order" data-i="cta_short">Buyurtma</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow" data-i="hero_eyebrow">Digital agentlik</div>
+        <h1 data-i-html="hero_title">Biznesingizni <em>raqamli</em> darajaga olib chiqamiz</h1>
+        <p class="lead" data-i="hero_lead">Mobil ilovalar, zamonaviy saytlar, professional montaj va AI videolar. Restoranlar uchun esa tayyor Smart Sistem: buyurtma, to'lov, bonus va yetkazib berish bitta ilovada.</p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="#order" data-i="cta_main">Bepul konsultatsiya olish</a>
+          <a class="btn btn-ghost" href="#smart" data-i="cta_second">Smart Sistem bilan tanishish</a>
+        </div>
+        <div class="chips" aria-label="Services">
+          <span class="chip" data-i="chip1">Android · iOS</span>
+          <span class="chip" data-i="chip2">Web saytlar</span>
+          <span class="chip" data-i="chip3">Reels · YouTube montaj</span>
+          <span class="chip" data-i="chip4">AI video va reklama</span>
+        </div>
+      </div>
+      <div class="phone" aria-hidden="true">
+        <div class="screen">
+          <div class="s-top"><div><small>SMART SISTEM</small><b data-i="m_hello">Xush kelibsiz!</b></div><span class="mark" style="width:28px;height:28px;font-size:9px">SS</span></div>
+          <div class="s-bonus"><small data-i="m_card">Bonus karta · VIP</small><b>12 450</b></div>
+          <div class="s-card"><span class="sq">M</span><span data-i="m_menu">Menyu va buyurtma</span><i>●</i></div>
+          <div class="s-card"><span class="sq">K</span><span data-i="m_courier">Kuryer yo'lda · 12 daq</span><i>●</i></div>
+          <div class="s-card"><span class="sq">S</span><span data-i="m_table">Stol band qilindi · 19:30</span><i>●</i></div>
+          <div class="s-pay" data-i="m_pay">Onlayn to'lash</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="band">
+    <div class="wrap">
+      <div class="eyebrow" data-i="svc_eyebrow">Xizmatlar</div>
+      <h2 data-i="svc_title">Bitta jamoa — to'liq raqamli yechim</h2>
+      <p class="sub" data-i="svc_sub">G'oyadan tayyor mahsulotgacha: dizayn, dasturlash, kontent va reklama.</p>
+      <div class="grid g4">
+        <article class="svc">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg></div>
+          <h3 data-i="s1_t">Mobil ilovalar</h3>
+          <p data-i="s1_p">Android va iOS uchun ilovalar: restoran, do'kon va xizmatlar.</p>
+          <ul><li data-i="s1_a">Buyurtma va to'lov</li><li data-i="s1_b">Bonus va sodiqlik tizimi</li><li data-i="s1_c">Admin panel</li></ul>
+          <a href="#order" data-svc="app" data-i="s_more">Narxini bilish →</a>
+        </article>
+        <article class="svc">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+          <h3 data-i="s2_t">Zamonaviy saytlar</h3>
+          <p data-i="s2_p">Tez ochiladigan, har qanday ekranda chiroyli ko'rinadigan saytlar.</p>
+          <ul><li data-i="s2_a">Landing va korporativ sayt</li><li data-i="s2_b">Onlayn do'kon</li><li data-i="s2_c">Ariza va to'lov formalari</li></ul>
+          <a href="#order" data-svc="site" data-i="s_more">Narxini bilish →</a>
+        </article>
+        <article class="svc">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div>
+          <h3 data-i="s3_t">Professional montaj</h3>
+          <p data-i="s3_p">Reklama, Reels va YouTube uchun dinamik videolar.</p>
+          <ul><li data-i="s3_a">Reels va Shorts</li><li data-i="s3_b">Reklama roliklari</li><li data-i="s3_c">Subtitr va rang korreksiya</li></ul>
+          <a href="#order" data-svc="montage" data-i="s_more">Narxini bilish →</a>
+        </article>
+        <article class="svc">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5L12 14.5 7.5 16.8l.9-5L4.8 8.3l5-.7z"/></svg></div>
+          <h3 data-i="s4_t">AI videolar</h3>
+          <p data-i="s4_p">Sun'iy intellekt yordamida reklama, avatar va kinematografik videolar.</p>
+          <ul><li data-i="s4_a">AI reklama roliklari</li><li data-i="s4_b">AI boshlovchi (avatar)</li><li data-i="s4_c">Ovoz va tarjima</li></ul>
+          <a href="#order" data-svc="ai" data-i="s_more">Narxini bilish →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="smart">
+    <div class="wrap">
+      <div class="eyebrow" data-i="ss_eyebrow">Restoranlar uchun</div>
+      <h2 data-i="ss_title">Smart Sistem — restoraningiz bitta tizimda</h2>
+      <p class="sub" data-i="ss_sub">Ikki ilova birga ishlaydi: mijoz buyurtma beradi, restoran uni shu zahoti ko'radi.</p>
+      <div class="ss">
+        <div class="panel gold">
+          <div class="tag" data-i="ss_c_tag">Mijoz ilovasi</div>
+          <h3>Smart Client</h3>
+          <ul class="feat">
+            <li data-i="c1">Face ID bilan tez kirish</li>
+            <li data-i="c2">Silver, Bronze va VIP bonus kartalar</li>
+            <li data-i="c3">Menyu, buyurtma va onlayn to'lov</li>
+            <li data-i="c4">Stol va banket band qilish</li>
+            <li data-i="c5">Xaritada kuryerni kuzatish</li>
+            <li data-i="c6">Sharhlar va baholar</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <div class="tag" data-i="ss_a_tag">Restoran paneli</div>
+          <h3>Smart Admin</h3>
+          <ul class="feat">
+            <li data-i="a1">Buyurtmalar va oshxona ekrani</li>
+            <li data-i="a2">Xodimlar: ofitsiant, oshpaz, kuryer</li>
+            <li data-i="a3">To'lovlar va choychaqa hisobi</li>
+            <li data-i="a4">Yandex va R-Keeper bilan integratsiya</li>
+            <li data-i="a5">Tushum va hisobotlar</li>
+            <li data-i="a6">O'zbek, rus va ingliz tillari</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cta-row" style="margin-top:24px">
+        <a class="btn btn-gold" href="#order" data-svc="smart" data-i="ss_cta">Demo ko'rish uchun ariza</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="band">
+    <div class="wrap">
+      <div class="eyebrow" data-i="pr_eyebrow">Qanday ishlaymiz</div>
+      <h2 data-i="pr_title">Arizadan tayyor mahsulotgacha</h2>
+      <ol class="steps">
+        <li><b data-i="p1_t">Ariza</b><span data-i="p1_p">Formani to'ldirasiz yoki Telegram'ga yozasiz.</span></li>
+        <li><b data-i="p2_t">Bepul konsultatsiya</b><span data-i="p2_p">Vazifani aniqlaymiz, narx va muddatni aytamiz.</span></li>
+        <li><b data-i="p3_t">Dizayn</b><span data-i="p3_p">Ko'rinishini ko'rsatamiz, siz tasdiqlaysiz.</span></li>
+        <li><b data-i="p4_t">Ishlab chiqish</b><span data-i="p4_p">Har bosqichda natijani ko'rib borasiz.</span></li>
+        <li><b data-i="p5_t">Topshirish</b><span data-i="p5_p">Ishga tushiramiz va qo'llab-quvvatlaymiz.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="order">
+    <div class="wrap order">
+      <div>
+        <div class="eyebrow" data-i="or_eyebrow">Buyurtma</div>
+        <h2 data-i="or_title">Loyihangiz haqida yozing</h2>
+        <p class="sub" data-i="or_sub">Arizangizga tez orada javob beramiz. Konsultatsiya bepul.</p>
+        <div class="contacts">
+          <a class="contact" href="https://t.me/B2B_SAS_ID" target="_blank" rel="noopener">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/></svg>
+            <span><small>Telegram</small><b>@B2B_SAS_ID</b></span>
+          </a>
+          <a class="contact" href="https://instagram.com/b2bsas_premium" target="_blank" rel="noopener">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            <span><small>Instagram</small><b>@b2bsas_premium</b></span>
+          </a>
+        </div>
+      </div>
+      <form id="lead" novalidate>
+        <div class="row2">
+          <label for="f-name"><span data-i="f_name">Ismingiz</span>
+            <input id="f-name" name="name" autocomplete="name" required maxlength="120" placeholder="Aziz">
+          </label>
+          <label for="f-contact"><span data-i="f_contact">Telefon yoki Telegram</span>
+            <input id="f-contact" name="contact" autocomplete="tel" required maxlength="120" placeholder="+998 90 123 45 67 / @username">
+          </label>
+        </div>
+        <div class="row2">
+          <label for="f-service"><span data-i="f_service">Xizmat</span>
+            <select id="f-service" name="service">
+              <option value="smart" data-i="o_smart">Smart Sistem (restoran)</option>
+              <option value="app" data-i="o_app">Mobil ilova</option>
+              <option value="site" data-i="o_site">Sayt</option>
+              <option value="montage" data-i="o_montage">Montaj</option>
+              <option value="ai" data-i="o_ai">AI video</option>
+              <option value="other" data-i="o_other">Boshqa</option>
+            </select>
+          </label>
+          <label for="f-budget"><span data-i="f_budget">Taxminiy byudjet</span>
+            <select id="f-budget" name="budget">
+              <option value="unknown" data-i="b0">Hali bilmayman</option>
+              <option value="<500$">&lt; 500 $</option>
+              <option value="500-2000$">500 – 2 000 $</option>
+              <option value="2000-5000$">2 000 – 5 000 $</option>
+              <option value=">5000$">&gt; 5 000 $</option>
+            </select>
+          </label>
+        </div>
+        <label for="f-msg"><span data-i="f_msg">Qisqacha vazifa</span>
+          <textarea id="f-msg" name="message" maxlength="2000" data-i-ph="f_msg_ph" placeholder="Masalan: restoranimiz uchun yetkazib berish ilovasi kerak"></textarea>
+        </label>
+        <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+        <button class="btn btn-gold" type="submit" id="f-send" data-i="f_send">Ariza yuborish</button>
+        <p class="status" id="f-status" role="status" aria-live="polite"></p>
+        <p class="note" data-i="f_note">Ma'lumotlaringiz faqat siz bilan bog'lanish uchun ishlatiladi.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="faq" class="band">
+    <div class="wrap">
+      <div class="eyebrow" data-i="fq_eyebrow">Savollar</div>
+      <h2 data-i="fq_title">Ko'p beriladigan savollar</h2>
+      <details><summary data-i="q1">Narxlar qancha?</summary><p data-i="a1x">Narx loyiha hajmiga bog'liq. Konsultatsiyada vazifani aniqlab, aniq narx va muddatni yozma ravishda beramiz.</p></details>
+      <details><summary data-i="q2">Ilova qancha vaqtda tayyor bo'ladi?</summary><p data-i="a2x">Sayt odatda 1–3 hafta, mobil ilova 3–8 hafta. Smart Sistem tayyor tizim bo'lgani uchun restoraningizga tezroq moslanadi.</p></details>
+      <details><summary data-i="q3">Ilovani Play Market va App Store'ga joylaysizmi?</summary><p data-i="a3x">Ha. Do'konlarga joylash, yangilanishlar va texnik qo'llab-quvvatlashni o'z zimmamizga olamiz.</p></details>
+      <details><summary data-i="q4">Smart Sistem demo versiyasini ko'rsa bo'ladimi?</summary><p data-i="a4x">Ha. Ariza qoldiring, demo restoranda hamma imkoniyatlarni jonli ko'rsatamiz.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="yr">2026</span> B2B SAS</span>
+    <span><a href="https://t.me/B2B_SAS_ID" target="_blank" rel="noopener">Telegram</a> · <a href="https://instagram.com/b2bsas_premium" target="_blank" rel="noopener">Instagram</a></span>
+  </div>
+</footer>
+
+<script>
+const SB_URL = 'https://vtsurdinopzycwsfzsuk.supabase.co';
+const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0c3VyZGlub3B6eWN3c2Z6c3VrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5NTkzMjYsImV4cCI6MjEwODUzNTMyNn0.uwS78FRbyKLiwCM07yic7SHCZ7-UaIauDo2kFUkftJQ';
+
+const T = {
+ru:{nav_services:'Услуги',nav_smart:'Smart Sistem',nav_process:'Как мы работаем',nav_faq:'Вопросы',cta_short:'Заказать',
+hero_eyebrow:'Digital-агентство',hero_title:'Выводим ваш бизнес на <em>цифровой</em> уровень',
+hero_lead:'Мобильные приложения, современные сайты, профессиональный монтаж и AI-видео. А для ресторанов — готовая Smart Sistem: заказ, оплата, бонусы и доставка в одном приложении.',
+cta_main:'Получить бесплатную консультацию',cta_second:'Узнать о Smart Sistem',chip1:'Android · iOS',chip2:'Веб-сайты',chip3:'Монтаж Reels · YouTube',chip4:'AI-видео и реклама',
+m_hello:'Добро пожаловать!',m_card:'Бонусная карта · VIP',m_menu:'Меню и заказ',m_courier:'Курьер в пути · 12 мин',m_table:'Стол забронирован · 19:30',m_pay:'Оплатить онлайн',
+svc_eyebrow:'Услуги',svc_title:'Одна команда — полное цифровое решение',svc_sub:'От идеи до готового продукта: дизайн, разработка, контент и реклама.',
+s1_t:'Мобильные приложения',s1_p:'Приложения для Android и iOS: рестораны, магазины, сервисы.',s1_a:'Заказ и оплата',s1_b:'Бонусы и лояльность',s1_c:'Админ-панель',
+s2_t:'Современные сайты',s2_p:'Быстрые сайты, которые красиво выглядят на любом экране.',s2_a:'Лендинг и корпоративный сайт',s2_b:'Интернет-магазин',s2_c:'Формы заявок и оплаты',
+s3_t:'Профессиональный монтаж',s3_p:'Динамичные видео для рекламы, Reels и YouTube.',s3_a:'Reels и Shorts',s3_b:'Рекламные ролики',s3_c:'Субтитры и цветокоррекция',
+s4_t:'AI-видео',s4_p:'Реклама, аватары и кинематографичные видео с помощью ИИ.',s4_a:'AI-рекламные ролики',s4_b:'AI-ведущий (аватар)',s4_c:'Озвучка и перевод',s_more:'Узнать цену →',
+ss_eyebrow:'Для ресторанов',ss_title:'Smart Sistem — ваш ресторан в одной системе',ss_sub:'Два приложения работают вместе: клиент делает заказ, ресторан сразу его видит.',ss_c_tag:'Приложение для клиентов',ss_a_tag:'Панель ресторана',
+c1:'Быстрый вход по Face ID',c2:'Бонусные карты Silver, Bronze и VIP',c3:'Меню, заказ и онлайн-оплата',c4:'Бронирование столов и банкетов',c5:'Отслеживание курьера на карте',c6:'Отзывы и оценки',
+a1:'Заказы и экран кухни',a2:'Персонал: официанты, повара, курьеры',a3:'Учёт оплат и чаевых',a4:'Интеграция с Яндекс и R-Keeper',a5:'Выручка и отчёты',a6:'Узбекский, русский и английский',ss_cta:'Заявка на демо',
+pr_eyebrow:'Как мы работаем',pr_title:'От заявки до готового продукта',p1_t:'Заявка',p1_p:'Заполните форму или напишите в Telegram.',p2_t:'Бесплатная консультация',p2_p:'Уточняем задачу, называем цену и срок.',p3_t:'Дизайн',p3_p:'Показываем внешний вид, вы утверждаете.',p4_t:'Разработка',p4_p:'Вы видите результат на каждом этапе.',p5_t:'Сдача',p5_p:'Запускаем и поддерживаем.',
+or_eyebrow:'Заказ',or_title:'Расскажите о вашем проекте',or_sub:'Скоро ответим на вашу заявку. Консультация бесплатная.',
+f_name:'Ваше имя',f_contact:'Телефон или Telegram',f_service:'Услуга',f_budget:'Примерный бюджет',f_msg:'Коротко о задаче',f_msg_ph:'Например: нужно приложение доставки для нашего ресторана',f_send:'Отправить заявку',f_note:'Ваши данные используются только для связи с вами.',
+o_smart:'Smart Sistem (ресторан)',o_app:'Мобильное приложение',o_site:'Сайт',o_montage:'Монтаж',o_ai:'AI-видео',o_other:'Другое',b0:'Пока не знаю',
+fq_eyebrow:'Вопросы',fq_title:'Частые вопросы',q1:'Сколько это стоит?',a1x:'Цена зависит от объёма проекта. На консультации уточняем задачу и письменно фиксируем цену и срок.',q2:'Сколько времени занимает разработка?',a2x:'Сайт обычно 1–3 недели, мобильное приложение 3–8 недель. Smart Sistem — готовая система, поэтому настраивается под ваш ресторан быстрее.',q3:'Публикуете ли вы приложение в Play Market и App Store?',a3x:'Да. Берём на себя публикацию, обновления и техподдержку.',q4:'Можно посмотреть демо Smart Sistem?',a4x:'Да. Оставьте заявку — покажем все возможности вживую на демо-ресторане.',
+st_sending:'Отправляем…',st_ok:'Спасибо! Заявка принята — скоро свяжемся.',st_err:'Не удалось отправить. Напишите нам в Telegram: @B2B_SAS_ID',st_req:'Укажите имя и телефон или Telegram.'},
+en:{nav_services:'Services',nav_smart:'Smart Sistem',nav_process:'How we work',nav_faq:'FAQ',cta_short:'Order',
+hero_eyebrow:'Digital agency',hero_title:'We take your business <em>digital</em>',
+hero_lead:'Mobile apps, modern websites, professional video editing and AI videos. For restaurants, a ready-made Smart Sistem: orders, payments, rewards and delivery in one app.',
+cta_main:'Get a free consultation',cta_second:'Explore Smart Sistem',chip1:'Android · iOS',chip2:'Websites',chip3:'Reels · YouTube editing',chip4:'AI video & ads',
+m_hello:'Welcome!',m_card:'Reward card · VIP',m_menu:'Menu & ordering',m_courier:'Courier on the way · 12 min',m_table:'Table booked · 7:30 pm',m_pay:'Pay online',
+svc_eyebrow:'Services',svc_title:'One team, a complete digital solution',svc_sub:'From idea to finished product: design, development, content and advertising.',
+s1_t:'Mobile apps',s1_p:'Android and iOS apps for restaurants, shops and services.',s1_a:'Ordering & payments',s1_b:'Rewards & loyalty',s1_c:'Admin panel',
+s2_t:'Modern websites',s2_p:'Fast websites that look great on any screen.',s2_a:'Landing & company sites',s2_b:'Online store',s2_c:'Lead & payment forms',
+s3_t:'Professional editing',s3_p:'Dynamic videos for ads, Reels and YouTube.',s3_a:'Reels & Shorts',s3_b:'Ad videos',s3_c:'Subtitles & color grading',
+s4_t:'AI videos',s4_p:'Ads, avatars and cinematic videos made with AI.',s4_a:'AI ad videos',s4_b:'AI presenter (avatar)',s4_c:'Voice-over & translation',s_more:'Get a price →',
+ss_eyebrow:'For restaurants',ss_title:'Smart Sistem: your restaurant in one system',ss_sub:'Two apps work together: a guest places an order and the restaurant sees it instantly.',ss_c_tag:'Guest app',ss_a_tag:'Restaurant panel',
+c1:'Fast sign-in with Face ID',c2:'Silver, Bronze and VIP reward cards',c3:'Menu, ordering and online payment',c4:'Table and banquet booking',c5:'Live courier tracking on a map',c6:'Reviews and ratings',
+a1:'Orders and kitchen display',a2:'Staff: waiters, cooks, couriers',a3:'Payments and tips',a4:'Yandex and R-Keeper integration',a5:'Revenue and reports',a6:'Uzbek, Russian and English',ss_cta:'Request a demo',
+pr_eyebrow:'How we work',pr_title:'From request to finished product',p1_t:'Request',p1_p:'Fill in the form or message us on Telegram.',p2_t:'Free consultation',p2_p:'We scope the task and give a price and timeline.',p3_t:'Design',p3_p:'We show the look; you approve it.',p4_t:'Development',p4_p:'You see progress at every stage.',p5_t:'Launch',p5_p:'We launch it and keep supporting it.',
+or_eyebrow:'Order',or_title:'Tell us about your project',or_sub:'We will reply to your request shortly. The consultation is free.',
+f_name:'Your name',f_contact:'Phone or Telegram',f_service:'Service',f_budget:'Approximate budget',f_msg:'About the task',f_msg_ph:'For example: we need a delivery app for our restaurant',f_send:'Send request',f_note:'Your details are used only to contact you.',
+o_smart:'Smart Sistem (restaurant)',o_app:'Mobile app',o_site:'Website',o_montage:'Video editing',o_ai:'AI video',o_other:'Other',b0:'Not sure yet',
+fq_eyebrow:'FAQ',fq_title:'Frequently asked questions',q1:'How much does it cost?',a1x:'It depends on the scope. After the consultation we give you a fixed price and timeline in writing.',q2:'How long does it take?',a2x:'A website usually takes 1–3 weeks, a mobile app 3–8 weeks. Smart Sistem is a ready-made system, so it is set up for your restaurant faster.',q3:'Do you publish apps to Google Play and the App Store?',a3x:'Yes. We handle publishing, updates and technical support.',q4:'Can I see a Smart Sistem demo?',a4x:'Yes. Leave a request and we will show every feature live in a demo restaurant.',
+st_sending:'Sending…',st_ok:'Thank you! We got your request and will contact you soon.',st_err:'Could not send. Message us on Telegram: @B2B_SAS_ID',st_req:'Please enter your name and phone or Telegram.'}
+};
+const UZ = {};
+document.querySelectorAll('[data-i]').forEach(el => UZ[el.dataset.i] = el.textContent);
+document.querySelectorAll('[data-i-html]').forEach(el => UZ[el.dataset.iHtml] = el.innerHTML);
+document.querySelectorAll('[data-i-ph]').forEach(el => UZ[el.dataset.iPh] = el.placeholder);
+Object.assign(UZ,{st_sending:'Yuborilmoqda…',st_ok:'Rahmat! Arizangiz qabul qilindi, tez orada bog\'lanamiz.',st_err:'Yuborib bo\'lmadi. Telegram\'ga yozing: @B2B_SAS_ID',st_req:'Ism va telefon yoki Telegram\'ni kiriting.'});
+T.uz = UZ;
+let lang = 'uz';
+function t(k){ return (T[lang] && T[lang][k]) || UZ[k] || ''; }
+function setLang(l){
+  lang = T[l] ? l : 'uz';
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i]').forEach(el => { const v = t(el.dataset.i); if (v) el.textContent = v; });
+  document.querySelectorAll('[data-i-html]').forEach(el => { const v = t(el.dataset.iHtml); if (v) el.innerHTML = v; });
+  document.querySelectorAll('[data-i-ph]').forEach(el => { const v = t(el.dataset.iPh); if (v) el.placeholder = v; });
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+  try { localStorage.setItem('b2b_lang', lang); } catch(e) {}
+}
+document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+let saved = null; try { saved = localStorage.getItem('b2b_lang'); } catch(e) {}
+const nav = (navigator.language || '').slice(0,2);
+setLang(saved || (nav === 'ru' ? 'ru' : nav === 'en' ? 'en' : 'uz'));
+
+// service links preselect the form
+document.querySelectorAll('[data-svc]').forEach(a => a.addEventListener('click', () => {
+  const s = document.getElementById('f-service'); s.value = a.dataset.svc;
+}));
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+const form = document.getElementById('lead');
+const statusEl = document.getElementById('f-status');
+const btn = document.getElementById('f-send');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  statusEl.className = 'status';
+  const fd = new FormData(form);
+  if (fd.get('website')) { statusEl.textContent = t('st_ok'); statusEl.classList.add('ok'); form.reset(); return; }
+  const name = String(fd.get('name') || '').trim();
+  const contact = String(fd.get('contact') || '').trim();
+  if (!name || contact.length < 3) { statusEl.textContent = t('st_req'); statusEl.classList.add('err'); return; }
+  btn.disabled = true; statusEl.textContent = t('st_sending');
+  try {
+    const r = await fetch(SB_URL + '/rest/v1/leads', {
+      method: 'POST',
+      headers: { 'apikey': SB_KEY, 'Authorization': 'Bearer ' + SB_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+      body: JSON.stringify({
+        name: name.slice(0,120), contact: contact.slice(0,120),
+        service: String(fd.get('service') || ''), budget: String(fd.get('budget') || ''),
+        message: String(fd.get('message') || '').slice(0,2000), lang,
+        source: (location.hostname || 'site').slice(0,200)
+      })
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    statusEl.textContent = t('st_ok'); statusEl.classList.add('ok'); form.reset();
+  } catch (err) {
+    statusEl.textContent = t('st_err'); statusEl.classList.add('err');
+  } finally { btn.disabled = false; }
+});
+</script>
+
+</body>
+</html>
