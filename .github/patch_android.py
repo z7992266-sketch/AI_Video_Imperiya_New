@@ -35,3 +35,18 @@ if "android.permission.INTERNET" not in s:
 s = re.sub(r'android:label="[^"]*"', 'android:label="Control Center"', s, count=1)
 m.write_text(s)
 print("patched", m)
+
+# 4) App icon (B2B SAS gold ring) — copy prebuilt PNGs into every mipmap density
+import shutil
+brand = pathlib.Path("branding")
+res = root / "src/main/res"
+for d in ("mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi"):
+    out = res / f"mipmap-{d}"
+    out.mkdir(parents=True, exist_ok=True)
+    shutil.copy(brand / f"ic_launcher_{d}.png", out / "ic_launcher.png")
+    shutil.copy(brand / f"ic_launcher_round_{d}.png", out / "ic_launcher_round.png")
+s = m.read_text()
+if "android:roundIcon" not in s:
+    s = s.replace('android:icon="@mipmap/ic_launcher"', 'android:icon="@mipmap/ic_launcher"\n        android:roundIcon="@mipmap/ic_launcher_round"', 1)
+    m.write_text(s)
+print("icons copied")
