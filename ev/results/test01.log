@@ -1,0 +1,55 @@
+pexels "rain window": 0 ids, html 5879
+mixkit "rain-window": 14 ids, html 117972
+pexels "rainy night": 0 ids, html 5879
+mixkit "rainy-night": 9 ids, html 105666
+pexels "rain forest": 0 ids, html 5879
+mixkit "rain-forest": 24 ids, html 170107
+picked 16
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c0.mp4 https://assets.mixkit.co/videos/2206/2206-1080.mp4
++ ffmpeg -y -loglevel error -i work/c0.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s0.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c1.mp4 https://assets.mixkit.co/videos/9670/9670-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '9670', 'url': 'https://assets.mixkit.co/videos/9670/9670-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c2.mp4 https://assets.mixkit.co/videos/100558/100558-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '100558', 'url': 'https://assets.mixkit.co/videos/100558/100558-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c3.mp4 https://assets.mixkit.co/videos/36444/36444-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '36444', 'url': 'https://assets.mixkit.co/videos/36444/36444-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c4.mp4 https://assets.mixkit.co/videos/20311/20311-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '20311', 'url': 'https://assets.mixkit.co/videos/20311/20311-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c5.mp4 https://assets.mixkit.co/videos/33693/33693-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '33693', 'url': 'https://assets.mixkit.co/videos/33693/33693-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c6.mp4 https://assets.mixkit.co/videos/28096/28096-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '28096', 'url': 'https://assets.mixkit.co/videos/28096/28096-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c7.mp4 https://assets.mixkit.co/videos/33690/33690-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '33690', 'url': 'https://assets.mixkit.co/videos/33690/33690-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c8.mp4 https://assets.mixkit.co/videos/36446/36446-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '36446', 'url': 'https://assets.mixkit.co/videos/36446/36446-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c9.mp4 https://assets.mixkit.co/videos/100195/100195-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '100195', 'url': 'https://assets.mixkit.co/videos/100195/100195-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c10.mp4 https://assets.mixkit.co/videos/6890/6890-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '6890', 'url': 'https://assets.mixkit.co/videos/6890/6890-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c11.mp4 https://assets.mixkit.co/videos/33379/33379-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '33379', 'url': 'https://assets.mixkit.co/videos/33379/33379-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c12.mp4 https://assets.mixkit.co/videos/45260/45260-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '45260', 'url': 'https://assets.mixkit.co/videos/45260/45260-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c13.mp4 https://assets.mixkit.co/videos/4332/4332-1080.mp4
++ ffmpeg -y -loglevel error -i work/c13.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s13.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c14.mp4 https://assets.mixkit.co/videos/19492/19492-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '19492', 'url': 'https://assets.mixkit.co/videos/19492/19492-1080.mp4'}
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c15.mp4 https://assets.mixkit.co/videos/27914/27914-1080.mp4
+curl: (22) The requested URL returned error: 403
+skip clip {'src': 'mixkit', 'id': '27914', 'url': 'https://assets.mixkit.co/videos/27914/27914-1080.mp4'}
+not enough clips
+FAILED
