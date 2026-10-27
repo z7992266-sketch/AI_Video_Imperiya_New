@@ -9,7 +9,32 @@ class Security {
   static const _lockUntilKey = 'cc_lock_until';
   static final _auth = LocalAuthentication();
 
-  static Future<bool> hasPin() async => (await _storage.read(key: _pinKey)) != null;
+  /// PIN uzunligi. Eski 6 xonali PIN bo'lsa — yangi 4 xonali yaratish so'raladi.
+  static const pinLength = 4;
+  static const _bioKey = 'cc_bio_on';
+  static const _lockSecsKey = 'cc_lock_secs';
+
+  /// Avtomatik qulf vaqti (xotirada; ilova ochilganda [load] o'qiydi).
+  static Duration lockAfter = const Duration(seconds: 60);
+  static bool bioOn = true;
+
+  static Future<void> load() async {
+    bioOn = (await _storage.read(key: _bioKey)) != '0';
+    final s = int.tryParse(await _storage.read(key: _lockSecsKey) ?? '');
+    if (s != null && s > 0) lockAfter = Duration(seconds: s);
+  }
+
+  static Future<void> setBio(bool on) async {
+    bioOn = on;
+    await _storage.write(key: _bioKey, value: on ? '1' : '0');
+  }
+
+  static Future<void> setLockAfter(Duration d) async {
+    lockAfter = d;
+    await _storage.write(key: _lockSecsKey, value: '${d.inSeconds}');
+  }
+
+  static Future<bool> hasPin() async => (await _storage.read(key: _pinKey))?.length == pinLength;
 
   static Future<void> setPin(String pin) => _storage.write(key: _pinKey, value: pin);
 

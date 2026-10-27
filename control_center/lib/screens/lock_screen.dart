@@ -5,11 +5,12 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../security.dart';
 import '../theme.dart';
 
-/// Biometric unlock with a 6-digit PIN fallback.
+/// Biometric unlock with a 4-digit PIN fallback. [change] = PIN almashtirish rejimi (eski -> yangi -> tasdiq).
 /// On first run it asks the owner to create the PIN (entered twice).
 class LockScreen extends StatefulWidget {
   final VoidCallback onUnlocked;
-  const LockScreen({super.key, required this.onUnlocked});
+  final bool change;
+  const LockScreen({super.key, required this.onUnlocked, this.change = false});
   @override
   State<LockScreen> createState() => _LockScreenState();
 }
@@ -30,29 +31,38 @@ class _LockScreenState extends State<LockScreen> {
   }
 
   Future<void> _init() async {
+    await Security.load();
     final has = await Security.hasPin();
-    final bio = await Security.canBiometric();
+    final bio = Security.bioOn && await Security.canBiometric();
     if (!mounted) return;
     setState(() {
       _bio = bio;
       _mode = has ? _Mode.enter : _Mode.create;
     });
-    if (has && bio) _tryBio();
+    if (has && bio && !widget.change) _tryBio();
   }
 
   Future<void> _tryBio() async {
     final ok = await Security.biometric();
-    if (ok && mounted) widget.onUnlocked();
+    if (!ok || !mounted) return;
+    if (widget.change) {
+      setState(() {
+        _pin = '';
+        _mode = _Mode.create;
+      });
+    } else {
+      widget.onUnlocked();
+    }
   }
 
   Future<void> _digit(String d) async {
-    if (_pin.length >= 6) return;
+    if (_pin.length >= Security.pinLength) return;
     HapticFeedback.selectionClick();
     setState(() {
       _pin += d;
       _msg = null;
     });
-    if (_pin.length < 6) return;
+    if (_pin.length < Security.pinLength) return;
     switch (_mode) {
       case _Mode.create:
         setState(() {
@@ -82,7 +92,12 @@ class _LockScreenState extends State<LockScreen> {
           return;
         }
         final ok = await Security.checkPin(_pin);
-        if (ok) {
+        if (ok && widget.change) {
+          setState(() {
+            _pin = '';
+            _mode = _Mode.create;
+          });
+        } else if (ok) {
           widget.onUnlocked();
         } else {
           HapticFeedback.heavyImpact();
@@ -108,9 +123,9 @@ class _LockScreenState extends State<LockScreen> {
   }
 
   String get _title => switch (_mode) {
-        _Mode.create => 'Yangi 6 xonali PIN yarating',
+        _Mode.create => 'Yangi 4 xonali PIN yarating',
         _Mode.confirm => 'PIN\'ni yana bir marta kiriting',
-        _Mode.enter => 'PIN-kodni kiriting',
+        _Mode.enter => widget.change ? 'Joriy PIN-kodni kiriting' : 'PIN-kodni kiriting',
         _Mode.loading => '',
       };
 
@@ -120,10 +135,11 @@ class _LockScreenState extends State<LockScreen> {
       return const Scaffold(body: Center(child: CircularProgressIndicator(color: C.gold)));
     }
     return Scaffold(
+      appBar: widget.change ? AppBar(title: const Text('PIN-kodni almashtirish')) : null,
       body: SafeArea(
         child: Column(
           children: [
-            const SizedBox(height: 48),
+            SizedBox(height: widget.change ? 12 : 48),
             Container(
               width: 64,
               height: 64,
@@ -135,7 +151,7 @@ class _LockScreenState extends State<LockScreen> {
             const SizedBox(height: 24),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: List.generate(6, (i) {
+              children: List.generate(Security.pinLength, (i) {
                 final filled = i < _pin.length;
                 return AnimatedContainer(
                   duration: const Duration(milliseconds: 120),
@@ -171,7 +187,12 @@ class _LockScreenState extends State<LockScreen> {
                   : null,
             ),
             const SizedBox(height: 12),
-            if (_mode == _Mode.enter)
+            if (widget.change)
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('Bekor qilish', style: TextStyle(color: C.muted)),
+              )
+            else if (_mode == _Mode.enter)
               TextButton(
                 onPressed: _signOut,
                 child: const Text('PIN esdan chiqdimi? Qayta kirish', style: TextStyle(color: C.muted)),

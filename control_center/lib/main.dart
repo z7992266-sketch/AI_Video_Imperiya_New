@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'security.dart';
 import 'package:flutter/services.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -68,7 +69,7 @@ class _RootState extends State<Root> with WidgetsBindingObserver {
     } else if (state == AppLifecycleState.resumed) {
       final p = _pausedAt;
       _pausedAt = null;
-      if (p != null && DateTime.now().difference(p) > lockAfter && _unlocked) {
+      if (p != null && DateTime.now().difference(p) > Security.lockAfter && _unlocked) {
         setState(() => _unlocked = false);
       }
     }
