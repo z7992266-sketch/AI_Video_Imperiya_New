@@ -1,55 +1,49 @@
-pexels "rain window": 0 ids, html 5879
-mixkit "rain-window": 14 ids, html 117972
-pexels "rainy night": 0 ids, html 5879
-mixkit "rainy-night": 9 ids, html 105666
-pexels "rain forest": 0 ids, html 5879
-mixkit "rain-forest": 24 ids, html 170107
+mixkit "rain-window": 14 pages
+mixkit "rainy-night": 9 pages
+mixkit "rain-forest": 24 pages
+mixkit 100195 https://assets.mixkit.co/active_storage/video_items/100195/1721338072/100195-video-720.mp4
+mixkit 7975 https://assets.mixkit.co/videos/7975/7975-720.mp4
+mixkit 2717 https://assets.mixkit.co/videos/2717/2717-720.mp4
+mixkit 36445 https://assets.mixkit.co/videos/36445/36445-720.mp4
+mixkit 15398 https://assets.mixkit.co/videos/15398/15398-720.mp4
+mixkit 9670 https://assets.mixkit.co/videos/9670/9670-720.mp4
+mixkit 33693 https://assets.mixkit.co/videos/33693/33693-720.mp4
+mixkit 3315 https://assets.mixkit.co/videos/3315/3315-720.mp4
+mixkit 7202 https://assets.mixkit.co/videos/7202/7202-720.mp4
+mixkit 6782 https://assets.mixkit.co/videos/6782/6782-720.mp4
+mixkit 41575 https://assets.mixkit.co/videos/41575/41575-720.mp4
+mixkit 7006 https://assets.mixkit.co/videos/7006/7006-720.mp4
+mixkit 22729 https://assets.mixkit.co/videos/22729/22729-720.mp4
+mixkit 21144 https://assets.mixkit.co/videos/21144/21144-720.mp4
+mixkit 18308 https://assets.mixkit.co/videos/18308/18308-720.mp4
+mixkit 36446 https://assets.mixkit.co/videos/36446/36446-720.mp4
 picked 16
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c0.mp4 https://assets.mixkit.co/videos/2206/2206-1080.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c0.mp4 https://assets.mixkit.co/active_storage/video_items/100195/1721338072/100195-video-720.mp4
 + ffmpeg -y -loglevel error -i work/c0.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s0.mp4
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c1.mp4 https://assets.mixkit.co/videos/9670/9670-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '9670', 'url': 'https://assets.mixkit.co/videos/9670/9670-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c2.mp4 https://assets.mixkit.co/videos/100558/100558-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '100558', 'url': 'https://assets.mixkit.co/videos/100558/100558-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c3.mp4 https://assets.mixkit.co/videos/36444/36444-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '36444', 'url': 'https://assets.mixkit.co/videos/36444/36444-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c4.mp4 https://assets.mixkit.co/videos/20311/20311-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '20311', 'url': 'https://assets.mixkit.co/videos/20311/20311-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c5.mp4 https://assets.mixkit.co/videos/33693/33693-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '33693', 'url': 'https://assets.mixkit.co/videos/33693/33693-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c6.mp4 https://assets.mixkit.co/videos/28096/28096-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '28096', 'url': 'https://assets.mixkit.co/videos/28096/28096-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c7.mp4 https://assets.mixkit.co/videos/33690/33690-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '33690', 'url': 'https://assets.mixkit.co/videos/33690/33690-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c8.mp4 https://assets.mixkit.co/videos/36446/36446-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '36446', 'url': 'https://assets.mixkit.co/videos/36446/36446-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c9.mp4 https://assets.mixkit.co/videos/100195/100195-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '100195', 'url': 'https://assets.mixkit.co/videos/100195/100195-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c10.mp4 https://assets.mixkit.co/videos/6890/6890-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '6890', 'url': 'https://assets.mixkit.co/videos/6890/6890-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c11.mp4 https://assets.mixkit.co/videos/33379/33379-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '33379', 'url': 'https://assets.mixkit.co/videos/33379/33379-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c12.mp4 https://assets.mixkit.co/videos/45260/45260-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '45260', 'url': 'https://assets.mixkit.co/videos/45260/45260-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c13.mp4 https://assets.mixkit.co/videos/4332/4332-1080.mp4
-+ ffmpeg -y -loglevel error -i work/c13.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s13.mp4
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c14.mp4 https://assets.mixkit.co/videos/19492/19492-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '19492', 'url': 'https://assets.mixkit.co/videos/19492/19492-1080.mp4'}
-+ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c15.mp4 https://assets.mixkit.co/videos/27914/27914-1080.mp4
-curl: (22) The requested URL returned error: 403
-skip clip {'src': 'mixkit', 'id': '27914', 'url': 'https://assets.mixkit.co/videos/27914/27914-1080.mp4'}
-not enough clips
-FAILED
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c1.mp4 https://assets.mixkit.co/videos/7975/7975-720.mp4
++ ffmpeg -y -loglevel error -i work/c1.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s1.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c2.mp4 https://assets.mixkit.co/videos/2717/2717-720.mp4
++ ffmpeg -y -loglevel error -i work/c2.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s2.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c3.mp4 https://assets.mixkit.co/videos/36445/36445-720.mp4
++ ffmpeg -y -loglevel error -i work/c3.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s3.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c4.mp4 https://assets.mixkit.co/videos/15398/15398-720.mp4
++ ffmpeg -y -loglevel error -i work/c4.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s4.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c5.mp4 https://assets.mixkit.co/videos/9670/9670-720.mp4
++ ffmpeg -y -loglevel error -i work/c5.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s5.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c6.mp4 https://assets.mixkit.co/videos/33693/33693-720.mp4
++ ffmpeg -y -loglevel error -i work/c6.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s6.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c7.mp4 https://assets.mixkit.co/videos/3315/3315-720.mp4
++ ffmpeg -y -loglevel error -i work/c7.mp4 -t 24.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s7.mp4
++ ffmpeg -y -loglevel error -i work/s0.mp4 -i work/s1.mp4 -i work/s2.mp4 -i work/s3.mp4 -i work/s4.mp4 -i work/s5.mp4 -i work/s6.mp4 -i work/s7.mp4 -filter_complex [0:v][1:v]xfade=transition=fade:duration=2.5:offset=21.500[v1];[v1][2:v]xfade=transition=fade:duration=2.5:offset=43.000[v2];[v2][3:v]xfad
++ /usr/bin/python3 /home/runner/work/AI_Video_Imperiya_New/AI_Video_Imperiya_New/ev/music.py --minutes 3.0 --mood rain --seed 22 --out work/music.wav
++ ffmpeg -y -loglevel error -stats -stats_period 60 -stream_loop -1 -i work/base.mp4 -stream_loop -1 -i /home/runner/work/AI_Video_Imperiya_New/AI_Video_Imperiya_New/ev/overlay_loop_1080p.mp4 -i work/logo_round.png -loop 1 -t 9 -i work/title.png -i work/music.wav -filter_complex [0:v]format=gbrp[a];[1
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame= 3047 fps= 51 q=31.0 size=   29184kB time=00:01:42.14 bitrate=2340.6kbits/s speed= 1.7x    frame= 5400 fps= 53 q=-1.0 Lsize=   48866kB time=00:02:59.97 bitrate=2224.2kbits/s speed=1.75x    
++ ffmpeg -y -loglevel error -ss 40 -i work/base.mp4 -frames:v 1 work/fr.png
+DONE test01
+total 49080
+drwxr-xr-x 2 runner runner     4096 Oct 27 00:56 .
+drwxr-xr-x 7 runner runner     4096 Oct 27 00:53 ..
+-rw-r--r-- 1 runner runner 50039292 Oct 27 00:56 test01.mp4
+-rw-r--r-- 1 runner runner      101 Oct 27 00:54 test01_clips.txt
+-rw-r--r-- 1 runner runner   203813 Oct 27 00:56 test01_thumb.jpg
+RELEASED ev-test01
