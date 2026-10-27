@@ -1,0 +1,416 @@
+[
+ {
+  "id": "ev002",
+  "title": "Ocean Waves & Calm Piano for Sleep",
+  "subtitle": "1 Hour \u00b7 Relaxing Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Ocean Waves",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "ocean",
+  "seed": 114,
+  "queries": [
+   "ocean waves",
+   "beach sunset",
+   "sea"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev003",
+  "title": "Cozy Fireplace & Soft Piano",
+  "subtitle": "1 Hour \u00b7 Warm Relaxing Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Cozy Fireplace",
+  "thumb_small": "1 Hour Relaxing Music",
+  "minutes": 60,
+  "mood": "fire",
+  "seed": 121,
+  "queries": [
+   "fireplace",
+   "candle",
+   "cozy"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev004",
+  "title": "Forest Rain Ambience for Study & Focus",
+  "subtitle": "1 Hour \u00b7 Calm Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Forest Rain",
+  "thumb_small": "1 Hour Study Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 128,
+  "queries": [
+   "forest",
+   "rain forest",
+   "green leaves"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev005",
+  "title": "Night City Rain \u2014 Calm Music to Relax",
+  "subtitle": "1 Hour \u00b7 Chill Ambience \u00b7 Exclusive Vibe",
+  "thumb_big": "Night City Rain",
+  "thumb_small": "1 Hour Chill Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 135,
+  "queries": [
+   "city night",
+   "rainy night",
+   "street lights"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev006",
+  "title": "Snowy Winter Night \u2014 Peaceful Piano",
+  "subtitle": "1 Hour \u00b7 Relaxing Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Winter Night",
+  "thumb_small": "1 Hour Peaceful Piano",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 142,
+  "queries": [
+   "snow",
+   "winter",
+   "snowfall"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev007",
+  "title": "Mountain Lake Morning \u2014 Calm Music",
+  "subtitle": "1 Hour \u00b7 Relax & Breathe \u00b7 Exclusive Vibe",
+  "thumb_big": "Mountain Lake",
+  "thumb_small": "1 Hour Calm Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 149,
+  "queries": [
+   "mountain",
+   "lake",
+   "nature"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev008",
+  "title": "Thunderstorm & Deep Sleep Music",
+  "subtitle": "1 Hour \u00b7 Rain Sounds \u00b7 Exclusive Vibe",
+  "thumb_big": "Thunderstorm",
+  "thumb_small": "1 Hour Deep Sleep",
+  "minutes": 60,
+  "mood": "storm",
+  "seed": 156,
+  "queries": [
+   "storm",
+   "lightning",
+   "rain"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev009",
+  "title": "Sunset Beach \u2014 Relaxing Ambient Music",
+  "subtitle": "1 Hour \u00b7 Calm Waves \u00b7 Exclusive Vibe",
+  "thumb_big": "Sunset Beach",
+  "thumb_small": "1 Hour Relaxing Music",
+  "minutes": 60,
+  "mood": "ocean",
+  "seed": 163,
+  "queries": [
+   "sunset",
+   "beach",
+   "palm"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev010",
+  "title": "Autumn Forest \u2014 Soft Music for Reading",
+  "subtitle": "1 Hour \u00b7 Cozy Ambience \u00b7 Exclusive Vibe",
+  "thumb_big": "Autumn Forest",
+  "thumb_small": "1 Hour Reading Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 170,
+  "queries": [
+   "autumn",
+   "forest",
+   "leaves"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev011",
+  "title": "Rain on Window \u2014 Study & Focus Music",
+  "subtitle": "1 Hour \u00b7 Calm Piano \u00b7 Exclusive Vibe",
+  "thumb_big": "Rain on Window",
+  "thumb_small": "1 Hour Focus Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 177,
+  "queries": [
+   "rain window",
+   "raindrops",
+   "coffee"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev012",
+  "title": "Starry Night Sky \u2014 Sleep Music",
+  "subtitle": "1 Hour \u00b7 Dreamy Ambient \u00b7 Exclusive Vibe",
+  "thumb_big": "Starry Night",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 184,
+  "queries": [
+   "night sky",
+   "stars",
+   "galaxy"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev013",
+  "title": "Waterfall in the Jungle \u2014 Relaxing Music",
+  "subtitle": "1 Hour \u00b7 Nature Ambience \u00b7 Exclusive Vibe",
+  "thumb_big": "Jungle Waterfall",
+  "thumb_small": "1 Hour Relaxing Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 191,
+  "queries": [
+   "waterfall",
+   "jungle",
+   "river"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev014",
+  "title": "Cozy Cabin Fire on a Rainy Night",
+  "subtitle": "1 Hour \u00b7 Fire & Rain \u00b7 Exclusive Vibe",
+  "thumb_big": "Cozy Cabin",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "fire",
+  "seed": 198,
+  "queries": [
+   "fireplace",
+   "cabin",
+   "rain"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev015",
+  "title": "Underwater Calm \u2014 Deep Relaxation Music",
+  "subtitle": "1 Hour \u00b7 Ocean Ambient \u00b7 Exclusive Vibe",
+  "thumb_big": "Underwater Calm",
+  "thumb_small": "1 Hour Deep Relax",
+  "minutes": 60,
+  "mood": "ocean",
+  "seed": 205,
+  "queries": [
+   "underwater",
+   "coral",
+   "jellyfish"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev016",
+  "title": "Misty Mountains \u2014 Meditation Music",
+  "subtitle": "1 Hour \u00b7 Calm Ambient \u00b7 Exclusive Vibe",
+  "thumb_big": "Misty Mountains",
+  "thumb_small": "1 Hour Meditation",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 212,
+  "queries": [
+   "fog",
+   "mountains",
+   "clouds"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev017",
+  "title": "Spring Garden \u2014 Peaceful Morning Music",
+  "subtitle": "1 Hour \u00b7 Relax & Study \u00b7 Exclusive Vibe",
+  "thumb_big": "Spring Garden",
+  "thumb_small": "1 Hour Morning Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 219,
+  "queries": [
+   "flowers",
+   "garden",
+   "spring"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev018",
+  "title": "Gentle Rain & Piano for Anxiety Relief",
+  "subtitle": "1 Hour \u00b7 Calm Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Gentle Rain",
+  "thumb_small": "1 Hour Calm Piano",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 226,
+  "queries": [
+   "rain",
+   "umbrella",
+   "puddle"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev019",
+  "title": "Northern Night \u2014 Ambient Music for Sleep",
+  "subtitle": "1 Hour \u00b7 Dreamy Sounds \u00b7 Exclusive Vibe",
+  "thumb_big": "Northern Night",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 233,
+  "queries": [
+   "aurora",
+   "night",
+   "snow"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev020",
+  "title": "Calm Lake at Dusk \u2014 Relaxing Music",
+  "subtitle": "1 Hour \u00b7 Evening Ambience \u00b7 Exclusive Vibe",
+  "thumb_big": "Lake at Dusk",
+  "thumb_small": "1 Hour Relaxing Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 240,
+  "queries": [
+   "lake",
+   "dusk",
+   "reflection"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev021",
+  "title": "Tropical Rain \u2014 Sleep & Relax",
+  "subtitle": "1 Hour \u00b7 Rain Ambience \u00b7 Exclusive Vibe",
+  "thumb_big": "Tropical Rain",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 247,
+  "queries": [
+   "tropical",
+   "rain",
+   "palm leaves"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev022",
+  "title": "Candlelight Evening \u2014 Soft Piano",
+  "subtitle": "1 Hour \u00b7 Cozy Music \u00b7 Exclusive Vibe",
+  "thumb_big": "Candlelight",
+  "thumb_small": "1 Hour Soft Piano",
+  "minutes": 60,
+  "mood": "fire",
+  "seed": 254,
+  "queries": [
+   "candle",
+   "evening",
+   "cozy"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev023",
+  "title": "Ocean Night \u2014 Waves for Deep Sleep",
+  "subtitle": "1 Hour \u00b7 Calm Waves \u00b7 Exclusive Vibe",
+  "thumb_big": "Ocean Night",
+  "thumb_small": "1 Hour Deep Sleep",
+  "minutes": 60,
+  "mood": "ocean",
+  "seed": 261,
+  "queries": [
+   "ocean night",
+   "moon",
+   "waves"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ },
+ {
+  "id": "ev024",
+  "title": "Clouds & Sky \u2014 Focus Music for Work",
+  "subtitle": "1 Hour \u00b7 Calm Ambient \u00b7 Exclusive Vibe",
+  "thumb_big": "Clouds & Sky",
+  "thumb_small": "1 Hour Focus Music",
+  "minutes": 60,
+  "mood": "none",
+  "seed": 268,
+  "queries": [
+   "clouds",
+   "sky",
+   "timelapse"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+ }
+]
