@@ -1,5 +1,6 @@
 Analyzing control_center...                                     
 
    info • 'anonKey' is deprecated and shouldn't be used. Use publishableKey instead. anonKey will be removed in a future major version. Try replacing the use of the deprecated member with the replacement • lib/main.dart:16:47 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/billing_screen.dart:245:38 • deprecated_member_use
 
-1 issue found. (ran in 9.3s)
+2 issues found. (ran in 7.6s)
