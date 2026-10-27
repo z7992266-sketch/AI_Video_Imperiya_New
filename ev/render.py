@@ -134,9 +134,9 @@ def main(job_path):
         '-i', 'work/music.wav',
         '-filter_complex', fc, '-map', '[v]', '-map', '4:a',
         '-t', f'{dur:.2f}', '-r', '30',
-        '-c:v', 'libx264', '-preset', job.get('preset', 'veryfast'), '-crf', '27',
-        '-maxrate', '1000k', '-bufsize', '2000k', '-pix_fmt', 'yuv420p',
-        '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', f'out/{jid}.mp4'])
+        '-c:v', 'libx264', '-preset', job.get('preset', 'veryfast'), '-crf', '28',
+        '-maxrate', '620k', '-bufsize', '1240k', '-pix_fmt', 'yuv420p',
+        '-c:a', 'aac', '-b:a', '112k', '-movflags', '+faststart', f'out/{jid}.mp4'])
 
     # 6) thumbnail from a nice frame
     sh(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '40', '-i', 'work/base.mp4', '-frames:v', '1', 'work/fr.png'])

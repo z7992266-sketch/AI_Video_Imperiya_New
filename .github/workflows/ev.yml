@@ -45,7 +45,7 @@ jobs:
             if [ -n "$SRC" ]; then
               # Re-encode an already rendered video to a smaller file (Metricool upload limit).
               mkdir -p out && gh release download "ev-$SRC" -p "$SRC.mp4" -p "${SRC}_thumb.jpg" -D /tmp/src --clobber
-              ffmpeg -y -loglevel error -stats -stats_period 120 -i /tmp/src/$SRC.mp4 -c:v libx264 -preset faster -crf 27 -maxrate 1000k -bufsize 2000k -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart out/$ID.mp4 2>&1 | tail -3 | tee ev/results/$ID.log
+              ffmpeg -y -loglevel error -stats -stats_period 120 -i /tmp/src/$SRC.mp4 -c:v libx264 -preset faster -crf 28 -maxrate 620k -bufsize 1240k -pix_fmt yuv420p -c:a aac -b:a 112k -movflags +faststart out/$ID.mp4 2>&1 | tail -3 | tee ev/results/$ID.log
               cp /tmp/src/${SRC}_thumb.jpg out/${ID}_thumb.jpg; ls -la out | tee -a ev/results/$ID.log
               gh release delete "ev-$ID" -y --cleanup-tag 2>/dev/null || true
               gh release create "ev-$ID" out/$ID.mp4 out/${ID}_thumb.jpg --prerelease --title "Exclusive Vibe $ID" --notes "auto render (shrunk)" --target exclusive-vibe
