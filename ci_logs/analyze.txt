@@ -1,9 +1,10 @@
 Analyzing control_center...                                     
 
-   info • 'anonKey' is deprecated and shouldn't be used. Use publishableKey instead. anonKey will be removed in a future major version. Try replacing the use of the deprecated member with the replacement • lib/main.dart:16:47 • deprecated_member_use
+   info • 'anonKey' is deprecated and shouldn't be used. Use publishableKey instead. anonKey will be removed in a future major version. Try replacing the use of the deprecated member with the replacement • lib/main.dart:17:47 • deprecated_member_use
    info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/billing_screen.dart:245:38 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/settings_screen.dart:198:61 • deprecated_member_use
    info • Statements in an if should be enclosed in a block. Try wrapping the statement in a block • lib/screens/smart_staff_screen.dart:67:20 • curly_braces_in_flow_control_structures
    info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/smart_staff_screen.dart:327:15 • deprecated_member_use
    info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/smart_staff_screen.dart:368:15 • deprecated_member_use
 
-5 issues found. (ran in 7.7s)
+6 issues found. (ran in 9.6s)
