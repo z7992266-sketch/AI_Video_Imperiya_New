@@ -45,6 +45,9 @@ jobs:
             python3 ev/render.py /tmp/job.json 2>&1 | grep -v '^audio' | tail -200 | tee -a ev/results/$ID.log || { echo FAILED >> ev/results/$ID.log; continue; }
             ls -la out | tee -a ev/results/$ID.log
             cp out/${ID}_clips.txt ev/results/ || true
+            mkdir -p ev/results/$ID
+            ffmpeg -y -loglevel error -i out/${ID}_thumb.jpg -vf scale=640:-1 ev/results/$ID/thumb.jpg || true
+            for T in 5 90 400; do ffmpeg -y -loglevel error -ss $T -i out/$ID.mp4 -frames:v 1 -vf scale=640:-1 ev/results/$ID/f$T.jpg || true; done
             cat out/${ID}_clips.txt | sed 's/ //g' >> ev/used.txt
             gh release delete "ev-$ID" -y --cleanup-tag 2>/dev/null || true
             gh release create "ev-$ID" out/$ID.mp4 out/${ID}_thumb.jpg --prerelease --title "Exclusive Vibe $ID" --notes "auto render" --target exclusive-vibe

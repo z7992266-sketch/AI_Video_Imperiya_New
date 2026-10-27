@@ -135,7 +135,7 @@ def main(job_path):
         '-filter_complex', fc, '-map', '[v]', '-map', '4:a',
         '-t', f'{dur:.2f}', '-r', '30',
         '-c:v', 'libx264', '-preset', job.get('preset', 'veryfast'), '-crf', '25',
-        '-maxrate', '3500k', '-bufsize', '7000k', '-pix_fmt', 'yuv420p',
+        '-maxrate', '2000k', '-bufsize', '4000k', '-pix_fmt', 'yuv420p',
         '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', f'out/{jid}.mp4'])
 
     # 6) thumbnail from a nice frame
