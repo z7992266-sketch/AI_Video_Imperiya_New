@@ -164,7 +164,33 @@ class Api {
     });
   }
 
+  /// Smart Sistem loginlari (smart-staff edge function). Xato bo'lsa — tushunarli matn bilan Exception.
+  static Future<Map<String, dynamic>> smartStaff(Map<String, dynamic> body) async {
+    try {
+      final r = await sb.functions.invoke('smart-staff', body: body);
+      final d = (r.data is Map) ? Map<String, dynamic>.from(r.data as Map) : <String, dynamic>{};
+      if (d['ok'] != true) throw StaffXato((d['error'] ?? 'Xato').toString());
+      return d;
+    } on FunctionException catch (e) {
+      final det = e.details;
+      final msg = det is Map ? (det['error'] ?? det.toString()).toString() : (det?.toString() ?? 'HTTP ${e.status}');
+      throw StaffXato(msg);
+    }
+  }
+
+  static Future<List<Map<String, dynamic>>> smartRestoranlar() async {
+    final d = await smartStaff({'op': 'list'});
+    return ((d['restaurants'] as List?) ?? const []).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+  }
+
   static Future<void> deleteApp(String id) async {
     await sb.from('apps').delete().eq('id', id);
   }
+}
+
+class StaffXato implements Exception {
+  StaffXato(this.msg);
+  final String msg;
+  @override
+  String toString() => msg;
 }

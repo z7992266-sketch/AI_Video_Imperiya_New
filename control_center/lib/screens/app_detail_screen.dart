@@ -5,6 +5,7 @@ import '../data.dart';
 import '../theme.dart';
 import '../widgets/ui.dart';
 import 'app_form_screen.dart';
+import 'smart_staff_screen.dart';
 
 class AppDetailScreen extends StatefulWidget {
   final String appId;
@@ -144,6 +145,26 @@ class _AppDetailScreenState extends State<AppDetailScreen> {
                     ),
                     const SizedBox(height: 16),
                   ],
+                  if (_smartAdmin(a)) ...[
+                    CardBox(
+                      color: C.goldBg,
+                      border: C.goldDim,
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const SmartStaffScreen())),
+                      child: const Row(children: [
+                        Icon(Icons.key_rounded, color: C.gold, size: 28),
+                        SizedBox(width: 12),
+                        Expanded(
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                            Text('Direktor login / parol', style: TextStyle(color: C.gold, fontSize: 16, fontWeight: FontWeight.w800)),
+                            SizedBox(height: 2),
+                            Text("Berish · tahrirlash · o'chirish", style: TextStyle(color: C.muted, fontSize: 12)),
+                          ]),
+                        ),
+                        Icon(Icons.chevron_right, color: C.gold),
+                      ]),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
                   const Text('Bitta tugma bilan', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700)),
                   const SizedBox(height: 10),
                   GridView.count(
@@ -239,6 +260,11 @@ class _AppDetailScreenState extends State<AppDetailScreen> {
               ),
             ),
     );
+  }
+
+  bool _smartAdmin(AppStatus a) {
+    final n = a.name.toLowerCase();
+    return n.contains('smart') && n.contains('admin');
   }
 
   String _advice(AppStatus a) {
