@@ -151,6 +151,19 @@ class Api {
     }
   }
 
+  static Future<Map<String, dynamic>> billing() async {
+    final r = await sb.from('owner_billing').select().eq('id', 1).maybeSingle();
+    return r ?? <String, dynamic>{};
+  }
+
+  static Future<void> saveBilling(Map<String, dynamic> data) async {
+    await sb.from('owner_billing').upsert({
+      'id': 1,
+      ...data,
+      'updated_at': DateTime.now().toUtc().toIso8601String(),
+    });
+  }
+
   static Future<void> deleteApp(String id) async {
     await sb.from('apps').delete().eq('id', id);
   }

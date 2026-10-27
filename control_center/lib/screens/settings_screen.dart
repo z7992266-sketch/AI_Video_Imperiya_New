@@ -82,7 +82,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           },
         ),
         const SizedBox(height: 24),
-        const Center(child: Text('Control Center v1.1 · B2B SAS', style: TextStyle(color: C.muted, fontSize: 12))),
+        const Center(child: Text('Control Center v1.2 · B2B SAS', style: TextStyle(color: C.muted, fontSize: 12))),
       ],
     );
   }

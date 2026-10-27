@@ -8,6 +8,7 @@ import '../theme.dart';
 import '../widgets/ui.dart';
 import 'app_detail_screen.dart';
 import 'app_form_screen.dart';
+import 'billing_screen.dart';
 import 'incidents_screen.dart';
 import 'settings_screen.dart';
 
@@ -22,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final pages = [const PanelPage(), const IncidentsScreen(), const SettingsScreen()];
+    final pages = [const PanelPage(), const IncidentsScreen(), const BillingScreen(), const SettingsScreen()];
     return Scaffold(
       body: SafeArea(child: IndexedStack(index: _tab, children: pages)),
       bottomNavigationBar: NavigationBarTheme(
@@ -46,6 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
           destinations: const [
             NavigationDestination(icon: Icon(Icons.grid_view_rounded), label: 'Panel'),
             NavigationDestination(icon: Icon(Icons.warning_amber_rounded), label: 'Xatolar'),
+            NavigationDestination(icon: Icon(Icons.credit_card_rounded), label: 'To\'lov'),
             NavigationDestination(icon: Icon(Icons.shield_outlined), label: 'Xavfsizlik'),
           ],
         ),
