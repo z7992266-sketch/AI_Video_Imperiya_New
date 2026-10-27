@@ -31,6 +31,7 @@ jobs:
       - name: Render new jobs
         env:
           GH_TOKEN: ${{ github.token }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           set -o pipefail
           mkdir -p ev/results
