@@ -1,0 +1,18 @@
+{
+  "id": "ev002",
+  "title": "Ocean Waves & Calm Piano for Sleep",
+  "subtitle": "1 Hour · Relaxing Music · Exclusive Vibe",
+  "thumb_big": "Ocean Waves",
+  "thumb_small": "1 Hour Sleep Music",
+  "minutes": 60,
+  "mood": "ocean",
+  "seed": 114,
+  "queries": [
+    "ocean waves",
+    "beach sunset",
+    "sea"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+}
