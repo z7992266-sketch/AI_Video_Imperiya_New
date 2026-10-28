@@ -364,6 +364,19 @@ footer{border-top:1px solid var(--line);padding-block:32px;color:var(--muted);fo
 const SB_URL = 'https://vtsurdinopzycwsfzsuk.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0c3VyZGlub3B6eWN3c2Z6c3VrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5NTkzMjYsImV4cCI6MjEwODUzNTMyNn0.uwS78FRbyKLiwCM07yic7SHCZ7-UaIauDo2kFUkftJQ';
 
+// Arizalar avval Firestore'ga yoziladi (Google — Rossiyada VPN'siz ochiladi).
+const FB_PROJECT = 'restoransmartsystem';
+const FB_KEY = 'AIzaSyDV5WgEH9ww2iqrlaN6PnK1TYNSI15g7ZU';
+async function sendFirestore(lead) {
+  const fields = {};
+  for (const [k, v] of Object.entries(lead)) fields[k] = { stringValue: String(v) };
+  const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 8000);
+  const r = await fetch('https://firestore.googleapis.com/v1/projects/' + FB_PROJECT + '/databases/(default)/documents/site_leads?key=' + FB_KEY,
+    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ fields }), signal: ctl.signal });
+  clearTimeout(tm);
+  return r.ok;
+}
+
 const T = {
 ru:{nav_services:'Услуги',nav_smart:'Smart Sistem',nav_process:'Как мы работаем',nav_faq:'Вопросы',cta_short:'Заказать',
 hero_eyebrow:'Digital-агентство',hero_title:'Выводим ваш бизнес на <em>цифровой</em> уровень',
@@ -444,18 +457,25 @@ form.addEventListener('submit', async (e) => {
   const contact = String(fd.get('contact') || '').trim();
   if (!name || contact.length < 3) { statusEl.textContent = t('st_req'); statusEl.classList.add('err'); return; }
   btn.disabled = true; statusEl.textContent = t('st_sending');
+  const lead = {
+    name: name.slice(0,120), contact: contact.slice(0,120),
+    service: String(fd.get('service') || ''), budget: String(fd.get('budget') || ''),
+    message: String(fd.get('message') || '').slice(0,2000), lang,
+    source: (location.hostname || 'site').slice(0,200)
+  };
   try {
-    const r = await fetch(SB_URL + '/rest/v1/leads', {
-      method: 'POST',
-      headers: { 'apikey': SB_KEY, 'Authorization': 'Bearer ' + SB_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
-      body: JSON.stringify({
-        name: name.slice(0,120), contact: contact.slice(0,120),
-        service: String(fd.get('service') || ''), budget: String(fd.get('budget') || ''),
-        message: String(fd.get('message') || '').slice(0,2000), lang,
-        source: (location.hostname || 'site').slice(0,200)
-      })
-    });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
+    // 1) Firestore (Rossiyada ham VPN'siz ishlaydi) -> server Telegram'ga yuboradi
+    let ok = false;
+    try { ok = await sendFirestore(lead); } catch (e1) { ok = false; }
+    // 2) zaxira: Supabase
+    if (!ok) {
+      const r = await fetch(SB_URL + '/rest/v1/leads', {
+        method: 'POST',
+        headers: { 'apikey': SB_KEY, 'Authorization': 'Bearer ' + SB_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+        body: JSON.stringify(lead)
+      });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+    }
     statusEl.textContent = t('st_ok'); statusEl.classList.add('ok'); form.reset();
   } catch (err) {
     statusEl.textContent = t('st_err'); statusEl.classList.add('err');
