@@ -1,0 +1,3 @@
+admin https://b2bsasagency.com/app/admin/
+client https://b2bsasagency.com/app/client/?r=smartsistem-demo
+menu https://b2bsasagency.com/menu/?r=smartsistem-demo
