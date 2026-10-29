@@ -1,0 +1,51 @@
+name: Z7 Render
+# Push render/jobs/<name>.json -> renders <name>.mp4 (1080x1920, no watermark)
+# -> uploads to release "renders" -> writes render/out/<name>.json {url, thumb, duration...}
+on:
+  push:
+    branches: [render]
+    paths: ['render/jobs/**.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: z7-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && ffmpeg -version | head -1
+      - name: Render pending jobs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view renders >/dev/null 2>&1 || gh release create renders --title "Renders" --notes "Auto renders (Z7 Render)" --prerelease
+          mkdir -p render/out out
+          for job in render/jobs/*.json; do
+            name=$(basename "$job" .json)
+            [ -f "render/out/$name.json" ] && continue
+            echo "=== $name"
+            if RENDER_WORK=/tmp/w_$name python3 render/render.py "$job" "out/$name.mp4" > "out/$name.info" 2> "out/$name.err"; then
+              gh release upload renders "out/$name.mp4" "out/$name.jpg" --clobber
+              base="https://github.com/${GITHUB_REPOSITORY}/releases/download/renders"
+              python3 - "$name" "$base" <<'PY'
+          import json, sys
+          name, base = sys.argv[1], sys.argv[2]
+          info = json.loads(open('out/%s.info' % name).read().strip().splitlines()[-1])
+          info.update(ok=True, url='%s/%s.mp4' % (base, name), thumb='%s/%s.jpg' % (base, name))
+          json.dump(info, open('render/out/%s.json' % name, 'w'), indent=1)
+          PY
+            else
+              python3 -c "import json,sys;json.dump({'ok':False,'error':open('out/$name.err').read()[-3000:]},open('render/out/$name.json','w'),indent=1)"
+            fi
+            tail -c 1500 "out/$name.err" || true
+          done
+      - name: Commit results
+        run: |
+          git config user.name "z7-render"; git config user.email "z7-render@users.noreply.github.com"
+          git add render/out && git commit -m "render results" || echo nothing
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

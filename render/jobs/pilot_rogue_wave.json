@@ -1,0 +1,19 @@
+{
+ "name": "pilot_rogue_wave",
+ "grade": "dark",
+ "transition": "auto",
+ "scenes": [
+  {"src": "https://www.pexels.com/download/video/39803595/", "type": "video", "dur": 3.2, "start": 0.5, "move": "in"},
+  {"src": "https://www.pexels.com/download/video/32719391/", "type": "video", "dur": 3.0, "start": 0.5, "move": "right"},
+  {"src": "https://www.pexels.com/download/video/34270428/", "type": "video", "dur": 3.0, "start": 0.5, "move": "in"},
+  {"src": "https://www.pexels.com/download/video/19722743/", "type": "video", "dur": 3.0, "start": 0.5, "move": "left"},
+  {"src": "https://www.pexels.com/download/video/38083685/", "type": "video", "dur": 3.0, "start": 0.5, "move": "out"},
+  {"src": "https://www.pexels.com/download/video/30884729/", "type": "video", "dur": 3.0, "start": 0.5, "move": "in"},
+  {"src": "https://www.pexels.com/download/video/1879456/", "type": "video", "dur": 3.5, "start": 0.5, "move": "none"}
+ ],
+ "hook": {"text": "26 metrlik to‘lqin", "dur": 2.8, "color": "#FFFFFF", "pos": 0.22},
+ "voice": {"src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/kDdhfy5a8b8y4oWp6BOt/9DD4jpqjaTRlid0zpyl0/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261029%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261029T232256Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=aa7368091074579c27d45678367f8d0049824606ae167fdf8aebe36bc2e28b3554a6a98f3907041dbb29984792fc048995e91970fdd598d3a8da73108a29f88f197d7d7b191580ed2ba1418939cecbc23f025d4778561e89e9af6a93bc69d98f5bb659aa272895bb8e9252a883f59c793c794159e9e5a851726cab1f2cad7319eeb3d8daec421795f4ec98a4ac366a28a1326bb54806984f4965d1730bbfe154e282e2e8b472a72eae37cf0eaa6a75462e579f25007b5e5e1af8f26a9dcb8536f5ab097dd3cddaa811dc990e018773aaa2c541532e4f5d4a72742f4ef2c1ec25c21e2221784b67a3f10c3590dbb86e215e17770828b1e7ca694878468f442ddb", "start": 0.4},
+ "music": {"gen": "dark", "volume": 0.45, "duck": true},
+ "captions": {"script": "Bir ming to'qqiz yuz to'qson beshinchi yil, yangi yil tongi. Shimoliy dengizdagi neft platformasi datchigi qariyb yigirma olti metrlik to'lqinni yozib oladi. Olimlar bunday to'lqin bo'lishiga ishonmas edi. Qotil to'lqinlar ogohlantirmasdan paydo bo'ladi va ulkan kemalarni ham bir zumda ag'darishi mumkin. Siz shunday dengizga chiqqan bo'larmidingiz?", "pos": 0.68, "size": 82},
+ "endcard": {"title": "Dengiz dahshatlari", "subtitle": "Davomi keyingi qismda", "small": "Footage: Pexels · Voice: AI", "dur": 2.5, "accent": "#22D3EE"}
+}
