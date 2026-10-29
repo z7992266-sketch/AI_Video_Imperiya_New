@@ -7,4 +7,4 @@ Analyzing control_center...
    info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/smart_staff_screen.dart:337:15 • deprecated_member_use
    info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement • lib/screens/smart_staff_screen.dart:378:15 • deprecated_member_use
 
-6 issues found. (ran in 9.4s)
+6 issues found. (ran in 7.2s)
