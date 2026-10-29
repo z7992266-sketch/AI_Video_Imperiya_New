@@ -4,6 +4,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data.dart';
 import '../theme.dart';
@@ -189,6 +190,15 @@ class _RestoranKarta extends StatelessWidget {
           ),
           IconButton(tooltip: 'Login berish', onPressed: onAdd, icon: const Icon(Icons.person_add_alt_1, color: C.gold)),
         ]),
+        // Ilovalarga ko'rinmas kirish (veb-versiya): admin paneli superadmin hisobi bilan, mijoz ilovasi shu restoran bilan.
+        Padding(
+          padding: const EdgeInsets.only(top: 8),
+          child: Row(children: [
+            Expanded(child: _ochish(context, 'Admin ilova', Icons.admin_panel_settings, 'https://b2bsasagency.com/app/admin/?r=${r['id']}')),
+            const SizedBox(width: 8),
+            Expanded(child: _ochish(context, 'Mijoz ilova', Icons.phone_iphone, 'https://b2bsasagency.com/app/client/?r=${r['id']}')),
+          ]),
+        ),
         const Divider(color: C.line, height: 18),
         if (staff.isEmpty)
           const Padding(
@@ -378,3 +388,24 @@ class _StaffFormState extends State<_StaffForm> {
     );
   }
 }
+
+Widget _ochish(BuildContext context, String t, IconData i, String url) => OutlinedButton.icon(
+      style: OutlinedButton.styleFrom(
+        foregroundColor: C.gold,
+        side: const BorderSide(color: C.line),
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+      icon: Icon(i, size: 18),
+      label: Text(t, style: const TextStyle(fontWeight: FontWeight.w700)),
+      onPressed: () async {
+        var ok = false;
+        try {
+          ok = await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+        } catch (_) {}
+        if (!ok) {
+          await Clipboard.setData(ClipboardData(text: url));
+          if (context.mounted) toast(context, "Havola nusxalandi — brauzerga qo'ying");
+        }
+      },
+    );
