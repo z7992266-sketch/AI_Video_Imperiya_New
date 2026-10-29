@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QR-меню · Smart Sistem</title>
+<meta name="robots" content="noindex">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0C0916;color:#F7F4FF;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:24px 16px}
+.card{width:100%;max-width:420px;background:linear-gradient(160deg,#241b3e,#120d20);border:2px solid #E0B34A;border-radius:28px;padding:28px 24px;text-align:center}
+.brand{letter-spacing:4px;font-weight:800;font-size:12px;color:#F5C542}
+h1{font-size:28px;font-weight:900;margin:10px 0 4px}
+.lead{color:#cfc7ea;font-size:15px}
+#qr{background:#fff;border-radius:18px;padding:16px;display:inline-block;margin:20px 0 14px}
+#qr img,#qr canvas{display:block;width:240px;height:240px}
+.hint{font-size:14px;color:#cfc7ea;line-height:1.45}
+.url{font-size:11px;color:#8f87ad;margin-top:10px;word-break:break-all}
+.btns{display:flex;gap:10px;margin-top:18px;width:100%;max-width:420px}
+.btns button{flex:1;height:46px;border-radius:14px;border:0;font-weight:800;font-size:15px;cursor:pointer;background:linear-gradient(135deg,#6D28D9,#A21CAF);color:#fff}
+.btns button.g{background:#F5C542;color:#1a1200}
+@media print{body{background:#fff;padding:0}.btns{display:none}.card{border-color:#999;background:#fff;color:#111}.lead,.hint{color:#333}.brand{color:#a07a10}}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="brand">SMART SISTEM</div>
+  <h1 id="nm">Меню</h1>
+  <div class="lead">Наведите камеру телефона на код</div>
+  <div id="qr"></div>
+  <div class="hint">📱 Откроется меню с фото и ценами.<br>Приложение устанавливать не нужно.</div>
+  <div class="url" id="u"></div>
+</div>
+<div class="btns"><button class="g" onclick="window.print()">🖨 Печать</button><button onclick="dl()">⬇ Скачать QR</button></div>
+<script>
+const rid=(new URLSearchParams(location.search).get('r')||'').trim();
+const url='https://b2bsasagency.com/menu/?r='+encodeURIComponent(rid);
+document.getElementById('u').textContent=url;
+new QRCode(document.getElementById('qr'),{text:url,width:720,height:720,correctLevel:QRCode.CorrectLevel.M});
+fetch('https://firestore.googleapis.com/v1/projects/restoransmartsystem/databases/(default)/documents/restaurants/'+encodeURIComponent(rid)+'?key=AIzaSyDV5WgEH9ww2iqrlaN6PnK1TYNSI15g7ZU')
+ .then(r=>r.ok?r.json():null).then(d=>{const n=d&&d.fields&&d.fields.name&&d.fields.name.stringValue;if(n){document.getElementById('nm').textContent=n;document.title='QR-меню · '+n}}).catch(()=>{});
+function dl(){const c=document.querySelector('#qr canvas');const a=document.createElement('a');a.download='qr-menu.png';a.href=c?c.toDataURL('image/png'):document.querySelector('#qr img').src;a.click()}
+</script>
+</body>
+</html>
