@@ -1,0 +1,5 @@
+resp 200 https://mia-z7.app.n8n.cloud/webhook/mia/chat application/json; charset=utf-8
+resp 200 https://mia-z7.app.n8n.cloud/webhook/mia/voice audio/mpeg
+b a | Salom, Boss! Men Mia 💜 Bugun nima qilamiz?
+b u | Salom Mia, bugun kayfiyating qanday?
+b a | Salom, Boss! Kayfiyatim juda hayajonli, hozirgina xonamga gologrammali qovoqlarni o'rnatib bo'ldim. O'zimni xuddi kiber-ertakdagidek his qilyapman, sizda nima gaplar?
