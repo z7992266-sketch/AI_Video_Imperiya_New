@@ -1,0 +1,20 @@
+name: E2E page test
+# Push fetch/e2e.js -> runs it with Playwright, commits fetch/shots/e2e_* results.
+on:
+  push:
+    branches: [fetch-media]
+    paths: ['fetch/e2e.js']
+permissions:
+  contents: write
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
+      - run: mkdir -p fetch/shots && node fetch/e2e.js || true
+      - name: Commit
+        run: |
+          git config user.name "fetch-bot"; git config user.email "fetch-bot@users.noreply.github.com"
+          git add fetch/shots && git commit -m "e2e shots" || echo nothing
+          git pull --rebase && git push
