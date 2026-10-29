@@ -83,6 +83,28 @@ def fetch(src):
     return p
 
 
+def gen_sfx(cuts, total, hook):
+    """Whoosh on every transition + low boom at the hook. Synthesised, copyright-free."""
+    p = os.path.join(WORK, 'sfx.wav')
+    parts, labels = [], []
+    if hook:
+        parts.append('sine=f=48:d=1.2,volume=1.6,afade=t=out:st=0.05:d=1.1,adelay=0|0[h]')
+        parts.append('anoisesrc=color=brown:amplitude=0.8:d=0.35,lowpass=f=180,afade=t=out:st=0:d=0.35[h2]')
+        labels += ['[h]', '[h2]']
+    for i, t in enumerate(cuts):
+        st = max(0, t - 0.18)
+        ms = int(st * 1000)
+        parts.append('anoisesrc=color=pink:amplitude=0.55:d=0.5,bandpass=f=1400:width_type=o:w=2,volume=9,'
+                     'afade=t=in:st=0:d=0.22,afade=t=out:st=0.22:d=0.28,adelay=%d|%d[w%d]' % (ms, ms, i))
+        labels.append('[w%d]' % i)
+    if not labels:
+        sh(['ffmpeg', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo', '-t', '%.2f' % total, p])
+        return p
+    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000[o]' % (len(labels), total)
+    sh(['ffmpeg', '-y', '-filter_complex', f, '-map', '[o]', '-ac', '2', p])
+    return p
+
+
 def gen_music(kind, dur):
     """Copyright-free generated ambience: dark (drone + wind), tension (pulse), calm (pad)."""
     p = os.path.join(WORK, 'music_%s.wav' % kind)
@@ -382,6 +404,7 @@ def main(job_path, out_path):
         inputs += ['-i', p]
     fc, last, offset = [], '[0:v]', 0.0
     total = segs[0][1]
+    cut_times = []
     for k in range(1, len(segs)):
         offset = total - TD
         tr = ('fade' if tmode in ('fade', 'auto') and k == len(segs) - 1 and ec else
@@ -391,6 +414,7 @@ def main(job_path, out_path):
         else:
             fc.append('%s[%d:v]concat=n=2:v=1:a=0[x%d]' % (last, k, k))
         last = '[x%d]' % k
+        cut_times.append(offset if TD > 0 else total)
         total = offset + segs[k][1] if TD > 0 else total + segs[k][1]
 
     # captions
@@ -447,6 +471,12 @@ def main(job_path, out_path):
                 mix.append('[mus]')
         except Exception as e:
             sys.stderr.write('music skipped: %s\n' % e)
+    if job.get('sfx', True) and (vpath or job.get('music')):
+        sfx = gen_sfx(cut_times, total, bool((job.get('hook') or {}).get('text')))
+        a_inputs += ['-i', sfx]
+        a_parts.append('[%d:a]aresample=48000,volume=%.2f[sfx]' % (idx, float(job.get('sfx_volume', 0.55))))
+        idx += 1
+        mix.append('[sfx]')
     if vpath:
         mix.append('[voice]')
     if mix:
