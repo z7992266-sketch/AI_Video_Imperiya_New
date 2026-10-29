@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0C0916">
-<title>Меню · Smart Sistem</title>
+<title>Меню</title>
 <meta name="robots" content="noindex">
 <style>
 :root{--bg:#0C0916;--card:#171228;--card2:#221A3A;--line:#2F2650;--gold:#F5C542;--text:#F7F4FF;--muted:#A79FC4;--bad:#FF5A5F;--ok:#3DDC84}
@@ -77,9 +77,9 @@ const P='restoransmartsystem', K='AIzaSyDV5WgEH9ww2iqrlaN6PnK1TYNSI15g7ZU';
 const BASE='https://firestore.googleapis.com/v1/projects/'+P+'/databases/(default)/documents';
 const rid=(new URLSearchParams(location.search).get('r')||'').trim();
 const L={
- ru:{all:'Все',search:'Поиск блюда',left:'Осталось {n} шт.',off:'Закончилось',call:'📞 Позвонить',map:'📍 На карте',empty:'Меню пока пустое',err:'Не удалось загрузить меню. Проверьте интернет и обновите страницу.',nor:'Ссылка неверная: нет кода ресторана.',other:'Другое',items:'блюд'},
- uz:{all:'Hammasi',search:'Taom qidirish',left:'{n} ta qoldi',off:'Tugagan',call:'📞 Qo\'ng\'iroq',map:'📍 Xaritada',empty:'Menyu hozircha bo\'sh',err:'Menyuni yuklab bo\'lmadi. Internetni tekshirib, sahifani yangilang.',nor:'Havola noto\'g\'ri: restoran kodi yo\'q.',other:'Boshqa',items:'ta taom'},
- en:{all:'All',search:'Search dishes',left:'Only {n} left',off:'Sold out',call:'📞 Call',map:'📍 Map',empty:'The menu is empty for now',err:'Could not load the menu. Check your connection and refresh.',nor:'Invalid link: no restaurant code.',other:'Other',items:'items'},
+ ru:{menu:'Меню',all:'Все',search:'Поиск блюда',left:'Осталось {n} шт.',off:'Закончилось',call:'📞 Позвонить',map:'📍 На карте',empty:'Меню пока пустое',err:'Не удалось загрузить меню. Проверьте интернет и обновите страницу.',nor:'Ссылка неверная: нет кода ресторана.',other:'Другое',items:'блюд'},
+ uz:{menu:'Menyu',all:'Hammasi',search:'Taom qidirish',left:'{n} ta qoldi',off:'Tugagan',call:'📞 Qo\'ng\'iroq',map:'📍 Xaritada',empty:'Menyu hozircha bo\'sh',err:'Menyuni yuklab bo\'lmadi. Internetni tekshirib, sahifani yangilang.',nor:'Havola noto\'g\'ri: restoran kodi yo\'q.',other:'Boshqa',items:'ta taom'},
+ en:{menu:'Menu',all:'All',search:'Search dishes',left:'Only {n} left',off:'Sold out',call:'📞 Call',map:'📍 Map',empty:'The menu is empty for now',err:'Could not load the menu. Check your connection and refresh.',nor:'Invalid link: no restaurant code.',other:'Other',items:'items'},
 };
 let lang='ru';try{lang=localStorage.getItem('smlang')||((navigator.language||'').toLowerCase().startsWith('uz')?'uz':'ru')}catch(e){} if(!L[lang]) lang='ru';
 let R={}, items=[], cat=null, q='';
@@ -110,9 +110,9 @@ function render(){
   document.documentElement.lang=lang;
   document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===lang));
   document.getElementById('q').placeholder=t('search');
-  const nm=R.name||'Menu';document.title=nm+' · Menu';
-  document.getElementById('rname').textContent=nm;
-  document.getElementById('logo').textContent=(nm.trim()[0]||'·').toUpperCase();
+  document.title=t('menu');
+  document.getElementById('rname').textContent=t('menu');
+  document.getElementById('logo').textContent='🍽';
   document.getElementById('raddr').textContent=R.address||'';
   const tf=x=>(String(x.toifa||'').trim()||t('other'));
   const cats=[...new Set(items.map(tf))];
