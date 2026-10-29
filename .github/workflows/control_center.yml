@@ -43,6 +43,12 @@ jobs:
           set -o pipefail
           flutter analyze --no-fatal-infos --no-fatal-warnings 2>&1 | tee ../analyze.txt
 
+      - name: Stable signing key (har build bir xil kalit — yangilanish eski ilova ustidan o'rnatiladi)
+        uses: actions/cache@v4
+        with:
+          path: ~/.android/debug.keystore
+          key: control-center-signing-v1
+
       - name: Build APK
         working-directory: control_center
         run: |
