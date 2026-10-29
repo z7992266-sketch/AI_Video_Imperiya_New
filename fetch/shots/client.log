@@ -1,0 +1,10 @@
+debug: Injecting <script> tag. Using callback.
+debug: TrustedTypes available. Creating policy: gis-dart
+debug: TrustedTypes available. Creating policy: flutterfire-firebase_core
+debug: Initializing Firebase firebase_core
+debug: TrustedTypes available. Creating policy: flutterfire-firebase_firestore
+debug: Initializing Firebase firebase_firestore
+debug: TrustedTypes available. Creating policy: flutterfire-firebase_auth
+debug: Initializing Firebase firebase_auth
+debug: TrustedTypes available. Creating policy: flutterfire-firebase_performance
+debug: Initializing Firebase firebase_performance
