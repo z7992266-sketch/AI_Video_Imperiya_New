@@ -1,0 +1,28 @@
+name: Fetch media
+# Push fetch/urls.txt (lines: "<name> <https-url>") -> files are downloaded into fetch/out/ and committed.
+on:
+  push:
+    branches: [fetch-media]
+    paths: ['fetch/urls.txt']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p fetch/out
+          while read -r NAME URL; do
+            [ -z "$NAME" ] && continue
+            case "$NAME" in *[!A-Za-z0-9._-]*) echo "bad name $NAME"; continue;; esac
+            curl -fsSL --max-filesize 30000000 -o "fetch/out/$NAME" "$URL" && echo "ok $NAME" || echo "FAIL $NAME"
+          done < fetch/urls.txt
+          ls -la fetch/out
+      - name: Commit
+        run: |
+          git config user.name "fetch-bot"; git config user.email "fetch-bot@users.noreply.github.com"
+          git add fetch/out
+          git commit -m "fetched media" || echo nothing
+          git push
