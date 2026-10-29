@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mia</title>
+<meta name="theme-color" content="#07040f">
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#07040f;--p:#A855F7;--c:#22D3EE;--k:#EC4899;--t:#F5F3FF;--m:#a7a3c2}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:var(--bg);color:var(--t);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+#bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55;z-index:0}
+#shade{position:fixed;inset:0;background:linear-gradient(180deg,rgba(7,4,15,.2) 0%,rgba(7,4,15,.55) 45%,rgba(7,4,15,.97) 100%);z-index:1}
+#app{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;max-width:720px;margin:0 auto;padding:12px 16px calc(12px + env(safe-area-inset-bottom))}
+header{display:flex;align-items:center;gap:10px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--c);box-shadow:0 0 12px var(--c)}
+header b{font-size:20px;letter-spacing:.5px}
+header small{color:var(--m);font-size:12px}
+#emo{margin-left:auto;font-size:22px}
+#log{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:14px 0;scroll-behavior:smooth}
+.b{max-width:85%;padding:10px 14px;border-radius:18px;line-height:1.45;font-size:15px;white-space:pre-wrap;word-wrap:break-word}
+.u{align-self:flex-end;background:linear-gradient(135deg,var(--p),var(--k));border-bottom-right-radius:6px}
+.a{align-self:flex-start;background:rgba(20,14,40,.82);border:1px solid rgba(34,211,238,.35);border-bottom-left-radius:6px;backdrop-filter:blur(6px)}
+.typing{color:var(--m);font-style:italic}
+form{display:flex;gap:8px;align-items:center;background:rgba(20,14,40,.85);border:1px solid rgba(168,85,247,.45);border-radius:26px;padding:6px}
+input{flex:1;background:transparent;border:0;outline:0;color:var(--t);font-size:16px;padding:8px 10px;min-width:0}
+button{border:0;cursor:pointer;width:42px;height:42px;border-radius:50%;font-size:18px;color:#fff;background:rgba(255,255,255,.08);flex:0 0 auto}
+#send{background:linear-gradient(135deg,var(--c),var(--p))}
+#mic.on{background:var(--k);box-shadow:0 0 16px var(--k)}
+#snd.off{opacity:.45}
+#ob{position:fixed;inset:0;z-index:5;display:none;align-items:center;justify-content:center;background:rgba(7,4,15,.88);padding:16px}
+#ob .card{width:100%;max-width:400px;background:#120b24;border:1px solid var(--p);border-radius:22px;padding:22px}
+#ob h2{margin-bottom:6px}#ob p{color:var(--m);font-size:14px;margin-bottom:14px}
+#ob label{display:block;font-size:13px;color:var(--m);margin:10px 0 4px}
+#ob input,#ob select{width:100%;background:#1c1236;border:1px solid #3b2a66;border-radius:12px;color:var(--t);padding:10px;font-size:15px}
+#ob .go{width:100%;height:46px;border-radius:14px;margin-top:16px;font-weight:700;background:linear-gradient(135deg,var(--c),var(--p))}
+.note{font-size:11px;color:var(--m);text-align:center;margin-top:6px}
+</style>
+</head>
+<body>
+<video id="bg" autoplay muted loop playsinline poster="https://vtsurdinopzycwsfzsuk.supabase.co/storage/v1/object/public/mia/mia_a.png" src="https://vtsurdinopzycwsfzsuk.supabase.co/storage/v1/object/public/mia/mia_loop.mp4"></video>
+<div id="shade"></div>
+<div id="app">
+  <header><span class="dot"></span><div><b>Mia</b><br><small>Z7 AI · jonli hamroh</small></div><span id="emo">✨</span></header>
+  <div id="log"></div>
+  <form id="f" autocomplete="off">
+    <button type="button" id="snd" title="Ovoz">🔊</button>
+    <input id="q" placeholder="Mia'ga yozing...">
+    <button type="button" id="mic" title="Gapirish">🎤</button>
+    <button id="send" title="Yuborish">➤</button>
+  </form>
+  <div class="note">Mia — sun'iy intellekt. Muhim qarorlarni o'zingiz tekshiring.</div>
+</div>
+<div id="ob"><div class="card">
+  <h2>Salom! Men Mia 💜</h2><p>Keling, tanishaylik — men sizni eslab qolaman.</p>
+  <label>Ismingiz</label><input id="oName" maxlength="40">
+  <label>Yoshingiz</label><input id="oAge" type="number" min="5" max="120">
+  <label>Sizga qanday murojaat qilay?</label>
+  <select id="oAddr"><option>Bro</option><option>Boss</option><option>Kapitan</option><option>Aka</option><option>Opa</option><option value="">Ismim bilan</option></select>
+  <label>Mia xarakteri</label>
+  <select id="oPer"><option value="hazilkash">Hazilkash</option><option value="hamdard">Hamdard</option><option value="motivator">Motivator</option><option value="ustoz">Ustoz</option><option value="jiddiy">Jiddiy</option><option value="sarguzashtchi">Sarguzashtchi</option><option value="tinch">Tinch</option></select>
+  <label>Til</label>
+  <select id="oLang"><option value="uz">O'zbekcha</option><option value="ru">Русский</option><option value="en">English</option><option value="auto">Avto</option></select>
+  <button class="go" id="oGo" type="button">Boshlash</button>
+</div></div>
+<script>
+var API = 'https://mia-z7.app.n8n.cloud/webhook/mia/';
+var EMO = {happy:'😊',calm:'🙂',thinking:'🤔',surprised:'😮',sad:'🥺',playful:'😜',love:'💜'};
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
+var prof = null;
+try{prof = JSON.parse(ls('mia_prof')||'null');}catch(e){prof=null;}
+var uid = ls('mia_uid'); if(!uid){uid='w-'+Math.random().toString(36).slice(2)+Date.now().toString(36); ls('mia_uid',uid);}
+var soundOn = ls('mia_snd') !== '0';
+var log = document.getElementById('log'), q = document.getElementById('q');
+function add(t,c){var d=document.createElement('div');d.className='b '+c;d.textContent=t;log.appendChild(d);log.scrollTop=log.scrollHeight;return d;}
+function setSnd(){document.getElementById('snd').className=soundOn?'':'off';}
+setSnd();
+document.getElementById('snd').onclick=function(){soundOn=!soundOn;ls('mia_snd',soundOn?'1':'0');setSnd();};
+var audio = new Audio();
+function speak(text){
+  if(!soundOn) return;
+  fetch(API+'voice',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:text,avatar:'female'})})
+  .then(function(r){return r.ok?r.blob():null;}).then(function(b){if(!b)return;audio.src=URL.createObjectURL(b);audio.play().catch(function(){});}).catch(function(){});
+}
+function send(text){
+  if(!text) return;
+  add(text,'u'); q.value='';
+  var t = add('Mia yozmoqda...','a typing');
+  var p = prof||{};
+  fetch(API+'chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({userId:uid,message:text,name:p.name||'',age:p.age||0,addressForm:p.addr||'',persona:p.per||'hazilkash',lang:p.lang||'auto',channel:'web'})})
+  .then(function(r){return r.json();})
+  .then(function(d){t.className='b a';t.textContent=d.reply||'...';document.getElementById('emo').textContent=EMO[d.emotion]||'✨';speak(d.reply||'');})
+  .catch(function(){t.className='b a';t.textContent='Aloqa uzildi, qayta urinib ko‘ring 🙏';});
+}
+document.getElementById('f').onsubmit=function(e){e.preventDefault();send(q.value.trim());};
+var SR = window.SpeechRecognition||window.webkitSpeechRecognition, rec=null, mic=document.getElementById('mic');
+if(!SR){mic.style.display='none';}
+mic.onclick=function(){
+  if(rec){rec.stop();return;}
+  rec=new SR(); var L=(prof&&prof.lang)||'uz'; rec.lang=L==='ru'?'ru-RU':(L==='en'?'en-US':'uz-UZ'); rec.interimResults=false;
+  mic.className='on';
+  rec.onresult=function(e){send(e.results[0][0].transcript);};
+  rec.onend=function(){mic.className='';rec=null;};
+  rec.onerror=function(){mic.className='';rec=null;};
+  rec.start();
+};
+var ob=document.getElementById('ob');
+function greet(){var p=prof||{};add('Salom'+(p.addr?', '+p.addr:(p.name?', '+p.name:''))+'! Men Mia 💜 Bugun nima qilamiz?','a');}
+if(!prof){ob.style.display='flex';}else{greet();}
+document.getElementById('oGo').onclick=function(){
+  prof={name:document.getElementById('oName').value.trim(),age:Number(document.getElementById('oAge').value)||0,addr:document.getElementById('oAddr').value,per:document.getElementById('oPer').value,lang:document.getElementById('oLang').value};
+  ls('mia_prof',JSON.stringify(prof)); ob.style.display='none'; greet();
+};
+</script>
+</body>
+</html>
