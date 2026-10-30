@@ -62,7 +62,7 @@ def scene_notify(t):  # lock screen + push notifications slide in
         c = int(20 + 30 * yy / H); d.line([0, yy, W, yy], fill=(c, c // 2 + 10, c + 30))
     f = font(64); tx = '9:41'; tw = d.textlength(tx, font=f)
     d.text(((W - tw) / 2, 70), tx, font=f, fill=WHITE)
-    tx = 'пятница, 30 октября'; f3 = font(16, 'Regular'); tw = d.textlength(tx, font=f3)
+    tx = 'Уведомления'; f3 = font(16, 'Regular'); tw = d.textlength(tx, font=f3)
     d.text(((W - tw) / 2, 150), tx, font=f3, fill=WHITE)
     notes = [('Ваше кафе', 'Ваш заказ готов! Заберите на кассе'), ('Ваше кафе', 'Подарок для постоянных клиентов'),
              ('Ваше кафе', 'Вам начислены бонусы')]

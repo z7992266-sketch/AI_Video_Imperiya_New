@@ -389,10 +389,27 @@ def build_ass(job, W, H, total, word_times):
     if word_times and cap.get('style', 'karaoke') != 'none':
         maxw = int(cap.get('max_words', 3))
         groups, g = [], []
-        for wt in word_times:
+        SHORT = {'в', 'во', 'у', 'и', 'к', 'ко', 'с', 'со', 'о', 'об', 'на', 'за', 'по', 'из', 'от', 'до', 'не', 'а', 'но', 'я',
+                 'va', 'bu', 'u', 'the', 'a', 'to', 'of', 'in', 'and'}
+        manual = any(w.get('br') for w in word_times)   # explicit line breaks given by the job
+        for i, wt in enumerate(word_times):
             g.append(wt)
-            if len(g) >= maxw or sum(len(x['w']) for x in g) > 16 or re.search(r'[.!?,:;]$', wt['w']):
+            nxt = word_times[i + 1] if i + 1 < len(word_times) else None
+            if manual:
+                if wt.get('br') or nxt is None:
+                    groups.append(g); g = []
+                continue
+            pause = nxt is not None and nxt['t0'] - wt['t1'] > 0.18
+            punct = re.search(r'[.!?,:;—]$', wt['w']) or wt.get('br')
+            full = len(g) >= maxw or sum(len(x['w']) for x in g) > 16
+            weak = wt['w'].lower().strip('«»"') in SHORT and nxt is not None
+            if punct or pause or nxt is None:
                 groups.append(g); g = []
+            elif full:
+                if weak and len(g) > 1:
+                    last = g.pop(); groups.append(g); g = [last]
+                else:
+                    groups.append(g); g = []
         if g:
             groups.append(g)
         for gi, grp in enumerate(groups):
