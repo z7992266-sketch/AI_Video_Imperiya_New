@@ -110,23 +110,22 @@
    ]
   },
   {
-   "src": "render/assets/gv1/gv1_K3.png",
-   "type": "image",
+   "src": "render/assets/gv1/gv1_K3anim.mp4",
+   "type": "video",
    "dur": 1.3,
-   "move": "in",
-   "fit": "fill",
+   "start": 0,
+   "move": "none",
    "fx": [
     "punch"
    ]
   },
   {
-   "src": "render/assets/gv1/gv1_K3.png",
-   "type": "image",
+   "src": "render/assets/gv1/gv1_K3anim.mp4",
+   "type": "video",
    "dur": 2.5,
-   "move": "out",
-   "fit": "fill",
+   "start": 1.3,
+   "move": "none",
    "fx": [
-    "shake",
     "glitch"
    ]
   },
@@ -168,11 +167,11 @@
    ]
   },
   {
-   "src": "render/assets/gv1/gv1_K3.png",
-   "type": "image",
+   "src": "render/assets/gv1/gv1_K3anim.mp4",
+   "type": "video",
    "dur": 1.7,
+   "start": 3.2,
    "move": "in",
-   "fit": "fill",
    "fx": [
     "flash",
     "shake"
@@ -754,5 +753,5 @@
   "accent": "#22D3EE"
  },
  "fade_out": 0,
- "rev": 2
+ "rev": 3
 }
