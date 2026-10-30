@@ -1,0 +1,18 @@
+{
+ "id": "ev003",
+ "title": "Cozy Fireplace & Soft Piano",
+ "subtitle": "1 Hour · Warm Relaxing Music · Exclusive Vibe",
+ "thumb_big": "Cozy Fireplace",
+ "thumb_small": "1 Hour Relaxing Music",
+ "minutes": 60,
+ "mood": "fire",
+ "seed": 121,
+ "queries": [
+  "fireplace",
+  "candle",
+  "cozy"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
