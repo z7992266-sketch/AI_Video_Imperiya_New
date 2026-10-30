@@ -7,21 +7,30 @@
  "transition": "none",
  "scenes": [
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WQhwVHtoUJ5rMtv1uu4l/gArz5RTSTCBOPQq3fRO2/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070242Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=78fb432c63d0f0f8c18ba48adb3ac2c451201080d0476e2af19d9f75d46f5f053adc5de0013e92fcae888ba366027dfc25d5f8544722e16df1fd862fe6594a1600a074feced06cf2dc9dc6f841014e49d24cc9e359452b60cb32e20aabf3d1246c618e4cd4a3ed1e194de18b90719a7728652c24382aba9f1c662ff49e13fd158c5cde0311bc14c458fd452d278d08d77c3526062c3acacc291576f3f95e5226d272298554009b25de6de0cef96cc111ec5997dbf6f49c9530b75dde8cb0df457eaa01aa121102be7173d98b6eecd324760b3522fd3d7b578a0a64318962e80f18d7c0bef29f477b396cac6058d6cec4d1b37d00ffbb827cf1a845f59fbe5358",
+   "src": "render/assets/gv1/gv1_K1.png",
    "type": "image",
-   "dur": 2.2,
+   "dur": 2.6,
    "move": "in",
    "fit": "fill",
    "fx": [
-    "flash",
     "glitch",
     "shake"
    ]
   },
   {
+   "src": "render/assets/gv1/gv1_K5.png",
+   "type": "image",
+   "dur": 1.9,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
    "src": "render/assets/phone_call.mp4",
    "type": "video",
-   "dur": 1.8,
+   "dur": 1.5,
    "start": 0,
    "move": "none",
    "fx": [
@@ -29,17 +38,17 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/MGDk2tT4LdZcAZiwdPXk/LQ4KeQTv2zealkR5B5J6/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070241Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=70b15575ad92521cd2b9ba5688cc74c74dac94be38e894e754f443f47c5f4ab861e25a86f267c36e280f1da1322b783c7e752b64ee8676187d2b25096effe2e53caf8a2a8aabd4299a16273ab351268fa64bfebc00e7148fdbf9e04955dd13b9ecb7b4f1a957ee8c59ae4ba760b81566ac6c794945824ffadcfd9e4cfae2166e0134e3f38782676248e088f4e37ef0dd4c7a9a530badd7e51465679932ee69a7e95e23546bfd9cec137a483bcef897f57f18efd5db746e2474b51ed1d3836a979f8e8c94d006a3362664e62324eba8ec1a014a7bc0ce63cb18c87642269664ecaef711ba57d04439fefd8fd937ee2cee75f40c0829f9dc0e02c0bead9545e3f1",
+   "src": "render/assets/gv1/gv1_K2.png",
    "type": "image",
-   "dur": 2.5,
+   "dur": 1.6,
    "move": "in",
    "fit": "fill"
   },
   {
    "src": "render/assets/phone_call.mp4",
    "type": "video",
-   "dur": 2.1,
-   "start": 0.9,
+   "dur": 1.2,
+   "start": 1.2,
    "move": "none",
    "fx": [
     "glitch"
@@ -53,9 +62,19 @@
    "move": "none"
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/eBu6LKHZrL0Xd8mvqJYp/UBzlbk5ArY41TtoPIggs/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070243Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9df0e650cf7a056d991726276eaf38284d36ad110d2eafa73d37857a97c39c422088bb1556a80576768cbbff36561fb7e73264241ca061936e6a852f900778ea6552c9703a248958dacd39a8c2a57d62d12bdcaca1adcd33bbc6e6e99f467bb4723585d4ef4e5f9dbc732ab40fc615d8916ed7fa750bcf25beb85d24d9bc0d2f020bed5e788d43e32536192776b0867b6a68efb037c3d75a55ed8ff84418fd812950befc69856f74d709aa05fafc2be6889db7c4fd24645b808d9319ef869dd05ea1f7a92e54b2384fd8471a426ef42098e1eb9b1dab4514380aef5255fe65cdf3c3a1c2801f32e2422e6a2470dacb04ed71e3a6d5c1d20ecafab2e251807264",
+   "src": "render/assets/gv1/gv1_K1.png",
    "type": "image",
-   "dur": 2.8,
+   "dur": 2.0,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "grain"
+   ]
+  },
+  {
+   "src": "render/assets/gv1/gv1_K5.png",
+   "type": "image",
+   "dur": 2.2,
    "move": "in",
    "fit": "fill",
    "fx": [
@@ -64,29 +83,36 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WQhwVHtoUJ5rMtv1uu4l/gArz5RTSTCBOPQq3fRO2/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070242Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=78fb432c63d0f0f8c18ba48adb3ac2c451201080d0476e2af19d9f75d46f5f053adc5de0013e92fcae888ba366027dfc25d5f8544722e16df1fd862fe6594a1600a074feced06cf2dc9dc6f841014e49d24cc9e359452b60cb32e20aabf3d1246c618e4cd4a3ed1e194de18b90719a7728652c24382aba9f1c662ff49e13fd158c5cde0311bc14c458fd452d278d08d77c3526062c3acacc291576f3f95e5226d272298554009b25de6de0cef96cc111ec5997dbf6f49c9530b75dde8cb0df457eaa01aa121102be7173d98b6eecd324760b3522fd3d7b578a0a64318962e80f18d7c0bef29f477b396cac6058d6cec4d1b37d00ffbb827cf1a845f59fbe5358",
+   "src": "render/assets/gv1/gv1_K2.png",
    "type": "image",
-   "dur": 2.6,
-   "move": "out",
+   "dur": 1.8,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv1/gv1_K1.png",
+   "type": "image",
+   "dur": 1.8,
+   "move": "up",
    "fit": "fill",
    "fx": [
-    "grain"
+    "punch"
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/MGDk2tT4LdZcAZiwdPXk/LQ4KeQTv2zealkR5B5J6/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070241Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=70b15575ad92521cd2b9ba5688cc74c74dac94be38e894e754f443f47c5f4ab861e25a86f267c36e280f1da1322b783c7e752b64ee8676187d2b25096effe2e53caf8a2a8aabd4299a16273ab351268fa64bfebc00e7148fdbf9e04955dd13b9ecb7b4f1a957ee8c59ae4ba760b81566ac6c794945824ffadcfd9e4cfae2166e0134e3f38782676248e088f4e37ef0dd4c7a9a530badd7e51465679932ee69a7e95e23546bfd9cec137a483bcef897f57f18efd5db746e2474b51ed1d3836a979f8e8c94d006a3362664e62324eba8ec1a014a7bc0ce63cb18c87642269664ecaef711ba57d04439fefd8fd937ee2cee75f40c0829f9dc0e02c0bead9545e3f1",
+   "src": "render/assets/gv1/gv1_K5.png",
    "type": "image",
-   "dur": 2.6,
-   "move": "left",
+   "dur": 1.9,
+   "move": "out",
    "fit": "fill",
    "fx": [
     "glitch"
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WE1j1ebUVx2HCvTfCKl6/FnrIY1hG6XBYeXhmFdoU/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070240Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=63673447729d37680b39929965b1ae28387b6de55193f127d9a5da7c042e7f232aa403dac233030e9ef7d1174194b7236bf96d29014010c7923e314ea53b003e67b23793dd58404e767269e470650edca3e6176af5160e3eb7a8955ac3be971f264b300c88bbcd7403ac5f7bfde24f9aa1e62ef11a3b946cc5ed550e74ad70acb6aad5c6649f111ba192b9916369feeb2f55ab3ce2f620a1f651b1ba4d5662da9a8ec40768f92ee53b56a42d520c6df24ded40839b381d5c075804db9a66f5a189fd387ea58b3a6294c41a7896e66d7d6b8a44382be76c115d063d477171494118273163013303cf5e42406d52a02361f111457d4ae93503044e89bfce1e91a3",
+   "src": "render/assets/gv1/gv1_K3.png",
    "type": "image",
-   "dur": 3.4,
+   "dur": 1.3,
    "move": "in",
    "fit": "fill",
    "fx": [
@@ -94,9 +120,9 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WE1j1ebUVx2HCvTfCKl6/FnrIY1hG6XBYeXhmFdoU/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070240Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=63673447729d37680b39929965b1ae28387b6de55193f127d9a5da7c042e7f232aa403dac233030e9ef7d1174194b7236bf96d29014010c7923e314ea53b003e67b23793dd58404e767269e470650edca3e6176af5160e3eb7a8955ac3be971f264b300c88bbcd7403ac5f7bfde24f9aa1e62ef11a3b946cc5ed550e74ad70acb6aad5c6649f111ba192b9916369feeb2f55ab3ce2f620a1f651b1ba4d5662da9a8ec40768f92ee53b56a42d520c6df24ded40839b381d5c075804db9a66f5a189fd387ea58b3a6294c41a7896e66d7d6b8a44382be76c115d063d477171494118273163013303cf5e42406d52a02361f111457d4ae93503044e89bfce1e91a3",
+   "src": "render/assets/gv1/gv1_K3.png",
    "type": "image",
-   "dur": 2.6,
+   "dur": 2.5,
    "move": "out",
    "fit": "fill",
    "fx": [
@@ -105,9 +131,9 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/eBu6LKHZrL0Xd8mvqJYp/UBzlbk5ArY41TtoPIggs/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070243Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9df0e650cf7a056d991726276eaf38284d36ad110d2eafa73d37857a97c39c422088bb1556a80576768cbbff36561fb7e73264241ca061936e6a852f900778ea6552c9703a248958dacd39a8c2a57d62d12bdcaca1adcd33bbc6e6e99f467bb4723585d4ef4e5f9dbc732ab40fc615d8916ed7fa750bcf25beb85d24d9bc0d2f020bed5e788d43e32536192776b0867b6a68efb037c3d75a55ed8ff84418fd812950befc69856f74d709aa05fafc2be6889db7c4fd24645b808d9319ef869dd05ea1f7a92e54b2384fd8471a426ef42098e1eb9b1dab4514380aef5255fe65cdf3c3a1c2801f32e2422e6a2470dacb04ed71e3a6d5c1d20ecafab2e251807264",
+   "src": "render/assets/gv1/gv1_K5.png",
    "type": "image",
-   "dur": 2.6,
+   "dur": 2.2,
    "move": "in",
    "fit": "fill",
    "fx": [
@@ -115,14 +141,21 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WQhwVHtoUJ5rMtv1uu4l/gArz5RTSTCBOPQq3fRO2/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070242Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=78fb432c63d0f0f8c18ba48adb3ac2c451201080d0476e2af19d9f75d46f5f053adc5de0013e92fcae888ba366027dfc25d5f8544722e16df1fd862fe6594a1600a074feced06cf2dc9dc6f841014e49d24cc9e359452b60cb32e20aabf3d1246c618e4cd4a3ed1e194de18b90719a7728652c24382aba9f1c662ff49e13fd158c5cde0311bc14c458fd452d278d08d77c3526062c3acacc291576f3f95e5226d272298554009b25de6de0cef96cc111ec5997dbf6f49c9530b75dde8cb0df457eaa01aa121102be7173d98b6eecd324760b3522fd3d7b578a0a64318962e80f18d7c0bef29f477b396cac6058d6cec4d1b37d00ffbb827cf1a845f59fbe5358",
+   "src": "render/assets/gv1/gv1_K1.png",
    "type": "image",
-   "dur": 2.8,
+   "dur": 1.7,
    "move": "in",
    "fit": "fill",
    "fx": [
     "glitch"
    ]
+  },
+  {
+   "src": "render/assets/gv1/gv1_K2.png",
+   "type": "image",
+   "dur": 1.9,
+   "move": "right",
+   "fit": "fill"
   },
   {
    "src": "render/assets/clock_rewind.mp4",
@@ -135,9 +168,9 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/WE1j1ebUVx2HCvTfCKl6/FnrIY1hG6XBYeXhmFdoU/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070240Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=63673447729d37680b39929965b1ae28387b6de55193f127d9a5da7c042e7f232aa403dac233030e9ef7d1174194b7236bf96d29014010c7923e314ea53b003e67b23793dd58404e767269e470650edca3e6176af5160e3eb7a8955ac3be971f264b300c88bbcd7403ac5f7bfde24f9aa1e62ef11a3b946cc5ed550e74ad70acb6aad5c6649f111ba192b9916369feeb2f55ab3ce2f620a1f651b1ba4d5662da9a8ec40768f92ee53b56a42d520c6df24ded40839b381d5c075804db9a66f5a189fd387ea58b3a6294c41a7896e66d7d6b8a44382be76c115d063d477171494118273163013303cf5e42406d52a02361f111457d4ae93503044e89bfce1e91a3",
+   "src": "render/assets/gv1/gv1_K3.png",
    "type": "image",
-   "dur": 2.2,
+   "dur": 1.7,
    "move": "in",
    "fit": "fill",
    "fx": [
@@ -156,9 +189,9 @@
    ]
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/eBu6LKHZrL0Xd8mvqJYp/UBzlbk5ArY41TtoPIggs/content.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070243Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9df0e650cf7a056d991726276eaf38284d36ad110d2eafa73d37857a97c39c422088bb1556a80576768cbbff36561fb7e73264241ca061936e6a852f900778ea6552c9703a248958dacd39a8c2a57d62d12bdcaca1adcd33bbc6e6e99f467bb4723585d4ef4e5f9dbc732ab40fc615d8916ed7fa750bcf25beb85d24d9bc0d2f020bed5e788d43e32536192776b0867b6a68efb037c3d75a55ed8ff84418fd812950befc69856f74d709aa05fafc2be6889db7c4fd24645b808d9319ef869dd05ea1f7a92e54b2384fd8471a426ef42098e1eb9b1dab4514380aef5255fe65cdf3c3a1c2801f32e2422e6a2470dacb04ed71e3a6d5c1d20ecafab2e251807264",
+   "src": "render/assets/gv1/gv1_K5.png",
    "type": "image",
-   "dur": 2.8,
+   "dur": 3.2,
    "move": "in",
    "fit": "fill",
    "fx": [
@@ -169,43 +202,393 @@
  ],
  "hook": {
   "text": "SHE CALLED HERSELF",
-  "dur": 2.2,
+  "dur": 2.6,
   "color": "#22D3EE"
  },
  "voice": {
-  "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/fxBgF9q06SpIDl8eq5cL/vl7U4OnfeVIFYQJ5QIUU/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070251Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1652c54cf8e5aec3fd33a813e18d3bee9d3b87cc2c7ff7c73024e47332b28e3ec0a2cf8bec44449d81736f036f6866ff36bda51fb7610bce497eebb665b5df3bfe20afe931333b9192aeda8e1fe0405154d1d866267c69605f3d4c0b4a0a3feced82a2ad34cca9036338e454c48af9081e8711b9691afef677ec8a41fb201a776cc23fbef28470e7ab1bc8d5c2cd5a37804ed40e7041886effa67e49a0be5a3b109e868d61037835f7a320b39475cd0459f5adf2dc26018d281b009660898704764e2db764f49a38a639c611d902557075194b2533d3e61ad399e3a2755d62a318b290f4cda85ced671bc5bd2f78d6c9023a544f0a1a855a62e61a9126bf74e6",
+  "src": "render/assets/gv1/gv1_VA.mp3",
   "start": 0.3,
   "volume": 1.0
  },
  "voices": [
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/pFYsevTCPDEZxtNlnTy7/oR07QzWXmnjAoR3kSFwO/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070250Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2f13c18e5bf702ad02144b7cd9a4561102723a31dda692bcebee4d261631e87c9b88a3e536579828fba5a487e12d4b3d2232d9b1c78e83b77506fae070d3c2a48372780d4adb8f5698d42dffde7792bf6f8bd087efd53d856c407e69b423d99c68151950efcd7c9f74c427b8b0b314bfdd8a202f9d8bcb397b06c3fc443af5ce390b85b165d81b196ae1c2c28f404be0725c46cc108907ee2304ead2259527c02f61e81d30f8894a529cc4340c65d8d72805b84741b9af4970754bc2158201479d93afb4fe7b589beb1c5219e5262e4184a7ed80e6f6a227aba54f3dd14aa461a1c86d41374612b34d989c5dedf862ef908d6d9ef5f1665dce98cbf33337166a",
-   "start": 21.8,
+   "src": "render/assets/gv1/gv1_VE.mp3",
+   "start": 21.5,
    "volume": 0.95,
    "fx": "phone"
   },
   {
-   "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/LAZcsftk9ae5WZaScuO7/vjJjrs35MzbDse0MMEcb/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070254Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b47c0f20d35c87ef388e48e02d82bbd943f7809bf89436f0c54a1488410c42fe8dd4e25a951ffd9d14e9230c2f1dd350ba4b68f5a2a9efcd461bf23e18c6c94b4eddd8867da20c75305a82b42401c9d715e82a94ce180ed30866d25c218d6fa5c83049bb7f91a88c83103e4fd65355e2fc98922b216ec1ceadcee5888547dd0452fcaa652b6f3d747cf7ccda23377f300082b83abf47342350d475a844cc61044c36ce6f0535f64e4a64ddd8268c80a9e4f10dc1357d5916e6b39059426926a16c301fe7d1c1025794f57e36591e2e375171ec0f621a03a69132ab25a80392f5d9725e834b4dea806619f4db5b07b33107a2b64d767e3c481464fc1880a089fb",
-   "start": 24.4,
+   "src": "render/assets/gv1/gv1_VB.mp3",
+   "start": 24.0,
    "volume": 1.0
   }
  ],
  "captions": {
-  "segments": [
+  "words": [
    {
-    "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/fxBgF9q06SpIDl8eq5cL/vl7U4OnfeVIFYQJ5QIUU/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070251Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1652c54cf8e5aec3fd33a813e18d3bee9d3b87cc2c7ff7c73024e47332b28e3ec0a2cf8bec44449d81736f036f6866ff36bda51fb7610bce497eebb665b5df3bfe20afe931333b9192aeda8e1fe0405154d1d866267c69605f3d4c0b4a0a3feced82a2ad34cca9036338e454c48af9081e8711b9691afef677ec8a41fb201a776cc23fbef28470e7ab1bc8d5c2cd5a37804ed40e7041886effa67e49a0be5a3b109e868d61037835f7a320b39475cd0459f5adf2dc26018d281b009660898704764e2db764f49a38a639c611d902557075194b2533d3e61ad399e3a2755d62a318b290f4cda85ced671bc5bd2f78d6c9023a544f0a1a855a62e61a9126bf74e6",
-    "start": 0.3,
-    "script": "At three thirty-three A.M.... I called myself. My phone rang. The caller I.D. said... Mia. Watch the clock. Scientists have a theory: deja vu is a tiny misfire in the brain's memory system. A brand-new moment... feels already lived. So I answered."
+    "w": "At",
+    "t0": 0.3,
+    "t1": 0.521
    },
    {
-    "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/pFYsevTCPDEZxtNlnTy7/oR07QzWXmnjAoR3kSFwO/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070250Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2f13c18e5bf702ad02144b7cd9a4561102723a31dda692bcebee4d261631e87c9b88a3e536579828fba5a487e12d4b3d2232d9b1c78e83b77506fae070d3c2a48372780d4adb8f5698d42dffde7792bf6f8bd087efd53d856c407e69b423d99c68151950efcd7c9f74c427b8b0b314bfdd8a202f9d8bcb397b06c3fc443af5ce390b85b165d81b196ae1c2c28f404be0725c46cc108907ee2304ead2259527c02f61e81d30f8894a529cc4340c65d8d72805b84741b9af4970754bc2158201479d93afb4fe7b589beb1c5219e5262e4184a7ed80e6f6a227aba54f3dd14aa461a1c86d41374612b34d989c5dedf862ef908d6d9ef5f1665dce98cbf33337166a",
-    "start": 21.8,
-    "script": "Don't look at the clock, Mia."
+    "w": "three",
+    "t0": 0.521,
+    "t1": 0.908
    },
    {
-    "src": "https://storage.googleapis.com/xi-backend/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/LAZcsftk9ae5WZaScuO7/vjJjrs35MzbDse0MMEcb/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261030T070254Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b47c0f20d35c87ef388e48e02d82bbd943f7809bf89436f0c54a1488410c42fe8dd4e25a951ffd9d14e9230c2f1dd350ba4b68f5a2a9efcd461bf23e18c6c94b4eddd8867da20c75305a82b42401c9d715e82a94ce180ed30866d25c218d6fa5c83049bb7f91a88c83103e4fd65355e2fc98922b216ec1ceadcee5888547dd0452fcaa652b6f3d747cf7ccda23377f300082b83abf47342350d475a844cc61044c36ce6f0535f64e4a64ddd8268c80a9e4f10dc1357d5916e6b39059426926a16c301fe7d1c1025794f57e36591e2e375171ec0f621a03a69132ab25a80392f5d9725e834b4dea806619f4db5b07b33107a2b64d767e3c481464fc1880a089fb",
-    "start": 24.4,
-    "script": "That was my voice. Saying words... I hadn't said yet. I looked at the clock. It went back. Three seconds. And my phone... rang again."
+    "w": "thirty-three",
+    "t0": 0.908,
+    "t1": 1.682
+   },
+   {
+    "w": "A.M....",
+    "t0": 1.682,
+    "t1": 2.18
+   },
+   {
+    "w": "I",
+    "t0": 2.84,
+    "t1": 3.003
+   },
+   {
+    "w": "called",
+    "t0": 3.003,
+    "t1": 3.439
+   },
+   {
+    "w": "myself.",
+    "t0": 3.439,
+    "t1": 3.93
+   },
+   {
+    "w": "My",
+    "t0": 4.76,
+    "t1": 4.922
+   },
+   {
+    "w": "phone",
+    "t0": 4.922,
+    "t1": 5.206
+   },
+   {
+    "w": "rang.",
+    "t0": 5.206,
+    "t1": 5.49
+   },
+   {
+    "w": "The",
+    "t0": 6.07,
+    "t1": 6.29
+   },
+   {
+    "w": "caller",
+    "t0": 6.29,
+    "t1": 6.641
+   },
+   {
+    "w": "I.D.",
+    "t0": 6.641,
+    "t1": 6.905
+   },
+   {
+    "w": "said...",
+    "t0": 6.905,
+    "t1": 7.3
+   },
+   {
+    "w": "Mia.",
+    "t0": 7.81,
+    "t1": 8.21
+   },
+   {
+    "w": "Watch",
+    "t0": 8.93,
+    "t1": 9.21
+   },
+   {
+    "w": "the",
+    "t0": 9.21,
+    "t1": 9.41
+   },
+   {
+    "w": "clock.",
+    "t0": 9.41,
+    "t1": 9.73
+   },
+   {
+    "w": "Scientists",
+    "t0": 10.57,
+    "t1": 11.118
+   },
+   {
+    "w": "have",
+    "t0": 11.118,
+    "t1": 11.392
+   },
+   {
+    "w": "a",
+    "t0": 11.392,
+    "t1": 11.529
+   },
+   {
+    "w": "theory:",
+    "t0": 11.529,
+    "t1": 11.94
+   },
+   {
+    "w": "deja",
+    "t0": 12.55,
+    "t1": 12.859
+   },
+   {
+    "w": "vu",
+    "t0": 12.859,
+    "t1": 13.065
+   },
+   {
+    "w": "is",
+    "t0": 13.065,
+    "t1": 13.271
+   },
+   {
+    "w": "a",
+    "t0": 13.271,
+    "t1": 13.425
+   },
+   {
+    "w": "tiny",
+    "t0": 13.425,
+    "t1": 13.734
+   },
+   {
+    "w": "misfire",
+    "t0": 13.734,
+    "t1": 14.198
+   },
+   {
+    "w": "in",
+    "t0": 14.198,
+    "t1": 14.404
+   },
+   {
+    "w": "the",
+    "t0": 14.404,
+    "t1": 14.661
+   },
+   {
+    "w": "brain's",
+    "t0": 14.661,
+    "t1": 15.125
+   },
+   {
+    "w": "memory",
+    "t0": 15.125,
+    "t1": 15.537
+   },
+   {
+    "w": "system.",
+    "t0": 15.537,
+    "t1": 16.0
+   },
+   {
+    "w": "A",
+    "t0": 16.56,
+    "t1": 16.705
+   },
+   {
+    "w": "brand-new",
+    "t0": 16.705,
+    "t1": 17.238
+   },
+   {
+    "w": "moment...",
+    "t0": 17.238,
+    "t1": 17.77
+   },
+   {
+    "w": "feels",
+    "t0": 18.23,
+    "t1": 18.633
+   },
+   {
+    "w": "already",
+    "t0": 18.633,
+    "t1": 19.15
+   },
+   {
+    "w": "lived.",
+    "t0": 19.15,
+    "t1": 19.61
+   },
+   {
+    "w": "So",
+    "t0": 20.33,
+    "t1": 20.501
+   },
+   {
+    "w": "I",
+    "t0": 20.501,
+    "t1": 20.629
+   },
+   {
+    "w": "answered.",
+    "t0": 20.629,
+    "t1": 21.1
+   },
+   {
+    "w": "Don't",
+    "t0": 21.5,
+    "t1": 21.838
+   },
+   {
+    "w": "look",
+    "t0": 21.838,
+    "t1": 22.128
+   },
+   {
+    "w": "at",
+    "t0": 22.128,
+    "t1": 22.322
+   },
+   {
+    "w": "the",
+    "t0": 22.322,
+    "t1": 22.563
+   },
+   {
+    "w": "clock,",
+    "t0": 22.563,
+    "t1": 22.95
+   },
+   {
+    "w": "Mia.",
+    "t0": 22.95,
+    "t1": 23.24
+   },
+   {
+    "w": "That",
+    "t0": 24.0,
+    "t1": 24.339
+   },
+   {
+    "w": "was",
+    "t0": 24.339,
+    "t1": 24.622
+   },
+   {
+    "w": "my",
+    "t0": 24.622,
+    "t1": 24.848
+   },
+   {
+    "w": "voice.",
+    "t0": 24.848,
+    "t1": 25.3
+   },
+   {
+    "w": "Saying",
+    "t0": 26.27,
+    "t1": 26.741
+   },
+   {
+    "w": "words...",
+    "t0": 26.741,
+    "t1": 27.33
+   },
+   {
+    "w": "I",
+    "t0": 27.8,
+    "t1": 27.941
+   },
+   {
+    "w": "hadn't",
+    "t0": 27.941,
+    "t1": 28.317
+   },
+   {
+    "w": "said",
+    "t0": 28.317,
+    "t1": 28.598
+   },
+   {
+    "w": "yet.",
+    "t0": 28.598,
+    "t1": 28.88
+   },
+   {
+    "w": "I",
+    "t0": 29.85,
+    "t1": 29.952
+   },
+   {
+    "w": "looked",
+    "t0": 29.952,
+    "t1": 30.223
+   },
+   {
+    "w": "at",
+    "t0": 30.223,
+    "t1": 30.359
+   },
+   {
+    "w": "the",
+    "t0": 30.359,
+    "t1": 30.529
+   },
+   {
+    "w": "clock.",
+    "t0": 30.529,
+    "t1": 30.8
+   },
+   {
+    "w": "It",
+    "t0": 31.34,
+    "t1": 31.538
+   },
+   {
+    "w": "went",
+    "t0": 31.538,
+    "t1": 31.834
+   },
+   {
+    "w": "back.",
+    "t0": 31.834,
+    "t1": 32.18
+   },
+   {
+    "w": "Three",
+    "t0": 32.74,
+    "t1": 33.106
+   },
+   {
+    "w": "seconds.",
+    "t0": 33.106,
+    "t1": 33.63
+   },
+   {
+    "w": "And",
+    "t0": 34.3,
+    "t1": 34.513
+   },
+   {
+    "w": "my",
+    "t0": 34.513,
+    "t1": 34.684
+   },
+   {
+    "w": "phone...",
+    "t0": 34.684,
+    "t1": 35.11
+   },
+   {
+    "w": "rang",
+    "t0": 35.66,
+    "t1": 36.059
+   },
+   {
+    "w": "again.",
+    "t0": 36.059,
+    "t1": 36.59
    }
   ],
   "style": "karaoke",
@@ -216,24 +599,16 @@
  },
  "texts": [
   {
-   "t0": 6.6,
-   "t1": 8.5,
-   "text": "CALLER ID: MIA",
-   "pos": 0.3,
-   "size": 92,
-   "color": "#EC4899"
-  },
-  {
-   "t0": 8.65,
-   "t1": 10.15,
+   "t0": 8.85,
+   "t1": 10.35,
    "text": "WATCH THE CLOCK",
    "pos": 0.22,
    "size": 96,
    "color": "#FFD54F"
   },
   {
-   "t0": 31.3,
-   "t1": 33.7,
+   "t0": 31.4,
+   "t1": 33.8,
    "text": "-3 SECONDS",
    "pos": 0.22,
    "size": 120,
@@ -242,102 +617,112 @@
  ],
  "sfx_events": [
   {
-   "t": 0.0,
+   "t": 0,
    "type": "zap",
    "volume": 1.1
   },
   {
-   "t": 0.0,
+   "t": 0,
    "type": "boom",
    "volume": 0.8
   },
   {
-   "t": 2.2,
+   "t": 4.5,
    "type": "ring",
    "volume": 0.7
   },
   {
-   "t": 6.5,
-   "type": "zap"
+   "t": 7.6,
+   "type": "zap",
+   "volume": 0.9
   },
   {
-   "t": 8.6,
-   "type": "tick"
+   "t": 8.9,
+   "type": "tick",
+   "volume": 1
   },
   {
-   "t": 9.6,
-   "type": "tick"
+   "t": 9.9,
+   "type": "tick",
+   "volume": 1
   },
   {
-   "t": 10.2,
-   "type": "whoosh"
+   "t": 10.4,
+   "type": "whoosh",
+   "volume": 1
   },
   {
-   "t": 13.0,
+   "t": 12.4,
    "type": "heartbeat",
    "volume": 0.9
   },
   {
-   "t": 14.0,
+   "t": 13.4,
    "type": "heartbeat",
    "volume": 0.9
   },
   {
-   "t": 18.2,
+   "t": 18.5,
    "type": "riser",
-   "volume": 0.7
+   "volume": 0.6
   },
   {
-   "t": 21.6,
+   "t": 21.4,
    "type": "zap",
    "volume": 0.8
   },
   {
-   "t": 24.2,
+   "t": 23.9,
    "type": "boom",
    "volume": 0.6
   },
   {
-   "t": 27.0,
-   "type": "heartbeat"
+   "t": 26.1,
+   "type": "heartbeat",
+   "volume": 1
   },
   {
-   "t": 28.0,
-   "type": "heartbeat"
+   "t": 27.1,
+   "type": "heartbeat",
+   "volume": 1
   },
   {
-   "t": 29.7,
-   "type": "tick"
+   "t": 29.75,
+   "type": "tick",
+   "volume": 1
   },
   {
-   "t": 30.7,
-   "type": "tick"
+   "t": 30.75,
+   "type": "tick",
+   "volume": 1
   },
   {
-   "t": 31.2,
+   "t": 31.3,
    "type": "rewind",
    "volume": 1.1
   },
   {
-   "t": 32.0,
-   "type": "boom"
+   "t": 32.1,
+   "type": "boom",
+   "volume": 1
   },
   {
-   "t": 33.8,
-   "type": "zap"
+   "t": 33.9,
+   "type": "zap",
+   "volume": 1
   },
   {
-   "t": 36.0,
+   "t": 35.6,
    "type": "ring",
    "volume": 0.85
   },
   {
-   "t": 37.6,
+   "t": 37.2,
    "type": "ring",
    "volume": 0.85
   },
   {
-   "t": 39.6,
+   "t": 39.0,
    "type": "riser",
    "volume": 0.6
   },
