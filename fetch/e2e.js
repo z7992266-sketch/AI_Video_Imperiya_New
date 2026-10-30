@@ -1,4 +1,4 @@
-// run 3: record phone-screen videos of our site and the demo menu (prices hidden) for the B2B ad side screen
+// run 4 (site in Russian): record phone-screen videos of our site and the demo menu (prices hidden) for the B2B ad side screen
 const { chromium } = require('playwright'); const fs = require('fs');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function rec(b, name, url, prep, steps) {
@@ -6,7 +6,9 @@ async function rec(b, name, url, prep, steps) {
     recordVideo: { dir: 'fetch/shots/rec_' + name, size: { width: 780, height: 1688 } } });
   const p = await ctx.newPage(); const logs = [];
   p.on('pageerror', e => logs.push('pageerror: ' + e.message));
+  await ctx.addInitScript(() => { try { localStorage.setItem('b2b_lang', 'ru'); } catch (e) {} });
   try { await p.goto(url, { waitUntil: 'load', timeout: 60000 }); } catch (e) { logs.push('goto ' + e.message); }
+  try { await p.click('[data-lang="ru"]', { timeout: 3000 }); } catch (e) { logs.push('no ru btn'); }
   await sleep(prep);
   // hide prices / street address (no prices in ads)
   await p.addStyleTag({ content: '*{scroll-behavior:auto!important}' });
@@ -31,6 +33,6 @@ async function rec(b, name, url, prep, steps) {
 (async () => {
   const b = await chromium.launch();
   const steps = [[420, 600], [520, 650], [480, 600], [560, 650], [500, 600], [520, 650], [480, 600], [-900, 700], [600, 650], [520, 600]];
-    await rec(b, 'menu_scroll', 'https://b2bsasagency.com/menu/?r=smartsistem-demo', 20000, steps.slice(0, 7));
+    await rec(b, 'site_scroll_ru', 'https://b2bsasagency.com/?lang=ru&t=' + Date.now(), 4000, steps);
   await b.close();
 })();
