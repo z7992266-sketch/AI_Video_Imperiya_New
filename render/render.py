@@ -105,6 +105,43 @@ def gen_sfx(cuts, total, hook):
     return p
 
 
+SFX_LIB = {
+    'ring': ("sine=f=440:d=1.6,volume=0.5[a1];sine=f=480:d=1.6,volume=0.5[a2];[a1][a2]amix=inputs=2:normalize=0,"
+             "volume='if(lt(mod(t,0.4),0.2),1,0)':eval=frame,afade=t=out:st=1.3:d=0.3,highpass=f=300,lowpass=f=3400"),
+    'zap': ("anoisesrc=color=white:amplitude=0.9:d=0.35,acrusher=bits=4:mode=log:aa=1,bandpass=f=2500:width_type=o:w=3,"
+            "volume='if(lt(mod(t,0.07),0.035),1.4,0.2)':eval=frame,afade=t=out:st=0.2:d=0.15"),
+    'heartbeat': ("sine=f=55:d=0.9,volume='if(lt(t,0.12),1.8,if(between(t,0.28,0.4),1.4,0))':eval=frame,lowpass=f=150,"
+                  "afade=t=out:st=0.5:d=0.4"),
+    'tick': "sine=f=2400:d=0.05,afade=t=out:st=0:d=0.05,volume=0.8",
+    'boom': ("sine=f=40:d=1.6,volume=2.2,afade=t=out:st=0.1:d=1.5[b1];anoisesrc=color=brown:amplitude=0.9:d=0.5,lowpass=f=200,"
+             "afade=t=out:st=0:d=0.5[b2];[b1][b2]amix=inputs=2:normalize=0"),
+    'rewind': ("anoisesrc=color=pink:amplitude=0.6:d=0.9,bandpass=f=1800:width_type=o:w=2,volume=6,vibrato=f=18:d=0.9,"
+               "afade=t=in:st=0:d=0.2,afade=t=out:st=0.6:d=0.3[r1];sine=f=900:d=0.9,vibrato=f=24:d=1,volume=0.25,"
+               "afade=t=out:st=0.3:d=0.6[r2];[r1][r2]amix=inputs=2:normalize=0"),
+    'whoosh': ("anoisesrc=color=pink:amplitude=0.55:d=0.5,bandpass=f=1400:width_type=o:w=2,volume=9,"
+               "afade=t=in:st=0:d=0.22,afade=t=out:st=0.22:d=0.28"),
+    'riser': ("anoisesrc=color=white:amplitude=0.4:d=2,highpass=f=800,volume='t/2*2.5':eval=frame,afade=t=out:st=1.9:d=0.1"),
+}
+
+
+def gen_events(events, total):
+    """[{"t": 0.0, "type": "ring"|"zap"|"heartbeat"|"tick"|"boom"|"rewind"|"whoosh"|"riser", "volume": 1}] -> wav"""
+    p = os.path.join(WORK, 'events.wav')
+    parts, labels = [], []
+    for i, ev in enumerate(events):
+        f = SFX_LIB.get(ev.get('type'))
+        if not f:
+            continue
+        ms = int(max(0, float(ev.get('t', 0))) * 1000)
+        parts.append('%s,volume=%.2f,aformat=channel_layouts=stereo,adelay=%d|%d[e%d]' % (f, float(ev.get('volume', 1)), ms, ms, i))
+        labels.append('[e%d]' % i)
+    if not labels:
+        return None
+    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000[o]' % (len(labels), total)
+    sh(['ffmpeg', '-y', '-filter_complex', f, '-map', '[o]', '-ac', '2', p])
+    return p
+
+
 def gen_music(kind, dur):
     """Copyright-free generated ambience: dark (drone + wind), tension (pulse), calm (pad)."""
     p = os.path.join(WORK, 'music_%s.wav' % kind)
@@ -145,6 +182,27 @@ def grade_filter(g):
             'vignette=PI/5,unsharp=5:5:0.5')
 
 
+def fx_filter(sc, W, H):
+    """Per-scene effects: flash, glitch, shake, punch (all in the first fraction of a second), grain."""
+    fx = sc.get('fx') or []
+    if isinstance(fx, str):
+        fx = [fx]
+    out = []
+    if 'punch' in fx:
+        out.append("zoompan=z='if(lt(on,6),1.16-0.16*on/6,1)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=%dx%d" % (W, H))
+    if 'shake' in fx:
+        out.append("pad=%d:%d:30:30,crop=%d:%d:x='30+18*sin(t*97)*lt(t,0.45)':y='30+18*cos(t*83)*lt(t,0.45)'" % (W + 60, H + 60, W, H))
+    if 'glitch' in fx:
+        out.append("rgbashift=rh=-14:bh=14:gv=6:enable='lt(mod(t,0.9),0.32)*lt(t,0.9)',noise=alls=45:allf=t:enable='lt(t,0.3)'")
+    if 'glitch_end' in fx:
+        out.append("rgbashift=rh=-16:bh=16:enable='gt(t,%f)'" % (float(sc.get('dur', 3)) - 0.3))
+    if 'flash' in fx:
+        out.append('fade=t=in:st=0:d=0.18:color=white')
+    if 'grain' in fx or sc.get('grain'):
+        out.append('noise=alls=10:allf=t')
+    return (',' + ','.join(out)) if out else ''
+
+
 def scene_clip(i, sc, W, H, FPS, grade, extra):
     """Render one scene to a normalized silent-or-native-audio mp4 of length dur+extra."""
     dur = float(sc.get('dur', 3)) + extra
@@ -173,7 +231,7 @@ def scene_clip(i, sc, W, H, FPS, grade, extra):
                         '[b]scale=%d:%d:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,scale=%d:%d' % (W * 2, H * 2, W * 2, H * 2, W * 2, H * 2, W * 2, H * 2))
             else:
                 base = '[0:v]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d' % (W * 2, H * 2, W * 2, H * 2)
-            vf = (base + ",zoompan=z='%s':x='%s':y='%s':d=%d:s=%dx%d:fps=%d,%s,format=yuv420p[v]" % (zexpr, px, py, frames, W, H, FPS, g))
+            vf = (base + ",zoompan=z='%s':x='%s':y='%s':d=%d:s=%dx%d:fps=%d,%s%s,format=yuv420p[v]" % (zexpr, px, py, frames, W, H, FPS, g, fx_filter(sc, W, H)))
             sh(['ffmpeg', '-y', '-loop', '1', '-i', src, '-filter_complex', vf, '-map', '[v]', '-t', '%.3f' % dur,
                 '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', '-r', str(FPS), '-an', out])
             return out, False
@@ -205,9 +263,9 @@ def scene_clip(i, sc, W, H, FPS, grade, extra):
                   '[b]scale=%d:%d:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,%s,scale=%d:%d,setsar=1,%s,format=yuv420p[v]'
                   % (pts, FPS, W, H, W, H, W, H, 'null', W, H, g))
         else:
-            vf = ('[0:v]%sfps=%d,scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,%s,scale=%d:%d,setsar=1,%s,format=yuv420p[v]'
-                  % (pts, FPS, cw, ch, cw, ch, crop, W, H, g))
-        cmd = ['ffmpeg', '-y', '-ss', '%.3f' % start, '-i', src, '-filter_complex', vf, '-map', '[v]']
+            vf = ('[0:v]%s%sfps=%d,scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,%s,scale=%d:%d,setsar=1,%s%s,format=yuv420p[v]'
+                  % ('reverse,' if sc.get('reverse') else '', pts, FPS, cw, ch, cw, ch, crop, W, H, g, fx_filter(sc, W, H)))
+        cmd = ['ffmpeg', '-y', '-ss', '%.3f' % start] + (['-t', '%.3f' % (dur * speed + 0.2)] if sc.get('reverse') else []) + ['-i', src, '-filter_complex', vf, '-map', '[v]']
         native = bool(sc.get('native_audio')) and has_audio(src)
         if native:
             atempo = 'atempo=%f,' % speed if abs(speed - 1) > 0.02 and 0.5 <= speed <= 2 else ''
@@ -348,6 +406,14 @@ def build_ass(job, W, H, total, word_times):
                 t1 = grp[wi + 1]['t0'] if wi + 1 < len(grp) else g_end
                 pop = '\\fscx88\\fscy88\\t(0,90,\\fscx100\\fscy100)' if wi == 0 else ''
                 L.append('Dialogue: 1,%s,%s,Cap,,0,0,0,,{\\pos(%d,%d)%s}%s' % (ass_time(t0), ass_time(t1), W // 2, cy, pop, ' '.join(parts)))
+    for tx in job.get('texts') or []:
+        st = 'Hook' if tx.get('style', 'hook') == 'hook' else 'Cap'
+        size = int(tx.get('size', 96))
+        colr = hex2ass(tx.get('color', '#FFFFFF'))
+        y = int(H * float(tx.get('pos', 0.3)))
+        anim = '\\fscx60\\fscy60\\t(0,140,\\fscx108\\fscy108)\\t(140,240,\\fscx100\\fscy100)' if tx.get('pop', True) else ''
+        L.append('Dialogue: 2,%s,%s,%s,,0,0,0,,{\\pos(%d,%d)\\fs%d\\c%s%s\\fad(0,180)}%s' % (
+            ass_time(float(tx['t0'])), ass_time(float(tx['t1'])), st, W // 2, y, size, colr, anim, esc(tx['text'])))
     if badge.get('text'):
         end_at = total - (float(ec.get('dur', 3.5)) if ec else 0)
         pos = badge.get('pos', 'top-left')
@@ -427,8 +493,11 @@ def main(job_path, out_path):
     ass = os.path.join(WORK, 'subs.ass')
     open(ass, 'w', encoding='utf-8').write(build_ass(job, W, H, total, word_times))
     fo = float(job.get('fade_out', 0.5))
-    fc.append("%sass='%s':fontsdir='%s',fade=t=in:st=0:d=0.25,fade=t=out:st=%.3f:d=%.3f,format=yuv420p[vout]"
-              % (last, ass.replace(':', '\\:'), FONTS, max(0, total - fo), fo))
+    fi = float(job.get('fade_in', 0 if (job.get('hook') or {}).get('text') else 0.2))
+    fin = 'fade=t=in:st=0:d=%.3f,' % fi if fi > 0 else ''
+    fout = 'fade=t=out:st=%.3f:d=%.3f,' % (max(0, total - fo), fo) if fo > 0 else ''
+    fc.append("%sass='%s':fontsdir='%s',%s%sformat=yuv420p[vout]"
+              % (last, ass.replace(':', '\\:'), FONTS, fin, fout))
 
     # audio
     a_inputs, a_parts, n = [], [], len(segs)
@@ -471,6 +540,27 @@ def main(job_path, out_path):
                 mix.append('[mus]')
         except Exception as e:
             sys.stderr.write('music skipped: %s\n' % e)
+    for vi, xv in enumerate(job.get('voices') or []):
+        try:
+            xp = fetch(xv['src'])
+        except Exception as e:
+            sys.stderr.write('extra voice skipped: %s\n' % e)
+            continue
+        a_inputs += ['-i', xp]
+        ms = int(float(xv.get('start', 0)) * 1000)
+        fxs = {'phone': 'highpass=f=350,lowpass=f=3200,acrusher=bits=10:mix=0.25,aecho=0.8:0.5:60:0.3,',
+               'echo': 'aecho=0.8:0.75:320|640:0.5|0.3,',
+               'whisper': 'highpass=f=150,aecho=0.6:0.6:120:0.25,'}.get(xv.get('fx', ''), '')
+        a_parts.append('[%d:a]aresample=48000,%svolume=%.2f,adelay=%d|%d,apad[xv%d]' % (idx, fxs, float(xv.get('volume', 1.0)), ms, ms, vi))
+        mix.append('[xv%d]' % vi)
+        idx += 1
+    if job.get('sfx_events'):
+        ep = gen_events(job['sfx_events'], total)
+        if ep:
+            a_inputs += ['-i', ep]
+            a_parts.append('[%d:a]aresample=48000,volume=%.2f[evs]' % (idx, float(job.get('sfx_events_volume', 0.9))))
+            mix.append('[evs]')
+            idx += 1
     if job.get('sfx', True) and (vpath or job.get('music')):
         sfx = gen_sfx(cut_times, total, bool((job.get('hook') or {}).get('text')))
         a_inputs += ['-i', sfx]
