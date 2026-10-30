@@ -35,3 +35,16 @@ The user wants top ("1000") quality on every channel. Use this INSTEAD of vidiq_
 - Pre-rendered video (e.g. Taqqos local motion render) + separate narration: one scene with
   `"native_audio": true, "move": "none", "grade": "none"`, top-level `"native_audio": true`, `"voice": {...}`,
   `"captions": {"style": "none"}`, `"transition": "none"`, `"sfx": false`.
+
+## New features (30 Oct 2026)
+- Scene `fx`: list of `punch`, `shake`, `glitch`, `glitch_end`, `flash`, `grain`. Video scenes: `reverse: true`.
+- `voices`: extra voice tracks `[{"src","start","volume","fx": "phone"|"echo"|"whisper"}]`.
+- `sfx_events`: `[{"t","type": ring|zap|heartbeat|tick|boom|rewind|whoosh|riser,"volume"}]` (+ `sfx_events_volume`).
+- `texts`: timed overlays `[{"t0","t1","text","pos","size","color","pop"}]`.
+- `fade_in` (default 0 when a hook exists), `fade_out: 0` for seamless loops; `transition: "none"` = hard cuts.
+- Captions: `captions.words` (exact timing) or `captions.segments` `[{"src","start","script"}]` for multi-voice timing.
+  Best sync: run silencedetect on each voice and give phrase-level `words` timing.
+- Signed URLs (ElevenLabs etc.) expire in ~2 h: copy media into `render/assets/<job>/` and use repo-relative paths.
+- RE-RENDER: a job is skipped while `render/out/<name>.json` exists. Delete that json AND change the job file
+  (e.g. bump `"rev"`) in the same push, otherwise the workflow does not run.
+- Grain makes files big (~110 MB/45 s at crf 18). That is fine for YouTube/Metricool (public release URL works as media).
