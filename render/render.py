@@ -20,6 +20,7 @@ Job JSON (all fields optional except scenes):
   "music": {"src": "https://.../beat.mp3", "volume": 0.22, "duck": true},
   "native_audio": false,                         # keep the scene clips' own sound
   "captions": {"script": "full narration text", "lang": "uz",
+               "segments": [{"src": "voice2.mp3", "start": 24.3, "script": "..."}],  # multi-voice timing
                "words": [{"w": "Salom", "t0": 0.3, "t1": 0.7}],   # optional exact timing
                "style": "karaoke" | "plain" | "none", "pos": 0.66,
                "color": "#FFFFFF", "highlight": "#FFD54F", "size": 84, "max_words": 3},
@@ -486,6 +487,12 @@ def main(job_path, out_path):
     # captions
     cap = job.get('captions') or {}
     word_times = cap.get('words')
+    if not word_times and cap.get('segments'):
+        # several voice files: [{"src": url, "start": sec, "script": "..."}] each aligned on its own audio
+        word_times = []
+        for sg in cap['segments']:
+            sp = fetch(sg['src'])
+            word_times += align_words(sg['script'].split(), speech_spans(sp, float(sg.get('start', 0)), total))
     if not word_times and cap.get('script'):
         words = cap['script'].split()
         spans = speech_spans(vpath, vstart, total) if vpath else [(0.4, total - (float(ec.get('dur', 3.5)) if ec else 0) - 0.3)]
