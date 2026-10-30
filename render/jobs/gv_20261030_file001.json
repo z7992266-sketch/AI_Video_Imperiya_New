@@ -753,5 +753,6 @@
   "bg": "#05030c",
   "accent": "#22D3EE"
  },
- "fade_out": 0
+ "fade_out": 0,
+ "rev": 2
 }
