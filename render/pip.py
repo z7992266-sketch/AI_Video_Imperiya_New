@@ -38,6 +38,9 @@ def main(spec_path, out):
     sh_ = Image.new('RGBA', frame.size, (0, 0, 0, 0))
     ImageDraw.Draw(sh_).rounded_rectangle([pad, pad + 10, pad + fw, pad + fh + 10], R + B, fill=(0, 0, 0, 170))
     frame = Image.alpha_composite(frame, sh_.filter(ImageFilter.GaussianBlur(16)))
+    glow = Image.new('RGBA', frame.size, (0, 0, 0, 0))
+    ImageDraw.Draw(glow).rounded_rectangle([pad - 4, pad - 4, pad + fw + 4, pad + fh + 4], R + B + 4, fill=tuple(int(col[i:i + 2], 16) for i in (1, 3, 5)) + (120,))
+    frame = Image.alpha_composite(frame, glow.filter(ImageFilter.GaussianBlur(14)))
     ImageDraw.Draw(frame).rounded_rectangle([pad, pad, pad + fw, pad + fh], R + B, fill=col)
     ImageDraw.Draw(frame).rounded_rectangle([pad + B, pad + B, pad + B + w, pad + B + h], R, fill=(0, 0, 0, 0))
     fpath = os.path.join(work, 'frame.png'); frame.save(fpath)
@@ -57,11 +60,14 @@ def main(spec_path, out):
     track = os.path.join(work, 'track.mp4')
     sh(['ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', track])
     slide = 0.32
+    side = s.get('from', 'left')
+    off_l = -(fw + 2 * pad)          # frame x when hidden on the left
+    off_r = W + 10                    # frame x when hidden on the right
     # x position: slide in from the left edge, slide out at t1
     xe = "if(lt(t,{a}),{x0}+({x}-{x0})*(t-{t0})/{d},if(gt(t,{b}),{x}+({x0}-{x})*(t-{b})/{d},{x}))".format(
-        a=t0 + slide, b=t1 - slide, t0=t0, d=slide, x=x - B - pad, x0=-(fw + 2 * pad))
+        a=t0 + slide, b=t1 - slide, t0=t0, d=slide, x=x - B - pad, x0=(off_l if side == 'left' else off_r))
     xi = "if(lt(t,{a}),{x0}+({x}-{x0})*(t-{t0})/{d},if(gt(t,{b}),{x}+({x0}-{x})*(t-{b})/{d},{x}))".format(
-        a=t0 + slide, b=t1 - slide, t0=t0, d=slide, x=x, x0=-(fw + 2 * pad) + B + pad)
+        a=t0 + slide, b=t1 - slide, t0=t0, d=slide, x=x, x0=(off_l if side == 'left' else off_r) + B + pad)
     en = "between(t,%.3f,%.3f)" % (t0, t1)
     fc = ('[0:v]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,fps=%d,setsar=1[base];'
           '[2:v][3:v]alphamerge,setpts=PTS+%.3f/TB[clip];'

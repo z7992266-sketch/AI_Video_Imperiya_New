@@ -121,6 +121,10 @@ SFX_LIB = {
                "afade=t=out:st=0.3:d=0.6[r2];[r1][r2]amix=inputs=2:normalize=0"),
     'whoosh': ("anoisesrc=color=pink:amplitude=0.55:d=0.5,bandpass=f=1400:width_type=o:w=2,volume=9,"
                "afade=t=in:st=0:d=0.22,afade=t=out:st=0.22:d=0.28"),
+    'ding': ("sine=f=1318:d=0.9,volume='0.7*exp(-5*t)':eval=frame[d1];sine=f=1976:d=0.9,volume='0.35*exp(-7*t)':eval=frame[d2];"
+             "[d1][d2]amix=inputs=2:normalize=0"),
+    'pop': "sine=f=600:d=0.12,vibrato=f=40:d=0.3,volume='1.2*exp(-25*t)':eval=frame,highpass=f=300",
+    'click': "anoisesrc=color=white:amplitude=0.8:d=0.04,highpass=f=2500,volume='2*exp(-90*t)':eval=frame",
     'riser': ("anoisesrc=color=white:amplitude=0.4:d=2,highpass=f=800,volume='t/2*2.5':eval=frame,afade=t=out:st=1.9:d=0.1"),
 }
 
