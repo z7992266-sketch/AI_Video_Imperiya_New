@@ -1,0 +1,22 @@
+name: Telegram outbox relay
+# Push a NEW JSON file into tg/ on branch tg-outbox:
+#   {"chat_id":"-1004456004836","kind":"message|video|photo","text":"<b>..</b>","file_url":"https://...mp4","caption":"..."}
+# Each new file is POSTed to the n8n relay (only 5 allow-listed chats are accepted there).
+on:
+  push:
+    branches: [tg-outbox]
+    paths: ['tg/*.json']
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Send new messages
+        run: |
+          base=$(git rev-parse HEAD~1 2>/dev/null || git hash-object -t tree /dev/null)
+          for f in $(git diff --name-only --diff-filter=A "$base" HEAD -- 'tg/*.json'); do
+            echo "send $f"
+            curl -sS -m 60 -X POST -H 'Content-Type: application/json' --data-binary "@$f" https://mia-z7.app.n8n.cloud/webhook/z7-telegram-send; echo
+            sleep 2
+          done
