@@ -1,2 +1,0 @@
-admin2 https://b2bsasagency.com/app/admin/index.html
-admin3 https://b2bsasagency.com/app/admin/?r=smartsistem-demo
