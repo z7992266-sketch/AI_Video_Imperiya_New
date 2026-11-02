@@ -1,0 +1,18 @@
+{
+ "id": "ev004",
+ "title": "Forest Rain Ambience for Study & Focus",
+ "subtitle": "1 Hour · Calm Music · Exclusive Vibe",
+ "thumb_big": "Forest Rain",
+ "thumb_small": "1 Hour Study Music",
+ "minutes": 60,
+ "mood": "rain",
+ "seed": 128,
+ "queries": [
+  "forest",
+  "rain forest",
+  "green leaves"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
