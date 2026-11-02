@@ -440,6 +440,9 @@ def build_ass(job, W, H, total, word_times):
         end_at = total - (float(ec.get('dur', 3.5)) if ec else 0)
         pos = badge.get('pos', 'top-left')
         x, y, an = (44, 150, 7) if pos == 'top-left' else (W - 44, 150, 9)
+        if badge.get('until') is not None:  # optional: hide the badge before a scene-based end card
+            end_at = float(badge['until'])
+        y = int(badge.get('y', y))
         L.append('Dialogue: 3,%s,%s,Badge,,0,0,0,,{\\an%d\\pos(%d,%d)\\fad(300,200)}%s' % (ass_time(0.3), ass_time(end_at), an, x, y, esc(badge['text'])))
     if ec and not ec.get('image'):
         t0 = total - float(ec.get('dur', 3.5))
