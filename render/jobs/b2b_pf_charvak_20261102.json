@@ -1,0 +1,37 @@
+{
+ "name": "b2b_pf_charvak_20261102",
+ "grade": "none",
+ "transition": "none",
+ "native_audio": true,
+ "sfx": false,
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "crf": 19,
+ "preset": "slow",
+ "captions": {
+  "style": "none"
+ },
+ "scenes": [
+  {
+   "src": "https://storage.googleapis.com/vidiq-user-videos/021e8751-cd9c-4e59-902b-38d3b535470f/039704b3-cbcd-41f6-984f-3cd367530112.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794197686&Signature=Ydk2%2B3ATEG7GZEKgWyETsO64yFQUjdfD%2BG2zqJ1AFXn9j%2B9QzTMgGvQAnCYYULKfoRm2XeTks9lfxxM3OCoPI0ClwP1sJsS5FzKp4iTfscQiBZvciXCEO5hLLihHuYgaL10jJa4C7r%2FSUaedh79PMEaEvjtX6OrNlo3Y23cj2JAX%2By0ZuAoUaIPGYGaxy3cq5iF2MaNqSF5G1hMFGSp6IcbNDlBGeW1Gbrn%2FZjJu84WFpP25x%2B%2BXjDJ5x5qngD4yToHb9poxSqmmi6elNUewz1C8WqC69cnb5uVyk45fQohww6Msov7U9vD1vfrurv%2Bx%2FqMKEXEUhS%2BI%2FDamdcwPTw%3D%3D",
+   "type": "video",
+   "dur": 55.2,
+   "start": 0,
+   "move": "none",
+   "native_audio": true
+  },
+  {
+   "src": "render/assets/b2b/ec_pf_20261102.mp4",
+   "type": "video",
+   "dur": 4.0,
+   "start": 0,
+   "move": "none",
+   "native_audio": true
+  }
+ ],
+ "badge": {
+  "text": "Made by B2B SAS",
+  "color": "#D4AF37",
+  "pos": "top-left"
+ }
+}
