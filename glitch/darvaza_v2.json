@@ -1,0 +1,155 @@
+{
+ "title": "Everyone Says This Fire Started in 1971. Satellites Disagree.",
+ "title_alts": [
+  "The Hole That's Been Burning for Decades — and Nobody Knows Why",
+  "The 'Door to Hell' Is Going Dark. That Might Be Worse."
+ ],
+ "segments": [
+  {
+   "id": "s01",
+   "chapter": "Cold open",
+   "vis": "crater_night",
+   "text": "In the middle of one of the emptiest deserts on Earth, there is a hole in the ground that has been on fire for decades. It's about seventy meters wide, thirty meters deep, and at night you can see its glow from kilometers away. People call it the Door to Hell."
+  },
+  {
+   "id": "s02",
+   "chapter": "Cold open",
+   "vis": "crater_rim",
+   "text": "Almost every article will tell you the same thing: it was lit by Soviet engineers in 1971. But when scientists finally checked the satellite record, the story stopped adding up. And now that the flames are fading, the real problem turns out to be something you can't see at all."
+  },
+  {
+   "id": "s03",
+   "chapter": "Where is this?",
+   "vis": "map_zoom",
+   "text": "This is Turkmenistan, in Central Asia. Most of the country is covered by the Karakum, the Black Sand desert. About two hundred and sixty kilometers north of the capital, Ashgabat, near a village called Darvaza, the sand suddenly opens."
+  },
+  {
+   "id": "s04",
+   "chapter": "Where is this?",
+   "vis": "map_pin",
+   "text": "Officially, the crater has a poetic name: the Shining of Karakum. Many others call it the Gates of Hell. And underneath it sits the reason this country matters: natural gas. Turkmenistan holds some of the largest gas reserves on the planet. So how did a gas field turn into a fire that wouldn't go out?"
+  },
+  {
+   "id": "s05",
+   "chapter": "The story everyone tells",
+   "vis": "recreate_rig",
+   "text": "The version you'll find almost everywhere goes like this. In 1971, Soviet engineers were drilling here. Their rig hit a cavern full of natural gas. The ground gave way, and the equipment fell into the collapse."
+  },
+  {
+   "id": "s06",
+   "chapter": "The story everyone tells",
+   "vis": "recreate_fire",
+   "text": "Now they had a giant hole leaking gas into the air, gas that can harm people and animals nearby. So, the story goes, they made a simple decision: set it on fire, burn the gas off, and wait a few weeks. It's a perfect story. Maybe too perfect."
+  },
+  {
+   "id": "s07",
+   "chapter": "The glitch in the story",
+   "vis": "dates_glitch",
+   "text": "In 2013, explorer George Kourounis prepared to climb into the crater, and he asked local Turkmen geologists what really happened. Their answer was different. According to them, the crater collapsed in the 1960s, and it was only set on fire in the 1980s."
+  },
+  {
+   "id": "s08",
+   "chapter": "The glitch in the story",
+   "vis": "archive_missing",
+   "text": "Nobody could prove either version. The original Soviet records are missing, classified, or simply inaccessible. Even Kourounis admitted: I don't know exactly what happened."
+  },
+  {
+   "id": "s09",
+   "chapter": "The glitch in the story",
+   "vis": "landsat",
+   "text": "Then, recently, a team of researchers did something clever. They went back through decades of Landsat satellite images, and looked for the first sign of fire. The glow appears between late 1987 and early 1988. Not 1971. The famous story was off by almost seventeen years."
+  },
+  {
+   "id": "s10",
+   "chapter": "The man who went inside",
+   "vis": "descent",
+   "text": "Back to 2013. After about a year and a half of preparation, Kourounis became the first person known to set foot on the bottom of the crater. He wore a heat-reflective suit, carried his own air supply, and hung from heat-resistant ropes."
+  },
+  {
+   "id": "s11",
+   "chapter": "The man who went inside",
+   "vis": "fire_floor",
+   "text": "He described the sound as a jet engine, a roaring, high-pressure, gas-burning sound. And the view, as a coliseum of fire, with thousands of small flames everywhere you look. But he wasn't there for the view. He was there to collect soil."
+  },
+  {
+   "id": "s12",
+   "chapter": "The man who went inside",
+   "vis": "microbes",
+   "text": "In that soil, scientists found something unexpected: bacteria, living at the bottom of a burning pit. Bacteria that weren't found in the soil around the crater. Life, in a place that looks like it shouldn't have any."
+  },
+  {
+   "id": "s12b",
+   "chapter": "Can you go there?",
+   "vis": "tourism",
+   "text": "Here's something most people don't expect: you can actually visit. In 2013 the area was declared a nature reserve, and travelers drive for hours across the desert on a rough track to camp in yurts near the rim. There are no railings and no ticket booth. Just sand, wind, and the sound of the fire."
+  },
+  {
+   "id": "s12c",
+   "chapter": "Can you go there?",
+   "vis": "tourism_night",
+   "text": "Visitors describe a strange feeling at the edge: a wave of heat on your face, while your back is cold in the desert night. The best time to see it is after sunset, when the glow lights up the smoke above the pit."
+  },
+  {
+   "id": "s13",
+   "chapter": "Put it out",
+   "vis": "timeline_orders",
+   "text": "For decades the fire was a strange local landmark. Then it became a national problem. In 2010, Turkmenistan's president called for measures to limit the crater's impact on nearby gas fields. In January 2022, he went further, and ordered experts to find a way to extinguish it, citing people's health, the environment, and valuable gas simply burning away."
+  },
+  {
+   "id": "s14",
+   "chapter": "It's working, and that's the problem",
+   "vis": "wells",
+   "text": "In June 2025, specialists from the state gas company said the fire had been reduced about three times. They had drilled wells nearby to pull gas away before it reaches the crater. Satellite data agree: the flames have been getting weaker."
+  },
+  {
+   "id": "s15",
+   "chapter": "It's working, and that's the problem",
+   "vis": "methane_graph",
+   "text": "So the Door to Hell is closing. Good news, right? Here's the twist. That same satellite study used five different hyperspectral satellites, and it found methane escaping from the crater, roughly one to three tonnes every hour, between 2020 and 2025. And while the flames got weaker, the methane showed no clear decline."
+  },
+  {
+   "id": "s16",
+   "chapter": "It's working, and that's the problem",
+   "vis": "co2_vs_ch4",
+   "text": "That matters, because fire turns methane into carbon dioxide. Both warm the planet, but methane is far stronger: around eighty times more powerful than carbon dioxide over twenty years. So if the gas is captured and used, a darker crater is a win. If it simply leaks out unburned, a darker crater could be worse."
+  },
+  {
+   "id": "s16b",
+   "chapter": "Other doors to hell",
+   "vis": "world_map",
+   "text": "And Darvaza isn't the only place on Earth where the ground has been burning for decades. In the town of Centralia, Pennsylvania, a coal mine fire started in 1962, and it is still burning underground. Almost the entire town was abandoned, and smoke still rises from cracks in the ground."
+  },
+  {
+   "id": "s16c",
+   "chapter": "Other doors to hell",
+   "vis": "world_map2",
+   "text": "Near Baku, in Azerbaijan, a hillside called Yanar Dag, the burning mountain, has natural gas flames dancing along the rock. Near Kirkuk in Iraq, the eternal fire of Baba Gurgur is said to have burned for thousands of years. And on the coast of Turkey, the flames of the Chimaera have been escaping from the mountain rocks for thousands of years. Ancient sailors are said to have used them like a lighthouse."
+  },
+  {
+   "id": "s16d",
+   "chapter": "Other doors to hell",
+   "vis": "world_map3",
+   "text": "What makes Darvaza different is the mix of everything: a giant open pit, a missing history, a satellite record that rewrote the story, and a fire that might be doing the planet a favor by burning."
+  },
+  {
+   "id": "s17",
+   "chapter": "Ending",
+   "vis": "pullout",
+   "text": "For almost forty years, this hole has been a glitch in the desert: a fire nobody can fully explain, a history nobody wrote down, and life where life shouldn't exist. Soon, the light may go out completely. So here's my question for you: should the Door to Hell be put out for good, or kept burning as a monument? Tell me in the comments."
+  },
+  {
+   "id": "s18",
+   "chapter": "Ending",
+   "vis": "endcard",
+   "text": "This was GLITCHVERSE. Real places. Real glitches."
+  }
+ ],
+ "sources": [
+  "Valverde et al. (2026), Satellite-Based Assessment of Methane Emissions From the Darvaza Gas Crater, Geophysical Research Letters, doi:10.1029/2025GL120321 (summary: Spectroscopy Online)",
+  "National Geographic (2014): George Kourounis expedition, quotes, bacteria, local geologists' account",
+  "New Atlas (8 Jun 2025): Turkmengaz — fire reduced threefold, new wells",
+  "Wikipedia: Darvaza gas crater (size, location, 2010/2022 orders)",
+  "IPCC AR6 WG1 Ch.7 Table 7.15: methane GWP-20 ≈ 81",
+  "Centralia mine fire (since 1962), Yanar Dag (Azerbaijan), Baba Gurgur (Kirkuk), Chimaera/Yanartaş (Turkey): Britannica / Wikipedia overviews"
+ ]
+}
