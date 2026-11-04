@@ -1,0 +1,18 @@
+{
+ "id": "ev005",
+ "title": "Night City Rain — Calm Music to Relax",
+ "subtitle": "1 Hour · Chill Ambience · Exclusive Vibe",
+ "thumb_big": "Night City Rain",
+ "thumb_small": "1 Hour Chill Music",
+ "minutes": 60,
+ "mood": "rain",
+ "seed": 135,
+ "queries": [
+  "city night",
+  "rainy night",
+  "street lights"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
