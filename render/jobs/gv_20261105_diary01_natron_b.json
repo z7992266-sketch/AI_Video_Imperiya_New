@@ -1,0 +1,954 @@
+{
+ "name": "gv_20261105_diary01_natron_b",
+ "rev": "2",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "scenes": [
+  {
+   "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/5000/5465/natron_ast_2003067_lrg.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/6942996/pexels-photo-6942996.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.8,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8414345/pexels-photo-8414345.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/5000/5465/natron_ast_2003067_lrg.jpg",
+   "type": "image",
+   "dur": 2.0,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/8414049/pexels-photo-8414049.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8414032/pexels-photo-8414032.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.6,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/9354645/",
+   "type": "video",
+   "dur": 2.4,
+   "move": "in",
+   "start": 1.0,
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://www.pexels.com/download/video/855241/",
+   "type": "video",
+   "dur": 2.8,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://images.pexels.com/photos/6943644/pexels-photo-6943644.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/6942996/pexels-photo-6942996.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8414345/pexels-photo-8414345.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8414049/pexels-photo-8414049.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.7,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/31661787/pexels-photo-31661787.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.7,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/10327692/pexels-photo-10327692.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.7,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/5273091/pexels-photo-5273091.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/27500689/",
+   "type": "video",
+   "dur": 2.1,
+   "move": "none",
+   "start": 1.0,
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://www.pexels.com/download/video/11598499/",
+   "type": "video",
+   "dur": 1.4,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://www.pexels.com/download/video/11025492/",
+   "type": "video",
+   "dur": 1.8,
+   "move": "none",
+   "start": 1.0,
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "src": "https://www.pexels.com/download/video/11727390/",
+   "type": "video",
+   "dur": 2.0,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://www.pexels.com/download/video/5903751/",
+   "type": "video",
+   "dur": 2.0,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://www.pexels.com/download/video/10981149/",
+   "type": "video",
+   "dur": 2.4,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://images.pexels.com/photos/13383652/pexels-photo-13383652.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://www.pexels.com/download/video/38653997/",
+   "type": "video",
+   "dur": 1.4,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://www.pexels.com/download/video/25972470/",
+   "type": "video",
+   "dur": 2.0,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://images.pexels.com/photos/6943644/pexels-photo-6943644.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/29897953/",
+   "type": "video",
+   "dur": 2.9,
+   "move": "none",
+   "start": 1.0
+  },
+  {
+   "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/5000/5465/natron_ast_2003067_lrg.jpg",
+   "type": "image",
+   "dur": 1.9,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  }
+ ],
+ "hook": {
+  "text": "THIS LAKE BURNS SKIN",
+  "dur": 2.8,
+  "color": "#FFFFFF",
+  "pos": 0.24
+ },
+ "voice": {
+  "src": "https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/r8Cms8QX1smkNBLuiiGp/hVEDWpxdYd0wmQnDmmwA/content.mp3?Expires=1793876400&KeyName=assets-cdn-key-1&Signature=NI-6e5aZMPM3-e0lMZrMe1Bvzk8=",
+  "start": 0,
+  "volume": 1.0
+ },
+ "music": {
+  "gen": "dark",
+  "volume": 0.22,
+  "duck": true
+ },
+ "captions": {
+  "script": "This lake burns skin, and it mummifies the dead. Glitch Diary, entry one. Today I found Lake Natron, in northern Tanzania. Blood red, and only half a meter deep. The water can reach sixty degrees Celsius. Almost as caustic as ammonia. But that's not the strange part. The red isn't blood. It's salt-loving microbes, thriving where little else can. Animals that die on these shores don't rot. They become calcified mummies. And the real glitch? I haven't told you yet. Most of East Africa's lesser flamingos hatch right here. The caustic water is their shield. Predators stay away. A death trap... that works as a nursery. Would you touch this water? Comment below. Follow for the next entry of my glitch diary. Because this lake...",
+  "words": [
+   {
+    "w": "This",
+    "t0": 0,
+    "t1": 0.16
+   },
+   {
+    "w": "lake",
+    "t0": 0.208,
+    "t1": 0.4
+   },
+   {
+    "w": "burns",
+    "t0": 0.453,
+    "t1": 0.72
+   },
+   {
+    "w": "skin,",
+    "t0": 0.816,
+    "t1": 1.68
+   },
+   {
+    "w": "and",
+    "t0": 1.7,
+    "t1": 1.76
+   },
+   {
+    "w": "it",
+    "t0": 1.787,
+    "t1": 1.84
+   },
+   {
+    "w": "mummifies",
+    "t0": 1.88,
+    "t1": 2.4
+   },
+   {
+    "w": "the",
+    "t0": 2.42,
+    "t1": 2.48
+   },
+   {
+    "w": "dead.",
+    "t0": 2.56,
+    "t1": 2.96
+   },
+   {
+    "w": "Glitch",
+    "t0": 3.89,
+    "t1": 4.48
+   },
+   {
+    "w": "Diary,",
+    "t0": 4.56,
+    "t1": 5.2
+   },
+   {
+    "w": "entry",
+    "t0": 5.253,
+    "t1": 5.52
+   },
+   {
+    "w": "one.",
+    "t0": 5.6,
+    "t1": 5.92
+   },
+   {
+    "w": "Today",
+    "t0": 6.765,
+    "t1": 7.28
+   },
+   {
+    "w": "I",
+    "t0": 7.32,
+    "t1": 7.36
+   },
+   {
+    "w": "found",
+    "t0": 7.4,
+    "t1": 7.6
+   },
+   {
+    "w": "Lake",
+    "t0": 7.648,
+    "t1": 7.84
+   },
+   {
+    "w": "Natron,",
+    "t0": 7.9,
+    "t1": 8.72
+   },
+   {
+    "w": "in",
+    "t0": 8.773,
+    "t1": 8.88
+   },
+   {
+    "w": "northern",
+    "t0": 8.916,
+    "t1": 9.2
+   },
+   {
+    "w": "Tanzania.",
+    "t0": 9.271,
+    "t1": 9.92
+   },
+   {
+    "w": "Blood",
+    "t0": 10.685,
+    "t1": 11.2
+   },
+   {
+    "w": "red,",
+    "t0": 11.28,
+    "t1": 11.92
+   },
+   {
+    "w": "and",
+    "t0": 11.96,
+    "t1": 12.08
+   },
+   {
+    "w": "only",
+    "t0": 12.112,
+    "t1": 12.24
+   },
+   {
+    "w": "half",
+    "t0": 12.304,
+    "t1": 12.56
+   },
+   {
+    "w": "a",
+    "t0": 12.64,
+    "t1": 12.72
+   },
+   {
+    "w": "meter",
+    "t0": 12.747,
+    "t1": 12.88
+   },
+   {
+    "w": "deep.",
+    "t0": 12.944,
+    "t1": 13.28
+   },
+   {
+    "w": "The",
+    "t0": 13.955,
+    "t1": 14.32
+   },
+   {
+    "w": "water",
+    "t0": 14.36,
+    "t1": 14.56
+   },
+   {
+    "w": "can",
+    "t0": 14.6,
+    "t1": 14.72
+   },
+   {
+    "w": "reach",
+    "t0": 14.76,
+    "t1": 14.96
+   },
+   {
+    "w": "sixty",
+    "t0": 15.013,
+    "t1": 15.28
+   },
+   {
+    "w": "degrees",
+    "t0": 15.33,
+    "t1": 15.68
+   },
+   {
+    "w": "Celsius.",
+    "t0": 15.76,
+    "t1": 16.48
+   },
+   {
+    "w": "Almost",
+    "t0": 16.93,
+    "t1": 17.52
+   },
+   {
+    "w": "as",
+    "t0": 17.547,
+    "t1": 17.6
+   },
+   {
+    "w": "caustic",
+    "t0": 17.68,
+    "t1": 18.08
+   },
+   {
+    "w": "as",
+    "t0": 18.107,
+    "t1": 18.16
+   },
+   {
+    "w": "ammonia.",
+    "t0": 18.23,
+    "t1": 19.32
+   },
+   {
+    "w": "But",
+    "t0": 19.47,
+    "t1": 19.92
+   },
+   {
+    "w": "that's",
+    "t0": 19.952,
+    "t1": 20.16
+   },
+   {
+    "w": "not",
+    "t0": 20.2,
+    "t1": 20.32
+   },
+   {
+    "w": "the",
+    "t0": 20.34,
+    "t1": 20.4
+   },
+   {
+    "w": "strange",
+    "t0": 20.45,
+    "t1": 20.8
+   },
+   {
+    "w": "part.",
+    "t0": 20.864,
+    "t1": 21.2
+   },
+   {
+    "w": "The",
+    "t0": 21.955,
+    "t1": 22.32
+   },
+   {
+    "w": "red",
+    "t0": 22.38,
+    "t1": 22.56
+   },
+   {
+    "w": "isn't",
+    "t0": 22.6,
+    "t1": 22.8
+   },
+   {
+    "w": "blood.",
+    "t0": 22.867,
+    "t1": 23.68
+   },
+   {
+    "w": "It's",
+    "t0": 23.84,
+    "t1": 24.24
+   },
+   {
+    "w": "salt-loving",
+    "t0": 24.288,
+    "t1": 24.8
+   },
+   {
+    "w": "microbes,",
+    "t0": 24.871,
+    "t1": 25.92
+   },
+   {
+    "w": "thriving",
+    "t0": 25.973,
+    "t1": 26.4
+   },
+   {
+    "w": "where",
+    "t0": 26.427,
+    "t1": 26.56
+   },
+   {
+    "w": "little",
+    "t0": 26.594,
+    "t1": 26.8
+   },
+   {
+    "w": "else",
+    "t0": 26.848,
+    "t1": 27.04
+   },
+   {
+    "w": "can.",
+    "t0": 27.14,
+    "t1": 27.52
+   },
+   {
+    "w": "Animals",
+    "t0": 28.455,
+    "t1": 29.12
+   },
+   {
+    "w": "that",
+    "t0": 29.152,
+    "t1": 29.28
+   },
+   {
+    "w": "die",
+    "t0": 29.34,
+    "t1": 29.52
+   },
+   {
+    "w": "on",
+    "t0": 29.547,
+    "t1": 29.6
+   },
+   {
+    "w": "these",
+    "t0": 29.64,
+    "t1": 29.84
+   },
+   {
+    "w": "shores",
+    "t0": 29.897,
+    "t1": 30.24
+   },
+   {
+    "w": "don't",
+    "t0": 30.26,
+    "t1": 30.4
+   },
+   {
+    "w": "rot.",
+    "t0": 30.5,
+    "t1": 30.96
+   },
+   {
+    "w": "They",
+    "t0": 31.104,
+    "t1": 31.68
+   },
+   {
+    "w": "become",
+    "t0": 31.726,
+    "t1": 32
+   },
+   {
+    "w": "calcified",
+    "t0": 32.064,
+    "t1": 32.56
+   },
+   {
+    "w": "mummies.",
+    "t0": 32.64,
+    "t1": 33.58
+   },
+   {
+    "w": "And",
+    "t0": 33.9,
+    "t1": 34.32
+   },
+   {
+    "w": "the",
+    "t0": 34.34,
+    "t1": 34.4
+   },
+   {
+    "w": "real",
+    "t0": 34.448,
+    "t1": 34.64
+   },
+   {
+    "w": "glitch?",
+    "t0": 34.697,
+    "t1": 35.12
+   },
+   {
+    "w": "I",
+    "t0": 35.56,
+    "t1": 36
+   },
+   {
+    "w": "haven't",
+    "t0": 36.027,
+    "t1": 36.24
+   },
+   {
+    "w": "told",
+    "t0": 36.288,
+    "t1": 36.48
+   },
+   {
+    "w": "you",
+    "t0": 36.5,
+    "t1": 36.56
+   },
+   {
+    "w": "yet.",
+    "t0": 36.64,
+    "t1": 36.96
+   },
+   {
+    "w": "Most",
+    "t0": 37.8,
+    "t1": 38.24
+   },
+   {
+    "w": "of",
+    "t0": 38.293,
+    "t1": 38.4
+   },
+   {
+    "w": "East",
+    "t0": 38.432,
+    "t1": 38.56
+   },
+   {
+    "w": "Africa's",
+    "t0": 38.617,
+    "t1": 39.04
+   },
+   {
+    "w": "lesser",
+    "t0": 39.086,
+    "t1": 39.36
+   },
+   {
+    "w": "flamingos",
+    "t0": 39.41,
+    "t1": 39.92
+   },
+   {
+    "w": "hatch",
+    "t0": 39.973,
+    "t1": 40.24
+   },
+   {
+    "w": "right",
+    "t0": 40.28,
+    "t1": 40.48
+   },
+   {
+    "w": "here.",
+    "t0": 40.544,
+    "t1": 40.88
+   },
+   {
+    "w": "The",
+    "t0": 41.715,
+    "t1": 42.08
+   },
+   {
+    "w": "caustic",
+    "t0": 42.107,
+    "t1": 42.48
+   },
+   {
+    "w": "water",
+    "t0": 42.52,
+    "t1": 42.72
+   },
+   {
+    "w": "is",
+    "t0": 42.773,
+    "t1": 42.88
+   },
+   {
+    "w": "their",
+    "t0": 42.92,
+    "t1": 43.12
+   },
+   {
+    "w": "shield.",
+    "t0": 43.177,
+    "t1": 44.04
+   },
+   {
+    "w": "Predators",
+    "t0": 44.144,
+    "t1": 44.8
+   },
+   {
+    "w": "stay",
+    "t0": 44.848,
+    "t1": 45.04
+   },
+   {
+    "w": "away.",
+    "t0": 45.12,
+    "t1": 45.52
+   },
+   {
+    "w": "A",
+    "t0": 46.265,
+    "t1": 46.48
+   },
+   {
+    "w": "death",
+    "t0": 46.52,
+    "t1": 46.72
+   },
+   {
+    "w": "trap...",
+    "t0": 46.8,
+    "t1": 47.665
+   },
+   {
+    "w": "that",
+    "t0": 47.936,
+    "t1": 48
+   },
+   {
+    "w": "works",
+    "t0": 48.053,
+    "t1": 48.32
+   },
+   {
+    "w": "as",
+    "t0": 48.347,
+    "t1": 48.4
+   },
+   {
+    "w": "a",
+    "t0": 48.44,
+    "t1": 48.48
+   },
+   {
+    "w": "nursery.",
+    "t0": 48.54,
+    "t1": 49.12
+   },
+   {
+    "w": "Would",
+    "t0": 49.805,
+    "t1": 50.32
+   },
+   {
+    "w": "you",
+    "t0": 50.36,
+    "t1": 50.48
+   },
+   {
+    "w": "touch",
+    "t0": 50.507,
+    "t1": 50.64
+   },
+   {
+    "w": "this",
+    "t0": 50.688,
+    "t1": 50.88
+   },
+   {
+    "w": "water?",
+    "t0": 50.933,
+    "t1": 51.28
+   },
+   {
+    "w": "Comment",
+    "t0": 51.735,
+    "t1": 52.4
+   },
+   {
+    "w": "below.",
+    "t0": 52.48,
+    "t1": 52.96
+   },
+   {
+    "w": "Follow",
+    "t0": 53.65,
+    "t1": 54.24
+   },
+   {
+    "w": "for",
+    "t0": 54.28,
+    "t1": 54.4
+   },
+   {
+    "w": "the",
+    "t0": 54.42,
+    "t1": 54.48
+   },
+   {
+    "w": "next",
+    "t0": 54.544,
+    "t1": 54.8
+   },
+   {
+    "w": "entry",
+    "t0": 54.84,
+    "t1": 55.04
+   },
+   {
+    "w": "of",
+    "t0": 55.093,
+    "t1": 55.2
+   },
+   {
+    "w": "my",
+    "t0": 55.227,
+    "t1": 55.28
+   },
+   {
+    "w": "glitch",
+    "t0": 55.326,
+    "t1": 55.6
+   },
+   {
+    "w": "diary.",
+    "t0": 55.68,
+    "t1": 56.16
+   },
+   {
+    "w": "Because",
+    "t0": 56.615,
+    "t1": 57.28
+   },
+   {
+    "w": "this",
+    "t0": 57.328,
+    "t1": 57.52
+   },
+   {
+    "w": "lake...",
+    "t0": 57.6,
+    "t1": 58
+   }
+  ],
+  "style": "karaoke",
+  "pos": 0.66,
+  "size": 84,
+  "max_words": 3,
+  "highlight": "#FFD54F"
+ },
+ "texts": [
+  {
+   "t0": 3.3,
+   "t1": 5.9,
+   "text": "GLITCH DIARY #1",
+   "pos": 0.2,
+   "size": 84,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 7.7,
+   "t1": 10.0,
+   "text": "LAKE NATRON, TANZANIA",
+   "pos": 0.2,
+   "size": 76,
+   "color": "#FFFFFF"
+  },
+  {
+   "t0": 15.0,
+   "t1": 16.5,
+   "text": "60\u00b0C",
+   "pos": 0.25,
+   "size": 150,
+   "color": "#FF5A3C"
+  },
+  {
+   "t0": 53.3,
+   "t1": 56.2,
+   "text": "ENTRY #2 COMING",
+   "pos": 0.2,
+   "size": 84,
+   "color": "#FFD54F"
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 0,
+   "type": "boom"
+  },
+  {
+   "t": 0.02,
+   "type": "zap",
+   "volume": 0.7
+  },
+  {
+   "t": 19.4,
+   "type": "zap"
+  },
+  {
+   "t": 19.45,
+   "type": "whoosh"
+  },
+  {
+   "t": 33.9,
+   "type": "zap"
+  },
+  {
+   "t": 34.0,
+   "type": "riser",
+   "volume": 0.5
+  },
+  {
+   "t": 37.2,
+   "type": "boom"
+  },
+  {
+   "t": 57.9,
+   "type": "zap",
+   "volume": 0.6
+  }
+ ],
+ "sfx_events_volume": 0.9,
+ "sfx_volume": 0.35,
+ "fade_in": 0,
+ "fade_out": 0
+}

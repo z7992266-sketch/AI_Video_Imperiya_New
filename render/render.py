@@ -503,7 +503,7 @@ def main(job_path, out_path):
         if TD > 0:
             fc.append('%s[%d:v]xfade=transition=%s:duration=%.3f:offset=%.3f[x%d]' % (last, k, tr, TD, offset, k))
         else:
-            fc.append('%s[%d:v]concat=n=2:v=1:a=0[x%d]' % (last, k, k))
+            fc.append('%ssetsar=1[l%d];[%d:v]setsar=1[r%d];[l%d][r%d]concat=n=2:v=1:a=0[x%d]' % (last, k, k, k, k, k, k))
         last = '[x%d]' % k
         cut_times.append(offset if TD > 0 else total)
         total = offset + segs[k][1] if TD > 0 else total + segs[k][1]
