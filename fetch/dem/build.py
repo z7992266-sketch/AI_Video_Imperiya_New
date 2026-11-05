@@ -6,14 +6,24 @@ from rasterio.enums import Resampling
 OUT = "fetch/out/ouj"
 os.makedirs(OUT, exist_ok=True)
 
-ETOPO = "https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/60s/60s_surface_elev_gtif/ETOPO_2022_v1_60s_N90W180_surface.tif"
+ETOPO_URLS = [
+    "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_surface_elev_gtif/ETOPO_2022_v1_60s_N90W180_surface.tif",
+    "https://ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_surface_elev_gtif/ETOPO_2022_v1_60s_N90W180_surface.tif",
+    "https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/60s/60s_surface_elev_netcdf/ETOPO_2022_v1_60s_N90W180_surface.nc",
+]
 def get(url, path):
     if not os.path.exists(path):
         print("GET", url, flush=True)
         urllib.request.urlretrieve(url, path)
     return path
 
-etopo = get(ETOPO, "/tmp/etopo60.tif")
+etopo = None
+for u in ETOPO_URLS:
+    try:
+        etopo = get(u, "/tmp/etopo60" + u[-4:]); break
+    except Exception as e:
+        print("fail", u, e, flush=True)
+assert etopo, "no ETOPO source worked"
 with rasterio.open(etopo) as src:
     print(src.width, src.height, src.transform, flush=True)
     # global grid 0.1 deg (3600 x 1800)
