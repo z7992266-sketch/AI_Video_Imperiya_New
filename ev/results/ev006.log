@@ -1,0 +1,65 @@
+mixkit "snow": 24 pages
+mixkit "winter": 24 pages
+mixkit "snowfall": 24 pages
+mixkit 3317 https://assets.mixkit.co/videos/3317/3317-720.mp4
+mixkit 3350 https://assets.mixkit.co/videos/3350/3350-720.mp4
+mixkit 4396 https://assets.mixkit.co/videos/4396/4396-720.mp4
+mixkit 3323 https://assets.mixkit.co/videos/3323/3323-720.mp4
+mixkit 4283 https://assets.mixkit.co/videos/4283/4283-720.mp4
+mixkit 23319 https://assets.mixkit.co/videos/23319/23319-720.mp4
+mixkit 3370 https://assets.mixkit.co/videos/3370/3370-720.mp4
+mixkit 51689 https://assets.mixkit.co/videos/51689/51689-720.mp4
+mixkit 9949 https://assets.mixkit.co/videos/9949/9949-720.mp4
+mixkit 3308 https://assets.mixkit.co/videos/3308/3308-720.mp4
+mixkit 33304 https://assets.mixkit.co/videos/33304/33304-720.mp4
+mixkit 4366 https://assets.mixkit.co/videos/4366/4366-720.mp4
+mixkit 31942 https://assets.mixkit.co/videos/31942/31942-720.mp4
+mixkit 4281 https://assets.mixkit.co/videos/4281/4281-720.mp4
+mixkit 3373 https://assets.mixkit.co/videos/3373/3373-720.mp4
+mixkit 34645 https://assets.mixkit.co/videos/34645/34645-720.mp4
+mixkit 4016 https://assets.mixkit.co/videos/4016/4016-720.mp4
+mixkit 3352 https://assets.mixkit.co/videos/3352/3352-720.mp4
+mixkit 4303 https://assets.mixkit.co/videos/4303/4303-720.mp4
+mixkit 4132 https://assets.mixkit.co/videos/4132/4132-720.mp4
+mixkit 8459 https://assets.mixkit.co/videos/8459/8459-720.mp4
+mixkit 3358 https://assets.mixkit.co/videos/3358/3358-720.mp4
+mixkit 13916 https://assets.mixkit.co/videos/13916/13916-720.mp4
+mixkit 28844 https://assets.mixkit.co/videos/28844/28844-720.mp4
+picked 24
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c0.mp4 https://assets.mixkit.co/videos/3317/3317-720.mp4
++ ffmpeg -y -loglevel error -i work/c0.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s0.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c1.mp4 https://assets.mixkit.co/videos/3350/3350-720.mp4
++ ffmpeg -y -loglevel error -i work/c1.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s1.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c2.mp4 https://assets.mixkit.co/videos/4396/4396-720.mp4
++ ffmpeg -y -loglevel error -i work/c2.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s2.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c3.mp4 https://assets.mixkit.co/videos/3323/3323-720.mp4
++ ffmpeg -y -loglevel error -i work/c3.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s3.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c4.mp4 https://assets.mixkit.co/videos/4283/4283-720.mp4
++ ffmpeg -y -loglevel error -i work/c4.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s4.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c5.mp4 https://assets.mixkit.co/videos/23319/23319-720.mp4
++ ffmpeg -y -loglevel error -i work/c5.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s5.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c6.mp4 https://assets.mixkit.co/videos/3370/3370-720.mp4
++ ffmpeg -y -loglevel error -i work/c6.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s6.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c7.mp4 https://assets.mixkit.co/videos/51689/51689-720.mp4
++ ffmpeg -y -loglevel error -i work/c7.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s7.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c8.mp4 https://assets.mixkit.co/videos/9949/9949-720.mp4
++ ffmpeg -y -loglevel error -i work/c8.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s8.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c9.mp4 https://assets.mixkit.co/videos/3308/3308-720.mp4
++ ffmpeg -y -loglevel error -i work/c9.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s9.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c10.mp4 https://assets.mixkit.co/videos/33304/33304-720.mp4
++ ffmpeg -y -loglevel error -i work/c10.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s10.mp4
++ curl -sSL --fail --retry 2 --max-time 300 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 -o work/c11.mp4 https://assets.mixkit.co/videos/4366/4366-720.mp4
++ ffmpeg -y -loglevel error -i work/c11.mp4 -t 26.0 -vf setpts=1.5*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=saturation=1.08:contrast=1.03,format=yuv420p -an -c:v libx264 -preset veryfast -crf 18 work/s11.mp4
++ ffmpeg -y -loglevel error -i work/s0.mp4 -i work/s1.mp4 -i work/s2.mp4 -i work/s3.mp4 -i work/s4.mp4 -i work/s5.mp4 -i work/s6.mp4 -i work/s7.mp4 -i work/s8.mp4 -i work/s9.mp4 -i work/s10.mp4 -i work/s11.mp4 -filter_complex [0:v][1:v]xfade=transition=fade:duration=2.5:offset=18.433[v1];[v1][2:v]xfad
++ /usr/bin/python3 /home/runner/work/AI_Video_Imperiya_New/AI_Video_Imperiya_New/ev/music.py --minutes 60.0 --mood none --seed 142 --out work/music.wav
++ ffmpeg -y -loglevel error -stats -stats_period 60 -stream_loop -1 -i work/base.mp4 -stream_loop -1 -i /home/runner/work/AI_Video_Imperiya_New/AI_Video_Imperiya_New/ev/overlay_loop_1080p.mp4 -i work/logo_round.png -loop 1 -t 9 -i work/title.png -i work/music.wav -filter_complex [0:v]format=gbrp[a];[1
+frame= 2544 fps= 42 q=35.0 size=    7424KiB time=00:01:24.73 bitrate= 717.8kbits/s speed=1.41x elapsed=0:01:00.00    frame= 5297 fps= 44 q=39.0 size=   15360KiB time=00:02:56.50 bitrate= 712.9kbits/s speed=1.47x elapsed=0:02:00.00    frame= 7989 fps= 44 q=39.0 size=   23296KiB time=00:04:26.23 bitrate= 716.8kbits/s speed=1.48x elapsed=0:03:00.00    frame=10677 fps= 44 q=43.0 size=   30976KiB time=00:05:55.83 bitrate= 713.1kbits/s speed=1.48x elapsed=0:04:00.00    frame=13314 fps= 44 q=48.0 size=   38656KiB time=00:07:23.73 bitrate= 713.7kbits/s speed=1.48x elapsed=0:05:00.00    frame=16037 fps= 45 q=37.0 size=   46848KiB time=00:08:54.50 bitrate= 718.0kbits/s speed=1.48x elapsed=0:06:00.00    frame=18791 fps= 45 q=37.0 size=   54784KiB time=00:10:26.30 bitrate= 716.6kbits/s speed=1.49x elapsed=0:07:00.00    frame=21498 fps= 45 q=36.0 size=   62720KiB time=00:11:56.53 bitrate= 717.1kbits/s speed=1.49x elapsed=0:08:00.00    frame=24174 fps= 45 q=44.0 size=   70400KiB time=00:13:25.73 bitrate= 715.8kbits/s speed=1.49x elapsed=0:09:00.01    frame=26838 fps= 45 q=45.0 size=   78336KiB time=00:14:54.53 bitrate= 717.4kbits/s speed=1.49x elapsed=0:10:00.01    frame=29540 fps= 45 q=43.0 size=   86272KiB time=00:16:24.60 bitrate= 717.8kbits/s speed=1.49x elapsed=0:11:00.01    frame=32276 fps= 45 q=35.0 size=   93952KiB time=00:17:55.80 bitrate= 715.4kbits/s speed=1.49x elapsed=0:12:00.01    frame=34980 fps= 45 q=34.0 size=  102144KiB time=00:19:25.96 bitrate= 717.7kbits/s speed=1.49x elapsed=0:13:00.01    frame=37666 fps= 45 q=34.0 size=  109824KiB time=00:20:55.46 bitrate= 716.6kbits/s speed=1.49x elapsed=0:14:00.01    frame=40365 fps= 45 q=46.0 size=  117760KiB time=00:22:25.43 bitrate= 717.0kbits/s speed=1.49x elapsed=0:15:00.01    frame=43060 fps= 45 q=38.0 size=  125696KiB time=00:23:55.26 bitrate= 717.4kbits/s speed= 1.5x elapsed=0:16:00.01    frame=45771 fps= 45 q=36.0 size=  133376KiB time=00:25:25.63 bitrate= 716.2kbits/s speed= 1.5x elapsed=0:17:00.01    frame=48436 fps= 45 q=37.0 size=  141312KiB time=00:26:54.46 bitrate= 717.0kbits/s speed=1.49x elapsed=0:18:00.01    frame=51141 fps= 45 q=34.0 size=  149248KiB time=00:28:24.63 bitrate= 717.2kbits/s speed= 1.5x elapsed=0:19:00.01    frame=53880 fps= 45 q=36.0 size=  157184KiB time=00:29:55.93 bitrate= 717.0kbits/s speed= 1.5x elapsed=0:20:00.02    frame=56568 fps= 45 q=38.0 size=  165120KiB time=00:31:25.53 bitrate= 717.4kbits/s speed= 1.5x elapsed=0:21:00.02    frame=59267 fps= 45 q=44.0 size=  172800KiB time=00:32:55.50 bitrate= 716.6kbits/s speed= 1.5x elapsed=0:22:00.02    frame=61905 fps= 45 q=38.0 size=  180736KiB time=00:34:23.43 bitrate= 717.5kbits/s speed= 1.5x elapsed=0:23:00.02    frame=64629 fps= 45 q=35.0 size=  188672KiB time=00:35:54.23 bitrate= 717.5kbits/s speed= 1.5x elapsed=0:24:00.02    frame=67382 fps= 45 q=42.0 size=  196608KiB time=00:37:26.00 bitrate= 717.1kbits/s speed= 1.5x elapsed=0:25:00.02    frame=70085 fps= 45 q=43.0 size=  204544KiB time=00:38:56.10 bitrate= 717.3kbits/s speed= 1.5x elapsed=0:26:00.02    frame=72752 fps= 45 q=46.0 size=  212224KiB time=00:40:25.00 bitrate= 716.9kbits/s speed= 1.5x elapsed=0:27:00.02    frame=75408 fps= 45 q=46.0 size=  220160KiB time=00:41:53.53 bitrate= 717.5kbits/s speed= 1.5x elapsed=0:28:00.02    frame=78115 fps= 45 q=38.0 size=  228096KiB time=00:43:23.76 bitrate= 717.6kbits/s speed= 1.5x elapsed=0:29:00.02    frame=80860 fps= 45 q=37.0 size=  235776KiB time=00:44:55.26 bitrate= 716.6kbits/s speed= 1.5x elapsed=0:30:00.02    frame=83567 fps= 45 q=39.0 size=  243968KiB time=00:46:25.50 bitrate= 717.5kbits/s speed= 1.5x elapsed=0:31:00.02    frame=86253 fps= 45 q=47.0 size=  251648KiB time=00:47:55.03 bitrate= 717.0kbits/s speed= 1.5x elapsed=0:32:00.02    frame=88936 fps= 45 q=47.0 size=  259584KiB time=00:49:24.46 bitrate= 717.3kbits/s speed= 1.5x elapsed=0:33:00.02    frame=91627 fps= 45 q=43.0 size=  267520KiB time=00:50:54.16 bitrate= 717.6kbits/s speed= 1.5x elapsed=0:34:00.02    frame=94354 fps= 45 q=36.0 size=  275200KiB time=00:52:25.06 bitrate= 716.8kbits/s speed= 1.5x elapsed=0:35:00.02    frame=97044 fps= 45 q=36.0 size=  283392KiB time=00:53:54.73 bitrate= 717.7kbits/s speed= 1.5x elapsed=0:36:00.02    frame=99736 fps= 45 q=34.0 size=  291072KiB time=00:55:24.46 bitrate= 717.2kbits/s speed= 1.5x elapsed=0:37:00.02    frame=102445 fps= 45 q=47.0 size=  299008KiB time=00:56:54.76 bitrate= 717.3kbits/s speed= 1.5x elapsed=0:38:00.02    frame=105135 fps= 45 q=40.0 size=  306944KiB time=00:58:24.43 bitrate= 717.5kbits/s speed= 1.5x elapsed=0:39:00.02    frame=107837 fps= 45 q=43.0 size=  314624KiB time=00:59:54.50 bitrate= 717.0kbits/s speed= 1.5x elapsed=0:40:00.02    frame=108000 fps= 45 q=-1.0 Lsize=  318951KiB time=00:59:59.93 bitrate= 725.8kbits/s speed= 1.5x elapsed=0:40:03.70    
++ ffmpeg -y -loglevel error -ss 40 -i work/base.mp4 -frames:v 1 work/fr.png
+DONE ev006
+total 319152
+drwxr-xr-x 2 runner runner      4096 Nov  6 13:06 .
+drwxr-xr-x 7 runner runner      4096 Nov  6 12:19 ..
+-rw-r--r-- 1 runner runner 326605740 Nov  6 13:06 ev006.mp4
+-rw-r--r-- 1 runner runner       147 Nov  6 12:20 ev006_clips.txt
+-rw-r--r-- 1 runner runner    191822 Nov  6 13:06 ev006_thumb.jpg
+RELEASED ev-ev006
