@@ -71,7 +71,7 @@ def fmt(v, kind):
     if kind == "usd": return "$" + f"{int(round(v)):,}".replace(",", " ")
     if kind == "pctv": return (f"{v:.2f}%" if abs(v) < 0.1 else f"{v:.1f}%").replace(".", ",").replace("-", "−")
     if kind == "pop": return (f"{v:.1f} mln" if v < 1000 else f"{v / 1000:.3f} mlrd").replace(".", ",")
-    if kind == "pct": return f"{v:.1f}%".replace(".", ",")
+    if kind == "pct": return (f"{v:.2f}".rstrip("0").rstrip(".") + "%").replace(".", ",")
     if kind == "mln": return f"{v:.1f} mln".replace(".", ",")
     if kind == "yosh": return f"{v:.1f} yosh".replace(".", ",")
     if kind == "farzand": return f"{v:.2f} farzand".replace(".", ",")
