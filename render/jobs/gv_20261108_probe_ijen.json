@@ -1,0 +1,422 @@
+{
+ "name": "gv_20261108_probe_ijen",
+ "width": 540,
+ "height": 960,
+ "fps": 10,
+ "grade": "none",
+ "transition": "none",
+ "sfx": false,
+ "scenes": [
+  {
+   "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/84000/84305/ijen_oli_2013234_lrg.jpg",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/2412716/pexels-photo-2412716.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/6420914/pexels-photo-6420914.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27548622/pexels-photo-27548622.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/34391007/pexels-photo-34391007.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/34391006/pexels-photo-34391006.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/38330377/pexels-photo-38330377.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/38132000/pexels-photo-38132000.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27272724/pexels-photo-27272724.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27272723/pexels-photo-27272723.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27272721/pexels-photo-27272721.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579076/pexels-photo-4579076.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579058/pexels-photo-4579058.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/14607227/pexels-photo-14607227.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/15723344/pexels-photo-15723344.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397207/pexels-photo-12397207.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397206/pexels-photo-12397206.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/9374214/pexels-photo-9374214.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/20831084/pexels-photo-20831084.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29231607/pexels-photo-29231607.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/9754633/pexels-photo-9754633.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/39569532/pexels-photo-39569532.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/20447470/pexels-photo-20447470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397213/pexels-photo-12397213.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397214/pexels-photo-12397214.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/20261014/pexels-photo-20261014.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579063/pexels-photo-4579063.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579060/pexels-photo-4579060.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397211/pexels-photo-12397211.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.0,
+   "move": "none",
+   "fit": "fill"
+  }
+ ],
+ "captions": {
+  "style": "none"
+ },
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 1,
+   "text": "nasa",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 1,
+   "t1": 2,
+   "text": "2412716",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 2,
+   "t1": 3,
+   "text": "6420914",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 3,
+   "t1": 4,
+   "text": "27548622",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 4,
+   "t1": 5,
+   "text": "34391007",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 5,
+   "t1": 6,
+   "text": "34391006",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 6,
+   "t1": 7,
+   "text": "38330377",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 7,
+   "t1": 8,
+   "text": "38132000",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 8,
+   "t1": 9,
+   "text": "27272724",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 9,
+   "t1": 10,
+   "text": "27272723",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 10,
+   "t1": 11,
+   "text": "27272721",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 11,
+   "t1": 12,
+   "text": "4579076",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 12,
+   "t1": 13,
+   "text": "4579058",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 13,
+   "t1": 14,
+   "text": "14607227",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 14,
+   "t1": 15,
+   "text": "15723344",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 15,
+   "t1": 16,
+   "text": "12397207",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 16,
+   "t1": 17,
+   "text": "12397206",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 17,
+   "t1": 18,
+   "text": "9374214",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 18,
+   "t1": 19,
+   "text": "20831084",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 19,
+   "t1": 20,
+   "text": "29231607",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 20,
+   "t1": 21,
+   "text": "9754633",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 21,
+   "t1": 22,
+   "text": "39569532",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 22,
+   "t1": 23,
+   "text": "20447470",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 23,
+   "t1": 24,
+   "text": "12397213",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 24,
+   "t1": 25,
+   "text": "12397214",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 25,
+   "t1": 26,
+   "text": "20261014",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 26,
+   "t1": 27,
+   "text": "4579063",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 27,
+   "t1": 28,
+   "text": "4579060",
+   "pos": 0.1,
+   "size": 60
+  },
+  {
+   "t0": 28,
+   "t1": 29,
+   "text": "12397211",
+   "pos": 0.1,
+   "size": 60
+  }
+ ]
+}
