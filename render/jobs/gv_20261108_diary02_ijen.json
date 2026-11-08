@@ -1,0 +1,963 @@
+{
+ "name": "gv_20261108_diary02_ijen",
+ "rev": "1",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "dark",
+ "transition": "none",
+ "scenes": [
+  {
+   "src": "https://images.pexels.com/photos/8738518/pexels-photo-8738518.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.4,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579060/pexels-photo-4579060.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.2,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/39569532/pexels-photo-39569532.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.05,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579058/pexels-photo-4579058.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.65,
+   "move": "down",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/38132000/pexels-photo-38132000.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.7,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/20261014/pexels-photo-20261014.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/9754633/pexels-photo-9754633.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579063/pexels-photo-4579063.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.6,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8738453/pexels-photo-8738453.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.7,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch",
+    "flash"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/8738518/pexels-photo-8738518.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397206/pexels-photo-12397206.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.9,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/20831084/pexels-photo-20831084.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.1,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/6420914/pexels-photo-6420914.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/34391006/pexels-photo-34391006.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397214/pexels-photo-12397214.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8738453/pexels-photo-8738453.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397211/pexels-photo-12397211.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/38330377/pexels-photo-38330377.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.5,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/12397207/pexels-photo-12397207.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.5,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/34391007/pexels-photo-34391007.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "down",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27548622/pexels-photo-27548622.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/4579076/pexels-photo-4579076.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27272721/pexels-photo-27272721.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.5,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/15723344/pexels-photo-15723344.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/9374214/pexels-photo-9374214.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/20447470/pexels-photo-20447470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.5,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27272724/pexels-photo-27272724.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/14607227/pexels-photo-14607227.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.1,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/8738518/pexels-photo-8738518.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.3,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch_end"
+   ]
+  }
+ ],
+ "hook": {
+  "text": "IT BLEEDS BLUE FIRE",
+  "dur": 2.4,
+  "color": "#4FC3F7"
+ },
+ "voice": {
+  "src": "https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/tedXKRXwgBKA7n1jpdJF/W48caCaSdhg4rqpRQr6U/content.mp3?Expires=1794135600&KeyName=assets-cdn-key-1&Signature=GqDieakTXuGIu7NkVSVYc7rDnqs=",
+  "start": 0.3,
+  "tempo": 1.08,
+  "volume": 1.0
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.2,
+  "duck": true
+ },
+ "captions": {
+  "script": "This volcano bleeds blue fire. Glitch Diary, entry two. Kawah Ijen, in East Java, Indonesia. Sulfuric gases burst from the rock at up to six hundred degrees Celsius. They hit the air... and ignite. Electric blue flames, up to five meters tall. But that's not the strange part. Some of the gas turns into liquid sulfur, and it keeps burning as it flows downhill. It looks like blue lava. It isn't. And there's something even stranger. Right beside the fire sits the largest acidic lake on Earth. NASA puts its pH below zero point three. Stronger than battery acid. And yet, some microbes seem to survive in it. Would you stand at the edge? Comment below. Follow for the next entry of my glitch diary. Because this volcano...",
+  "words": [
+   {
+    "w": "This",
+    "t0": 0.3,
+    "t1": 0.374
+   },
+   {
+    "w": "volcano",
+    "t0": 0.43,
+    "t1": 0.819
+   },
+   {
+    "w": "bleeds",
+    "t0": 0.874,
+    "t1": 1.189
+   },
+   {
+    "w": "blue",
+    "t0": 1.248,
+    "t1": 1.485
+   },
+   {
+    "w": "fire.",
+    "t0": 1.574,
+    "t1": 2.559
+   },
+   {
+    "w": "Glitch",
+    "t0": 2.874,
+    "t1": 3.337
+   },
+   {
+    "w": "Diary,",
+    "t0": 3.399,
+    "t1": 3.781
+   },
+   {
+    "w": "entry",
+    "t0": 3.831,
+    "t1": 4.078
+   },
+   {
+    "w": "two.",
+    "t0": 4.152,
+    "t1": 4.522
+   },
+   {
+    "w": "Kawah",
+    "t0": 5.096,
+    "t1": 5.559
+   },
+   {
+    "w": "Ijen,",
+    "t0": 5.67,
+    "t1": 6.078
+   },
+   {
+    "w": "in",
+    "t0": 6.201,
+    "t1": 6.448
+   },
+   {
+    "w": "East",
+    "t0": 6.493,
+    "t1": 6.67
+   },
+   {
+    "w": "Java,",
+    "t0": 6.73,
+    "t1": 7.041
+   },
+   {
+    "w": "Indonesia.",
+    "t0": 7.319,
+    "t1": 7.781
+   },
+   {
+    "w": "Sulfuric",
+    "t0": 8.726,
+    "t1": 9.189
+   },
+   {
+    "w": "gases",
+    "t0": 9.251,
+    "t1": 9.559
+   },
+   {
+    "w": "burst",
+    "t0": 9.621,
+    "t1": 9.93
+   },
+   {
+    "w": "from",
+    "t0": 9.959,
+    "t1": 10.078
+   },
+   {
+    "w": "the",
+    "t0": 10.096,
+    "t1": 10.152
+   },
+   {
+    "w": "rock",
+    "t0": 10.211,
+    "t1": 10.448
+   },
+   {
+    "w": "at",
+    "t0": 10.497,
+    "t1": 10.596
+   },
+   {
+    "w": "up",
+    "t0": 10.645,
+    "t1": 10.744
+   },
+   {
+    "w": "to",
+    "t0": 10.769,
+    "t1": 10.819
+   },
+   {
+    "w": "six",
+    "t0": 10.893,
+    "t1": 11.115
+   },
+   {
+    "w": "hundred",
+    "t0": 11.143,
+    "t1": 11.337
+   },
+   {
+    "w": "degrees",
+    "t0": 11.374,
+    "t1": 11.633
+   },
+   {
+    "w": "Celsius.",
+    "t0": 11.717,
+    "t1": 12.448
+   },
+   {
+    "w": "They",
+    "t0": 12.948,
+    "t1": 13.411
+   },
+   {
+    "w": "hit",
+    "t0": 13.448,
+    "t1": 13.559
+   },
+   {
+    "w": "the",
+    "t0": 13.578,
+    "t1": 13.633
+   },
+   {
+    "w": "air...",
+    "t0": 13.726,
+    "t1": 14.967
+   },
+   {
+    "w": "and",
+    "t0": 15.004,
+    "t1": 15.115
+   },
+   {
+    "w": "ignite.",
+    "t0": 15.179,
+    "t1": 15.707
+   },
+   {
+    "w": "Electric",
+    "t0": 16.8,
+    "t1": 17.263
+   },
+   {
+    "w": "blue",
+    "t0": 17.307,
+    "t1": 17.485
+   },
+   {
+    "w": "flames,",
+    "t0": 17.549,
+    "t1": 18.004
+   },
+   {
+    "w": "up",
+    "t0": 18.053,
+    "t1": 18.152
+   },
+   {
+    "w": "to",
+    "t0": 18.177,
+    "t1": 18.226
+   },
+   {
+    "w": "five",
+    "t0": 18.285,
+    "t1": 18.522
+   },
+   {
+    "w": "meters",
+    "t0": 18.575,
+    "t1": 18.893
+   },
+   {
+    "w": "tall.",
+    "t0": 18.952,
+    "t1": 19.337
+   },
+   {
+    "w": "But",
+    "t0": 19.911,
+    "t1": 20.374
+   },
+   {
+    "w": "that's",
+    "t0": 20.404,
+    "t1": 20.596
+   },
+   {
+    "w": "not",
+    "t0": 20.633,
+    "t1": 20.744
+   },
+   {
+    "w": "the",
+    "t0": 20.763,
+    "t1": 20.819
+   },
+   {
+    "w": "strange",
+    "t0": 20.856,
+    "t1": 21.115
+   },
+   {
+    "w": "part.",
+    "t0": 21.174,
+    "t1": 21.485
+   },
+   {
+    "w": "Some",
+    "t0": 22.281,
+    "t1": 22.744
+   },
+   {
+    "w": "of",
+    "t0": 22.794,
+    "t1": 22.893
+   },
+   {
+    "w": "the",
+    "t0": 22.911,
+    "t1": 22.967
+   },
+   {
+    "w": "gas",
+    "t0": 23.041,
+    "t1": 23.263
+   },
+   {
+    "w": "turns",
+    "t0": 23.3,
+    "t1": 23.485
+   },
+   {
+    "w": "into",
+    "t0": 23.53,
+    "t1": 23.707
+   },
+   {
+    "w": "liquid",
+    "t0": 23.75,
+    "t1": 24.004
+   },
+   {
+    "w": "sulfur,",
+    "t0": 24.068,
+    "t1": 24.596
+   },
+   {
+    "w": "and",
+    "t0": 24.763,
+    "t1": 25.263
+   },
+   {
+    "w": "it",
+    "t0": 25.288,
+    "t1": 25.337
+   },
+   {
+    "w": "keeps",
+    "t0": 25.374,
+    "t1": 25.559
+   },
+   {
+    "w": "burning",
+    "t0": 25.606,
+    "t1": 25.93
+   },
+   {
+    "w": "as",
+    "t0": 25.955,
+    "t1": 26.004
+   },
+   {
+    "w": "it",
+    "t0": 26.029,
+    "t1": 26.078
+   },
+   {
+    "w": "flows",
+    "t0": 26.14,
+    "t1": 26.448
+   },
+   {
+    "w": "downhill.",
+    "t0": 26.506,
+    "t1": 27.041
+   },
+   {
+    "w": "It",
+    "t0": 27.763,
+    "t1": 28.226
+   },
+   {
+    "w": "looks",
+    "t0": 28.263,
+    "t1": 28.448
+   },
+   {
+    "w": "like",
+    "t0": 28.478,
+    "t1": 28.596
+   },
+   {
+    "w": "blue",
+    "t0": 28.641,
+    "t1": 28.819
+   },
+   {
+    "w": "lava.",
+    "t0": 28.907,
+    "t1": 29.337
+   },
+   {
+    "w": "It",
+    "t0": 29.985,
+    "t1": 30.448
+   },
+   {
+    "w": "isn't.",
+    "t0": 30.485,
+    "t1": 30.893
+   },
+   {
+    "w": "And",
+    "t0": 31.541,
+    "t1": 32.004
+   },
+   {
+    "w": "there's",
+    "t0": 32.029,
+    "t1": 32.226
+   },
+   {
+    "w": "something",
+    "t0": 32.248,
+    "t1": 32.448
+   },
+   {
+    "w": "even",
+    "t0": 32.507,
+    "t1": 32.744
+   },
+   {
+    "w": "stranger.",
+    "t0": 32.802,
+    "t1": 33.967
+   },
+   {
+    "w": "Right",
+    "t0": 34.207,
+    "t1": 34.67
+   },
+   {
+    "w": "beside",
+    "t0": 34.713,
+    "t1": 34.967
+   },
+   {
+    "w": "the",
+    "t0": 35.004,
+    "t1": 35.115
+   },
+   {
+    "w": "fire",
+    "t0": 35.174,
+    "t1": 35.411
+   },
+   {
+    "w": "sits",
+    "t0": 35.485,
+    "t1": 35.781
+   },
+   {
+    "w": "the",
+    "t0": 35.8,
+    "t1": 35.856
+   },
+   {
+    "w": "largest",
+    "t0": 35.92,
+    "t1": 36.374
+   },
+   {
+    "w": "acidic",
+    "t0": 36.427,
+    "t1": 36.744
+   },
+   {
+    "w": "lake",
+    "t0": 36.804,
+    "t1": 37.041
+   },
+   {
+    "w": "on",
+    "t0": 37.09,
+    "t1": 37.189
+   },
+   {
+    "w": "Earth.",
+    "t0": 37.251,
+    "t1": 38.67
+   },
+   {
+    "w": "NASA",
+    "t0": 38.707,
+    "t1": 38.967
+   },
+   {
+    "w": "puts",
+    "t0": 39.011,
+    "t1": 39.189
+   },
+   {
+    "w": "its",
+    "t0": 39.226,
+    "t1": 39.337
+   },
+   {
+    "w": "pH",
+    "t0": 39.411,
+    "t1": 39.781
+   },
+   {
+    "w": "below",
+    "t0": 39.819,
+    "t1": 40.004
+   },
+   {
+    "w": "zero",
+    "t0": 40.063,
+    "t1": 40.3
+   },
+   {
+    "w": "point",
+    "t0": 40.362,
+    "t1": 40.67
+   },
+   {
+    "w": "three.",
+    "t0": 40.707,
+    "t1": 41.041
+   },
+   {
+    "w": "Stronger",
+    "t0": 41.837,
+    "t1": 42.3
+   },
+   {
+    "w": "than",
+    "t0": 42.33,
+    "t1": 42.448
+   },
+   {
+    "w": "battery",
+    "t0": 42.485,
+    "t1": 42.744
+   },
+   {
+    "w": "acid.",
+    "t0": 42.833,
+    "t1": 43.263
+   },
+   {
+    "w": "And",
+    "t0": 44.059,
+    "t1": 44.522
+   },
+   {
+    "w": "yet,",
+    "t0": 44.596,
+    "t1": 45.559
+   },
+   {
+    "w": "some",
+    "t0": 45.604,
+    "t1": 45.781
+   },
+   {
+    "w": "microbes",
+    "t0": 45.847,
+    "t1": 46.374
+   },
+   {
+    "w": "seem",
+    "t0": 46.433,
+    "t1": 46.67
+   },
+   {
+    "w": "to",
+    "t0": 46.695,
+    "t1": 46.744
+   },
+   {
+    "w": "survive",
+    "t0": 46.791,
+    "t1": 47.115
+   },
+   {
+    "w": "in",
+    "t0": 47.14,
+    "t1": 47.189
+   },
+   {
+    "w": "it.",
+    "t0": 47.238,
+    "t1": 48.041
+   },
+   {
+    "w": "Would",
+    "t0": 48.281,
+    "t1": 48.744
+   },
+   {
+    "w": "you",
+    "t0": 48.763,
+    "t1": 48.819
+   },
+   {
+    "w": "stand",
+    "t0": 48.868,
+    "t1": 49.115
+   },
+   {
+    "w": "at",
+    "t0": 49.14,
+    "t1": 49.189
+   },
+   {
+    "w": "the",
+    "t0": 49.207,
+    "t1": 49.263
+   },
+   {
+    "w": "edge?",
+    "t0": 49.337,
+    "t1": 49.707
+   },
+   {
+    "w": "Comment",
+    "t0": 50.578,
+    "t1": 51.041
+   },
+   {
+    "w": "below.",
+    "t0": 51.115,
+    "t1": 51.559
+   },
+   {
+    "w": "Follow",
+    "t0": 52.504,
+    "t1": 52.967
+   },
+   {
+    "w": "for",
+    "t0": 53.004,
+    "t1": 53.115
+   },
+   {
+    "w": "the",
+    "t0": 53.133,
+    "t1": 53.189
+   },
+   {
+    "w": "next",
+    "t0": 53.248,
+    "t1": 53.485
+   },
+   {
+    "w": "entry",
+    "t0": 53.534,
+    "t1": 53.781
+   },
+   {
+    "w": "of",
+    "t0": 53.806,
+    "t1": 53.856
+   },
+   {
+    "w": "my",
+    "t0": 53.905,
+    "t1": 54.004
+   },
+   {
+    "w": "glitch",
+    "t0": 54.046,
+    "t1": 54.3
+   },
+   {
+    "w": "diary.",
+    "t0": 54.374,
+    "t1": 54.819
+   },
+   {
+    "w": "Because",
+    "t0": 55.467,
+    "t1": 55.93
+   },
+   {
+    "w": "this",
+    "t0": 55.974,
+    "t1": 56.152
+   },
+   {
+    "w": "volcano...",
+    "t0": 56.217,
+    "t1": 56.819
+   }
+  ],
+  "style": "karaoke",
+  "pos": 0.66,
+  "highlight": "#4FC3F7",
+  "max_words": 3
+ },
+ "texts": [
+  {
+   "t0": 2.7,
+   "t1": 4.6,
+   "text": "GLITCH DIARY #2",
+   "pos": 0.2,
+   "size": 72,
+   "color": "#4FC3F7",
+   "pop": true
+  },
+  {
+   "t0": 4.7,
+   "t1": 7.9,
+   "text": "KAWAH IJEN \u00b7 INDONESIA",
+   "pos": 0.2,
+   "size": 64,
+   "color": "#FFFFFF"
+  },
+  {
+   "t0": 39.0,
+   "t1": 43.4,
+   "text": "pH < 0.3",
+   "pos": 0.22,
+   "size": 110,
+   "color": "#4FC3F7",
+   "pop": true
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 19.5,
+   "type": "zap",
+   "volume": 0.8
+  },
+  {
+   "t": 31.0,
+   "type": "zap",
+   "volume": 0.8
+  },
+  {
+   "t": 34.0,
+   "type": "riser",
+   "volume": 0.6
+  },
+  {
+   "t": 38.7,
+   "type": "boom",
+   "volume": 0.7
+  }
+ ],
+ "fade_out": 0
+}

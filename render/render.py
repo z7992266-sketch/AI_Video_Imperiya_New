@@ -473,6 +473,12 @@ def main(job_path, out_path):
     vstart = 0.0
     if job.get('voice', {}).get('src'):
         vpath = fetch(job['voice']['src'])
+        vtempo = float(job['voice'].get('tempo', 1.0))
+        if abs(vtempo - 1.0) > 0.005 and 0.5 <= vtempo <= 2.0:
+            # optional pitch-preserving speed change of the narration (e.g. 1.07 to fit a 58 s Short)
+            vt = os.path.join(WORK, 'voice_tempo.wav')
+            sh(['ffmpeg', '-y', '-i', vpath, '-af', 'atempo=%f' % vtempo, '-ar', '48000', vt])
+            vpath = vt
         vstart = float(job['voice'].get('start', 0.3))
         need = vstart + probe_dur(vpath) + 0.35
         have = sum(float(s.get('dur', 3)) for s in scenes) - TD * (len(scenes) - 1)
