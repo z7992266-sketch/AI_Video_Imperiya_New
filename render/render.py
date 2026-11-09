@@ -38,6 +38,8 @@ FONTS = os.path.join(HERE, 'fonts')
 FONT_MAIN = 'Inter Display Black'
 FONT_SUB = 'Inter Display ExtraBold'
 WORK = os.environ.get('RENDER_WORK', '/tmp/z7render')
+# Owner, 9 Nov 2026: transition whooshes/SFX at 40% of the old loudness ("40 qilib qo'y, 100 emas"), all channels.
+SFX_GAIN = float(os.environ.get('SFX_GAIN', '0.4'))
 
 
 def sh(cmd, quiet=True):
@@ -101,7 +103,7 @@ def gen_sfx(cuts, total, hook):
     if not labels:
         sh(['ffmpeg', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo', '-t', '%.2f' % total, p])
         return p
-    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000[o]' % (len(labels), total)
+    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000,volume=%.2f[o]' % (len(labels), total, SFX_GAIN)
     sh(['ffmpeg', '-y', '-filter_complex', f, '-map', '[o]', '-ac', '2', p])
     return p
 
@@ -142,7 +144,7 @@ def gen_events(events, total):
         labels.append('[e%d]' % i)
     if not labels:
         return None
-    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000[o]' % (len(labels), total)
+    f = ';'.join(parts) + ';' + ''.join(labels) + 'amix=inputs=%d:normalize=0:duration=longest,apad,atrim=0:%.3f,aresample=48000,volume=%.2f[o]' % (len(labels), total, SFX_GAIN)
     sh(['ffmpeg', '-y', '-filter_complex', f, '-map', '[o]', '-ac', '2', p])
     return p
 
