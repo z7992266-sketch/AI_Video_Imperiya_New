@@ -17,7 +17,7 @@ jobs:
           while read -r NAME URL; do
             [ -z "$NAME" ] && continue
             case "$NAME" in *[!A-Za-z0-9._-]*) echo "bad name $NAME"; continue;; esac
-            curl -fsSL --max-filesize 30000000 -o "fetch/out/$NAME" "$URL" && echo "ok $NAME" || echo "FAIL $NAME"
+            curl -fsSL --max-filesize 95000000 -o "fetch/out/$NAME" "$URL" && echo "ok $NAME" || echo "FAIL $NAME"
           done < fetch/urls.txt
           ls -la fetch/out
       - name: Commit
