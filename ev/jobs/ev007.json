@@ -1,0 +1,18 @@
+{
+ "id": "ev007",
+ "title": "Mountain Lake Morning — Calm Music",
+ "subtitle": "1 Hour · Relax & Breathe · Exclusive Vibe",
+ "thumb_big": "Mountain Lake",
+ "thumb_small": "1 Hour Calm Music",
+ "minutes": 60,
+ "mood": "none",
+ "seed": 149,
+ "queries": [
+  "mountain",
+  "lake",
+  "nature"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
