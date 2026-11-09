@@ -1,4 +1,1 @@
-fd3_flag_sweden.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=960
-fd3_flag_australia.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia.svg?width=960
-fd3_flag_uzbekistan.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg?width=960
-fd3_flag_uae.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=960
+fd4_flag_uae.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=960
