@@ -1,1 +1,2 @@
-taqqos17_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/xWN93B8kmdGxFQzy499D/mPqZPaHu2SXvCFNeQjU9/content.mp3?Expires=1794128400&KeyName=assets-cdn-key-1&Signature=lHEo1RPCG8L1EWukijZevw1wHlk=
+b2b_vo_aiad_20261109.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/6weefDmQDAP2Khz2NUJ1/HyYqEGegK5ueYRaFwzoO/content.mp3?Expires=1794207600&KeyName=assets-cdn-key-1&Signature=ckGK9y-zqXZ8cBRmc4EwJ4-DUL8=
+cm_medeu_src_20261108.mp4 https://assets.vidiq.com/compositions/021e8751-cd9c-4e59-902b-38d3b535470f/xy57esw7nxucx6wychucm1y0.mp4
