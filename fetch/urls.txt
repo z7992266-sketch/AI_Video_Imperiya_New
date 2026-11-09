@@ -1,8 +1,4 @@
-fd2_flag_kazakhstan.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kazakhstan.svg?width=960
-fd2_flag_china.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_People%27s_Republic_of_China.svg?width=960
-fd2_flag_south_korea.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg?width=960
-fd2_flag_sweden.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=960
-fd2_flag_australia.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia.svg?width=960
-fd2_flag_uzbekistan.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg?width=960
-fd2_flag_uae.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=960
-fd2_meta.json https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=File:Flag_of_Uzbekistan.svg
+fd3_flag_sweden.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=960
+fd3_flag_australia.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia.svg?width=960
+fd3_flag_uzbekistan.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg?width=960
+fd3_flag_uae.png https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=960
