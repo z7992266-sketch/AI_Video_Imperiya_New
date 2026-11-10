@@ -1,0 +1,21 @@
+{
+ "name": "taqqos_bil_20261110_landlocked",
+ "template": "bilasizmi",
+ "duration": 34.1,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "size_mb": 29.46,
+ "words": 70,
+ "facts": 4,
+ "fact_starts": [
+  0.0,
+  6.72,
+  16.6,
+  19.87
+ ],
+ "endcard_start": 31.27,
+ "ok": true,
+ "url": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261110_landlocked.mp4",
+ "thumb": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261110_landlocked.jpg"
+}
