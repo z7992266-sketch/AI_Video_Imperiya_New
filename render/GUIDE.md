@@ -48,3 +48,24 @@ The user wants top ("1000") quality on every channel. Use this INSTEAD of vidiq_
 - RE-RENDER: a job is skipped while `render/out/<name>.json` exists. Delete that json AND change the job file
   (e.g. bump `"rev"`) in the same push, otherwise the workflow does not run.
 - Grain makes files big (~110 MB/45 s at crf 18). That is fine for YouTube/Metricool (public release URL works as media).
+
+## Template "bilasizmi" — BILASIZMI? cloud-fact Shorts (Taqqos, 10 Nov 2026)
+Owner brief: each fact photo sits INSIDE a cartoon cloud, strong animation everywhere. Renderer: `render/bilasizmi.py`
+(numpy/PIL/cv2 frames -> ffmpeg; reuses `render.py` fetch / compress_pauses / gen_events (SFX 40 %); two-pass loudnorm -14 LUFS).
+- Job = `render/jobs/<name>.json` with `"template": "bilasizmi"` -> render.yml routes it to `render/bilasizmi.py`
+  (any job with `"template": "<x>"` runs `render/<x>.py` if it exists). Output, release upload and `render/out/<name>.json`
+  are the same as for normal jobs. Full spec in the docstring of `render/bilasizmi.py`; example:
+  `render/jobs/taqqos_bil_20261110_landlocked.json`.
+- Fields: `title` ("BILASIZMI?"), `brand` ("TAQQOS"), `voice` {src, start, max_pause, fit}, `words` (ElevenLabs
+  `creative_transcribe_audio` word list as `{"w","t0","t1"}`, voice-file seconds), `facts[]` {image, credit, at / at_word,
+  focus, zoom, number (dict or list: value, from, prefix, suffix, label, at_word, dur)}, `endcard` {at_word, dur, title, line,
+  button}, `music` {"gen": "bright"} (generated, copyright-free), `sfx`.
+- Script: 70–85 words, hook "Bilasizmi? …" -> 2–3 facts -> question; numbers written as words; one ElevenLabs take
+  (voice 269BA7xEbcFPbGfqUFwe, eleven_v3, generations_count 1). eleven_v3 reads ~2.1 words/s, so use
+  `"max_pause": 0.16, "fit": 33` to land at 30–35 s (tempo is capped at 1.12).
+- Images: Wikimedia Commons PD/CC0/CC BY/CC BY-SA or NASA only; put author + licence in `credit` and in the description.
+  Copy voice + images into `render/assets/<job>/` (signed URLs expire) and use repo-relative paths.
+- Layout is fixed to the Shorts safe area (text between 12 % and 82 % of the height): header y≈284, cloud centre y 862,
+  counter y 1290, captions y 1452, credit y 1540. Earth-from-space style square photos: `"zoom": [1.08, 1.18]`.
+- Local preview of single frames: `BIL_PREVIEW=0.5,5,12 RENDER_WORK=/tmp/w python3 render/bilasizmi.py job.json /dev/null`
+  writes `/tmp/w/prev_*.jpg` (no encode) — check them before pushing.

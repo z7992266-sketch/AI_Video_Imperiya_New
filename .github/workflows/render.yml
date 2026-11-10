@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && ffmpeg -version | head -1
+      - name: Python deps (template renderers, e.g. bilasizmi)
+        run: python3 -m pip install -q numpy pillow opencv-python-headless || python3 -m pip install -q --break-system-packages numpy pillow opencv-python-headless
       - name: Render pending jobs
         env:
           GH_TOKEN: ${{ github.token }}
@@ -29,7 +31,11 @@ jobs:
             name=$(basename "$job" .json)
             [ -f "render/out/$name.json" ] && continue
             echo "=== $name"
-            if RENDER_WORK=/tmp/w_$name python3 render/render.py "$job" "out/$name.mp4" > "out/$name.info" 2> "out/$name.err"; then
+            # "template": "bilasizmi" -> render/bilasizmi.py (animated cloud fact Shorts); otherwise render/render.py
+            renderer=render/render.py
+            tpl=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('template',''))" "$job" 2>/dev/null || true)
+            [ -n "$tpl" ] && [ -f "render/$tpl.py" ] && renderer="render/$tpl.py"
+            if RENDER_WORK=/tmp/w_$name python3 "$renderer" "$job" "out/$name.mp4" > "out/$name.info" 2> "out/$name.err"; then
               gh release upload renders "out/$name.mp4" "out/$name.jpg" --clobber
               base="https://github.com/${GITHUB_REPOSITORY}/releases/download/renders"
               python3 - "$name" "$base" <<'PY'
