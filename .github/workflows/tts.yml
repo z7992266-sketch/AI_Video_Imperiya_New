@@ -1,0 +1,26 @@
+name: Free TTS samples
+# Push fetch/tts/make.py -> builds free-TTS voice samples into fetch/out/tts/.
+on:
+  push:
+    branches: [fetch-media]
+    paths: ['fetch/tts/make.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg
+      - run: pip install -q kokoro soundfile piper-tts
+      - run: python fetch/tts/make.py
+      - name: Commit
+        run: |
+          git config user.name "fetch-bot"; git config user.email "fetch-bot@users.noreply.github.com"
+          git add fetch/out/tts
+          git commit -m "Free TTS samples" || echo nothing
+          git pull --rebase && git push
