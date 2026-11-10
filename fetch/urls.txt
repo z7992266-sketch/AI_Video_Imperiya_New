@@ -1,1 +1,4 @@
-rec_v_trifle2.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/3pqBcDIro4NqsnYlvijV/xeFME8fxMR5ORUOtHznr/content.mp3?Expires=1794337200&KeyName=assets-cdn-key-1&Signature=GeOzxM7oUWzpzlZ80J_nsxJo470=
+dns_a.json https://dns.google/resolve?name=b2bsasagency.com&type=A
+dns_aaaa.json https://dns.google/resolve?name=b2bsasagency.com&type=AAAA
+dns_www.json https://dns.google/resolve?name=www.b2bsasagency.com&type=CNAME
+dns_cf_a.json https://cloudflare-dns.com/dns-query?name=b2bsasagency.com&type=A
