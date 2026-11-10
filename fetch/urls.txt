@@ -5,3 +5,9 @@ bil_q_vaduz.json https://commons.wikimedia.org/w/api.php?action=query&format=jso
 bil_q_kyzylkum.json https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrlimit=20&gsrsearch=Uzbekistan%20landscape%20filetype%3Abitmap
 bil_q_earth.json https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrlimit=20&gsrsearch=Blue%20Marble%20Earth%20Apollo%2017%20filetype%3Abitmap
 bil_q_sat.json https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrlimit=20&gsrsearch=Uzbekistan%20satellite%20image%20NASA%20filetype%3Abitmap
+bil_img_earth.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1920px-The_Earth_seen_from_Apollo_17.jpg
+bil_img_registan.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Registan_01.jpg/1920px-Registan_01.jpg
+bil_img_registan2.jpg https://upload.wikimedia.org/wikipedia/commons/9/9e/Registan_-_Gusjer.jpg
+bil_img_vaduz.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Vaduz_Castle%2C_Liechtenstein%2C_20250502_1245_8566.jpg/1920px-Vaduz_Castle%2C_Liechtenstein%2C_20250502_1245_8566.jpg
+bil_img_uzsat.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Uzbekistan.A2003034.0845.250m.jpg/1920px-Uzbekistan.A2003034.0845.250m.jpg
+bil_img_kyzylkum.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kyzylkum_Desert_in_Uzbekistan.jpg/1920px-Kyzylkum_Desert_in_Uzbekistan.jpg
