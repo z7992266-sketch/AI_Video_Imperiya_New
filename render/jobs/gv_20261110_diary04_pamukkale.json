@@ -1,0 +1,1029 @@
+{
+ "name": "gv_20261110_diary04_pamukkale",
+ "rev": "1",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "https://www.pexels.com/download/video/30682359/",
+   "type": "video",
+   "dur": 2.4,
+   "move": "none",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/27829279/pexels-photo-27829279.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/32473828/pexels-photo-32473828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/26280141/pexels-photo-26280141.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29800608/pexels-photo-29800608.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29800612/pexels-photo-29800612.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "down",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/31627879/pexels-photo-31627879.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/23322340/pexels-photo-23322340.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27791828/pexels-photo-27791828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/23322370/pexels-photo-23322370.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/31627886/pexels-photo-31627886.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/30682359/",
+   "type": "video",
+   "dur": 2.6,
+   "move": "none",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ],
+   "reverse": true,
+   "start": 1.0
+  },
+  {
+   "src": "https://images.pexels.com/photos/28153002/pexels-photo-28153002.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/32473828/pexels-photo-32473828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/23322340/pexels-photo-23322340.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/26280141/pexels-photo-26280141.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/31627879/pexels-photo-31627879.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "left",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/27829279/pexels-photo-27829279.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/27791828/pexels-photo-27791828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29800608/pexels-photo-29800608.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "flash"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/28153002/pexels-photo-28153002.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29800612/pexels-photo-29800612.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/23322370/pexels-photo-23322370.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "right",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "https://images.pexels.com/photos/31627886/pexels-photo-31627886.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.0,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/32473828/pexels-photo-32473828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/27791828/pexels-photo-27791828.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 2.2,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/29800608/pexels-photo-29800608.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.8,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://images.pexels.com/photos/31627879/pexels-photo-31627879.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "type": "image",
+   "dur": 1.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/30682359/",
+   "type": "video",
+   "dur": 2.6,
+   "move": "none",
+   "fit": "fill",
+   "fx": [
+    "glitch_end"
+   ],
+   "reverse": true,
+   "start": 0.0
+  }
+ ],
+ "hook": {
+  "text": "THIS ISN'T SNOW",
+  "dur": 2.2,
+  "color": "#4FC3F7"
+ },
+ "voice": {
+  "src": "https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/AQF1rbWrGyVKR1JYjqJf/0DZuGlt2u72ybfIHEuP3/content.mp3?Expires=1794308400&KeyName=assets-cdn-key-1&Signature=Q1gAwsf-RbpA4irmNA_AetveSUo=",
+  "start": 0.3,
+  "volume": 1.0,
+  "max_pause": 0.32,
+  "fit": 56.6
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.2,
+  "duck": true
+ },
+ "captions": {
+  "script": "This isn't snow. It's water turning into stone. Glitch Diary, entry four. Pamukkale, Turkey. The name means \"cotton castle.\" Warm spring water spills down a cliff almost two hundred meters high, loaded with calcium carbonate. As it releases gas, the mineral hardens into white travertine, terrace after terrace. But that's not the strange part. On top sits Hierapolis, an ancient spa city where people bathed two thousand years ago. Last century, hotels were built on the terraces and damaged them. They were torn down. Today you must walk barefoot. And there's something even stranger. Nearby is a shrine the Romans called the Gate to Hell. Its volcanic gas still kills birds that fly too close. Would you walk on a waterfall made of stone? Comment below. Follow for the next entry of my glitch diary. Because this isn't snow...",
+  "words": [
+   {
+    "w": "This",
+    "t0": 0.3,
+    "t1": 0.46
+   },
+   {
+    "w": "isn't",
+    "t0": 0.5,
+    "t1": 0.7
+   },
+   {
+    "w": "snow.",
+    "t0": 0.78,
+    "t1": 1.26
+   },
+   {
+    "w": "It's",
+    "t0": 1.72,
+    "t1": 2.22
+   },
+   {
+    "w": "water",
+    "t0": 2.273,
+    "t1": 2.54
+   },
+   {
+    "w": "turning",
+    "t0": 2.58,
+    "t1": 2.86
+   },
+   {
+    "w": "into",
+    "t0": 2.908,
+    "t1": 3.1
+   },
+   {
+    "w": "stone.",
+    "t0": 3.18,
+    "t1": 3.66
+   },
+   {
+    "w": "Glitch",
+    "t0": 4.76,
+    "t1": 5.26
+   },
+   {
+    "w": "Diary,",
+    "t0": 5.56,
+    "t1": 6.06
+   },
+   {
+    "w": "entry",
+    "t0": 6.113,
+    "t1": 6.38
+   },
+   {
+    "w": "four.",
+    "t0": 6.444,
+    "t1": 6.78
+   },
+   {
+    "w": "Pamukkale,",
+    "t0": 7.08,
+    "t1": 8.62
+   },
+   {
+    "w": "Turkey.",
+    "t0": 9.36,
+    "t1": 9.86
+   },
+   {
+    "w": "The",
+    "t0": 9.99,
+    "t1": 10.38
+   },
+   {
+    "w": "name",
+    "t0": 10.428,
+    "t1": 10.62
+   },
+   {
+    "w": "means",
+    "t0": 10.673,
+    "t1": 10.94
+   },
+   {
+    "w": "\"cotton",
+    "t0": 11.02,
+    "t1": 11.42
+   },
+   {
+    "w": "castle.\"",
+    "t0": 11.477,
+    "t1": 12.06
+   },
+   {
+    "w": "Warm",
+    "t0": 12.76,
+    "t1": 13.26
+   },
+   {
+    "w": "spring",
+    "t0": 13.306,
+    "t1": 13.58
+   },
+   {
+    "w": "water",
+    "t0": 13.633,
+    "t1": 13.9
+   },
+   {
+    "w": "spills",
+    "t0": 13.957,
+    "t1": 14.3
+   },
+   {
+    "w": "down",
+    "t0": 14.332,
+    "t1": 14.46
+   },
+   {
+    "w": "a",
+    "t0": 14.5,
+    "t1": 14.54
+   },
+   {
+    "w": "cliff",
+    "t0": 14.593,
+    "t1": 14.86
+   },
+   {
+    "w": "almost",
+    "t0": 14.917,
+    "t1": 15.26
+   },
+   {
+    "w": "two",
+    "t0": 15.3,
+    "t1": 15.42
+   },
+   {
+    "w": "hundred",
+    "t0": 15.46,
+    "t1": 15.74
+   },
+   {
+    "w": "meters",
+    "t0": 15.786,
+    "t1": 16.06
+   },
+   {
+    "w": "high,",
+    "t0": 16.6,
+    "t1": 17.1
+   },
+   {
+    "w": "loaded",
+    "t0": 17.146,
+    "t1": 17.42
+   },
+   {
+    "w": "with",
+    "t0": 17.452,
+    "t1": 17.58
+   },
+   {
+    "w": "calcium",
+    "t0": 17.64,
+    "t1": 18.06
+   },
+   {
+    "w": "carbonate.",
+    "t0": 18.116,
+    "t1": 18.7
+   },
+   {
+    "w": "As",
+    "t0": 19.73,
+    "t1": 20.06
+   },
+   {
+    "w": "it",
+    "t0": 20.087,
+    "t1": 20.14
+   },
+   {
+    "w": "releases",
+    "t0": 20.193,
+    "t1": 20.62
+   },
+   {
+    "w": "gas,",
+    "t0": 21.16,
+    "t1": 21.66
+   },
+   {
+    "w": "the",
+    "t0": 21.68,
+    "t1": 21.74
+   },
+   {
+    "w": "mineral",
+    "t0": 21.79,
+    "t1": 22.14
+   },
+   {
+    "w": "hardens",
+    "t0": 22.188,
+    "t1": 22.54
+   },
+   {
+    "w": "into",
+    "t0": 22.588,
+    "t1": 22.78
+   },
+   {
+    "w": "white",
+    "t0": 22.82,
+    "t1": 23.02
+   },
+   {
+    "w": "travertine,",
+    "t0": 23.084,
+    "t1": 24.3
+   },
+   {
+    "w": "terrace",
+    "t0": 24.37,
+    "t1": 24.86
+   },
+   {
+    "w": "after",
+    "t0": 24.913,
+    "t1": 25.18
+   },
+   {
+    "w": "terrace.",
+    "t0": 25.4,
+    "t1": 25.9
+   },
+   {
+    "w": "But",
+    "t0": 26.6,
+    "t1": 27.02
+   },
+   {
+    "w": "that's",
+    "t0": 27.052,
+    "t1": 27.26
+   },
+   {
+    "w": "not",
+    "t0": 27.3,
+    "t1": 27.42
+   },
+   {
+    "w": "the",
+    "t0": 27.46,
+    "t1": 27.58
+   },
+   {
+    "w": "strange",
+    "t0": 27.62,
+    "t1": 27.9
+   },
+   {
+    "w": "part.",
+    "t0": 28.4,
+    "t1": 28.9
+   },
+   {
+    "w": "On",
+    "t0": 29.1,
+    "t1": 29.5
+   },
+   {
+    "w": "top",
+    "t0": 29.64,
+    "t1": 30.06
+   },
+   {
+    "w": "sits",
+    "t0": 30.14,
+    "t1": 30.46
+   },
+   {
+    "w": "Hierapolis,",
+    "t0": 30.508,
+    "t1": 31.98
+   },
+   {
+    "w": "an",
+    "t0": 32.033,
+    "t1": 32.14
+   },
+   {
+    "w": "ancient",
+    "t0": 32.19,
+    "t1": 32.54
+   },
+   {
+    "w": "spa",
+    "t0": 32.62,
+    "t1": 32.86
+   },
+   {
+    "w": "city",
+    "t0": 32.924,
+    "t1": 33.18
+   },
+   {
+    "w": "where",
+    "t0": 33.207,
+    "t1": 33.34
+   },
+   {
+    "w": "people",
+    "t0": 33.386,
+    "t1": 33.66
+   },
+   {
+    "w": "bathed",
+    "t0": 33.724,
+    "t1": 34.22
+   },
+   {
+    "w": "two",
+    "t0": 34.26,
+    "t1": 34.38
+   },
+   {
+    "w": "thousand",
+    "t0": 34.424,
+    "t1": 34.78
+   },
+   {
+    "w": "years",
+    "t0": 34.833,
+    "t1": 35.1
+   },
+   {
+    "w": "ago.",
+    "t0": 35.18,
+    "t1": 35.5
+   },
+   {
+    "w": "Last",
+    "t0": 36.44,
+    "t1": 36.94
+   },
+   {
+    "w": "century,",
+    "t0": 37.4,
+    "t1": 37.9
+   },
+   {
+    "w": "hotels",
+    "t0": 37.969,
+    "t1": 38.38
+   },
+   {
+    "w": "were",
+    "t0": 38.412,
+    "t1": 38.54
+   },
+   {
+    "w": "built",
+    "t0": 38.58,
+    "t1": 38.78
+   },
+   {
+    "w": "on",
+    "t0": 38.807,
+    "t1": 38.86
+   },
+   {
+    "w": "the",
+    "t0": 38.88,
+    "t1": 38.94
+   },
+   {
+    "w": "terraces",
+    "t0": 39.24,
+    "t1": 39.74
+   },
+   {
+    "w": "and",
+    "t0": 39.84,
+    "t1": 40.14
+   },
+   {
+    "w": "damaged",
+    "t0": 40.19,
+    "t1": 40.54
+   },
+   {
+    "w": "them.",
+    "t0": 40.604,
+    "t1": 40.861
+   },
+   {
+    "w": "They",
+    "t0": 41.4,
+    "t1": 41.9
+   },
+   {
+    "w": "were",
+    "t0": 41.932,
+    "t1": 42.06
+   },
+   {
+    "w": "torn",
+    "t0": 42.108,
+    "t1": 42.3
+   },
+   {
+    "w": "down.",
+    "t0": 42.38,
+    "t1": 42.86
+   },
+   {
+    "w": "Today",
+    "t0": 43.64,
+    "t1": 44.14
+   },
+   {
+    "w": "you",
+    "t0": 44.16,
+    "t1": 44.22
+   },
+   {
+    "w": "must",
+    "t0": 44.252,
+    "t1": 44.38
+   },
+   {
+    "w": "walk",
+    "t0": 44.428,
+    "t1": 44.62
+   },
+   {
+    "w": "barefoot.",
+    "t0": 44.684,
+    "t1": 45.26
+   },
+   {
+    "w": "And",
+    "t0": 46.2,
+    "t1": 46.62
+   },
+   {
+    "w": "there's",
+    "t0": 46.647,
+    "t1": 46.86
+   },
+   {
+    "w": "something",
+    "t0": 46.892,
+    "t1": 47.18
+   },
+   {
+    "w": "even",
+    "t0": 47.228,
+    "t1": 47.42
+   },
+   {
+    "w": "stranger.",
+    "t0": 47.491,
+    "t1": 48.14
+   },
+   {
+    "w": "Nearby",
+    "t0": 49.16,
+    "t1": 49.66
+   },
+   {
+    "w": "is",
+    "t0": 49.687,
+    "t1": 49.74
+   },
+   {
+    "w": "a",
+    "t0": 49.82,
+    "t1": 49.9
+   },
+   {
+    "w": "shrine",
+    "t0": 49.946,
+    "t1": 50.22
+   },
+   {
+    "w": "the",
+    "t0": 50.24,
+    "t1": 50.3
+   },
+   {
+    "w": "Romans",
+    "t0": 50.369,
+    "t1": 50.78
+   },
+   {
+    "w": "called",
+    "t0": 50.849,
+    "t1": 51.26
+   },
+   {
+    "w": "the",
+    "t0": 51.34,
+    "t1": 51.58
+   },
+   {
+    "w": "Gate",
+    "t0": 51.644,
+    "t1": 51.9
+   },
+   {
+    "w": "to",
+    "t0": 51.927,
+    "t1": 51.98
+   },
+   {
+    "w": "Hell.",
+    "t0": 52.06,
+    "t1": 52.46
+   },
+   {
+    "w": "Its",
+    "t0": 53.32,
+    "t1": 53.74
+   },
+   {
+    "w": "volcanic",
+    "t0": 53.793,
+    "t1": 54.22
+   },
+   {
+    "w": "gas",
+    "t0": 54.3,
+    "t1": 54.54
+   },
+   {
+    "w": "still",
+    "t0": 54.58,
+    "t1": 54.78
+   },
+   {
+    "w": "kills",
+    "t0": 54.833,
+    "t1": 55.1
+   },
+   {
+    "w": "birds",
+    "t0": 55.153,
+    "t1": 55.42
+   },
+   {
+    "w": "that",
+    "t0": 55.452,
+    "t1": 55.58
+   },
+   {
+    "w": "fly",
+    "t0": 55.64,
+    "t1": 55.82
+   },
+   {
+    "w": "too",
+    "t0": 55.88,
+    "t1": 56.06
+   },
+   {
+    "w": "close.",
+    "t0": 56.14,
+    "t1": 56.62
+   },
+   {
+    "w": "Would",
+    "t0": 57.24,
+    "t1": 57.74
+   },
+   {
+    "w": "you",
+    "t0": 57.78,
+    "t1": 57.9
+   },
+   {
+    "w": "walk",
+    "t0": 57.932,
+    "t1": 58.06
+   },
+   {
+    "w": "on",
+    "t0": 58.113,
+    "t1": 58.22
+   },
+   {
+    "w": "a",
+    "t0": 58.34,
+    "t1": 58.46
+   },
+   {
+    "w": "waterfall",
+    "t0": 58.484,
+    "t1": 58.7
+   },
+   {
+    "w": "made",
+    "t0": 58.748,
+    "t1": 58.94
+   },
+   {
+    "w": "of",
+    "t0": 58.967,
+    "t1": 59.02
+   },
+   {
+    "w": "stone?",
+    "t0": 59.087,
+    "t1": 59.5
+   },
+   {
+    "w": "Comment",
+    "t0": 60.28,
+    "t1": 60.78
+   },
+   {
+    "w": "below.",
+    "t0": 60.847,
+    "t1": 61.34
+   },
+   {
+    "w": "Follow",
+    "t0": 62.2,
+    "t1": 62.7
+   },
+   {
+    "w": "for",
+    "t0": 62.74,
+    "t1": 62.86
+   },
+   {
+    "w": "the",
+    "t0": 62.88,
+    "t1": 62.94
+   },
+   {
+    "w": "next",
+    "t0": 62.988,
+    "t1": 63.18
+   },
+   {
+    "w": "entry",
+    "t0": 63.233,
+    "t1": 63.5
+   },
+   {
+    "w": "of",
+    "t0": 63.553,
+    "t1": 63.66
+   },
+   {
+    "w": "my",
+    "t0": 63.687,
+    "t1": 63.74
+   },
+   {
+    "w": "glitch",
+    "t0": 63.786,
+    "t1": 64.06
+   },
+   {
+    "w": "diary.",
+    "t0": 64.14,
+    "t1": 64.62
+   },
+   {
+    "w": "Because",
+    "t0": 65.56,
+    "t1": 66.06
+   },
+   {
+    "w": "this",
+    "t0": 66.108,
+    "t1": 66.3
+   },
+   {
+    "w": "isn't",
+    "t0": 66.36,
+    "t1": 66.62
+   },
+   {
+    "w": "snow...",
+    "t0": 66.7,
+    "t1": 67.18
+   }
+  ]
+ },
+ "texts": [
+  {
+   "t0": 15.2,
+   "t1": 17.0,
+   "text": "~200 M CLIFF",
+   "pos": 0.28,
+   "size": 92,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 30.5,
+   "t1": 32.2,
+   "text": "HIERAPOLIS",
+   "pos": 0.28,
+   "size": 92,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 44.4,
+   "t1": 45.5,
+   "text": "SHOES OFF",
+   "pos": 0.28,
+   "size": 92,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 51.5,
+   "t1": 53.2,
+   "text": "\"GATE TO HELL\"",
+   "pos": 0.28,
+   "size": 92,
+   "color": "#FF5252"
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 26.15,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 45.55,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 46.6,
+   "type": "riser",
+   "volume": 0.7
+  },
+  {
+   "t": 48.3,
+   "type": "boom",
+   "volume": 0.9
+  }
+ ],
+ "fade_out": 0
+}

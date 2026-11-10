@@ -307,6 +307,71 @@ def endcard_clip(i, ec, W, H, FPS, ass_events):
     return out, False
 
 
+def compress_pauses(job, scenes, vpath, vstart):
+    """voice.max_pause: shorten every pause in the ORIGINAL narration to max_pause s, then apply voice.tempo.
+    Times given in the original-voice timeline are remapped: captions.words, sfx_events, texts, and
+    (with top-level "sync_scenes": true) scene boundaries. Mutates job/scenes in place, returns new voice path."""
+    v = job['voice']
+    mp = float(v['max_pause'])
+    tempo = float(v.get('tempo', 1.0))
+    orig = fetch(v['src'])
+    r = subprocess.run(['ffmpeg', '-i', orig, '-af', 'silencedetect=noise=-35dB:d=%.2f' % max(0.15, mp), '-f', 'null', '-'],
+                       stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    vd = probe_dur(orig)
+    sil, st = [], None
+    for line in r.stderr.splitlines():
+        m = re.search(r'silence_start: (-?[\d.]+)', line)
+        if m:
+            st = max(0.0, float(m.group(1)))
+        m = re.search(r'silence_end: ([\d.]+)', line)
+        if m and st is not None:
+            sil.append((st, float(m.group(1))))
+            st = None
+    cuts = []
+    for a, b in sil:
+        if b - a > mp + 0.02 and a > 0.05 and b < vd - 0.05:
+            cuts.append((a + mp / 2, b - mp / 2))
+    keep, cur = [], 0.0
+    for c0, c1 in cuts:
+        keep.append((cur, c0)); cur = c1
+    keep.append((cur, vd))
+    parts = ''.join('[0:a]atrim=%.4f:%.4f,asetpts=PTS-STARTPTS[k%d];' % (a, b, i) for i, (a, b) in enumerate(keep))
+    chain = ''.join('[k%d]' % i for i in range(len(keep))) + 'concat=n=%d:v=0:a=1' % len(keep)
+    cutp = os.path.join(WORK, 'voice_cut.wav')
+    sh(['ffmpeg', '-y', '-i', orig, '-filter_complex', parts + chain + ',aresample=48000[o]', '-map', '[o]', cutp])
+    if v.get('fit'):  # fit: max narration length in s -> raise tempo (max 1.12) only if needed
+        cd = probe_dur(cutp)
+        tempo = max(tempo, min(1.12, cd / float(v['fit'])))
+    out = cutp
+    if abs(tempo - 1.0) > 0.005:
+        out = os.path.join(WORK, 'voice_compact.wav')
+        sh(['ffmpeg', '-y', '-i', cutp, '-af', 'atempo=%f' % tempo, '-ar', '48000', out])
+
+    def vm(t):  # absolute timeline (original) -> absolute timeline (new)
+        rel = t - vstart
+        if rel <= 0:
+            return t
+        rem = sum(max(0.0, min(rel, c1) - c0) for c0, c1 in cuts)
+        return vstart + (rel - rem) / tempo
+    cap = job.get('captions') or {}
+    for w in cap.get('words') or []:
+        w['t0'], w['t1'] = round(vm(float(w['t0'])), 3), round(vm(float(w['t1'])), 3)
+    for e in job.get('sfx_events') or []:
+        e['t'] = round(vm(float(e['t'])), 3)
+    for tx in job.get('texts') or []:
+        tx['t0'], tx['t1'] = round(vm(float(tx['t0'])), 3), round(vm(float(tx['t1'])), 3)
+    if job.get('sync_scenes'):
+        acc, prev_new = 0.0, 0.0
+        for i, sc in enumerate(scenes):
+            acc += float(sc.get('dur', 3))
+            nw = vm(acc)
+            scenes[i] = dict(sc, dur=round(max(0.6, nw - prev_new), 3))
+            prev_new += scenes[i]['dur']
+    sys.stderr.write('compress_pauses: %d cuts, tempo %.3f, %.2f s -> %.2f s\n' % (len(cuts), tempo, vd, probe_dur(out)))
+    job['_voice_cuts'] = len(cuts)
+    return out
+
+
 def speech_spans(voice, offset, total):
     """Find speech segments in the voice track using silencedetect."""
     r = subprocess.run(['ffmpeg', '-i', voice, '-af', 'silencedetect=noise=-32dB:d=0.22', '-f', 'null', '-'],
@@ -482,6 +547,8 @@ def main(job_path, out_path):
             sh(['ffmpeg', '-y', '-i', vpath, '-af', 'atempo=%f' % vtempo, '-ar', '48000', vt])
             vpath = vt
         vstart = float(job['voice'].get('start', 0.3))
+        if job['voice'].get('max_pause'):
+            vpath = compress_pauses(job, scenes, vpath, vstart)
         need = vstart + probe_dur(vpath) + 0.35
         have = sum(float(s.get('dur', 3)) for s in scenes) - TD * (len(scenes) - 1)
         if need > have:
