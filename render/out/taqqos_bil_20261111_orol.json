@@ -1,0 +1,22 @@
+{
+ "name": "taqqos_bil_20261111_orol",
+ "template": "bilasizmi",
+ "duration": 35.7,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "size_mb": 24.64,
+ "words": 79,
+ "facts": 5,
+ "fact_starts": [
+  0.0,
+  5.93,
+  13.21,
+  18.88,
+  23.8
+ ],
+ "endcard_start": 32.97,
+ "ok": true,
+ "url": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261111_orol.mp4",
+ "thumb": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261111_orol.jpg"
+}
