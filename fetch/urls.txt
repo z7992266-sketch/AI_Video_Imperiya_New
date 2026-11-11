@@ -1,7 +1,2 @@
-bil_voice_20261111.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/LmLLtfnKsK90Uuw8iVCw/mI8FWwWozyVlmU0XCeiW/content.mp3?Expires=1794394800&KeyName=assets-cdn-key-1&Signature=7GNjjjY-B_y_OO7Es4z8nWaC5G4=
-bil_20261111_space.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/AralSea%281997%29_NASA_STS085-503-119.jpg/1920px-AralSea%281997%29_NASA_STS085-503-119.jpg
-bil_20261111_amu.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Amudarya_by_Nukus%2C_Uzbekistan_%28%D0%90%D0%BC%D1%83%D0%B4%D0%B0%D1%80%D1%8C%D1%8F_%D1%80%D1%8F%D0%B4%D0%BE%D0%BC_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9D%D1%83%D0%BA%D1%83%D1%81%29.jpg/1920px-Amudarya_by_Nukus%2C_Uzbekistan_%28%D0%90%D0%BC%D1%83%D0%B4%D0%B0%D1%80%D1%8C%D1%8F_%D1%80%D1%8F%D0%B4%D0%BE%D0%BC_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9D%D1%83%D0%BA%D1%83%D1%81%29.jpg
-bil_20261111_ships.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Moynaq%2C_Aral_Sea_%286226807306%29.jpg/1920px-Moynaq%2C_Aral_Sea_%286226807306%29.jpg
-bil_20261111_ships2.jpg https://upload.wikimedia.org/wikipedia/commons/1/13/Moynaq_Aral-Sea_Ships.jpg
-bil_20261111_modis.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/The_Aral_Sea_%28MODIS_2019-10-11%29.jpg/1920px-The_Aral_Sea_%28MODIS_2019-10-11%29.jpg
-bil_20261111_cmp.jpg https://upload.wikimedia.org/wikipedia/commons/9/95/Aral_Sea_1989-2008.jpg
+ouj_ad_voice_20261111.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/6kAiCpY5LVBrze0EczF2/aijpFQp9ptlCrIQcMuIV/content.mp3?Expires=1794427200&KeyName=assets-cdn-key-1&Signature=6y6COYpfY1KVDZfeArjEOQUBbQo=
+ouj_ad_voice2_20261111.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/6DAX7NtI4A29ncFMjBSW/7DsW9AAbFNP7O4oilPcV/content.mp3?Expires=1794427200&KeyName=assets-cdn-key-1&Signature=VIU-CB54_8owXllwkz4MYngR1TQ=
