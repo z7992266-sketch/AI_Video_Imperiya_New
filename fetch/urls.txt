@@ -2,3 +2,10 @@ dns_a.json https://dns.google/resolve?name=b2bsasagency.com&type=A
 dns_aaaa.json https://dns.google/resolve?name=b2bsasagency.com&type=AAAA
 dns_www.json https://dns.google/resolve?name=www.b2bsasagency.com&type=CNAME
 dns_cf_a.json https://cloudflare-dns.com/dns-query?name=b2bsasagency.com&type=A
+b2b_bot_voice_20261111.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/aaWUmWyw8BhA3tpiZZQ4/rE3k4cJQWqjPgspKfVYD/content.mp3?Expires=1794380400&KeyName=assets-cdn-key-1&Signature=L-0MVXyyDMhA7EzR7XlAJkvUmNw=
+b2b_pex_7924639.mp4 https://www.pexels.com/download/video/7924639/
+b2b_pex_3315497.mp4 https://www.pexels.com/download/video/3315497/
+b2b_pex_5983694.mp4 https://www.pexels.com/download/video/5983694/
+b2b_pex_7236779.mp4 https://www.pexels.com/download/video/7236779/
+b2b_pex_4057256.mp4 https://www.pexels.com/download/video/4057256/
+b2b_pex_35033602.mp4 https://www.pexels.com/download/video/35033602/
