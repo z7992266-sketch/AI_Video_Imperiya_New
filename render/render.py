@@ -39,7 +39,7 @@ FONT_MAIN = 'Inter Display Black'
 FONT_SUB = 'Inter Display ExtraBold'
 WORK = os.environ.get('RENDER_WORK', '/tmp/z7render')
 # Owner, 9 Nov 2026: transition whooshes/SFX at 40% of the old loudness ("40 qilib qo'y, 100 emas"), all channels.
-SFX_GAIN = float(os.environ.get('SFX_GAIN', '0.4'))
+SFX_GAIN = float(os.environ.get('SFX_GAIN', '0.2'))  # owner 11 Nov: lower again, never raise
 
 
 def sh(cmd, quiet=True):
@@ -121,7 +121,7 @@ SFX_LIB = {
     'rewind': ("anoisesrc=color=pink:amplitude=0.6:d=0.9,bandpass=f=1800:width_type=o:w=2,volume=6,vibrato=f=18:d=0.9,"
                "afade=t=in:st=0:d=0.2,afade=t=out:st=0.6:d=0.3[r1];sine=f=900:d=0.9,vibrato=f=24:d=1,volume=0.25,"
                "afade=t=out:st=0.3:d=0.6[r2];[r1][r2]amix=inputs=2:normalize=0"),
-    'whoosh': ("anoisesrc=color=pink:amplitude=0.55:d=0.5,bandpass=f=1400:width_type=o:w=2,volume=9,"
+    'whoosh': ("anoisesrc=color=pink:amplitude=0.55:d=0.5,bandpass=f=1400:width_type=o:w=2,volume=5,"
                "afade=t=in:st=0:d=0.22,afade=t=out:st=0.22:d=0.28"),
     'ding': ("sine=f=1318:d=0.9,volume='0.7*exp(-5*t)':eval=frame[d1];sine=f=1976:d=0.9,volume='0.35*exp(-7*t)':eval=frame[d2];"
              "[d1][d2]amix=inputs=2:normalize=0"),
