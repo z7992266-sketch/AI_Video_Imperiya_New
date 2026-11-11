@@ -1,12 +1,4 @@
-gvr_vo1.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/7c3nVEAwegp9XoqgQLiQ/G68IH8zjwJA79ihwoCHI/content.mp3?Expires=1794391200&KeyName=assets-cdn-key-1&Signature=6Fj_oCC7X6qHa5l-FxuqkABwLf0=
-gvr_vo2.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/QA9K8mTbLvPODOT32MxF/MExailhSUBIfCEykHwkK/content.mp3?Expires=1794391200&KeyName=assets-cdn-key-1&Signature=07QDtlHPC8jJP--s8Qedc-CX0mg=
-gvr_vo3.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/e5YqGNCpLUuDQCLmrEkK/cDAclKnFpHmPiFk7XTW8/content.mp3?Expires=1794391200&KeyName=assets-cdn-key-1&Signature=ujzyh9BP14lcJFmbwcvCe7H9L8E=
-gvr_r19.jpg https://upload.wikimedia.org/wikipedia/commons/b/be/The_Call_Of_The_Sahara_%2814979891929%29.jpg
-gvr_r20.jpg https://upload.wikimedia.org/wikipedia/commons/6/69/Mountains_of_Adrar_-_panoramio.jpg
-gvr_r22.jpg https://upload.wikimedia.org/wikipedia/commons/f/f1/Chinguetti_dunes.jpg
-gvr_r23.jpg https://upload.wikimedia.org/wikipedia/commons/e/e2/Sahara_desert_Adrar_Province_Mauritania.jpg
-gvr_r24.jpg https://upload.wikimedia.org/wikipedia/commons/3/34/Adrar-Peintures_rupestres_%281%29.JPG
-gvr_r25.jpg https://upload.wikimedia.org/wikipedia/commons/7/76/Eyeing_the_Richat_Structure_%281212324_-_lrg%29.jpg
-gvr_r29.jpg https://upload.wikimedia.org/wikipedia/commons/f/f6/ISS034-E-54237_-_View_of_Mauritania.jpg
-gvr_r30.jpg https://upload.wikimedia.org/wikipedia/commons/1/16/Adrar_sands.JPG
-gvr_r32.jpg https://upload.wikimedia.org/wikipedia/commons/2/27/Porte%2C_Ouadane.jpg
+bilq_ships.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|size|extmetadata&iiextmetadatafilter=LicenseShortName|Artist&iiurlwidth=1600&gsrsearch=Moynaq%20ship%20cemetery
+bilq_aral.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|size|extmetadata&iiextmetadatafilter=LicenseShortName|Artist&iiurlwidth=1600&gsrsearch=Aral%20Sea%20NASA%20satellite
+bilq_amu.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|size|extmetadata&iiextmetadatafilter=LicenseShortName|Artist&iiurlwidth=1600&gsrsearch=Amu%20Darya%20river%20Uzbekistan
+bilq_aral2.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|size|extmetadata&iiextmetadatafilter=LicenseShortName|Artist&iiurlwidth=1600&gsrsearch=Aral%20Sea%20Uzbekistan%20shore
