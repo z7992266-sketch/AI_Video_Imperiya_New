@@ -1,0 +1,42 @@
+{
+ "name": "b2b_pf_kalyan_20261111",
+ "grade": "none",
+ "transition": "none",
+ "native_audio": true,
+ "sfx": false,
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "crf": 19,
+ "preset": "slow",
+ "captions": {
+  "style": "none"
+ },
+ "scenes": [
+  {
+   "src": "https://storage.googleapis.com/vidiq-user-videos/021e8751-cd9c-4e59-902b-38d3b535470f/4ab08dbf-7d1b-49b0-98ef-9b9a98f2d364.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794895087&Signature=q2zsNzEBDKiEKGJAdYd97PbofsuJNcx4ZIQDPKezIHdsURHQvGYhMW6tsPr9vkLukTjgo6EZ3DmtIPod6hdOTjbwqvYW8ZHI8nTHH8IViBQKk%2BuaWoaE1TdpIWzXApo0zdpLoczNEAaweG%2FVMnAYL3kXtdRZrmru07zDeRiPC2XMlu6JVWiaBYLQZWvdEm3iVxrztZeFRiL0yo5C84T7X0yhHzB%2FjQtuB%2BXPK5izyfiqpBcjO00vgQJHXlvPObGUGjoP1Yini435z221TGii1vYbQn6Wr%2B9o8uqvD0Me4BY%2FzsDmaB600u0ZEbove1MXiFMmq4FfQQMqDySipAROmA%3D%3D",
+   "type": "video",
+   "dur": 41.5,
+   "start": 0,
+   "move": "none",
+   "native_audio": true
+  },
+  {
+   "src": "render/assets/b2b/ec_pf_20261102.mp4",
+   "type": "video",
+   "dur": 4.0,
+   "start": 0,
+   "move": "none",
+   "native_audio": true
+  }
+ ],
+ "badge": {
+  "text": "Made by B2B SAS",
+  "color": "#D4AF37",
+  "pos": "top-left",
+  "until": 41.5,
+  "y": 168
+ },
+ "width": 1080,
+ "height": 1920,
+ "fps": 30
+}
