@@ -13,7 +13,7 @@ sh(['ffmpeg', '-y', '-i', A + 'gvr_vo1.mp3', '-i', A + 'gvr_vo2.mp3', '-i', A + 
 music = R.gen_music('dark', TOTAL)
 chap = [T[s]['start'] for s in ('s03', 's06', 's09', 's14', 's16', 's19', 's23')] + [T['s23']['end']]
 ev = [{'t': 0.0, 'type': 'boom', 'volume': 1.1}, {'t': 2.95, 'type': 'zap', 'volume': 0.5}]
-ev += [{'t': max(0, t - 0.2), 'type': 'whoosh', 'volume': 0.5} for t in chap]
+ev += [{'t': max(0, t - 0.2), 'type': 'whoosh', 'volume': 0.25} for t in chap]
 loops = [[x for x in shots if x['seg'] == 's08'][1]['start'], [x for x in shots if x['seg'] == 's13'][0]['start']]
 ev += [{'t': t, 'type': 'zap', 'volume': 0.4} for t in loops]
 tw = T['s21']['start']

@@ -15,7 +15,7 @@ music = R.gen_music('dark', TOTAL)
 chap = [s['start'] for s in tim if s['id'] in ('s03', 's05', 's07', 's10', 's12b', 's13', 's14', 's16b', 's17', 's18')]
 ev = [{'t': 0.0, 'type': 'boom', 'volume': 1.1}, {'t': 131.4, 'type': 'boom', 'volume': 0.9},
       {'t': 242.4, 'type': 'riser', 'volume': 0.6}, {'t': 244.3, 'type': 'boom', 'volume': 0.8}]
-ev += [{'t': max(0, t - 0.2), 'type': 'whoosh', 'volume': 0.55} for t in chap]
+ev += [{'t': max(0, t - 0.2), 'type': 'whoosh', 'volume': 0.25} for t in chap]
 ev += [{'t': 107.1 + 10.0 * (0.12 + i * 0.22), 'type': 'zap', 'volume': 0.35} for i in range(3)]
 sfx = R.gen_events(ev, TOTAL)
 f = ('[1]volume=0.20,afade=t=out:st=%.2f:d=4[m];[m][0]sidechaincompress=threshold=0.03:ratio=6:attack=40:release=400[md];'
