@@ -10,7 +10,7 @@ rotating sunburst on a bright Taqqos gradient. Big bouncing "BILASIZMI?" hook ti
 header), small TAQQOS label top-right, rolling number counters, word-by-word captions with a yellow
 highlight on the spoken word, small image credit per photo, 2 s+ end card (question + subscribe).
 Text stays out of the top 12 % and bottom 18 % (Shorts UI). Audio: voice + generated soft music bed
-(ducked) + SFX at the kit default (render.SFX_GAIN = 40 %), two-pass loudnorm to -14 LUFS.
+(ducked) + SFX at the kit default (render.SFX_GAIN = 20 %), two-pass loudnorm to -14 LUFS.
 
 Job JSON:
 {
@@ -1056,7 +1056,7 @@ def main(job_path, out_path):
         except Exception as e:
             sys.stderr.write('music skipped: %s\n' % e)
     if job.get('sfx', True):
-        ep = R.gen_events(ev, total)     # SFX_GAIN (40 %) applied inside
+        ep = R.gen_events(ev, total)     # SFX_GAIN (20 %) applied inside
         if ep:
             a_in += ['-i', ep]
             parts.append('[%d:a]aresample=48000,volume=%.2f[sfx]' % (idx, float(job.get('sfx_volume', 0.9))))
