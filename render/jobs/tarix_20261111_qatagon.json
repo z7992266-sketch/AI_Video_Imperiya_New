@@ -1,0 +1,289 @@
+{
+ "name": "tarix_20261111_qatagon",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "scenes": [
+  {
+   "src": "render/assets/tarix_20261111/tashkent1930.jpg",
+   "type": "image",
+   "dur": 4.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img01.jpg",
+   "type": "image",
+   "dur": 4.6,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img03.jpg",
+   "type": "image",
+   "dur": 4.5,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img02.jpg",
+   "type": "image",
+   "dur": 4.9,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img06.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "down",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img15.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "left",
+   "fit": "blur"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img09.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img10.jpg",
+   "type": "image",
+   "dur": 5.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img18.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img02.jpg",
+   "type": "image",
+   "dur": 4.6,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img16.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img04.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "out",
+   "fit": "blur"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img08.jpg",
+   "type": "image",
+   "dur": 5.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/t4img09.jpg",
+   "type": "image",
+   "dur": 5.8,
+   "move": "out",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "Bir kunda jim qilindi",
+  "dur": 2.5,
+  "color": "#FFD54F",
+  "pos": 0.2,
+  "size": 120
+ },
+ "voice": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/tarix4_narr.mp3",
+  "start": 0,
+  "volume": 1.2
+ },
+ "captions": {
+  "script": "Bir kunda xalqning eng buyuk qalamlari jim qilindi. Bir ming to'qqiz yuz o'ttiz sakkizinchi yil, to'rtinchi oktabr. Toshkentda Abdulla Qodiriy, Cho'lpon va Fitrat otib tashlandi. Birinchi raund — hukm. O'shanda, to'rtinchi oktabrdan o'n oltinchi oktabrgacha, besh yuz yetti nafar o'zbekistonlik siyosiy mahbus hukm qilingan. Bugun esa, Prezident ikki ming yigirma to'rtinchi yilda aytganidek, uch yilda bir ming ikki yuzdan ortiq qatag'on qurbonining nomi oqlandi. Ikkinchi raund — shoir. O'shanda yigirma to'rt yoshli Usmon Nosir o'n yilga hukm qilindi va bir ming to'qqiz yuz qirq to'rtinchi yilda Kemerovo yaqinida vafot etdi. Bugun Kemerovoda uning haykali ochilgan. Uchinchi raund — xotira. O'shanda ularni \"xalq dushmani\" deyishdi. Bugun Qodiriy va Cho'lpon Mustaqillik ordeni bilan taqdirlangan. Har yili o'ttiz birinchi avgust — Qatag'on qurbonlarini yod etish kuni. Ularni unutmaylik. Siz bu haqda bilarmidingiz? Izohda yozing!",
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.6,
+  "size": 70,
+  "max_words": 3
+ },
+ "music": {
+  "gen": "calm",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 13.72,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 33.57,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 48.6,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 63.4,
+   "type": "whoosh",
+   "volume": 1
+  }
+ ],
+ "texts": [
+  {
+   "t0": 2.7,
+   "t1": 12.8,
+   "text": "4-OKTABR, 1938",
+   "pos": 0.72,
+   "size": 72,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 13.72,
+   "t1": 16.3,
+   "text": "1-RAUND: HUKM",
+   "pos": 0.14,
+   "size": 86,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 14.6,
+   "t1": 23.6,
+   "text": "1938: 507 MAHBUS HUKM QILINDI",
+   "pos": 0.72,
+   "size": 58,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 24.6,
+   "t1": 33.4,
+   "text": "BUGUN: 1200+ NOM OQLANDI",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 33.57,
+   "t1": 36.1,
+   "text": "2-RAUND: SHOIR",
+   "pos": 0.14,
+   "size": 86,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 34.6,
+   "t1": 42.5,
+   "text": "USMON NOSIR: 1912–1944",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 43.2,
+   "t1": 48.4,
+   "text": "BUGUN: KEMEROVODA HAYKALI",
+   "pos": 0.72,
+   "size": 58,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 48.6,
+   "t1": 51.1,
+   "text": "3-RAUND: XOTIRA",
+   "pos": 0.14,
+   "size": 86,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 49.6,
+   "t1": 53.6,
+   "text": "O'SHANDA: «XALQ DUSHMANI»",
+   "pos": 0.72,
+   "size": 58,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 54.0,
+   "t1": 58.4,
+   "text": "BUGUN: MUSTAQILLIK ORDENI",
+   "pos": 0.72,
+   "size": 58,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 58.6,
+   "t1": 63.4,
+   "text": "31-AVGUST — YOD ETISH KUNI",
+   "pos": 0.72,
+   "size": 56,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 63.5,
+   "t1": 66.7,
+   "text": "ULARNI UNUTMAYLIK",
+   "pos": 0.36,
+   "size": 90,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 66.7,
+   "t1": 69.8,
+   "text": "IZOHDA YOZING!",
+   "pos": 0.36,
+   "size": 96,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 66.9,
+   "t1": 69.8,
+   "text": "@Taqqos_Uzb",
+   "pos": 0.46,
+   "size": 70,
+   "color": "#FFFFFF",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "TARIX",
+  "color": "#FFFFFF",
+  "pos": "top-left"
+ },
+ "fade_out": 0.6
+}
