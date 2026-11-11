@@ -1,0 +1,18 @@
+{
+  "id": "ev008",
+  "title": "Thunderstorm & Deep Sleep Music",
+  "subtitle": "1 Hour · Rain Sounds · Exclusive Vibe",
+  "thumb_big": "Thunderstorm",
+  "thumb_small": "1 Hour Deep Sleep",
+  "minutes": 60,
+  "mood": "storm",
+  "seed": 156,
+  "queries": [
+    "storm",
+    "lightning",
+    "rain"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+}
