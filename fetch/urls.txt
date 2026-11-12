@@ -1,3 +1,8 @@
-cm1111_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/8NbF6NfqSVcYnk9lp9kA/gmUEemJljml8d0bqDVUM/content.mp3?Expires=1794434400&KeyName=assets-cdn-key-1&Signature=Q8MJMsIMiNyTJx-0o0ay5NGDWY0=
-ouj_lev_a.png https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/fnlLJt7SG0HqFc2uWN9w/VBcXLwJyLDyBBGSyrpT6/content.png?Expires=1794459600&KeyName=assets-cdn-key-1&Signature=znnArU7OEIL_Fp8AbWzVg_fp7LQ=
-ouj_lev_b.png https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/P1r38mF1Uv8iXTnGE8Su/ORvGrkiDExPCi08sGWiL/content.png?Expires=1794459600&KeyName=assets-cdn-key-1&Signature=wllZ3ZZBZ4tVvgCFfmQ73z_bzuI=
+b2b_vo_montaj_20261112.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/UKsXOhaA0e3nE4oyLtWL/DR33rlAP3HLRTmtTIFxg/content.mp3?Expires=1794466800&KeyName=assets-cdn-key-1&Signature=acaUZH4oGpSVWiAfzMrVUcd58i8=
+b2b_pex_6877260.mp4 https://www.pexels.com/download/video/6877260/
+b2b_pex_38410499.mp4 https://www.pexels.com/download/video/38410499/
+b2b_pex_6756650.mp4 https://www.pexels.com/download/video/6756650/
+b2b_pex_32549876.mp4 https://www.pexels.com/download/video/32549876/
+b2b_pex_33414463.mp4 https://www.pexels.com/download/video/33414463/
+b2b_pex_1536315.mp4 https://www.pexels.com/download/video/1536315/
+b2b_pex_6278834.mp4 https://www.pexels.com/download/video/6278834/
