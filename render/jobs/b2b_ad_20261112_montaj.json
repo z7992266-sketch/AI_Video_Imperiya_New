@@ -1,0 +1,483 @@
+{
+ "name": "b2b_ad_20261112_montaj",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "scenes": [
+  {
+   "src": "render/assets/b2b_montaj_20261112/split.mp4",
+   "type": "video",
+   "dur": 6.3,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_38410499.mp4",
+   "type": "video",
+   "dur": 1.5,
+   "start": 3.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_6756650.mp4",
+   "type": "video",
+   "dur": 1.6,
+   "start": 2.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_32549876.mp4",
+   "type": "video",
+   "dur": 2.3,
+   "start": 2.0,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_33414463.mp4",
+   "type": "video",
+   "dur": 2.3,
+   "start": 3.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/fr_cher_a.mp4",
+   "type": "video",
+   "dur": 2.4,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/fr_medeu.mp4",
+   "type": "video",
+   "dur": 2.0,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/fr_cher_b.mp4",
+   "type": "video",
+   "dur": 1.9,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_1536315.mp4",
+   "type": "video",
+   "dur": 2.7,
+   "start": 1.0,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_33414463.mp4",
+   "type": "video",
+   "dur": 3.6,
+   "start": 18.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/endcard.mp4",
+   "type": "video",
+   "dur": 4.6,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  }
+ ],
+ "texts": [
+  {
+   "t0": 3.9,
+   "t1": 6.25,
+   "text": "FARQI 1-SONIYADA",
+   "pos": 0.79,
+   "size": 80,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 6.5,
+   "t1": 9.35,
+   "text": "O'TKAZIB YUBORISHADI",
+   "pos": 0.3,
+   "size": 86,
+   "color": "#FF6B6B"
+  },
+  {
+   "t0": 9.6,
+   "t1": 13.95,
+   "text": "KUCHLI BOSHLANISH",
+   "pos": 0.26,
+   "size": 74
+  },
+  {
+   "t0": 11.8,
+   "t1": 13.95,
+   "text": "MUSIQA",
+   "pos": 0.32,
+   "size": 74,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 12.4,
+   "t1": 13.95,
+   "text": "SUBTITR",
+   "pos": 0.38,
+   "size": 74
+  },
+  {
+   "t0": 13.0,
+   "t1": 13.95,
+   "text": "RITM",
+   "pos": 0.44,
+   "size": 74,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 14.1,
+   "t1": 16.35,
+   "text": "TOMOSHABIN QOLADI",
+   "pos": 0.185,
+   "size": 78,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 16.5,
+   "t1": 20.25,
+   "text": "BIZNING ISHIMIZ",
+   "pos": 0.185,
+   "size": 78,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 20.6,
+   "t1": 26.5,
+   "text": "TAYYOR FORMAT",
+   "pos": 0.6,
+   "size": 84,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 21.9,
+   "t1": 26.5,
+   "text": "YOKI O'Z BRENDINGIZDA",
+   "pos": 0.66,
+   "size": 72
+  }
+ ],
+ "voice": {
+  "src": "render/assets/b2b_montaj_20261112/voice.mp3",
+  "start": 0.4,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Oddiy telefon video — yoki professional montaj? Farqi birinchi soniyada ko'rinadi. Oddiy videoni odamlar tez o'tkazib yuboradi. Professional montajda kuchli boshlanish, musiqa, subtitr va ritm bor — u tomoshabinni ushlab turadi. Bi Tu Bi Sas videolaringizni Reels uchun montaj qiladi. Xohlang tayyor formatda, xohlang to'liq o'z brendingiz ostida — nomingiz va logongiz bilan. Directga INFO deb yozing.",
+  "words": [
+   {
+    "w": "Oddiy",
+    "t0": 0.4,
+    "t1": 0.768
+   },
+   {
+    "w": "telefon",
+    "t0": 0.798,
+    "t1": 1.281
+   },
+   {
+    "w": "video —",
+    "t0": 1.311,
+    "t1": 1.85
+   },
+   {
+    "w": "yoki",
+    "t0": 2.23,
+    "t1": 2.558
+   },
+   {
+    "w": "professional",
+    "t0": 2.588,
+    "t1": 3.393
+   },
+   {
+    "w": "montaj?",
+    "t0": 3.423,
+    "t1": 3.93
+   },
+   {
+    "w": "Farqi",
+    "t0": 4.33,
+    "t1": 4.654
+   },
+   {
+    "w": "birinchi",
+    "t0": 4.684,
+    "t1": 5.159
+   },
+   {
+    "w": "soniyada",
+    "t0": 5.189,
+    "t1": 5.664
+   },
+   {
+    "w": "ko'rinadi.",
+    "t0": 5.694,
+    "t1": 6.27
+   },
+   {
+    "w": "Oddiy",
+    "t0": 6.55,
+    "t1": 6.875
+   },
+   {
+    "w": "videoni",
+    "t0": 6.905,
+    "t1": 7.333
+   },
+   {
+    "w": "odamlar",
+    "t0": 7.363,
+    "t1": 7.79
+   },
+   {
+    "w": "tez",
+    "t0": 7.82,
+    "t1": 8.044
+   },
+   {
+    "w": "o'tkazib",
+    "t0": 8.074,
+    "t1": 8.551
+   },
+   {
+    "w": "yuboradi.",
+    "t0": 8.581,
+    "t1": 9.11
+   },
+   {
+    "w": "Professional",
+    "t0": 9.47,
+    "t1": 10.106
+   },
+   {
+    "w": "montajda",
+    "t0": 10.136,
+    "t1": 10.581
+   },
+   {
+    "w": "kuchli",
+    "t0": 10.611,
+    "t1": 10.962
+   },
+   {
+    "w": "boshlanish,",
+    "t0": 10.992,
+    "t1": 11.58
+   },
+   {
+    "w": "musiqa,",
+    "t0": 11.82,
+    "t1": 12.288
+   },
+   {
+    "w": "subtitr",
+    "t0": 12.318,
+    "t1": 12.785
+   },
+   {
+    "w": "va",
+    "t0": 12.815,
+    "t1": 13.006
+   },
+   {
+    "w": "ritm",
+    "t0": 13.036,
+    "t1": 13.338
+   },
+   {
+    "w": "bor —",
+    "t0": 13.368,
+    "t1": 13.78
+   },
+   {
+    "w": "u",
+    "t0": 14.11,
+    "t1": 14.219
+   },
+   {
+    "w": "tomoshabinni",
+    "t0": 14.249,
+    "t1": 14.865
+   },
+   {
+    "w": "ushlab",
+    "t0": 14.895,
+    "t1": 15.234
+   },
+   {
+    "w": "turadi.",
+    "t0": 15.264,
+    "t1": 15.65
+   },
+   {
+    "w": "B2B",
+    "t0": 15.97,
+    "t1": 16.68
+   },
+   {
+    "w": "SAS",
+    "t0": 16.71,
+    "t1": 16.989
+   },
+   {
+    "w": "videolaringizni",
+    "t0": 17.019,
+    "t1": 18.038
+   },
+   {
+    "w": "Reels",
+    "t0": 18.068,
+    "t1": 18.469
+   },
+   {
+    "w": "uchun",
+    "t0": 18.499,
+    "t1": 18.901
+   },
+   {
+    "w": "montaj",
+    "t0": 18.931,
+    "t1": 19.395
+   },
+   {
+    "w": "qiladi.",
+    "t0": 19.425,
+    "t1": 19.95
+   },
+   {
+    "w": "Xohlang",
+    "t0": 20.25,
+    "t1": 20.712
+   },
+   {
+    "w": "tayyor",
+    "t0": 20.742,
+    "t1": 21.149
+   },
+   {
+    "w": "formatda,",
+    "t0": 21.179,
+    "t1": 21.75
+   },
+   {
+    "w": "xohlang",
+    "t0": 22.07,
+    "t1": 22.538
+   },
+   {
+    "w": "to'liq",
+    "t0": 22.568,
+    "t1": 22.981
+   },
+   {
+    "w": "o'z",
+    "t0": 23.011,
+    "t1": 23.257
+   },
+   {
+    "w": "brendingiz",
+    "t0": 23.287,
+    "t1": 23.921
+   },
+   {
+    "w": "ostida —",
+    "t0": 23.951,
+    "t1": 24.53
+   },
+   {
+    "w": "nomingiz",
+    "t0": 24.79,
+    "t1": 25.288
+   },
+   {
+    "w": "va",
+    "t0": 25.318,
+    "t1": 25.499
+   },
+   {
+    "w": "logongiz",
+    "t0": 25.529,
+    "t1": 26.027
+   },
+   {
+    "w": "bilan.",
+    "t0": 26.057,
+    "t1": 26.45
+   }
+  ],
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.86,
+  "size": 64,
+  "max_words": 3
+ },
+ "music": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/media/b2b/music/b2b_beat_01.mp3",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 0.1,
+   "type": "boom",
+   "volume": 0.7
+  },
+  {
+   "t": 6.4,
+   "type": "whoosh",
+   "volume": 0.7
+  },
+  {
+   "t": 9.6,
+   "type": "click",
+   "volume": 0.8
+  },
+  {
+   "t": 11.8,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 12.4,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 13.0,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 20.6,
+   "type": "ding",
+   "volume": 0.8
+  },
+  {
+   "t": 26.3,
+   "type": "riser",
+   "volume": 0.4
+  }
+ ],
+ "crf": 19,
+ "preset": "slow"
+}
