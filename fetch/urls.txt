@@ -1,1 +1,3 @@
 cm1111_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/8NbF6NfqSVcYnk9lp9kA/gmUEemJljml8d0bqDVUM/content.mp3?Expires=1794434400&KeyName=assets-cdn-key-1&Signature=Q8MJMsIMiNyTJx-0o0ay5NGDWY0=
+ouj_lev_a.png https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/fnlLJt7SG0HqFc2uWN9w/VBcXLwJyLDyBBGSyrpT6/content.png?Expires=1794459600&KeyName=assets-cdn-key-1&Signature=znnArU7OEIL_Fp8AbWzVg_fp7LQ=
+ouj_lev_b.png https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/P1r38mF1Uv8iXTnGE8Su/ORvGrkiDExPCi08sGWiL/content.png?Expires=1794459600&KeyName=assets-cdn-key-1&Signature=wllZ3ZZBZ4tVvgCFfmQ73z_bzuI=
