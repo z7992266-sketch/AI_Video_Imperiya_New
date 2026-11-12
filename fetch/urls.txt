@@ -1,9 +1,7 @@
-b2b_vo_montaj_20261112.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/UKsXOhaA0e3nE4oyLtWL/DR33rlAP3HLRTmtTIFxg/content.mp3?Expires=1794466800&KeyName=assets-cdn-key-1&Signature=acaUZH4oGpSVWiAfzMrVUcd58i8=
-b2b_pex_6877260.mp4 https://www.pexels.com/download/video/6877260/
-b2b_pex_38410499.mp4 https://www.pexels.com/download/video/38410499/
-b2b_pex_6756650.mp4 https://www.pexels.com/download/video/6756650/
-b2b_pex_32549876.mp4 https://www.pexels.com/download/video/32549876/
-b2b_pex_33414463.mp4 https://www.pexels.com/download/video/33414463/
-b2b_pex_1536315.mp4 https://www.pexels.com/download/video/1536315/
-b2b_pex_6278834.mp4 https://www.pexels.com/download/video/6278834/
-taqqos21_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/bFxI1As0rOkHKU8LcU1n/v1BjYiFHdAT315eXs8Mx/content.mp3?Expires=1794474000&KeyName=assets-cdn-key-1&Signature=kX1bkkibhxUUHBYQPFc59jo7R3I=
+bf_blood_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Blood+Falls+Antarctica&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_taylor_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Taylor+Glacier+Antarctica&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_dryval_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Taylor+Valley+McMurdo+Dry+Valleys&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_brine_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Blood+Falls+brine+iron&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_mars_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Mars+global+view+Viking&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_bacteria_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+bacteria+electron+micrograph&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
+bf_antice_20261112.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+Antarctica+glacier+ice+cliff&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1920&iiextmetadatafilter=LicenseShortName%7CArtist%7CCredit%7CImageDescription
