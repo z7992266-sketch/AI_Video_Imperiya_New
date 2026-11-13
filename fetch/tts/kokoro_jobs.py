@@ -20,6 +20,18 @@ for txt in sorted(glob.glob('fetch/tts/jobs/*.txt')):
             if k == 'speed': speed = float(v)
         lines = lines[1:]
     text = '\n'.join(lines)
+    if voice.startswith('ru_'):  # Russian: Piper (MIT) voices dmitri / irina / denis
+        nm = voice[3:]; base = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/'
+        mp = f'/tmp/{nm}.onnx'
+        if not os.path.exists(mp):
+            for ext in ['', '.json']:
+                subprocess.run(['curl', '-sL', '-o', mp + ext, f'{base}{nm}/medium/ru_RU-{nm}-medium.onnx{ext}'], check=True)
+        wav = f'/tmp/{jid}.wav'
+        subprocess.run(['piper', '-m', mp, '--length_scale', str(round(1/speed, 3)), '-f', wav], input=text.encode(), check=True)
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', wav, '-af', 'loudnorm=I=-16', '-ar', '44100', '-b:a', '160k', out], check=True)
+        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out], capture_output=True, text=True).stdout)
+        json.dump({'voice': voice, 'duration': round(dur, 3), 'words': []}, open(f'fetch/out/tts/{jid}.json', 'w'))
+        print('done', jid, round(dur, 1), 's'); continue
     chunks, words, t0 = [], [], 0.0
     for r in pipe(text, voice=voice, speed=speed):
         a = r.audio.numpy() if hasattr(r.audio, 'numpy') else np.asarray(r.audio)

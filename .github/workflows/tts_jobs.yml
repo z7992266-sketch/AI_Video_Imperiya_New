@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg
-      - run: pip install -q kokoro soundfile
+      - run: pip install -q kokoro soundfile piper-tts
       - run: python fetch/tts/kokoro_jobs.py
       - name: Commit
         run: |
