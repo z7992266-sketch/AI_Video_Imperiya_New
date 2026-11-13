@@ -1,0 +1,22 @@
+{
+ "name": "taqqos_bil_20261113_maydon",
+ "template": "bilasizmi",
+ "duration": 36.71,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "size_mb": 29.88,
+ "words": 77,
+ "facts": 5,
+ "fact_starts": [
+  0.0,
+  11.33,
+  14.03,
+  17.58,
+  28.77
+ ],
+ "endcard_start": 34.08,
+ "ok": true,
+ "url": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261113_maydon.mp4",
+ "thumb": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261113_maydon.jpg"
+}
