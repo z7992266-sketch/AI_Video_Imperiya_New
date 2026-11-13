@@ -1,0 +1,139 @@
+{
+ "name": "cm_20261113_kola",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "dark",
+ "transition": "auto",
+ "scenes": [
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_crop.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Kolskaya-sverhglubokaya-001.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kolskaya-sverhglubokaya-011.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kolskaya-sverhglubokaya-018.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kolskaya-sverhglubokaya-020.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kolskaya-sverhglubokaya-021.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kolskaya-sverhglubokaya-025.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0.jpg",
+   "type": "image",
+   "dur": 4.17,
+   "move": "right",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "12 262 МЕТРА",
+  "dur": 2.6,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/cm_20261113_kola/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Двенадцать тысяч двести шестьдесят два метра вниз. Это Кольская сверхглубокая скважина — самая глубокая точка, до которой когда-либо добрался человек. Бурить начали в тысяча девятьсот семидесятом году, за Полярным кругом, в Мурманской области. Диаметр скважины — всего двадцать три сантиметра. На глубине больше двенадцати километров температура достигла ста восьмидесяти градусов, и бурение пришлось остановить. Сегодня скважина закрыта металлической крышкой. Говорят, оттуда записали «крики из ада» — но это выдумка, она не подтверждается. Как думаете, что скрыто ещё глубже?",
+  "lang": "ru",
+  "style": "karaoke",
+  "pos": 0.66
+ },
+ "music": {
+  "gen": "dark",
+  "volume": 0.15,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 3.0,
+   "t1": 8.0,
+   "text": "Самая глубокая точка",
+   "pos": 0.3,
+   "size": 80,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 9.0,
+   "t1": 13.5,
+   "text": "1970",
+   "pos": 0.3,
+   "size": 130,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 14.0,
+   "t1": 17.5,
+   "text": "Диаметр 23 см",
+   "pos": 0.3,
+   "size": 96,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 18.0,
+   "t1": 23.0,
+   "text": "+180 °C",
+   "pos": 0.3,
+   "size": 130,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 26.5,
+   "t1": 31.0,
+   "text": "Легенда, не подтверждается",
+   "pos": 0.3,
+   "size": 68,
+   "color": "#FFFFFF",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "Фото: Wikimedia Commons · Озвучка: AI",
+  "color": "#DDDDDD",
+  "pos": "top-left"
+ }
+}

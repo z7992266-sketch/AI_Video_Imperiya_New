@@ -1,0 +1,611 @@
+{
+ "name": "ouj_20261113_cappadocia",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "scenes": [
+  {
+   "src": "https://www.pexels.com/download/video/32662641/",
+   "type": "video",
+   "dur": 4.6,
+   "start": 0.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/17720042/",
+   "type": "video",
+   "dur": 4.2,
+   "start": 0.3,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/35072694/",
+   "type": "video",
+   "dur": 4.4,
+   "start": 0.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/27590161/",
+   "type": "video",
+   "dur": 4.6,
+   "start": 0.3,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/38326544/",
+   "type": "video",
+   "dur": 4.6,
+   "start": 0.3,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/35751722/",
+   "type": "video",
+   "dur": 4.4,
+   "start": 0.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://www.pexels.com/download/video/32662641/",
+   "type": "video",
+   "dur": 4.0,
+   "start": 2.8,
+   "move": "up",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "IS THIS PLACE REAL?",
+  "dur": 2.4,
+  "color": "#FFB74D"
+ },
+ "voice": {
+  "src": "render/assets/ouj_20261113_cappadocia/voice.mp3",
+  "start": 0.2,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Where on Earth do hundreds of balloons rise over stone towers every sunrise? This is Cappadocia, in central Turkey. These fairy chimneys were carved by wind and rain from volcanic ash that settled here millions of years ago. People dug homes, churches and even whole cities into the soft rock. The underground city of Derinkuyu goes about eighty-five metres deep. And since nineteen eighty-five, it has been a UNESCO World Heritage Site. Would you fly here at sunrise? Which country should we show next?",
+  "lang": "en",
+  "style": "karaoke",
+  "pos": 0.66,
+  "words": [
+   {
+    "w": "Where",
+    "t0": 0.5,
+    "t1": 0.663
+   },
+   {
+    "w": "on",
+    "t0": 0.663,
+    "t1": 0.825
+   },
+   {
+    "w": "Earth",
+    "t0": 0.825,
+    "t1": 1.1
+   },
+   {
+    "w": "do",
+    "t0": 1.1,
+    "t1": 1.275
+   },
+   {
+    "w": "hundreds",
+    "t0": 1.275,
+    "t1": 1.712
+   },
+   {
+    "w": "of",
+    "t0": 1.712,
+    "t1": 1.8
+   },
+   {
+    "w": "balloons",
+    "t0": 1.8,
+    "t1": 2.338
+   },
+   {
+    "w": "rise",
+    "t0": 2.338,
+    "t1": 2.613
+   },
+   {
+    "w": "over",
+    "t0": 2.613,
+    "t1": 2.85
+   },
+   {
+    "w": "stone",
+    "t0": 2.85,
+    "t1": 3.2
+   },
+   {
+    "w": "towers",
+    "t0": 3.2,
+    "t1": 3.625
+   },
+   {
+    "w": "every",
+    "t0": 3.625,
+    "t1": 3.9250000000000003
+   },
+   {
+    "w": "sunrise",
+    "t0": 3.9250000000000003,
+    "t1": 4.775
+   },
+   {
+    "w": "?",
+    "t0": 4.775,
+    "t1": 4.875
+   },
+   {
+    "w": "This",
+    "t0": 4.875,
+    "t1": 5.075
+   },
+   {
+    "w": "is",
+    "t0": 5.075,
+    "t1": 5.2250000000000005
+   },
+   {
+    "w": "Cappadocia",
+    "t0": 5.2250000000000005,
+    "t1": 6.0
+   },
+   {
+    "w": ",",
+    "t0": 6.0,
+    "t1": 6.075
+   },
+   {
+    "w": "in",
+    "t0": 6.075,
+    "t1": 6.2250000000000005
+   },
+   {
+    "w": "central",
+    "t0": 6.2250000000000005,
+    "t1": 6.55
+   },
+   {
+    "w": "Turkey",
+    "t0": 6.55,
+    "t1": 7.3500000000000005
+   },
+   {
+    "w": ".",
+    "t0": 7.3500000000000005,
+    "t1": 7.5120000000000005
+   },
+   {
+    "w": "These",
+    "t0": 7.5120000000000005,
+    "t1": 7.775
+   },
+   {
+    "w": "fairy",
+    "t0": 7.775,
+    "t1": 8.088
+   },
+   {
+    "w": "chimneys",
+    "t0": 8.088,
+    "t1": 8.537999999999998
+   },
+   {
+    "w": "were",
+    "t0": 8.537999999999998,
+    "t1": 8.674999999999999
+   },
+   {
+    "w": "carved",
+    "t0": 8.674999999999999,
+    "t1": 9.024999999999999
+   },
+   {
+    "w": "by",
+    "t0": 9.024999999999999,
+    "t1": 9.237
+   },
+   {
+    "w": "wind",
+    "t0": 9.237,
+    "t1": 9.625
+   },
+   {
+    "w": "and",
+    "t0": 9.625,
+    "t1": 9.75
+   },
+   {
+    "w": "rain",
+    "t0": 9.75,
+    "t1": 10.125
+   },
+   {
+    "w": "from",
+    "t0": 10.125,
+    "t1": 10.274999999999999
+   },
+   {
+    "w": "volcanic",
+    "t0": 10.274999999999999,
+    "t1": 10.837
+   },
+   {
+    "w": "ash",
+    "t0": 10.837,
+    "t1": 11.149999999999999
+   },
+   {
+    "w": "that",
+    "t0": 11.149999999999999,
+    "t1": 11.337
+   },
+   {
+    "w": "settled",
+    "t0": 11.337,
+    "t1": 11.674999999999999
+   },
+   {
+    "w": "here",
+    "t0": 11.674999999999999,
+    "t1": 11.912999999999998
+   },
+   {
+    "w": "millions",
+    "t0": 11.912999999999998,
+    "t1": 12.312999999999999
+   },
+   {
+    "w": "of",
+    "t0": 12.312999999999999,
+    "t1": 12.399999999999999
+   },
+   {
+    "w": "years",
+    "t0": 12.399999999999999,
+    "t1": 12.638
+   },
+   {
+    "w": "ago",
+    "t0": 12.638,
+    "t1": 13.225
+   },
+   {
+    "w": ".",
+    "t0": 13.225,
+    "t1": 13.362
+   },
+   {
+    "w": "People",
+    "t0": 13.362,
+    "t1": 13.725
+   },
+   {
+    "w": "dug",
+    "t0": 13.725,
+    "t1": 13.95
+   },
+   {
+    "w": "homes",
+    "t0": 13.95,
+    "t1": 14.524999999999999
+   },
+   {
+    "w": ",",
+    "t0": 14.524999999999999,
+    "t1": 14.638
+   },
+   {
+    "w": "churches",
+    "t0": 14.638,
+    "t1": 15.2
+   },
+   {
+    "w": "and",
+    "t0": 15.2,
+    "t1": 15.325
+   },
+   {
+    "w": "even",
+    "t0": 15.325,
+    "t1": 15.625
+   },
+   {
+    "w": "whole",
+    "t0": 15.625,
+    "t1": 15.888
+   },
+   {
+    "w": "cities",
+    "t0": 15.888,
+    "t1": 16.238
+   },
+   {
+    "w": "into",
+    "t0": 16.238,
+    "t1": 16.412
+   },
+   {
+    "w": "the",
+    "t0": 16.412,
+    "t1": 16.512
+   },
+   {
+    "w": "soft",
+    "t0": 16.512,
+    "t1": 16.875
+   },
+   {
+    "w": "rock",
+    "t0": 16.875,
+    "t1": 17.55
+   },
+   {
+    "w": ".",
+    "t0": 17.55,
+    "t1": 17.675
+   },
+   {
+    "w": "The",
+    "t0": 17.675,
+    "t1": 17.825
+   },
+   {
+    "w": "underground",
+    "t0": 17.825,
+    "t1": 18.375
+   },
+   {
+    "w": "city",
+    "t0": 18.375,
+    "t1": 18.613
+   },
+   {
+    "w": "of",
+    "t0": 18.613,
+    "t1": 18.7
+   },
+   {
+    "w": "Derinkuyu",
+    "t0": 18.7,
+    "t1": 19.325
+   },
+   {
+    "w": "goes",
+    "t0": 19.325,
+    "t1": 19.563
+   },
+   {
+    "w": "about",
+    "t0": 19.563,
+    "t1": 19.837
+   },
+   {
+    "w": "eighty-five",
+    "t0": 19.837,
+    "t1": 20.525
+   },
+   {
+    "w": "metres",
+    "t0": 20.525,
+    "t1": 20.9
+   },
+   {
+    "w": "deep",
+    "t0": 20.9,
+    "t1": 21.5
+   },
+   {
+    "w": ".",
+    "t0": 21.5,
+    "t1": 21.599999999999998
+   },
+   {
+    "w": "And",
+    "t0": 21.599999999999998,
+    "t1": 21.75
+   },
+   {
+    "w": "since",
+    "t0": 21.75,
+    "t1": 21.974999999999998
+   },
+   {
+    "w": "nineteen",
+    "t0": 21.974999999999998,
+    "t1": 22.363
+   },
+   {
+    "w": "eighty-five",
+    "t0": 22.363,
+    "t1": 23.2
+   },
+   {
+    "w": ",",
+    "t0": 23.2,
+    "t1": 23.3
+   },
+   {
+    "w": "it",
+    "t0": 23.3,
+    "t1": 23.387999999999998
+   },
+   {
+    "w": "has",
+    "t0": 23.387999999999998,
+    "t1": 23.525
+   },
+   {
+    "w": "been",
+    "t0": 23.525,
+    "t1": 23.637999999999998
+   },
+   {
+    "w": "a",
+    "t0": 23.637999999999998,
+    "t1": 23.7
+   },
+   {
+    "w": "UNESCO",
+    "t0": 23.7,
+    "t1": 24.349999999999998
+   },
+   {
+    "w": "World",
+    "t0": 24.349999999999998,
+    "t1": 24.625
+   },
+   {
+    "w": "Heritage",
+    "t0": 24.625,
+    "t1": 25.05
+   },
+   {
+    "w": "Site",
+    "t0": 25.05,
+    "t1": 25.724999999999998
+   },
+   {
+    "w": ".",
+    "t0": 25.724999999999998,
+    "t1": 25.849999999999998
+   },
+   {
+    "w": "Would",
+    "t0": 25.849999999999998,
+    "t1": 26.0
+   },
+   {
+    "w": "you",
+    "t0": 26.0,
+    "t1": 26.15
+   },
+   {
+    "w": "fly",
+    "t0": 26.15,
+    "t1": 26.425
+   },
+   {
+    "w": "here",
+    "t0": 26.425,
+    "t1": 26.65
+   },
+   {
+    "w": "at",
+    "t0": 26.65,
+    "t1": 26.75
+   },
+   {
+    "w": "sunrise",
+    "t0": 26.75,
+    "t1": 27.575
+   },
+   {
+    "w": "?",
+    "t0": 27.575,
+    "t1": 27.675
+   },
+   {
+    "w": "Which",
+    "t0": 27.675,
+    "t1": 27.875
+   },
+   {
+    "w": "country",
+    "t0": 27.875,
+    "t1": 28.25
+   },
+   {
+    "w": "should",
+    "t0": 28.25,
+    "t1": 28.387999999999998
+   },
+   {
+    "w": "we",
+    "t0": 28.387999999999998,
+    "t1": 28.512
+   },
+   {
+    "w": "show",
+    "t0": 28.512,
+    "t1": 28.75
+   },
+   {
+    "w": "next",
+    "t0": 28.75,
+    "t1": 29.45
+   },
+   {
+    "w": "?",
+    "t0": 29.45,
+    "t1": 29.625
+   }
+  ]
+ },
+ "music": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/media/b2b/music/b2b_beat_02.mp3",
+  "volume": 0.12,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 4.9,
+   "t1": 7.6,
+   "text": "CAPPADOCIA, TURKEY",
+   "pos": 0.3,
+   "size": 100,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 7.7,
+   "t1": 13.0,
+   "text": "Carved from volcanic ash",
+   "pos": 0.3,
+   "size": 78,
+   "color": "#FFB74D",
+   "pop": true
+  },
+  {
+   "t0": 17.8,
+   "t1": 21.3,
+   "text": "Underground city: ~85 m deep",
+   "pos": 0.3,
+   "size": 74,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 21.7,
+   "t1": 25.4,
+   "text": "UNESCO since 1985",
+   "pos": 0.3,
+   "size": 90,
+   "color": "#FFB74D",
+   "pop": true
+  },
+  {
+   "t0": 25.8,
+   "t1": 30.5,
+   "text": "Would you go? Comment below",
+   "pos": 0.3,
+   "size": 72,
+   "color": "#FFFFFF",
+   "pop": true
+  }
+ ]
+}
