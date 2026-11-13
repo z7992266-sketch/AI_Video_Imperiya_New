@@ -1,7 +1,5 @@
-b2b_voice_app_20261113.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/GlZhdtTEYH8PNmz2WaRV/mRO00KuTijb0MfcGCVwD/content.mp3?Expires=1794553200&KeyName=assets-cdn-key-1&Signature=B1bAC6rUYKvT6gn-CN1cdq-FPKM=
-b2b_pex_4318554.mp4 https://www.pexels.com/download/video/4318554/
-b2b_pex_5977122.mp4 https://www.pexels.com/download/video/5977122/
-b2b_pex_9046237.mp4 https://www.pexels.com/download/video/9046237/
-b2b_pex_4795016.mp4 https://www.pexels.com/download/video/4795016/
-b2b_pex_13737106.mp4 https://www.pexels.com/download/video/13737106/
-taqqos22_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/W0SbDL6BP5a3ZJuQYvm5/hQvVlwyJ9GJjtQtXo8bu/content.mp3?Expires=1794560400&KeyName=assets-cdn-key-1&Signature=iAKu53dkCrg8V63sSU8e_YVinJ0=
+bil_q_20261113_fuji.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName%7CArtist&gsrsearch=Mount%20Fuji%20lake%20featured%20picture
+bil_q_20261113_registan.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName%7CArtist&gsrsearch=Registan%20Samarkand%20panorama
+bil_q_20261113_germany.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName%7CArtist&gsrsearch=Rhine%20valley%20Germany%20landscape%20quality%20image
+bil_q_20261113_uzland.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName%7CArtist&gsrsearch=Uzbekistan%20landscape%20mountains%20quality%20image
+bil_q_20261113_space.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName%7CArtist&gsrsearch=Uzbekistan%20from%20space%20NASA
