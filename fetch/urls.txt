@@ -1,7 +1,6 @@
-gv_bf_voice_20261112.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/5jwaXcMj6mWftXZnacw1/n9qjFPcd4gAtrNkcHLPJ/content.mp3?Expires=1794481200&KeyName=assets-cdn-key-1&Signature=tqbfU_frhNYN9_cLERFRUxAIegU=
-bfc14.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/A_Glacier_Flowing_Through_a_Section_of_the_McMurdo_Dry_Valleys_in_Antarctica_%2830279240454%29.jpg/1280px-A_Glacier_Flowing_Through_a_Section_of_the_McMurdo_Dry_Valleys_in_Antarctica_%2830279240454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-bfc16.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taylor_Glacier_1958_04.jpg/1280px-Taylor_Glacier_1958_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-bfc17.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Taylor_Glacier_2013_01.jpg/1280px-Taylor_Glacier_2013_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-bfc18.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aerial_view_of_Taylor_Valley_2014.jpg/1280px-Aerial_view_of_Taylor_Valley_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-bfc19.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ice_Flow_in_the_McMurdo_Dry_Valleys_in_Antarctica_%2830279240524%29.jpg/1280px-Ice_Flow_in_the_McMurdo_Dry_Valleys_in_Antarctica_%2830279240524%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-bfc20.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Landsat7_dry_valley_lrg.jpg/1280px-Landsat7_dry_valley_lrg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+b2b_voice_app_20261113.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/GlZhdtTEYH8PNmz2WaRV/mRO00KuTijb0MfcGCVwD/content.mp3?Expires=1794553200&KeyName=assets-cdn-key-1&Signature=B1bAC6rUYKvT6gn-CN1cdq-FPKM=
+b2b_pex_4318554.mp4 https://www.pexels.com/download/video/4318554/
+b2b_pex_5977122.mp4 https://www.pexels.com/download/video/5977122/
+b2b_pex_9046237.mp4 https://www.pexels.com/download/video/9046237/
+b2b_pex_4795016.mp4 https://www.pexels.com/download/video/4795016/
+b2b_pex_13737106.mp4 https://www.pexels.com/download/video/13737106/
