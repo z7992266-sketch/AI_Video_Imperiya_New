@@ -94,6 +94,9 @@ def gen_sfx(cuts, total, hook):
         parts.append('sine=f=48:d=1.2,volume=1.6,afade=t=out:st=0.05:d=1.1,adelay=0|0[h]')
         parts.append('anoisesrc=color=brown:amplitude=0.8:d=0.35,lowpass=f=180,afade=t=out:st=0:d=0.35[h2]')
         labels += ['[h]', '[h2]']
+    # Owner, 14 Nov 2026: "vjuuv degan ovoz kerak emas" -> no whoosh on cuts at all (set CUT_WHOOSH=1 only if he asks again).
+    if os.environ.get('CUT_WHOOSH', '0') != '1':
+        cuts = []
     for i, t in enumerate(cuts):
         st = max(0, t - 0.18)
         ms = int(st * 1000)
@@ -136,6 +139,8 @@ def gen_events(events, total):
     p = os.path.join(WORK, 'events.wav')
     parts, labels = [], []
     for i, ev in enumerate(events):
+        if ev.get('type') == 'whoosh' and os.environ.get('CUT_WHOOSH', '0') != '1':
+            continue  # owner 14 Nov 2026: no whoosh anywhere
         f = SFX_LIB.get(ev.get('type'))
         if not f:
             continue
