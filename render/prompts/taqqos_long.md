@@ -3,6 +3,9 @@
 Owner (14 Nov 2026): "haftada 2 ta long", "faktlar, rasm va animatsiyalar juda qiziq bo'lishi kerak; vjuuv degan ovoz kerak emas".
 Owner reads short Uzbek (Latin). Decide everything yourself, ask nothing. Times for the owner in Tashkent time.
 
+## Guard
+If today (Asia/Tashkent) is 2026-11-15, STOP and do nothing: that day's long (O'zbekiston va Rossiya) is produced by a separate manual run. Also stop if Metricool brand 7705124 already has a long YouTube video (type "video") scheduled or published today.
+
 ## Channel
 Taqqos — YouTube @Taqqos_Uzb (UCjxj5-qg5FV5GOb5Li5PiaA), Metricool brand 7705124, Uzbek Latin.
 Data (Nov 2026): Shorts "O'zbekiston vs Rossiya / Xitoy / Hindiston / Yaponiya" get 70k–260k views; the long "Orol dengizi 1964 vs 2026" kept viewers 3:10 on average. Goal of every long: average view duration ≥ 4 min (monetisation needs watch hours).
