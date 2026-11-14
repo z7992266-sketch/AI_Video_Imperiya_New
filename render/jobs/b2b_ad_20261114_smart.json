@@ -1,0 +1,488 @@
+{
+ "name": "b2b_ad_20261114_smart",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "scenes": [
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_31706380.mp4",
+   "type": "video",
+   "dur": 2.9,
+   "start": 0.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_5529629.mp4",
+   "type": "video",
+   "dur": 3.0,
+   "start": 2.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_4388942.mp4",
+   "type": "video",
+   "dur": 2.9,
+   "start": 0.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_4695819.mp4",
+   "type": "video",
+   "dur": 2.4,
+   "start": 0.5,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_3768941.mp4",
+   "type": "video",
+   "dur": 2.2,
+   "start": 1.0,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/menu.mp4",
+   "type": "video",
+   "dur": 3.2,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/kitchen.mp4",
+   "type": "video",
+   "dur": 1.8,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/bonus.mp4",
+   "type": "video",
+   "dur": 2.1,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/two.mp4",
+   "type": "video",
+   "dur": 6.0,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/endcard.mp4",
+   "type": "video",
+   "dur": 4.4,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  }
+ ],
+ "hook": {
+  "text": "RESTORAN PUL YO'QOTYAPTIMI?",
+  "dur": 2.6,
+  "color": "#FFD54F",
+  "pos": 0.28
+ },
+ "texts": [
+  {
+   "t0": 3.0,
+   "t1": 5.8,
+   "text": "1. BUYURTMA ADASHADI",
+   "pos": 0.24,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 6.0,
+   "t1": 8.7,
+   "text": "2. MIJOZ KUTIB QOLADI",
+   "pos": 0.24,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 8.9,
+   "t1": 11.1,
+   "text": "3. QAYTIB KELMAYDI",
+   "pos": 0.24,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 11.3,
+   "t1": 13.3,
+   "text": "SMART SISTEM",
+   "pos": 0.24,
+   "size": 96,
+   "color": "#FFD666",
+   "pop": true
+  },
+  {
+   "t0": 24.0,
+   "t1": 26.45,
+   "text": "TAYYOR ILOVA",
+   "pos": 0.7,
+   "size": 66,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 24.15,
+   "t1": 26.45,
+   "text": "YOKI O'Z BRENDINGIZDA",
+   "pos": 0.745,
+   "size": 60,
+   "color": "#FFFFFF"
+  }
+ ],
+ "voice": {
+  "src": "render/assets/b2b_smart_20261114/voice.mp3",
+  "start": 0.4,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Restoraningiz pulni qayerda yo'qotyapti? Birinchi xato: buyurtma qog'ozda adashib ketadi. Ikkinchi: mijoz ofitsantni uzoq kutadi. Uchinchi: mijoz qaytib kelmaydi. B2B SAS'ning Smart Sistemi buni hal qiladi: mijoz telefonidan buyurtma beradi, u darhol oshxonaga boradi, doimiy mijozlarga esa bonus. Xohlang tayyor ilova, xohlang o'z brendingiz ostida — nomingiz va logongiz bilan tayyorlab beramiz.",
+  "words": [
+   {
+    "w": "Restoraningiz",
+    "t0": 0.4,
+    "t1": 1.132
+   },
+   {
+    "w": "pulni",
+    "t0": 1.172,
+    "t1": 1.462
+   },
+   {
+    "w": "qayerda",
+    "t0": 1.502,
+    "t1": 1.903
+   },
+   {
+    "w": "yo'qotyapti?",
+    "t0": 1.943,
+    "t1": 2.62
+   },
+   {
+    "w": "Birinchi",
+    "t0": 2.93,
+    "t1": 3.304
+   },
+   {
+    "w": "xato:",
+    "t0": 3.344,
+    "t1": 3.58
+   },
+   {
+    "w": "buyurtma",
+    "t0": 3.88,
+    "t1": 4.309
+   },
+   {
+    "w": "qog'ozda",
+    "t0": 4.349,
+    "t1": 4.777
+   },
+   {
+    "w": "adashib",
+    "t0": 4.817,
+    "t1": 5.194
+   },
+   {
+    "w": "ketadi.",
+    "t0": 5.234,
+    "t1": 5.61
+   },
+   {
+    "w": "Ikkinchi:",
+    "t0": 5.92,
+    "t1": 6.43
+   },
+   {
+    "w": "mijoz",
+    "t0": 6.76,
+    "t1": 7.076
+   },
+   {
+    "w": "ofitsantni",
+    "t0": 7.116,
+    "t1": 7.729
+   },
+   {
+    "w": "uzoq",
+    "t0": 7.769,
+    "t1": 8.025
+   },
+   {
+    "w": "kutadi.",
+    "t0": 8.065,
+    "t1": 8.5
+   },
+   {
+    "w": "Uchinchi:",
+    "t0": 8.82,
+    "t1": 9.33
+   },
+   {
+    "w": "mijoz",
+    "t0": 9.64,
+    "t1": 9.952
+   },
+   {
+    "w": "qaytib",
+    "t0": 9.992,
+    "t1": 10.363
+   },
+   {
+    "w": "kelmaydi.",
+    "t0": 10.403,
+    "t1": 10.95
+   },
+   {
+    "w": "B2B",
+    "t0": 11.26,
+    "t1": 11.476
+   },
+   {
+    "w": "SAS'ning",
+    "t0": 11.516,
+    "t1": 12.051
+   },
+   {
+    "w": "Smart",
+    "t0": 12.091,
+    "t1": 12.435
+   },
+   {
+    "w": "Sistemi",
+    "t0": 12.475,
+    "t1": 12.946
+   },
+   {
+    "w": "buni",
+    "t0": 12.986,
+    "t1": 13.266
+   },
+   {
+    "w": "hal",
+    "t0": 13.306,
+    "t1": 13.521
+   },
+   {
+    "w": "qiladi:",
+    "t0": 13.561,
+    "t1": 14.033
+   },
+   {
+    "w": "mijoz",
+    "t0": 14.073,
+    "t1": 14.416
+   },
+   {
+    "w": "telefonidan",
+    "t0": 14.456,
+    "t1": 15.183
+   },
+   {
+    "w": "buyurtma",
+    "t0": 15.223,
+    "t1": 15.759
+   },
+   {
+    "w": "beradi,",
+    "t0": 15.799,
+    "t1": 16.27
+   },
+   {
+    "w": "u",
+    "t0": 16.53,
+    "t1": 16.606
+   },
+   {
+    "w": "darhol",
+    "t0": 16.646,
+    "t1": 17.013
+   },
+   {
+    "w": "oshxonaga",
+    "t0": 17.053,
+    "t1": 17.595
+   },
+   {
+    "w": "boradi,",
+    "t0": 17.635,
+    "t1": 18.06
+   },
+   {
+    "w": "doimiy",
+    "t0": 18.34,
+    "t1": 18.778
+   },
+   {
+    "w": "mijozlarga",
+    "t0": 18.818,
+    "t1": 19.529
+   },
+   {
+    "w": "esa",
+    "t0": 19.569,
+    "t1": 19.802
+   },
+   {
+    "w": "bonus.",
+    "t0": 19.842,
+    "t1": 20.28
+   },
+   {
+    "w": "Xohlang",
+    "t0": 20.55,
+    "t1": 21.045
+   },
+   {
+    "w": "tayyor",
+    "t0": 21.085,
+    "t1": 21.512
+   },
+   {
+    "w": "ilova,",
+    "t0": 21.552,
+    "t1": 21.98
+   },
+   {
+    "w": "xohlang",
+    "t0": 22.21,
+    "t1": 22.682
+   },
+   {
+    "w": "o'z",
+    "t0": 22.722,
+    "t1": 22.939
+   },
+   {
+    "w": "brendingiz",
+    "t0": 22.979,
+    "t1": 23.643
+   },
+   {
+    "w": "ostida —",
+    "t0": 23.683,
+    "t1": 24.22
+   },
+   {
+    "w": "nomingiz",
+    "t0": 24.45,
+    "t1": 24.936
+   },
+   {
+    "w": "va",
+    "t0": 24.976,
+    "t1": 25.112
+   },
+   {
+    "w": "logongiz",
+    "t0": 25.152,
+    "t1": 25.638
+   },
+   {
+    "w": "bilan",
+    "t0": 25.678,
+    "t1": 25.989
+   },
+   {
+    "w": "tayyorlab",
+    "t0": 26.029,
+    "t1": 26.574
+   },
+   {
+    "w": "beramiz.",
+    "t0": 26.614,
+    "t1": 27.1
+   }
+  ],
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.86,
+  "size": 64,
+  "max_words": 3
+ },
+ "music": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/media/b2b/music/b2b_beat_03.mp3",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 3.0,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 6.0,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 8.9,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 15.0,
+   "type": "click",
+   "volume": 0.8
+  },
+  {
+   "t": 15.4,
+   "type": "ding",
+   "volume": 0.8
+  },
+  {
+   "t": 17.0,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 17.55,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 18.65,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 19.35,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 20.05,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 20.5,
+   "type": "whoosh",
+   "volume": 0.6
+  },
+  {
+   "t": 26.1,
+   "type": "riser",
+   "volume": 0.4
+  }
+ ],
+ "crf": 19,
+ "preset": "slow"
+}
