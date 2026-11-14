@@ -1,0 +1,488 @@
+{
+ "name": "b2b_ad_20261114_smart3",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "scenes": [
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_31706380.mp4",
+   "type": "video",
+   "dur": 2.9,
+   "start": 0.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_5529629.mp4",
+   "type": "video",
+   "dur": 3.0,
+   "start": 2.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_4388942.mp4",
+   "type": "video",
+   "dur": 2.9,
+   "start": 0.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_4695819.mp4",
+   "type": "video",
+   "dur": 2.4,
+   "start": 0.5,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_3768941.mp4",
+   "type": "video",
+   "dur": 2.2,
+   "start": 1.0,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/menu.mp4",
+   "type": "video",
+   "dur": 3.2,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/kitchen.mp4",
+   "type": "video",
+   "dur": 1.8,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/bonus.mp4",
+   "type": "video",
+   "dur": 2.1,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/two.mp4",
+   "type": "video",
+   "dur": 6.0,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_smart_20261114/endcard.mp4",
+   "type": "video",
+   "dur": 4.4,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  }
+ ],
+ "hook": {
+  "text": "RESTORAN PUL YO'QOTYAPTIMI?",
+  "dur": 2.6,
+  "color": "#FFD54F",
+  "pos": 0.28
+ },
+ "texts": [
+  {
+   "t0": 3.0,
+   "t1": 5.8,
+   "text": "1. BUYURTMA ADASHADI",
+   "pos": 0.165,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 6.0,
+   "t1": 8.7,
+   "text": "2. MIJOZ KUTIB QOLADI",
+   "pos": 0.165,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 8.9,
+   "t1": 11.1,
+   "text": "3. QAYTIB KELMAYDI",
+   "pos": 0.165,
+   "size": 84,
+   "pop": true
+  },
+  {
+   "t0": 11.3,
+   "t1": 13.3,
+   "text": "SMART SISTEM",
+   "pos": 0.24,
+   "size": 96,
+   "color": "#FFD666",
+   "pop": true
+  },
+  {
+   "t0": 24.0,
+   "t1": 26.45,
+   "text": "TAYYOR ILOVA",
+   "pos": 0.7,
+   "size": 66,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 24.15,
+   "t1": 26.45,
+   "text": "YOKI O'Z BRENDINGIZDA",
+   "pos": 0.745,
+   "size": 60,
+   "color": "#FFFFFF"
+  }
+ ],
+ "voice": {
+  "src": "render/assets/b2b_smart_20261114/voice.mp3",
+  "start": 0.4,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Restoraningiz pulni qayerda yo'qotyapti? Birinchi xato: buyurtma qog'ozda adashib ketadi. Ikkinchi: mijoz ofitsantni uzoq kutadi. Uchinchi: mijoz qaytib kelmaydi. B2B SAS'ning Smart Sistemi buni hal qiladi: mijoz telefonidan buyurtma beradi, u darhol oshxonaga boradi, doimiy mijozlarga esa bonus. Xohlang tayyor ilova, xohlang o'z brendingiz ostida — nomingiz va logongiz bilan tayyorlab beramiz.",
+  "words": [
+   {
+    "w": "Restoraningiz",
+    "t0": 0.48,
+    "t1": 1.26
+   },
+   {
+    "w": "pulni",
+    "t0": 1.32,
+    "t1": 1.6
+   },
+   {
+    "w": "qayerda",
+    "t0": 1.64,
+    "t1": 2.0
+   },
+   {
+    "w": "yo'qotyapti?",
+    "t0": 2.04,
+    "t1": 2.58
+   },
+   {
+    "w": "Birinchi",
+    "t0": 2.96,
+    "t1": 3.26
+   },
+   {
+    "w": "xato:",
+    "t0": 3.32,
+    "t1": 3.58
+   },
+   {
+    "w": "buyurtma",
+    "t0": 3.94,
+    "t1": 4.38
+   },
+   {
+    "w": "qog'ozda",
+    "t0": 4.48,
+    "t1": 4.92
+   },
+   {
+    "w": "adashib",
+    "t0": 4.98,
+    "t1": 5.28
+   },
+   {
+    "w": "ketadi.",
+    "t0": 5.32,
+    "t1": 5.62
+   },
+   {
+    "w": "Ikkinchi:",
+    "t0": 5.96,
+    "t1": 6.42
+   },
+   {
+    "w": "mijoz",
+    "t0": 6.82,
+    "t1": 7.16
+   },
+   {
+    "w": "ofitsantni",
+    "t0": 7.22,
+    "t1": 7.78
+   },
+   {
+    "w": "uzoq",
+    "t0": 7.88,
+    "t1": 8.14
+   },
+   {
+    "w": "kutadi.",
+    "t0": 8.2,
+    "t1": 8.5
+   },
+   {
+    "w": "Uchinchi:",
+    "t0": 8.84,
+    "t1": 9.32
+   },
+   {
+    "w": "mijoz",
+    "t0": 9.72,
+    "t1": 10.1
+   },
+   {
+    "w": "qaytib",
+    "t0": 10.14,
+    "t1": 10.42
+   },
+   {
+    "w": "kelmaydi.",
+    "t0": 10.48,
+    "t1": 10.96
+   },
+   {
+    "w": "B2B",
+    "t0": 11.38,
+    "t1": 11.76
+   },
+   {
+    "w": "SAS'ning",
+    "t0": 11.92,
+    "t1": 12.58
+   },
+   {
+    "w": "Smart",
+    "t0": 12.76,
+    "t1": 13.08
+   },
+   {
+    "w": "Sistemi",
+    "t0": 13.16,
+    "t1": 13.56
+   },
+   {
+    "w": "buni",
+    "t0": 13.62,
+    "t1": 13.82
+   },
+   {
+    "w": "hal",
+    "t0": 13.88,
+    "t1": 14.0
+   },
+   {
+    "w": "qiladi:",
+    "t0": 14.08,
+    "t1": 14.36
+   },
+   {
+    "w": "mijoz",
+    "t0": 14.56,
+    "t1": 14.88
+   },
+   {
+    "w": "telefonidan",
+    "t0": 14.94,
+    "t1": 15.48
+   },
+   {
+    "w": "buyurtma",
+    "t0": 15.54,
+    "t1": 15.88
+   },
+   {
+    "w": "beradi,",
+    "t0": 15.94,
+    "t1": 16.28
+   },
+   {
+    "w": "u",
+    "t0": 16.58,
+    "t1": 16.66
+   },
+   {
+    "w": "darhol",
+    "t0": 16.78,
+    "t1": 17.16
+   },
+   {
+    "w": "oshxonaga",
+    "t0": 17.3,
+    "t1": 17.7
+   },
+   {
+    "w": "boradi,",
+    "t0": 17.78,
+    "t1": 18.08
+   },
+   {
+    "w": "doimiy",
+    "t0": 18.42,
+    "t1": 18.9
+   },
+   {
+    "w": "mijozlarga",
+    "t0": 18.94,
+    "t1": 19.54
+   },
+   {
+    "w": "esa",
+    "t0": 19.56,
+    "t1": 19.78
+   },
+   {
+    "w": "bonus.",
+    "t0": 19.9,
+    "t1": 20.28
+   },
+   {
+    "w": "Xohlang",
+    "t0": 20.64,
+    "t1": 21.02
+   },
+   {
+    "w": "tayyor",
+    "t0": 21.14,
+    "t1": 21.52
+   },
+   {
+    "w": "ilova,",
+    "t0": 21.58,
+    "t1": 21.98
+   },
+   {
+    "w": "xohlang",
+    "t0": 22.26,
+    "t1": 22.66
+   },
+   {
+    "w": "o'z",
+    "t0": 22.86,
+    "t1": 23.08
+   },
+   {
+    "w": "brendingiz",
+    "t0": 23.16,
+    "t1": 23.76
+   },
+   {
+    "w": "ostida",
+    "t0": 23.84,
+    "t1": 24.22
+   },
+   {
+    "w": "nomingiz",
+    "t0": 24.52,
+    "t1": 25.12
+   },
+   {
+    "w": "va",
+    "t0": 25.18,
+    "t1": 25.28
+   },
+   {
+    "w": "logongiz",
+    "t0": 25.4,
+    "t1": 25.92
+   },
+   {
+    "w": "bilan",
+    "t0": 25.94,
+    "t1": 26.12
+   },
+   {
+    "w": "tayyorlab",
+    "t0": 26.22,
+    "t1": 26.64
+   },
+   {
+    "w": "beramiz.",
+    "t0": 26.68,
+    "t1": 27.12
+   }
+  ],
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.86,
+  "size": 64,
+  "max_words": 3
+ },
+ "music": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/media/b2b/music/b2b_beat_03.mp3",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 3.0,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 6.0,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 8.9,
+   "type": "ding",
+   "volume": 0.6
+  },
+  {
+   "t": 15.0,
+   "type": "click",
+   "volume": 0.8
+  },
+  {
+   "t": 15.4,
+   "type": "ding",
+   "volume": 0.8
+  },
+  {
+   "t": 17.0,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 17.55,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 18.65,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 19.35,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 20.05,
+   "type": "pop",
+   "volume": 0.7
+  },
+  {
+   "t": 20.5,
+   "type": "whoosh",
+   "volume": 0.6
+  },
+  {
+   "t": 26.1,
+   "type": "riser",
+   "volume": 0.4
+  }
+ ],
+ "crf": 19,
+ "preset": "slow"
+}
