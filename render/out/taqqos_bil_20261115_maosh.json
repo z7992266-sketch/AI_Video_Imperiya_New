@@ -1,0 +1,23 @@
+{
+ "name": "taqqos_bil_20261115_maosh",
+ "template": "bilasizmi",
+ "duration": 38.71,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "size_mb": 30.11,
+ "words": 79,
+ "facts": 6,
+ "fact_starts": [
+  0.0,
+  11.69,
+  16.73,
+  22.13,
+  25.43,
+  29.02
+ ],
+ "endcard_start": 35.81,
+ "ok": true,
+ "url": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261115_maosh.mp4",
+ "thumb": "https://github.com/z7992266-sketch/AI_Video_Imperiya_New/releases/download/renders/taqqos_bil_20261115_maosh.jpg"
+}
