@@ -1,0 +1,522 @@
+{
+ "template": "bilasizmi",
+ "name": "taqqos_bil_20261115_maosh",
+ "rev": 1,
+ "title": "BILASIZMI?",
+ "brand": "TAQQOS",
+ "voice": {
+  "src": "render/assets/bil_20261115_maosh/voice.mp3",
+  "start": 0.25,
+  "max_pause": 0.16,
+  "fit": 38
+ },
+ "words": [
+  {
+   "w": "Bilasizmi?",
+   "t0": 0.145,
+   "t1": 1.04
+  },
+  {
+   "w": "Dunyodagi",
+   "t0": 1.1,
+   "t1": 1.76
+  },
+  {
+   "w": "eng",
+   "t0": 1.88,
+   "t1": 2.24
+  },
+  {
+   "w": "yuqori",
+   "t0": 2.32,
+   "t1": 2.8
+  },
+  {
+   "w": "rasmiy",
+   "t0": 2.86,
+   "t1": 3.32
+  },
+  {
+   "w": "maoshlardan",
+   "t0": 3.36,
+   "t1": 4
+  },
+  {
+   "w": "birini",
+   "t0": 4.04,
+   "t1": 4.4
+  },
+  {
+   "w": "Singapur",
+   "t0": 4.528,
+   "t1": 5.44
+  },
+  {
+   "w": "bosh",
+   "t0": 5.56,
+   "t1": 5.92
+  },
+  {
+   "w": "vaziri",
+   "t0": 6,
+   "t1": 6.4
+  },
+  {
+   "w": "oladi!",
+   "t0": 6.453,
+   "t1": 7.04
+  },
+  {
+   "w": "Uning",
+   "t0": 7.08,
+   "t1": 7.44
+  },
+  {
+   "w": "yangi",
+   "t0": 7.52,
+   "t1": 7.88
+  },
+  {
+   "w": "yillik",
+   "t0": 7.9,
+   "t1": 8.24
+  },
+  {
+   "w": "maosh",
+   "t0": 8.32,
+   "t1": 8.72
+  },
+  {
+   "w": "me’yori",
+   "t0": 8.773,
+   "t1": 9.6
+  },
+  {
+   "w": "qariyb",
+   "t0": 9.68,
+   "t1": 10.08
+  },
+  {
+   "w": "ikki",
+   "t0": 10.16,
+   "t1": 10.4
+  },
+  {
+   "w": "million",
+   "t0": 10.45,
+   "t1": 10.8
+  },
+  {
+   "w": "sakkiz",
+   "t0": 10.88,
+   "t1": 11.28
+  },
+  {
+   "w": "yuz",
+   "t0": 11.32,
+   "t1": 11.44
+  },
+  {
+   "w": "ming",
+   "t0": 11.488,
+   "t1": 11.68
+  },
+  {
+   "w": "dollar.",
+   "t0": 11.749,
+   "t1": 12.56
+  },
+  {
+   "w": "Shveysariya",
+   "t0": 12.587,
+   "t1": 13.2
+  },
+  {
+   "w": "Federal",
+   "t0": 13.26,
+   "t1": 13.68
+  },
+  {
+   "w": "kengashi",
+   "t0": 13.72,
+   "t1": 14.16
+  },
+  {
+   "w": "a’zosi",
+   "t0": 14.24,
+   "t1": 14.8
+  },
+  {
+   "w": "yiliga",
+   "t0": 15,
+   "t1": 15.52
+  },
+  {
+   "w": "qariyb",
+   "t0": 15.56,
+   "t1": 15.84
+  },
+  {
+   "w": "olti",
+   "t0": 16,
+   "t1": 16.36
+  },
+  {
+   "w": "yuz",
+   "t0": 16.38,
+   "t1": 16.48
+  },
+  {
+   "w": "ming",
+   "t0": 16.528,
+   "t1": 16.72
+  },
+  {
+   "w": "dollar",
+   "t0": 16.777,
+   "t1": 17.12
+  },
+  {
+   "w": "oladi.",
+   "t0": 17.173,
+   "t1": 17.84
+  },
+  {
+   "w": "AQSh",
+   "t0": 17.96,
+   "t1": 19.2
+  },
+  {
+   "w": "prezidentining",
+   "t0": 19.264,
+   "t1": 20
+  },
+  {
+   "w": "maoshi",
+   "t0": 20.08,
+   "t1": 20.72
+  },
+  {
+   "w": "qonun",
+   "t0": 20.88,
+   "t1": 21.28
+  },
+  {
+   "w": "bo‘yicha",
+   "t0": 21.307,
+   "t1": 21.68
+  },
+  {
+   "w": "yiliga",
+   "t0": 21.72,
+   "t1": 22.08
+  },
+  {
+   "w": "to‘rt",
+   "t0": 22.16,
+   "t1": 22.48
+  },
+  {
+   "w": "yuz",
+   "t0": 22.56,
+   "t1": 22.72
+  },
+  {
+   "w": "ming",
+   "t0": 22.752,
+   "t1": 22.88
+  },
+  {
+   "w": "dollar.",
+   "t0": 22.949,
+   "t1": 23.44
+  },
+  {
+   "w": "Buyuk",
+   "t0": 23.56,
+   "t1": 24
+  },
+  {
+   "w": "Britaniya",
+   "t0": 24.048,
+   "t1": 24.56
+  },
+  {
+   "w": "bosh",
+   "t0": 24.64,
+   "t1": 24.88
+  },
+  {
+   "w": "vaziri",
+   "t0": 24.94,
+   "t1": 25.28
+  },
+  {
+   "w": "qariyb",
+   "t0": 25.36,
+   "t1": 25.68
+  },
+  {
+   "w": "ikki",
+   "t0": 25.76,
+   "t1": 26
+  },
+  {
+   "w": "yuz",
+   "t0": 26.04,
+   "t1": 26.16
+  },
+  {
+   "w": "o‘ttiz",
+   "t0": 26.24,
+   "t1": 26.56
+  },
+  {
+   "w": "ming,",
+   "t0": 26.608,
+   "t1": 27.2
+  },
+  {
+   "w": "Fransiya",
+   "t0": 27.253,
+   "t1": 27.68
+  },
+  {
+   "w": "prezidenti",
+   "t0": 27.736,
+   "t1": 28.4
+  },
+  {
+   "w": "esa",
+   "t0": 28.44,
+   "t1": 28.56
+  },
+  {
+   "w": "qariyb",
+   "t0": 28.6,
+   "t1": 28.96
+  },
+  {
+   "w": "ikki",
+   "t0": 29.04,
+   "t1": 29.28
+  },
+  {
+   "w": "yuz",
+   "t0": 29.32,
+   "t1": 29.44
+  },
+  {
+   "w": "yigirma",
+   "t0": 29.52,
+   "t1": 29.84
+  },
+  {
+   "w": "ming",
+   "t0": 29.872,
+   "t1": 30
+  },
+  {
+   "w": "dollar",
+   "t0": 30.057,
+   "t1": 30.4
+  },
+  {
+   "w": "oladi.",
+   "t0": 30.453,
+   "t1": 31.12
+  },
+  {
+   "w": "O‘zbekiston",
+   "t0": 31.16,
+   "t1": 31.76
+  },
+  {
+   "w": "Prezidentining",
+   "t0": 31.82,
+   "t1": 32.48
+  },
+  {
+   "w": "maoshi",
+   "t0": 32.533,
+   "t1": 32.96
+  },
+  {
+   "w": "esa",
+   "t0": 33.04,
+   "t1": 33.28
+  },
+  {
+   "w": "rasmiy",
+   "t0": 33.46,
+   "t1": 34.16
+  },
+  {
+   "w": "e’lon",
+   "t0": 34.28,
+   "t1": 34.64
+  },
+  {
+   "w": "qilinmagan.",
+   "t0": 34.68,
+   "t1": 35.6
+  },
+  {
+   "w": "Raqamlar",
+   "t0": 35.66,
+   "t1": 36.16
+  },
+  {
+   "w": "taxminiy,",
+   "t0": 36.24,
+   "t1": 37.08
+  },
+  {
+   "w": "dollarga",
+   "t0": 37.136,
+   "t1": 37.6
+  },
+  {
+   "w": "o‘girilgan.",
+   "t0": 37.64,
+   "t1": 38.48
+  },
+  {
+   "w": "Siz",
+   "t0": 38.56,
+   "t1": 38.8
+  },
+  {
+   "w": "buni",
+   "t0": 38.84,
+   "t1": 39.04
+  },
+  {
+   "w": "bilarmidingiz?",
+   "t0": 39.08,
+   "t1": 39.92
+  },
+  {
+   "w": "Izohda",
+   "t0": 40.107,
+   "t1": 40.72
+  },
+  {
+   "w": "yozing!",
+   "t0": 40.76,
+   "t1": 41.2
+  }
+ ],
+ "facts": [
+  {
+   "at": 0,
+   "image": "render/assets/bil_20261115_maosh/singapore.jpg",
+   "credit": "Foto: Basile Morin / Wikimedia Commons (CC BY-SA 4.0)",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "number": {
+    "value": 2800000,
+    "from": 0,
+    "prefix": "$",
+    "label": "Singapur bosh vaziri · yillik",
+    "at_word": "ikki",
+    "dur": 1.4
+   }
+  },
+  {
+   "at_word": "Shveysariya",
+   "image": "render/assets/bil_20261115_maosh/bern.jpg",
+   "credit": "Foto: Axel Tschentscher / Wikimedia Commons (CC BY-SA 4.0)",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "number": {
+    "value": 600000,
+    "from": 0,
+    "prefix": "$",
+    "label": "Shveysariya · yillik",
+    "at_word": "olti",
+    "dur": 1.2
+   }
+  },
+  {
+   "at_word": "AQSh",
+   "image": "render/assets/bil_20261115_maosh/capitol.jpg",
+   "credit": "Foto: Architect of the Capitol / Wikimedia Commons (PD)",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "number": {
+    "value": 400000,
+    "from": 0,
+    "prefix": "$",
+    "label": "AQSh prezidenti · yillik",
+    "at_word": "to‘rt",
+    "dur": 1.2
+   }
+  },
+  {
+   "at_word": "Buyuk",
+   "image": "render/assets/bil_20261115_maosh/westminster.jpg",
+   "credit": "Foto: Julian Herzog / Wikimedia Commons (CC BY 4.0)",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "number": {
+    "value": 230000,
+    "from": 0,
+    "prefix": "$",
+    "label": "Buyuk Britaniya · yillik",
+    "at_word": "ikki",
+    "dur": 1.0
+   }
+  },
+  {
+   "at_word": "Fransiya",
+   "image": "render/assets/bil_20261115_maosh/eiffel.jpg",
+   "credit": "Foto: NonOmnisMoriar / Wikimedia Commons (CC BY-SA 3.0)",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "number": {
+    "value": 220000,
+    "from": 0,
+    "prefix": "$",
+    "label": "Fransiya prezidenti · yillik",
+    "at_word": "ikki",
+    "dur": 1.0
+   }
+  },
+  {
+   "at_word": "O‘zbekiston",
+   "image": "render/assets/bil_20261115_maosh/registan.jpg",
+   "credit": "Foto: Gilad Rom / Wikimedia Commons (CC BY 2.0)",
+   "focus": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "endcard": {
+  "at_word": "Siz",
+  "dur": 2.2,
+  "title": "Siz bilarmidingiz?",
+  "line": "Izohda yozing",
+  "button": "Obuna bo‘ling"
+ },
+ "music": {
+  "gen": "bright",
+  "volume": 0.13
+ },
+ "sfx": false,
+ "captions": {
+  "max_words": 3,
+  "size": 74
+ }
+}
