@@ -64,9 +64,19 @@
     return api().then(function (d) { S.items = d.items; S.shop = d.shop || {}; S.hasPin = d.has_pin; render(); })
       .catch(function (e) { app.innerHTML = '<div class="msg bad">Yuklab bo\'lmadi: ' + h(e.message) + '</div><button class="btn" id="rl">Qayta urinish</button>'; document.getElementById("rl").onclick = load; });
   }
-  function cartLines() { return S.items.filter(function (i) { return S.cart[i.id] > 0; }).map(function (i) { return { item: i, qty: S.cart[i.id] }; }); }
+  function priceOf(i, v) { return v === "s" ? i.price_slice : i.price; }
+  function cartLines() {
+    var out = [];
+    Object.keys(S.cart).forEach(function (k) {
+      if (!(S.cart[k] > 0)) return;
+      var id = k.split("|")[0], v = k.split("|")[1] || "w";
+      var it = S.items.find(function (x) { return x.id === id; });
+      if (it) out.push({ key: k, item: it, v: v, qty: S.cart[k], price: priceOf(it, v), label: it.name + (it.price_slice != null ? (v === "s" ? " (1 bo'lak)" : " (butun)") : "") });
+    });
+    return out;
+  }
   function cartCount() { return cartLines().reduce(function (s, l) { return s + l.qty; }, 0); }
-  function cartSum() { var ls = cartLines(); if (!ls.length || ls.some(function (l) { return l.item.price == null; })) return null; return ls.reduce(function (s, l) { return s + l.item.price * l.qty; }, 0); }
+  function cartSum() { var ls = cartLines(); if (!ls.length || ls.some(function (l) { return l.price == null; })) return null; return ls.reduce(function (s, l) { return s + l.price * l.qty; }, 0); }
   function msgHtml() { return S.msg ? '<div class="msg ' + (S.msg.ok ? "ok" : "bad") + '">' + h(S.msg.t) + "</div>" : ""; }
   function setMsg(t, ok) { S.msg = { t: t, ok: ok }; }
 
@@ -88,12 +98,13 @@
     var list = S.items.filter(function (i) { return i.available || isAdmin(); });
     if (!list.length) html += '<div class="box mut">Menyu tez orada to\'ldiriladi.</div>';
     list.forEach(function (i) {
-      var q = S.cart[i.id] || 0;
+      var q = S.cart[i.id + "|w"] || 0, qs = S.cart[i.id + "|s"] || 0;
       html += '<div class="item' + (i.available ? "" : " off") + '"><div class="ph" style="' + (i.photo_url ? "background-image:url('" + h(i.photo_url) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") + '</div>' +
         '<div style="flex:1;min-width:0"><h3>' + h(i.name) + '</h3><p class="d">' + h(i.description) + '</p><div class="row">' +
+        (i.price_slice != null && i.available ? variantRow(i, "w", q) + variantRow(i, "s", qs) :
         '<span class="price">' + (i.price != null ? som(i.price) + ' <span class="mut">/ ' + h(i.unit) + "</span>" : '<span class="mut">Narxini so\'rang</span>') + '</span>' +
-        (!i.available ? '<span class="mut">Hozir yo\'q</span>' : q ? '<span class="qty"><button class="btn sec" data-m="' + i.id + '">−</button><b>' + q + '</b><button class="btn" data-p="' + i.id + '">+</button></span>' : '<button class="btn" data-p="' + i.id + '">Qo\'shish</button>') +
-        "</div></div></div>";
+        (!i.available ? '<span class="mut">Hozir yo\'q</span>' : q ? qtyHtml(i.id + "|w", q) : '<button class="btn" data-p="' + i.id + '|w">Qo\'shish</button>')) +
+        "</div>" + (i.whole_note ? '<p class="mut" style="margin:6px 0 0">' + h(i.whole_note) + "</p>" : "") + "</div></div>";
     });
     html += '<p class="foot">Mahsulot rasmlari — haqiqiy desertlarimiz.</p>';
     var n = cartCount();
@@ -102,6 +113,12 @@
     bindQty();
     var g = document.getElementById("go"); if (g) g.onclick = function () { S.view = "cart"; S.msg = null; render(); window.scrollTo(0, 0); };
     var a = document.getElementById("adm"); if (a) a.onclick = function () { S.view = "admin"; S.msg = null; render(); window.scrollTo(0, 0); };
+  }
+  function qtyHtml(k, q) { return '<span class="qty"><button class="btn sec" data-m="' + k + '">−</button><b>' + q + '</b><button class="btn" data-p="' + k + '">+</button></span>'; }
+  function variantRow(i, v, q) {
+    var k = i.id + "|" + v, pr = priceOf(i, v);
+    return '</div><div class="row" style="margin-top:6px"><span><span class="mut">' + (v === "s" ? "1 bo'lak" : "Butun") + '</span> <span class="price">' + (pr != null ? som(pr) : "—") + "</span></span>" +
+      (q ? qtyHtml(k, q) : '<button class="btn' + (v === "s" ? " sec" : "") + '" data-p="' + k + '">Qo\'shish</button>');
   }
   function bindQty() {
     app.querySelectorAll("[data-p]").forEach(function (b) { b.onclick = function () { haptic(); S.cart[b.dataset.p] = (S.cart[b.dataset.p] || 0) + 1; render(); }; });
@@ -115,7 +132,7 @@
     if (!form.method) form.method = sh.delivery_enabled ? "delivery" : "pickup";
     var html = '<div class="top"><button class="link" id="bk">← Menyu</button></div><h2>Savat</h2><div class="box">';
     ls.forEach(function (l) {
-      html += '<div class="row" style="margin:6px 0"><span>' + h(l.item.name) + '</span><span class="qty"><button class="btn sec" data-m="' + l.item.id + '">−</button><b>' + l.qty + '</b><button class="btn" data-p="' + l.item.id + '">+</button></span></div>';
+      html += '<div class="row" style="margin:6px 0"><span>' + h(l.label) + (l.price != null ? '<br><span class="mut">' + som(l.price) + "</span>" : "") + '</span>' + qtyHtml(l.key, l.qty) + "</div>";
     });
     var sum = cartSum(), dp = sh.delivery_price;
     var total = sum == null ? null : (form.method === "delivery" ? (dp == null ? null : sum + Number(dp)) : sum);
@@ -140,14 +157,14 @@
       if (form.phone.replace(/\D/g, "").length < 9) { setMsg("Telefon raqamini to'liq yozing", false); return render(); }
       if (form.method === "delivery" && form.address.trim().length < 5) { setMsg("Manzilni yozing", false); return render(); }
       var btn = this; btn.disabled = true; btn.textContent = "Yuborilmoqda…";
-      api({ action: "order", items: ls.map(function (l) { return { id: l.item.id, qty: l.qty }; }), method: form.method, address: form.address, phone: form.phone, note: form.note, tg_user: me })
+      api({ action: "order", items: ls.map(function (l) { return { id: l.item.id, qty: l.qty, variant: l.v }; }), method: form.method, address: form.address, phone: form.phone, note: form.note, tg_user: me })
         .then(function (d) { S.lastOrder = { id: d.id, total: d.total, lines: ls, form: JSON.parse(JSON.stringify(form)) }; S.cart = {}; S.view = "done"; S.msg = null; render(); })
         .catch(function (e) { setMsg(e.message, false); render(); });
     };
   }
   function orderText(o) {
     var t = "Assalomu alaykum! OUJ buyurtma #" + o.id + "\n";
-    o.lines.forEach(function (l) { t += "• " + l.item.name + " × " + l.qty + "\n"; });
+    o.lines.forEach(function (l) { t += "• " + l.label + " × " + l.qty + "\n"; });
     t += (o.form.method === "delivery" ? "Yetkazib berish: " + o.form.address : "Olib ketaman") + "\n";
     t += "Tel: " + o.form.phone + (o.form.note ? "\nIzoh: " + o.form.note : "");
     if (o.total != null) t += "\nJami: " + som(o.total);
@@ -210,7 +227,7 @@
     html += '<div class="tabs"><button class="btn ' + (S.adminTab === "items" ? "" : "sec") + '" data-t="items">Desertlar</button><button class="btn ' + (S.adminTab === "shop" ? "" : "sec") + '" data-t="shop">Yetkazish / olib ketish</button><button class="btn ' + (S.adminTab === "orders" ? "" : "sec") + '" data-t="orders">Buyurtmalar</button></div>' + msgHtml();
     if (S.adminTab === "items") {
       S.items.forEach(function (i) {
-        html += '<div class="item' + (i.available ? "" : " off") + '"><div class="ph" style="' + (i.photo_url ? "background-image:url('" + h(i.photo_url) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") + '</div><div style="flex:1"><h3>' + h(i.name) + '</h3><p class="d">' + (i.price != null ? som(i.price) : "Narx kiritilmagan") + (i.available ? "" : " · Hozir yo'q") + '</p><button class="btn sec" data-e="' + i.id + '">Tahrirlash</button></div></div>';
+        html += '<div class="item' + (i.available ? "" : " off") + '"><div class="ph" style="' + (i.photo_url ? "background-image:url('" + h(i.photo_url) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") + '</div><div style="flex:1"><h3>' + h(i.name) + '</h3><p class="d">' + (i.price != null ? som(i.price) + (i.price_slice != null ? " · bo'lak " + som(i.price_slice) : "") : "Narx kiritilmagan") + (i.available ? "" : " · Hozir yo'q") + '</p><button class="btn sec" data-e="' + i.id + '">Tahrirlash</button></div></div>';
       });
       html += '<button class="btn" id="add" style="width:100%">+ Yangi desert qo\'shish</button>';
     } else if (S.adminTab === "shop") {
@@ -225,7 +242,7 @@
     app.innerHTML = html; bindBack();
     app.querySelectorAll("[data-t]").forEach(function (b) { b.onclick = function () { S.adminTab = b.dataset.t; S.msg = null; render(); }; });
     app.querySelectorAll("[data-e]").forEach(function (b) { b.onclick = function () { S.edit = JSON.parse(JSON.stringify(S.items.find(function (x) { return x.id === b.dataset.e; }))); S.msg = null; render(); window.scrollTo(0, 0); }; });
-    var add = document.getElementById("add"); if (add) add.onclick = function () { S.edit = { name: "", description: "", price: null, unit: "dona", available: true, sort: (S.items.length + 1) * 10 }; S.msg = null; render(); };
+    var add = document.getElementById("add"); if (add) add.onclick = function () { S.edit = { name: "", description: "", price: null, price_slice: null, whole_note: "", unit: "dona", available: true, sort: (S.items.length + 1) * 10 }; S.msg = null; render(); };
     var ss = document.getElementById("ss");
     if (ss) ss.onclick = function () {
       ss.disabled = true; ss.textContent = "Saqlanmoqda…";
@@ -264,6 +281,8 @@
       '<label>Rasm (telefondan tanlang)</label><input id="ef" type="file" accept="image/*">' +
       '<label>Nomi</label><input id="en" value="' + h(e.name) + '"><label>Tavsif</label><textarea id="ed">' + h(e.description) + "</textarea>" +
       '<div class="seg"><div style="flex:2"><label>Narxi (so\'m)</label><input id="ep" inputmode="numeric" value="' + h(e.price == null ? "" : e.price) + '" placeholder="Masalan: 25000"></div><div style="flex:1"><label>Birlik</label><input id="eu" value="' + h(e.unit) + '"></div></div>' +
+      '<label>1 bo\'lak narxi (so\'m, bo\'lmasa bo\'sh qoldiring)</label><input id="eps" inputmode="numeric" value="' + h(e.price_slice == null ? "" : e.price_slice) + '" placeholder="Masalan: 35000">' +
+      '<label>Butun haqida izoh (og\'irligi, o\'lchami)</label><input id="ewn" value="' + h(e.whole_note || "") + '" placeholder="Masalan: butun ~1,5 kg, 18 sm">' +
       '<div class="chk"><input type="checkbox" id="ea"' + (e.available ? " checked" : "") + '><b>Sotuvda bor</b></div><label>Tartib raqami (kichigi tepada)</label><input id="es" inputmode="numeric" value="' + h(e.sort) + '"></div>' + msgHtml() +
       '<button class="btn" id="sv" style="width:100%">Saqlash</button>' + (e.id ? '<button class="btn del" id="dl" style="width:100%;margin-top:10px">O\'chirish</button>' : "") +
       '<button class="link" id="cn" style="margin-top:8px">Bekor qilish</button>';
@@ -276,7 +295,7 @@
     document.getElementById("cn").onclick = function () { S.edit = null; S.msg = null; render(); };
     document.getElementById("sv").onclick = function () {
       var b = this; b.disabled = true; b.textContent = "Saqlanmoqda…";
-      var item = { id: e.id, name: document.getElementById("en").value, description: document.getElementById("ed").value, price: document.getElementById("ep").value, unit: document.getElementById("eu").value, available: document.getElementById("ea").checked, sort: document.getElementById("es").value, photo_data: photo };
+      var item = { id: e.id, name: document.getElementById("en").value, description: document.getElementById("ed").value, price: document.getElementById("ep").value, unit: document.getElementById("eu").value, price_slice: document.getElementById("eps").value, whole_note: document.getElementById("ewn").value, available: document.getElementById("ea").checked, sort: document.getElementById("es").value, photo_data: photo };
       api({ action: "save_item", pin: S.pin, item: item }).then(function () { S.edit = null; setMsg("Saqlandi ✅", true); return load(); }).catch(function (er) { setMsg(er.message, false); render(); });
     };
     var dl = document.getElementById("dl");
