@@ -1,13 +1,3 @@
-ss7_i10.jpg https://upload.wikimedia.org/wikipedia/commons/b/bd/Mysterious_Roving_Rocks_of_Racetrack_Playa_%284882691008%29.jpg
-ss7_i11.jpg https://upload.wikimedia.org/wikipedia/commons/8/86/Racetrack%2C_Death_Valley_National_Park.jpg
-ss7_i12.jpg https://upload.wikimedia.org/wikipedia/commons/1/11/Racetrack_playa_2013-12-20.jpg
-ss7_i13.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Racetrack_playa_at_sunrise_-_panoramio.jpg/1920px-Racetrack_playa_at_sunrise_-_panoramio.jpg
-ss7_i14.jpg https://upload.wikimedia.org/wikipedia/commons/1/1f/Racetrack_playa_mud_tracks.jpg
-ss7_i15.jpg https://upload.wikimedia.org/wikipedia/commons/9/98/Racetrack_playa_sliding_stones_moving_rocks.jpg
-ss7_i16.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Racing_rock_at_Racetrack_Playa%2C_2011.jpg/1920px-Racing_rock_at_Racetrack_Playa%2C_2011.jpg
-ss7_i17.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sailing_Stone_%283979385396%29.jpg/1920px-Sailing_Stone_%283979385396%29.jpg
-ss7_i18.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sailing_Stones_%283992378748%29.jpg/1920px-Sailing_Stones_%283992378748%29.jpg
-ss7_i19.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sailing_Stones_%287602208040%29.jpg/1920px-Sailing_Stones_%287602208040%29.jpg
 ss7_i20.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Racetrack_rock.jpg/1920px-Racetrack_rock.jpg
 ss7_i21.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Racing_rock_at_Racetrack_Playa_%5E2_-_panoramio.jpg/1920px-Racing_rock_at_Racetrack_Playa_%5E2_-_panoramio.jpg
 ss7_i22.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sliding_stones%2C_Racetrack_Playa%2C_Death_Valley_CA_-_panoramio.jpg/1920px-Sliding_stones%2C_Racetrack_Playa%2C_Death_Valley_CA_-_panoramio.jpg
