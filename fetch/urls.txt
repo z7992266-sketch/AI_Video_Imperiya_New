@@ -33,3 +33,5 @@ ouj_m6.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chocolate_c
 ouj_m7.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Strawberry_cheesecake_round.jpg/960px-Strawberry_cheesecake_round.jpg
 ouj_m8.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tiramisu_dessert.jpg/960px-Tiramisu_dessert.jpg
 ouj_m9.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chocolate_truffles_2.jpg/960px-Chocolate_truffles_2.jpg
+ouj_m8.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tiramisu_dessert.jpg/500px-Tiramisu_dessert.jpg
+ouj_m9.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chocolate_truffles_2.jpg/500px-Chocolate_truffles_2.jpg
