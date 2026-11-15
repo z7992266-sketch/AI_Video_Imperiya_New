@@ -64,6 +64,12 @@
     return api().then(function (d) { S.items = d.items; S.shop = d.shop || {}; S.hasPin = d.has_pin; render(); })
       .catch(function (e) { app.innerHTML = '<div class="msg bad">Yuklab bo\'lmadi: ' + h(e.message) + '</div><button class="btn" id="rl">Qayta urinish</button>'; document.getElementById("rl").onclick = load; });
   }
+  function sampleOf(u) { var m = /#sample=(.*)$/.exec(u || ""); return m ? decodeURIComponent(m[1]) : ""; }
+  function phHtml(i, extra) {
+    var smp = sampleOf(i.photo_url);
+    return '<div class="ph" style="position:relative;' + (extra || "") + (i.photo_url ? "background-image:url('" + h(String(i.photo_url).split("#")[0]) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") +
+      (smp ? '<span style="position:absolute;left:4px;top:4px;background:rgba(0,0,0,.65);color:#f1d79b;font-size:10px;padding:2px 6px;border-radius:8px">Namuna rasm</span>' : "") + "</div>";
+  }
   function priceOf(i, v) { return v === "s" ? i.price_slice : i.price; }
   function cartLines() {
     var out = [];
@@ -99,14 +105,15 @@
     if (!list.length) html += '<div class="box mut">Menyu tez orada to\'ldiriladi.</div>';
     list.forEach(function (i) {
       var q = S.cart[i.id + "|w"] || 0, qs = S.cart[i.id + "|s"] || 0;
-      html += '<div class="item' + (i.available ? "" : " off") + '"><div class="ph" style="' + (i.photo_url ? "background-image:url('" + h(i.photo_url) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") + '</div>' +
+      html += '<div class="item' + (i.available ? "" : " off") + '">' + phHtml(i) +
         '<div style="flex:1;min-width:0"><h3>' + h(i.name) + '</h3><p class="d">' + h(i.description) + '</p><div class="row">' +
         (i.price_slice != null && i.available ? variantRow(i, "w", q) + variantRow(i, "s", qs) :
         '<span class="price">' + (i.price != null ? som(i.price) + ' <span class="mut">/ ' + h(i.unit) + "</span>" : '<span class="mut">Narxini so\'rang</span>') + '</span>' +
         (!i.available ? '<span class="mut">Hozir yo\'q</span>' : q ? qtyHtml(i.id + "|w", q) : '<button class="btn" data-p="' + i.id + '|w">Qo\'shish</button>')) +
-        "</div>" + (i.whole_note ? '<p class="mut" style="margin:6px 0 0">' + h(i.whole_note) + "</p>" : "") + "</div></div>";
+        "</div>" + (i.whole_note ? '<p class="mut" style="margin:6px 0 0">' + h(i.whole_note) + "</p>" : "") +
+        (sampleOf(i.photo_url) ? '<p class="mut" style="margin:4px 0 0;font-size:11px">Namuna rasm: ' + h(sampleOf(i.photo_url)) + ", Wikimedia Commons</p>" : "") + "</div></div>";
     });
-    html += '<p class="foot">Mahsulot rasmlari — haqiqiy desertlarimiz.</p>';
+    html += '<p class="foot">' + (S.items.some(function (i) { return sampleOf(i.photo_url); }) ? "«Namuna rasm» belgisi bor rasmlar — desert turini ko'rsatish uchun; qolganlari — haqiqiy desertlarimiz." : "Mahsulot rasmlari — haqiqiy desertlarimiz.") + "</p>";
     var n = cartCount();
     if (n) html += '<div class="bar"><button class="btn" id="go">Savat: ' + n + ' ta' + (cartSum() != null ? " · " + som(cartSum()) : "") + "</button></div>";
     app.innerHTML = html;
@@ -227,7 +234,7 @@
     html += '<div class="tabs"><button class="btn ' + (S.adminTab === "items" ? "" : "sec") + '" data-t="items">Desertlar</button><button class="btn ' + (S.adminTab === "shop" ? "" : "sec") + '" data-t="shop">Yetkazish / olib ketish</button><button class="btn ' + (S.adminTab === "orders" ? "" : "sec") + '" data-t="orders">Buyurtmalar</button></div>' + msgHtml();
     if (S.adminTab === "items") {
       S.items.forEach(function (i) {
-        html += '<div class="item' + (i.available ? "" : " off") + '"><div class="ph" style="' + (i.photo_url ? "background-image:url('" + h(i.photo_url) + "')" : "") + '">' + (i.photo_url ? "" : "Rasm yo'q") + '</div><div style="flex:1"><h3>' + h(i.name) + '</h3><p class="d">' + (i.price != null ? som(i.price) + (i.price_slice != null ? " · bo'lak " + som(i.price_slice) : "") : "Narx kiritilmagan") + (i.available ? "" : " · Hozir yo'q") + '</p><button class="btn sec" data-e="' + i.id + '">Tahrirlash</button></div></div>';
+        html += '<div class="item' + (i.available ? "" : " off") + '">' + phHtml(i) + '<div style="flex:1"><h3>' + h(i.name) + '</h3><p class="d">' + (i.price != null ? som(i.price) + (i.price_slice != null ? " · bo'lak " + som(i.price_slice) : "") : "Narx kiritilmagan") + (i.available ? "" : " · Hozir yo'q") + '</p><button class="btn sec" data-e="' + i.id + '">Tahrirlash</button></div></div>';
       });
       html += '<button class="btn" id="add" style="width:100%">+ Yangi desert qo\'shish</button>';
     } else if (S.adminTab === "shop") {
@@ -277,7 +284,8 @@
   function renderEdit(html) {
     var e = S.edit;
     html += "<h2>" + (e.id ? "Desertni tahrirlash" : "Yangi desert") + '</h2><div class="box">' +
-      '<div class="ph" id="pv" style="width:100%;height:220px;' + (e.photo_url ? "background-image:url('" + h(e.photo_url) + "')" : "") + '">' + (e.photo_url ? "" : "Rasm yo'q") + "</div>" +
+      '<div class="ph" id="pv" style="width:100%;height:220px;' + (e.photo_url ? "background-image:url('" + h(String(e.photo_url).split("#")[0]) + "')" : "") + '">' + (e.photo_url ? "" : "Rasm yo'q") + "</div>" +
+      (sampleOf(e.photo_url) ? '<p class="mut">Hozir namuna rasm turibdi. O\'zingiz pishirganingizning rasmini yuklasangiz, u almashadi.</p>' : "") +
       '<label>Rasm (telefondan tanlang)</label><input id="ef" type="file" accept="image/*">' +
       '<label>Nomi</label><input id="en" value="' + h(e.name) + '"><label>Tavsif</label><textarea id="ed">' + h(e.description) + "</textarea>" +
       '<div class="seg"><div style="flex:2"><label>Narxi (so\'m)</label><input id="ep" inputmode="numeric" value="' + h(e.price == null ? "" : e.price) + '" placeholder="Masalan: 25000"></div><div style="flex:1"><label>Birlik</label><input id="eu" value="' + h(e.unit) + '"></div></div>' +
