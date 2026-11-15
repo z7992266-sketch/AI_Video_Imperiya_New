@@ -1,0 +1,931 @@
+{
+ "name": "tarix_20261115_ulugbek",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "transition_dur": 0.12,
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub01.jpg",
+   "type": "image",
+   "dur": 3.8,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub10.jpg",
+   "type": "image",
+   "dur": 3.3,
+   "move": "right",
+   "fit": "blur"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub02.jpg",
+   "type": "image",
+   "dur": 4.5,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub11.jpg",
+   "type": "image",
+   "dur": 4.9,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub05.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub03.jpg",
+   "type": "image",
+   "dur": 4.2,
+   "move": "down",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub12.jpg",
+   "type": "image",
+   "dur": 6.25,
+   "move": "out",
+   "fit": "blur"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub08.jpg",
+   "type": "image",
+   "dur": 5.75,
+   "move": "in",
+   "fit": "blur"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub06.jpg",
+   "type": "image",
+   "dur": 6.4,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub09.jpg",
+   "type": "image",
+   "dur": 4.56,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub04.jpg",
+   "type": "image",
+   "dur": 6.54,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub07.jpg",
+   "type": "image",
+   "dur": 5.94,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub10.jpg",
+   "type": "image",
+   "dur": 5.16,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/ub01.jpg",
+   "type": "image",
+   "dur": 4.0,
+   "move": "out",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "Ulug'bek vs Yevropa",
+  "dur": 2.5,
+  "color": "#FFD54F",
+  "pos": 0.2,
+  "size": 120
+ },
+ "voice": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/tarix5_narr.mp3",
+  "start": 0,
+  "volume": 1.2,
+  "max_pause": 0.22,
+  "fit": 62
+ },
+ "captions": {
+  "script": "Teleskop hali ixtiro qilinmagan edi. Ammo Samarqandda bir hukmdor butun osmonni o'lchab chiqdi! Bu Mirzo Ulug'bek. Ulug'bek Yevropaga qarshi! Birinchi raund rasadxona. Bir ming to'rt yuz yigirma to'rtinchi yildan Samarqandda ulkan rasadxona qurildi. Faxriy sekstantning radiusi o'ttiz olti metrga yaqin edi. Yevropada Tixo Brage o'z rasadxonasini qariyb bir yuz ellik yil keyin qurdi. Ikkinchi raund yulduzlar. \"Ziji Sultoniy\" jadvalida mingga yaqin yulduz bor. Olimlar uni Ptolemey va Tixo Brage orasidagi eng buyuk yulduz katalogi deyishadi. Bir ming olti yuz oltmish beshinchi yilda u Oksfordda nashr etildi. Uchinchi raund aniqlik. Ulug'bek yil uzunligini bir daqiqadan kam xato bilan hisobladi. Uning jadvallarini aniqlikda faqat o'n oltinchi asrda Tixo Brage ortda qoldirdi. Bugun Oydagi krater va bir asteroid Ulug'bek nomi bilan atalgan. Sizningcha, kim yutdi? Izohda yozing!",
+  "words": [
+   {
+    "w": "Teleskop",
+    "t0": 0.0,
+    "t1": 0.56
+   },
+   {
+    "w": "hali",
+    "t0": 0.6,
+    "t1": 0.88
+   },
+   {
+    "w": "ixtiro",
+    "t0": 0.92,
+    "t1": 1.28
+   },
+   {
+    "w": "qilinmagan",
+    "t0": 1.32,
+    "t1": 1.84
+   },
+   {
+    "w": "edi.",
+    "t0": 1.9,
+    "t1": 2.4
+   },
+   {
+    "w": "Ammo",
+    "t0": 2.464,
+    "t1": 2.72
+   },
+   {
+    "w": "Samarqandda",
+    "t0": 2.773,
+    "t1": 3.44
+   },
+   {
+    "w": "bir",
+    "t0": 3.48,
+    "t1": 3.6
+   },
+   {
+    "w": "hukmdor",
+    "t0": 3.64,
+    "t1": 4.4
+   },
+   {
+    "w": "butun",
+    "t0": 4.54,
+    "t1": 5.12
+   },
+   {
+    "w": "osmonni",
+    "t0": 5.227,
+    "t1": 5.92
+   },
+   {
+    "w": "o'lchab",
+    "t0": 5.96,
+    "t1": 6.32
+   },
+   {
+    "w": "chiqdi!",
+    "t0": 6.347,
+    "t1": 7.04
+   },
+   {
+    "w": "Bu",
+    "t0": 7.2,
+    "t1": 7.52
+   },
+   {
+    "w": "Mirzo",
+    "t0": 7.74,
+    "t1": 8.16
+   },
+   {
+    "w": "Ulug'bek.",
+    "t0": 8.24,
+    "t1": 8.88
+   },
+   {
+    "w": "Ulug'bek",
+    "t0": 9.093,
+    "t1": 10.0
+   },
+   {
+    "w": "Yevropaga",
+    "t0": 10.2,
+    "t1": 10.96
+   },
+   {
+    "w": "qarshi!",
+    "t0": 11.04,
+    "t1": 11.52
+   },
+   {
+    "w": "Birinchi",
+    "t0": 11.68,
+    "t1": 12.32
+   },
+   {
+    "w": "raund",
+    "t0": 12.4,
+    "t1": 12.8
+   },
+   {
+    "w": "rasadxona.",
+    "t0": 13.1,
+    "t1": 13.84
+   },
+   {
+    "w": "Bir",
+    "t0": 13.98,
+    "t1": 14.4
+   },
+   {
+    "w": "ming",
+    "t0": 14.432,
+    "t1": 14.56
+   },
+   {
+    "w": "to'rt",
+    "t0": 14.64,
+    "t1": 14.88
+   },
+   {
+    "w": "yuz",
+    "t0": 14.96,
+    "t1": 15.12
+   },
+   {
+    "w": "yigirma",
+    "t0": 15.2,
+    "t1": 15.44
+   },
+   {
+    "w": "to'rtinchi",
+    "t0": 15.493,
+    "t1": 16.0
+   },
+   {
+    "w": "yildan",
+    "t0": 16.04,
+    "t1": 16.4
+   },
+   {
+    "w": "Samarqandda",
+    "t0": 16.52,
+    "t1": 17.52
+   },
+   {
+    "w": "ulkan",
+    "t0": 17.6,
+    "t1": 17.92
+   },
+   {
+    "w": "rasadxona",
+    "t0": 17.98,
+    "t1": 18.56
+   },
+   {
+    "w": "qurildi.",
+    "t0": 18.6,
+    "t1": 19.44
+   },
+   {
+    "w": "Faxriy",
+    "t0": 19.5,
+    "t1": 19.84
+   },
+   {
+    "w": "sekstantning",
+    "t0": 19.92,
+    "t1": 20.64
+   },
+   {
+    "w": "radiusi",
+    "t0": 20.731,
+    "t1": 21.36
+   },
+   {
+    "w": "o'ttiz",
+    "t0": 21.6,
+    "t1": 22.08
+   },
+   {
+    "w": "olti",
+    "t0": 22.16,
+    "t1": 22.44
+   },
+   {
+    "w": "metrga",
+    "t0": 22.47,
+    "t1": 22.8
+   },
+   {
+    "w": "yaqin",
+    "t0": 22.853,
+    "t1": 23.12
+   },
+   {
+    "w": "edi.",
+    "t0": 23.16,
+    "t1": 23.68
+   },
+   {
+    "w": "Yevropada",
+    "t0": 23.76,
+    "t1": 24.4
+   },
+   {
+    "w": "Tixo",
+    "t0": 24.52,
+    "t1": 24.96
+   },
+   {
+    "w": "Brage",
+    "t0": 25.04,
+    "t1": 25.52
+   },
+   {
+    "w": "o'z",
+    "t0": 25.68,
+    "t1": 26.0
+   },
+   {
+    "w": "rasadxonasini",
+    "t0": 26.06,
+    "t1": 27.12
+   },
+   {
+    "w": "qariyb",
+    "t0": 27.24,
+    "t1": 27.68
+   },
+   {
+    "w": "bir",
+    "t0": 27.74,
+    "t1": 27.92
+   },
+   {
+    "w": "yuz",
+    "t0": 27.96,
+    "t1": 28.08
+   },
+   {
+    "w": "ellik",
+    "t0": 28.16,
+    "t1": 28.56
+   },
+   {
+    "w": "yil",
+    "t0": 28.6,
+    "t1": 28.72
+   },
+   {
+    "w": "keyin",
+    "t0": 28.8,
+    "t1": 29.12
+   },
+   {
+    "w": "qurdi.",
+    "t0": 29.2,
+    "t1": 29.92
+   },
+   {
+    "w": "Ikkinchi",
+    "t0": 29.973,
+    "t1": 30.32
+   },
+   {
+    "w": "raund",
+    "t0": 30.4,
+    "t1": 30.88
+   },
+   {
+    "w": "yulduzlar.",
+    "t0": 31.16,
+    "t1": 31.84
+   },
+   {
+    "w": "\"Ziji",
+    "t0": 32.0,
+    "t1": 32.48
+   },
+   {
+    "w": "Sultoniy\"",
+    "t0": 32.56,
+    "t1": 33.12
+   },
+   {
+    "w": "jadvalida",
+    "t0": 33.16,
+    "t1": 33.76
+   },
+   {
+    "w": "mingga",
+    "t0": 33.92,
+    "t1": 34.32
+   },
+   {
+    "w": "yaqin",
+    "t0": 34.373,
+    "t1": 34.64
+   },
+   {
+    "w": "yulduz",
+    "t0": 34.72,
+    "t1": 35.12
+   },
+   {
+    "w": "bor.",
+    "t0": 35.18,
+    "t1": 35.68
+   },
+   {
+    "w": "Olimlar",
+    "t0": 35.76,
+    "t1": 36.16
+   },
+   {
+    "w": "uni",
+    "t0": 36.26,
+    "t1": 36.56
+   },
+   {
+    "w": "Ptolemey",
+    "t0": 36.68,
+    "t1": 37.36
+   },
+   {
+    "w": "va",
+    "t0": 37.413,
+    "t1": 37.52
+   },
+   {
+    "w": "Tixo",
+    "t0": 37.6,
+    "t1": 37.92
+   },
+   {
+    "w": "Brage",
+    "t0": 37.973,
+    "t1": 38.4
+   },
+   {
+    "w": "orasidagi",
+    "t0": 38.453,
+    "t1": 39.36
+   },
+   {
+    "w": "eng",
+    "t0": 39.46,
+    "t1": 39.76
+   },
+   {
+    "w": "buyuk",
+    "t0": 39.82,
+    "t1": 40.16
+   },
+   {
+    "w": "yulduz",
+    "t0": 40.24,
+    "t1": 40.68
+   },
+   {
+    "w": "katalogi",
+    "t0": 40.7,
+    "t1": 41.2
+   },
+   {
+    "w": "deyishadi.",
+    "t0": 41.227,
+    "t1": 42.08
+   },
+   {
+    "w": "Bir",
+    "t0": 42.1,
+    "t1": 42.16
+   },
+   {
+    "w": "ming",
+    "t0": 42.208,
+    "t1": 42.4
+   },
+   {
+    "w": "olti",
+    "t0": 42.48,
+    "t1": 42.76
+   },
+   {
+    "w": "yuz",
+    "t0": 42.78,
+    "t1": 42.88
+   },
+   {
+    "w": "oltmish",
+    "t0": 42.96,
+    "t1": 43.28
+   },
+   {
+    "w": "beshinchi",
+    "t0": 43.36,
+    "t1": 43.76
+   },
+   {
+    "w": "yilda",
+    "t0": 43.8,
+    "t1": 44.16
+   },
+   {
+    "w": "u",
+    "t0": 44.28,
+    "t1": 44.4
+   },
+   {
+    "w": "Oksfordda",
+    "t0": 44.64,
+    "t1": 45.36
+   },
+   {
+    "w": "nashr",
+    "t0": 45.44,
+    "t1": 45.76
+   },
+   {
+    "w": "etildi.",
+    "t0": 45.813,
+    "t1": 46.64
+   },
+   {
+    "w": "Uchinchi",
+    "t0": 46.68,
+    "t1": 47.04
+   },
+   {
+    "w": "raund",
+    "t0": 47.093,
+    "t1": 47.52
+   },
+   {
+    "w": "aniqlik.",
+    "t0": 47.82,
+    "t1": 48.64
+   },
+   {
+    "w": "Ulug'bek",
+    "t0": 48.693,
+    "t1": 49.2
+   },
+   {
+    "w": "yil",
+    "t0": 49.36,
+    "t1": 49.68
+   },
+   {
+    "w": "uzunligini",
+    "t0": 49.744,
+    "t1": 50.4
+   },
+   {
+    "w": "bir",
+    "t0": 50.48,
+    "t1": 50.72
+   },
+   {
+    "w": "daqiqadan",
+    "t0": 50.773,
+    "t1": 51.36
+   },
+   {
+    "w": "kam",
+    "t0": 51.44,
+    "t1": 51.68
+   },
+   {
+    "w": "xato",
+    "t0": 51.72,
+    "t1": 52.0
+   },
+   {
+    "w": "bilan",
+    "t0": 52.04,
+    "t1": 52.24
+   },
+   {
+    "w": "hisobladi.",
+    "t0": 52.28,
+    "t1": 53.2
+   },
+   {
+    "w": "Uning",
+    "t0": 53.24,
+    "t1": 53.44
+   },
+   {
+    "w": "jadvallarini",
+    "t0": 53.48,
+    "t1": 54.24
+   },
+   {
+    "w": "aniqlikda",
+    "t0": 54.32,
+    "t1": 54.88
+   },
+   {
+    "w": "faqat",
+    "t0": 54.933,
+    "t1": 55.6
+   },
+   {
+    "w": "o'n",
+    "t0": 55.72,
+    "t1": 55.92
+   },
+   {
+    "w": "oltinchi",
+    "t0": 55.96,
+    "t1": 56.4
+   },
+   {
+    "w": "asrda",
+    "t0": 56.48,
+    "t1": 56.96
+   },
+   {
+    "w": "Tixo",
+    "t0": 57.08,
+    "t1": 57.44
+   },
+   {
+    "w": "Brage",
+    "t0": 57.52,
+    "t1": 57.84
+   },
+   {
+    "w": "ortda",
+    "t0": 57.9,
+    "t1": 58.16
+   },
+   {
+    "w": "qoldirdi.",
+    "t0": 58.24,
+    "t1": 59.12
+   },
+   {
+    "w": "Bugun",
+    "t0": 59.16,
+    "t1": 59.6
+   },
+   {
+    "w": "Oydagi",
+    "t0": 59.76,
+    "t1": 60.16
+   },
+   {
+    "w": "krater",
+    "t0": 60.24,
+    "t1": 60.72
+   },
+   {
+    "w": "va",
+    "t0": 60.773,
+    "t1": 60.88
+   },
+   {
+    "w": "bir",
+    "t0": 60.94,
+    "t1": 61.12
+   },
+   {
+    "w": "asteroid",
+    "t0": 61.2,
+    "t1": 61.84
+   },
+   {
+    "w": "Ulug'bek",
+    "t0": 62.0,
+    "t1": 62.72
+   },
+   {
+    "w": "nomi",
+    "t0": 62.8,
+    "t1": 63.12
+   },
+   {
+    "w": "bilan",
+    "t0": 63.14,
+    "t1": 63.28
+   },
+   {
+    "w": "atalgan.",
+    "t0": 63.36,
+    "t1": 64.24
+   },
+   {
+    "w": "Sizningcha,",
+    "t0": 64.32,
+    "t1": 64.88
+   },
+   {
+    "w": "kim",
+    "t0": 64.94,
+    "t1": 65.12
+   },
+   {
+    "w": "yutdi?",
+    "t0": 65.16,
+    "t1": 65.92
+   },
+   {
+    "w": "Izohda",
+    "t0": 65.973,
+    "t1": 66.32
+   },
+   {
+    "w": "yozing!",
+    "t0": 66.36,
+    "t1": 66.8
+   }
+  ],
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.6
+ },
+ "music": {
+  "gen": "calm",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 11.68,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 29.97,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 46.68,
+   "type": "boom",
+   "volume": 1
+  },
+  {
+   "t": 59.16,
+   "type": "whoosh",
+   "volume": 1
+  }
+ ],
+ "texts": [
+  {
+   "t0": 2.6,
+   "t1": 7.0,
+   "text": "TELESKOPSIZ!",
+   "pos": 0.72,
+   "size": 72,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 9.1,
+   "t1": 11.6,
+   "text": "ULUG'BEK vs YEVROPA",
+   "pos": 0.72,
+   "size": 66,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 11.68,
+   "t1": 14.2,
+   "text": "1-RAUND: RASADXONA",
+   "pos": 0.14,
+   "size": 82,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 14.2,
+   "t1": 19.45,
+   "text": "1424-YIL: SAMARQAND",
+   "pos": 0.72,
+   "size": 66,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 19.5,
+   "t1": 23.7,
+   "text": "SEKSTANT RADIUSI ≈ 36 M",
+   "pos": 0.72,
+   "size": 60,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 23.76,
+   "t1": 29.9,
+   "text": "TIXO BRAGE: 1576-YIL",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 29.97,
+   "t1": 32.4,
+   "text": "2-RAUND: YULDUZLAR",
+   "pos": 0.14,
+   "size": 82,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 32.4,
+   "t1": 35.7,
+   "text": "ZIJI SULTONIY: ~1000 YULDUZ",
+   "pos": 0.72,
+   "size": 56,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 35.76,
+   "t1": 42.08,
+   "text": "PTOLEMEYDAN TIXOGACHA ENG BUYUK",
+   "pos": 0.72,
+   "size": 52,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 42.1,
+   "t1": 46.64,
+   "text": "1665: OKSFORDDA NASHR",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 46.68,
+   "t1": 49.2,
+   "text": "3-RAUND: ANIQLIK",
+   "pos": 0.14,
+   "size": 82,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 49.2,
+   "t1": 53.2,
+   "text": "XATO: 1 DAQIQADAN KAM",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 53.24,
+   "t1": 59.1,
+   "text": "16-ASRGACHA TENGSIZ",
+   "pos": 0.72,
+   "size": 64,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 59.16,
+   "t1": 64.24,
+   "text": "OYDA KRATER + ASTEROID",
+   "pos": 0.72,
+   "size": 62,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 64.3,
+   "t1": 68.3,
+   "text": "IZOHDA YOZING! 👇",
+   "pos": 0.36,
+   "size": 92,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 64.5,
+   "t1": 68.3,
+   "text": "@Taqqos_Uzb",
+   "pos": 0.46,
+   "size": 70,
+   "color": "#FFFFFF",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "TARIX",
+  "color": "#FFFFFF",
+  "pos": "top-left"
+ },
+ "fade_out": 0.6
+}
