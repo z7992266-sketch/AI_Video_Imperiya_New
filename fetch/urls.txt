@@ -1,5 +1,5 @@
-sal_sg.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg/1280px-Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg
-sal_ch.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg/1280px-Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg
-sal_us.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/United_States_Capitol_-_west_front.jpg/1280px-United_States_Capitol_-_west_front.jpg
-sal_uk.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Palace_of_Westminster_London_2023_01.jpg/1280px-Palace_of_Westminster_London_2023_01.jpg
-sal_fr.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1280px-Eiffel_tower_from_trocadero.jpg
+ss7_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/6x0CVM2Gy81GxKa5i2qm/9miB1wy6KdIdoMSHBRiO/content.mp3?Expires=1794740400&KeyName=assets-cdn-key-1&Signature=yvAVY8hi0wLHI1baJlqsI3brKv8=
+ss7_c1.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=50&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1280&gsrsearch=Racetrack%20Playa
+ss7_c2.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=50&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1280&gsrsearch=sailing%20stones
+ss7_c3.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=50&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1280&gsrsearch=Racetrack%20Playa%20rock%20trail
+ss7_c4.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=50&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1280&gsrsearch=Death%20Valley%20Racetrack
