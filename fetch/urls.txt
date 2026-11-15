@@ -29,3 +29,10 @@ ub10.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ulugh_Beg_Obse
 ub11.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ulugh_Beg_Observatory_152.jpg/1920px-Ulugh_Beg_Observatory_152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ub12.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Uraniborg_main_building.jpg/1920px-Uraniborg_main_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ub_wp_en2.json https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exlimit=max&titles=Uraniborg%7CUlugh+Beg+Observatory%7CTycho+Brahe&format=json&redirects=1
+ub05.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ulug%27bek_rasadxonasi_maketi_%28V._A._Nilsen_rekonstruksiyasi%29.jpg/1280px-Ulug%27bek_rasadxonasi_maketi_%28V._A._Nilsen_rekonstruksiyasi%29.jpg
+ub06.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Brahe_Uraniborg_1598.jpg/1280px-Brahe_Uraniborg_1598.jpg
+ub08.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ophiuchus_-_miniature_from_the_%22Kit%C4%81b_%E1%B9%A3uwar_al-kaw%C4%81kib_al-%E1%B9%AF%C4%81bita%22.jpg/1280px-Ophiuchus_-_miniature_from_the_%22Kit%C4%81b_%E1%B9%A3uwar_al-kaw%C4%81kib_al-%E1%B9%AF%C4%81bita%22.jpg
+ub10.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ulugh_Beg_Observatory_01.jpg/1280px-Ulugh_Beg_Observatory_01.jpg
+ub11.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ulugh_Beg_Observatory_152.jpg/1280px-Ulugh_Beg_Observatory_152.jpg
+ub12.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Uraniborg_main_building.jpg/1280px-Uraniborg_main_building.jpg
+ub_wp_en3.json https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exlimit=max&titles=Uraniborg%7CUlugh+Beg+Observatory%7CTycho+Brahe&format=json&redirects=1
