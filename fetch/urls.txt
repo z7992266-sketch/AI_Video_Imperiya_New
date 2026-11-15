@@ -1,6 +1,5 @@
-bil_voice_20261115.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/zs2DzoJf8Q4shoH3H9yo/6Hn49A8CT8eOpX3n79Fx/content.mp3?Expires=1794740400&KeyName=assets-cdn-key-1&Signature=-y8d6l8cKvx_4Uz4RUX2TVZSWAw=
-sal_sg.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg/1600px-Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg
-sal_ch.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg/1600px-Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg
-sal_us.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/United_States_Capitol_-_west_front.jpg/1600px-United_States_Capitol_-_west_front.jpg
-sal_uk.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Palace_of_Westminster_London_2023_01.jpg/1600px-Palace_of_Westminster_London_2023_01.jpg
-sal_fr.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1600px-Eiffel_tower_from_trocadero.jpg
+sal_sg.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg/1280px-Marina_Bays_Sands_Hotel_and_skyline_of_the_Central_Business_District_Singapore.jpg
+sal_ch.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg/1280px-Bern_Federal_Palace_with_Eiger_and_M%C3%B6nch_2019-10-16_18-18.jpg
+sal_us.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/United_States_Capitol_-_west_front.jpg/1280px-United_States_Capitol_-_west_front.jpg
+sal_uk.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Palace_of_Westminster_London_2023_01.jpg/1280px-Palace_of_Westminster_London_2023_01.jpg
+sal_fr.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1280px-Eiffel_tower_from_trocadero.jpg
