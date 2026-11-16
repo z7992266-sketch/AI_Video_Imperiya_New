@@ -1,5 +1,14 @@
 # Z7 Render — guide for the daily channel tasks
 
+> **TAQQOS OWNER RULES (16 Nov 2026) — read first if you produce ANY Taqqos video (daily "Kim kuchli?", Bilasizmi, Tarix, long, Xarita):**
+> 1. Follow `render/prompts/taqqos_growth.md` — it WINS over older Taqqos instructions in your task prompt
+>    (no country repeat within 60 days, new theme/angle every day, surprise hook in frame 1, change ≥2 visual elements,
+>    22–30 s Shorts, loop ending, one debate question).
+> 2. NO WHOOSH anywhere — not in render jobs, not in locally generated audio (taqqosNN.py / own SFX mixes), not on cuts,
+>    rounds or hooks. Only very soft tick/pop allowed. (Owner, 14 Nov.) Booms on hooks also off for Taqqos.
+> 3. Taqqos Tarix now runs only on Sunday. New rubric "Xarita" (map redrawn by data) runs Tue + Fri 18:00 Tashkent:
+>    brief in `render/prompts/taqqos_xarita.md`. Don't schedule another Taqqos Short within 1 h of it.
+
 Free, watermark-free, 1080x1920 30 fps renderer running on GitHub Actions (branch `render`).
 The user wants top ("1000") quality on every channel. Use this INSTEAD of vidiq_compose / trim_media / VideoDB.
 
@@ -29,7 +38,7 @@ The user wants top ("1000") quality on every channel. Use this INSTEAD of vidiq_
   Use `"style": "none"` when the video already has its own text (e.g. Taqqos motion graphics).
 - `grade`: `cinematic` (default), `dark` (mystery/horror/storm), `clean` (bright/product).
 - `music`: own track URL, or generated `{"gen": "dark" | "tension" | "calm"}`; ducks under the voice automatically.
-- Whoosh on cuts + boom on the hook are added automatically (`"sfx": false` to disable).
+- Whoosh is OFF by default (owner 14 Nov 2026: no whoosh at all); boom on the hook only for non-Taqqos channels (`"sfx": false` to disable).
 - `endcard`: title/subtitle/small text card (or `image`). `badge` for "Made by B2B SAS" etc.
 - Audio is normalised to -14 LUFS (YouTube/Instagram standard).
 - Pre-rendered video (e.g. Taqqos local motion render) + separate narration: one scene with
