@@ -36,3 +36,4 @@ ouj_m9.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chocolate_t
 ouj_m8.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tiramisu_dessert.jpg/500px-Tiramisu_dessert.jpg
 ouj_m9.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chocolate_truffles_2.jpg/500px-Chocolate_truffles_2.jpg
 b2b_vo_20261116_app.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/6d0rbDeAladtnz3ylu53/3YmhsG20RE53pzdqGYjl/content.mp3?Expires=1794812400&KeyName=assets-cdn-key-1&Signature=LSIQl6buiKTcAlCcbISwvq_lSQw=
+taqqos25_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/Uq3G0Zv5qf1jrV6ysewe/3IFn3k26er3GSeJTkLqp/content.mp3?Expires=1794819600&KeyName=assets-cdn-key-1&Signature=OugCG3k35_JbfF1NFWAs2bAY7aM=
