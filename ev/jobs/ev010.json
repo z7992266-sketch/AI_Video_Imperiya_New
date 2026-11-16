@@ -1,0 +1,18 @@
+{
+ "id": "ev010",
+ "title": "Autumn Forest — Soft Music for Reading",
+ "subtitle": "1 Hour · Cozy Ambience · Exclusive Vibe",
+ "thumb_big": "Autumn Forest",
+ "thumb_small": "1 Hour Reading Music",
+ "minutes": 60,
+ "mood": "none",
+ "seed": 170,
+ "queries": [
+  "autumn",
+  "forest",
+  "leaves"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
