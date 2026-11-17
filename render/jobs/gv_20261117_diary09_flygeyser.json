@@ -1,0 +1,1033 @@
+{
+ "name": "gv_20261117_diary09_flygeyser",
+ "rev": "1",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "dark",
+ "transition": "none",
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i27.jpg",
+   "type": "image",
+   "dur": 2.7,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i12.jpg",
+   "type": "image",
+   "dur": 2.5,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i16.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i05.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i01.jpg",
+   "type": "image",
+   "dur": 2.4,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i07.jpg",
+   "type": "image",
+   "dur": 2.3,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i10.jpg",
+   "type": "image",
+   "dur": 3.1,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i19.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i13.jpg",
+   "type": "image",
+   "dur": 2.3,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "flash"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i09.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i17.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i04.jpg",
+   "type": "image",
+   "dur": 3.7,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i06.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i18.jpg",
+   "type": "image",
+   "dur": 3.9,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i14.jpg",
+   "type": "image",
+   "dur": 1.9,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "flash",
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i02.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i15.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i11.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "right",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i03.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i21.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261117_diary09_flygeyser/i27.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "glitch_end"
+   ]
+  }
+ ],
+ "hook": {
+  "text": "MADE BY A MISTAKE",
+  "dur": 2.4,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/gv_20261117_diary09_flygeyser/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0,
+  "max_pause": 0.22,
+  "fit": 55.0
+ },
+ "music": {
+  "gen": "dark",
+  "volume": 0.2,
+  "duck": true
+ },
+ "captions": {
+  "script": "This rainbow volcano wasn't made by nature. It was made by a mistake. Glitch Diary, entry nine. Fly Geyser, in the Nevada desert. In nineteen sixty-four, a geothermal company drilled a test well here. The water wasn't hot enough for power, so the well was left behind, never properly sealed. But that's not the strange part. Water hotter than ninety degrees Celsius kept pushing up, day and night. And the minerals it carried started building a mound of stone that is still growing, several inches every year. And there's one thing that makes it look truly unreal... Those reds and greens aren't paint. They're living microbes, heat-loving thermophiles that thrive in the scalding water. A human error, turned into a living sculpture. Would you visit it? Tell me in the comments. Follow for the next entry of my glitch diary. Because this mistake is still growing...",
+  "words": [
+   {
+    "w": "This",
+    "t0": 0.3,
+    "t1": 0.46
+   },
+   {
+    "w": "rainbow",
+    "t0": 0.51,
+    "t1": 0.86
+   },
+   {
+    "w": "volcano",
+    "t0": 0.93,
+    "t1": 1.42
+   },
+   {
+    "w": "wasn't",
+    "t0": 1.468,
+    "t1": 1.74
+   },
+   {
+    "w": "made",
+    "t0": 1.772,
+    "t1": 1.9
+   },
+   {
+    "w": "by",
+    "t0": 1.953,
+    "t1": 2.06
+   },
+   {
+    "w": "nature.",
+    "t0": 2.129,
+    "t1": 2.7
+   },
+   {
+    "w": "It",
+    "t0": 2.967,
+    "t1": 3.5
+   },
+   {
+    "w": "was",
+    "t0": 3.54,
+    "t1": 3.66
+   },
+   {
+    "w": "made",
+    "t0": 3.708,
+    "t1": 3.9
+   },
+   {
+    "w": "by",
+    "t0": 3.953,
+    "t1": 4.06
+   },
+   {
+    "w": "a",
+    "t0": 4.22,
+    "t1": 4.38
+   },
+   {
+    "w": "mistake.",
+    "t0": 4.42,
+    "t1": 4.78
+   },
+   {
+    "w": "Glitch",
+    "t0": 5.94,
+    "t1": 6.54
+   },
+   {
+    "w": "Diary,",
+    "t0": 6.62,
+    "t1": 7.18
+   },
+   {
+    "w": "entry",
+    "t0": 7.273,
+    "t1": 7.74
+   },
+   {
+    "w": "nine.",
+    "t0": 7.82,
+    "t1": 8.22
+   },
+   {
+    "w": "Fly",
+    "t0": 9.06,
+    "t1": 9.66
+   },
+   {
+    "w": "Geyser,",
+    "t0": 9.7,
+    "t1": 10.34
+   },
+   {
+    "w": "in",
+    "t0": 10.407,
+    "t1": 10.54
+   },
+   {
+    "w": "the",
+    "t0": 10.56,
+    "t1": 10.62
+   },
+   {
+    "w": "Nevada",
+    "t0": 10.666,
+    "t1": 10.94
+   },
+   {
+    "w": "desert.",
+    "t0": 11.009,
+    "t1": 11.5
+   },
+   {
+    "w": "In",
+    "t0": 11.767,
+    "t1": 12.3
+   },
+   {
+    "w": "nineteen",
+    "t0": 12.344,
+    "t1": 12.7
+   },
+   {
+    "w": "sixty-four,",
+    "t0": 13.14,
+    "t1": 13.74
+   },
+   {
+    "w": "a",
+    "t0": 13.78,
+    "t1": 13.82
+   },
+   {
+    "w": "geothermal",
+    "t0": 13.9,
+    "t1": 14.46
+   },
+   {
+    "w": "company",
+    "t0": 14.51,
+    "t1": 14.86
+   },
+   {
+    "w": "drilled",
+    "t0": 14.9,
+    "t1": 15.18
+   },
+   {
+    "w": "a",
+    "t0": 15.26,
+    "t1": 15.34
+   },
+   {
+    "w": "test",
+    "t0": 15.372,
+    "t1": 15.5
+   },
+   {
+    "w": "well",
+    "t0": 15.548,
+    "t1": 15.74
+   },
+   {
+    "w": "here.",
+    "t0": 15.804,
+    "t1": 16.14
+   },
+   {
+    "w": "The",
+    "t0": 16.66,
+    "t1": 17.26
+   },
+   {
+    "w": "water",
+    "t0": 17.313,
+    "t1": 17.58
+   },
+   {
+    "w": "wasn't",
+    "t0": 17.628,
+    "t1": 17.9
+   },
+   {
+    "w": "hot",
+    "t0": 17.94,
+    "t1": 18.06
+   },
+   {
+    "w": "enough",
+    "t0": 18.094,
+    "t1": 18.3
+   },
+   {
+    "w": "for",
+    "t0": 18.34,
+    "t1": 18.46
+   },
+   {
+    "w": "power,",
+    "t0": 18.82,
+    "t1": 19.42
+   },
+   {
+    "w": "so",
+    "t0": 19.473,
+    "t1": 19.58
+   },
+   {
+    "w": "the",
+    "t0": 19.6,
+    "t1": 19.66
+   },
+   {
+    "w": "well",
+    "t0": 19.708,
+    "t1": 19.9
+   },
+   {
+    "w": "was",
+    "t0": 19.94,
+    "t1": 20.06
+   },
+   {
+    "w": "left",
+    "t0": 20.108,
+    "t1": 20.3
+   },
+   {
+    "w": "behind,",
+    "t0": 20.5,
+    "t1": 21.1
+   },
+   {
+    "w": "never",
+    "t0": 21.14,
+    "t1": 21.34
+   },
+   {
+    "w": "properly",
+    "t0": 21.384,
+    "t1": 21.74
+   },
+   {
+    "w": "sealed.",
+    "t0": 21.809,
+    "t1": 22.3
+   },
+   {
+    "w": "But",
+    "t0": 22.82,
+    "t1": 23.42
+   },
+   {
+    "w": "that's",
+    "t0": 23.452,
+    "t1": 23.66
+   },
+   {
+    "w": "not",
+    "t0": 23.68,
+    "t1": 23.74
+   },
+   {
+    "w": "the",
+    "t0": 23.76,
+    "t1": 23.82
+   },
+   {
+    "w": "strange",
+    "t0": 23.87,
+    "t1": 24.22
+   },
+   {
+    "w": "part.",
+    "t0": 24.284,
+    "t1": 24.62
+   },
+   {
+    "w": "Water",
+    "t0": 25.22,
+    "t1": 25.82
+   },
+   {
+    "w": "hotter",
+    "t0": 25.877,
+    "t1": 26.22
+   },
+   {
+    "w": "than",
+    "t0": 26.252,
+    "t1": 26.38
+   },
+   {
+    "w": "ninety",
+    "t0": 26.426,
+    "t1": 26.7
+   },
+   {
+    "w": "degrees",
+    "t0": 26.74,
+    "t1": 27.02
+   },
+   {
+    "w": "Celsius",
+    "t0": 27.1,
+    "t1": 27.66
+   },
+   {
+    "w": "kept",
+    "t0": 27.708,
+    "t1": 27.9
+   },
+   {
+    "w": "pushing",
+    "t0": 27.95,
+    "t1": 28.3
+   },
+   {
+    "w": "up,",
+    "t0": 28.38,
+    "t1": 28.86
+   },
+   {
+    "w": "day",
+    "t0": 28.94,
+    "t1": 29.18
+   },
+   {
+    "w": "and",
+    "t0": 29.22,
+    "t1": 29.34
+   },
+   {
+    "w": "night.",
+    "t0": 29.393,
+    "t1": 29.82
+   },
+   {
+    "w": "And",
+    "t0": 30.04,
+    "t1": 30.7
+   },
+   {
+    "w": "the",
+    "t0": 30.72,
+    "t1": 30.78
+   },
+   {
+    "w": "minerals",
+    "t0": 30.824,
+    "t1": 31.18
+   },
+   {
+    "w": "it",
+    "t0": 31.233,
+    "t1": 31.34
+   },
+   {
+    "w": "carried",
+    "t0": 31.39,
+    "t1": 31.74
+   },
+   {
+    "w": "started",
+    "t0": 31.78,
+    "t1": 32.06
+   },
+   {
+    "w": "building",
+    "t0": 32.096,
+    "t1": 32.38
+   },
+   {
+    "w": "a",
+    "t0": 32.42,
+    "t1": 32.46
+   },
+   {
+    "w": "mound",
+    "t0": 32.5,
+    "t1": 32.7
+   },
+   {
+    "w": "of",
+    "t0": 32.753,
+    "t1": 32.86
+   },
+   {
+    "w": "stone",
+    "t0": 32.927,
+    "t1": 33.26
+   },
+   {
+    "w": "that",
+    "t0": 33.276,
+    "t1": 33.34
+   },
+   {
+    "w": "is",
+    "t0": 33.393,
+    "t1": 33.5
+   },
+   {
+    "w": "still",
+    "t0": 33.54,
+    "t1": 33.74
+   },
+   {
+    "w": "growing,",
+    "t0": 34.26,
+    "t1": 34.86
+   },
+   {
+    "w": "several",
+    "t0": 34.9,
+    "t1": 35.18
+   },
+   {
+    "w": "inches",
+    "t0": 35.226,
+    "t1": 35.5
+   },
+   {
+    "w": "every",
+    "t0": 35.54,
+    "t1": 35.74
+   },
+   {
+    "w": "year.",
+    "t0": 35.82,
+    "t1": 36.22
+   },
+   {
+    "w": "And",
+    "t0": 36.74,
+    "t1": 37.34
+   },
+   {
+    "w": "there's",
+    "t0": 37.353,
+    "t1": 37.5
+   },
+   {
+    "w": "one",
+    "t0": 37.54,
+    "t1": 37.66
+   },
+   {
+    "w": "thing",
+    "t0": 37.7,
+    "t1": 37.9
+   },
+   {
+    "w": "that",
+    "t0": 37.932,
+    "t1": 38.06
+   },
+   {
+    "w": "makes",
+    "t0": 38.1,
+    "t1": 38.3
+   },
+   {
+    "w": "it",
+    "t0": 38.327,
+    "t1": 38.38
+   },
+   {
+    "w": "look",
+    "t0": 38.428,
+    "t1": 38.62
+   },
+   {
+    "w": "truly",
+    "t0": 38.673,
+    "t1": 38.94
+   },
+   {
+    "w": "unreal...",
+    "t0": 39.78,
+    "t1": 40.38
+   },
+   {
+    "w": "Those",
+    "t0": 40.42,
+    "t1": 40.62
+   },
+   {
+    "w": "reds",
+    "t0": 40.68,
+    "t1": 40.94
+   },
+   {
+    "w": "and",
+    "t0": 40.96,
+    "t1": 41.02
+   },
+   {
+    "w": "greens",
+    "t0": 41.066,
+    "t1": 41.34
+   },
+   {
+    "w": "aren't",
+    "t0": 41.372,
+    "t1": 41.58
+   },
+   {
+    "w": "paint.",
+    "t0": 41.647,
+    "t1": 42.06
+   },
+   {
+    "w": "They're",
+    "t0": 42.42,
+    "t1": 43.02
+   },
+   {
+    "w": "living",
+    "t0": 43.054,
+    "t1": 43.26
+   },
+   {
+    "w": "microbes,",
+    "t0": 43.94,
+    "t1": 44.54
+   },
+   {
+    "w": "heat-loving",
+    "t0": 44.604,
+    "t1": 45.18
+   },
+   {
+    "w": "thermophiles",
+    "t0": 45.38,
+    "t1": 45.98
+   },
+   {
+    "w": "that",
+    "t0": 46.012,
+    "t1": 46.14
+   },
+   {
+    "w": "thrive",
+    "t0": 46.209,
+    "t1": 46.62
+   },
+   {
+    "w": "in",
+    "t0": 46.647,
+    "t1": 46.7
+   },
+   {
+    "w": "the",
+    "t0": 46.72,
+    "t1": 46.78
+   },
+   {
+    "w": "scalding",
+    "t0": 46.86,
+    "t1": 47.26
+   },
+   {
+    "w": "water.",
+    "t0": 47.327,
+    "t1": 47.74
+   },
+   {
+    "w": "A",
+    "t0": 48.3,
+    "t1": 48.86
+   },
+   {
+    "w": "human",
+    "t0": 48.913,
+    "t1": 49.18
+   },
+   {
+    "w": "error,",
+    "t0": 49.247,
+    "t1": 49.66
+   },
+   {
+    "w": "turned",
+    "t0": 49.74,
+    "t1": 50.22
+   },
+   {
+    "w": "into",
+    "t0": 50.268,
+    "t1": 50.46
+   },
+   {
+    "w": "a",
+    "t0": 50.5,
+    "t1": 50.54
+   },
+   {
+    "w": "living",
+    "t0": 50.586,
+    "t1": 50.86
+   },
+   {
+    "w": "sculpture.",
+    "t0": 50.916,
+    "t1": 51.5
+   },
+   {
+    "w": "Would",
+    "t0": 51.86,
+    "t1": 52.46
+   },
+   {
+    "w": "you",
+    "t0": 52.5,
+    "t1": 52.62
+   },
+   {
+    "w": "visit",
+    "t0": 52.66,
+    "t1": 52.86
+   },
+   {
+    "w": "it?",
+    "t0": 52.913,
+    "t1": 53.18
+   },
+   {
+    "w": "Tell",
+    "t0": 53.324,
+    "t1": 53.9
+   },
+   {
+    "w": "me",
+    "t0": 53.953,
+    "t1": 54.06
+   },
+   {
+    "w": "in",
+    "t0": 54.087,
+    "t1": 54.14
+   },
+   {
+    "w": "the",
+    "t0": 54.16,
+    "t1": 54.22
+   },
+   {
+    "w": "comments.",
+    "t0": 54.282,
+    "t1": 54.86
+   },
+   {
+    "w": "Follow",
+    "t0": 55.7,
+    "t1": 56.3
+   },
+   {
+    "w": "for",
+    "t0": 56.34,
+    "t1": 56.46
+   },
+   {
+    "w": "the",
+    "t0": 56.48,
+    "t1": 56.54
+   },
+   {
+    "w": "next",
+    "t0": 56.604,
+    "t1": 56.86
+   },
+   {
+    "w": "entry",
+    "t0": 56.913,
+    "t1": 57.18
+   },
+   {
+    "w": "of",
+    "t0": 57.207,
+    "t1": 57.26
+   },
+   {
+    "w": "my",
+    "t0": 57.26,
+    "t1": 57.42
+   },
+   {
+    "w": "glitch",
+    "t0": 57.466,
+    "t1": 57.74
+   },
+   {
+    "w": "diary.",
+    "t0": 57.833,
+    "t1": 58.38
+   },
+   {
+    "w": "Because",
+    "t0": 58.74,
+    "t1": 59.34
+   },
+   {
+    "w": "this",
+    "t0": 59.372,
+    "t1": 59.5
+   },
+   {
+    "w": "mistake",
+    "t0": 59.56,
+    "t1": 59.98
+   },
+   {
+    "w": "is",
+    "t0": 60.033,
+    "t1": 60.14
+   },
+   {
+    "w": "still",
+    "t0": 60.18,
+    "t1": 60.38
+   },
+   {
+    "w": "growing...",
+    "t0": 60.44,
+    "t1": 60.94
+   }
+  ]
+ },
+ "texts": [
+  {
+   "t0": 8.6,
+   "t1": 11.8,
+   "text": "FLY GEYSER, NEVADA",
+   "pos": 0.28,
+   "size": 80,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 12.0,
+   "t1": 16.1,
+   "text": "1964: A TEST WELL",
+   "pos": 0.28,
+   "size": 84,
+   "color": "#80D8FF"
+  },
+  {
+   "t0": 20.2,
+   "t1": 22.5,
+   "text": "NEVER PROPERLY SEALED",
+   "pos": 0.28,
+   "size": 80,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 25.0,
+   "t1": 29.6,
+   "text": "WATER ABOVE 90 \u00b0C",
+   "pos": 0.28,
+   "size": 84,
+   "color": "#FF8A65"
+  },
+  {
+   "t0": 33.4,
+   "t1": 36.3,
+   "text": "STILL GROWING",
+   "pos": 0.28,
+   "size": 88,
+   "color": "#80D8FF"
+  },
+  {
+   "t0": 42.3,
+   "t1": 45.8,
+   "text": "LIVING MICROBES",
+   "pos": 0.28,
+   "size": 86,
+   "color": "#B9F6CA"
+  },
+  {
+   "t0": 48.4,
+   "t1": 51.5,
+   "text": "A HUMAN ERROR",
+   "pos": 0.28,
+   "size": 80,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 51.7,
+   "t1": 55.0,
+   "text": "WOULD YOU VISIT?",
+   "pos": 0.28,
+   "size": 86,
+   "color": "#FFD54F"
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 22.6,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 36.5,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 38.9,
+   "type": "riser",
+   "volume": 0.7
+  },
+  {
+   "t": 40.4,
+   "type": "boom",
+   "volume": 0.9
+  },
+  {
+   "t": 58.5,
+   "type": "zap",
+   "volume": 0.8
+  }
+ ],
+ "fade_out": 0
+}
