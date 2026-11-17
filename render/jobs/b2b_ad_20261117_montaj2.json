@@ -1,0 +1,442 @@
+{
+ "name": "b2b_ad_20261117_montaj2",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "none",
+ "fade_in": 0,
+ "fade_out": 0.3,
+ "scenes": [
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_6877260.mp4",
+   "type": "video",
+   "dur": 2.6,
+   "start": 0.5,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_6756650.mp4",
+   "type": "video",
+   "dur": 2.8,
+   "start": 0.5,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_13737106.mp4",
+   "type": "video",
+   "dur": 1.9,
+   "start": 1.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_5977122.mp4",
+   "type": "video",
+   "dur": 1.9,
+   "start": 1.0,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_32549876.mp4",
+   "type": "video",
+   "dur": 3.5,
+   "start": 4.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_1536315.mp4",
+   "type": "video",
+   "dur": 2.7,
+   "start": 3.0,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/fr_medeu.mp4",
+   "type": "video",
+   "dur": 2.0,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/fr_cher_a.mp4",
+   "type": "video",
+   "dur": 1.2,
+   "start": 0.6,
+   "move": "none",
+   "grade": "none"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_33414463.mp4",
+   "type": "video",
+   "dur": 3.5,
+   "start": 8.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/b2b_pex_4318554.mp4",
+   "type": "video",
+   "dur": 3.5,
+   "start": 2.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/b2b_montaj_20261112/endcard.mp4",
+   "type": "video",
+   "dur": 4.6,
+   "start": 0,
+   "move": "none",
+   "grade": "none"
+  }
+ ],
+ "hook": {
+  "text": "VIDEOLAR KO'P — REELS YO'Q?",
+  "dur": 2.5,
+  "color": "#FFD666"
+ },
+ "texts": [
+  {
+   "t0": 2.7,
+   "t1": 5.3,
+   "text": "REELSGA ARZIMAYDIMI?",
+   "pos": 0.3,
+   "size": 82,
+   "color": "#FF6B6B"
+  },
+  {
+   "t0": 5.5,
+   "t1": 7.25,
+   "text": "SIZ — SURATGA OLASIZ",
+   "pos": 0.72,
+   "size": 74
+  },
+  {
+   "t0": 7.4,
+   "t1": 9.15,
+   "text": "QOLGANI — BIZDAN",
+   "pos": 0.66,
+   "size": 80,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 10.85,
+   "t1": 12.65,
+   "text": "KESAMIZ",
+   "pos": 0.26,
+   "size": 84,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 12.8,
+   "t1": 15.35,
+   "text": "SUBTITR",
+   "pos": 0.24,
+   "size": 76
+  },
+  {
+   "t0": 13.6,
+   "t1": 15.35,
+   "text": "MUSIQA",
+   "pos": 0.31,
+   "size": 76,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 14.4,
+   "t1": 15.35,
+   "text": "RANG",
+   "pos": 0.38,
+   "size": 76
+  },
+  {
+   "t0": 15.5,
+   "t1": 18.55,
+   "text": "NATIJA: OXIRIGACHA KO'RILADI",
+   "pos": 0.185,
+   "size": 64,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 18.8,
+   "t1": 25.5,
+   "text": "TAYYOR FORMAT",
+   "pos": 0.6,
+   "size": 84,
+   "color": "#FFD666"
+  },
+  {
+   "t0": 20.7,
+   "t1": 25.5,
+   "text": "YOKI O'Z BRENDINGIZDA",
+   "pos": 0.66,
+   "size": 72
+  }
+ ],
+ "voice": {
+  "src": "render/assets/b2b_montaj2_20261117/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Telefoningizda o'nlab videolar bor — lekin Reelsga qo'yishga arzimaydimi? Siz shunchaki suratga oling, qolganini biz qilamiz. B2B SAS keraksiz joylarni kesadi, subtitr, musiqa va rang qo'shadi. Natija — oxirigacha ko'riladigan Reels. Xohlang tayyor formatda, xohlang to'liq o'z brendingiz ostida — nomingiz va logongiz bilan.",
+  "words": [
+   {
+    "w": "Telefoningizda",
+    "t0": 0.3,
+    "t1": 1.132
+   },
+   {
+    "w": "o'nlab",
+    "t0": 1.162,
+    "t1": 1.564
+   },
+   {
+    "w": "videolar",
+    "t0": 1.594,
+    "t1": 2.103
+   },
+   {
+    "w": "bor —",
+    "t0": 2.133,
+    "t1": 2.48
+   },
+   {
+    "w": "lekin",
+    "t0": 2.62,
+    "t1": 2.993
+   },
+   {
+    "w": "Reelsga",
+    "t0": 3.023,
+    "t1": 3.511
+   },
+   {
+    "w": "qo'yishga",
+    "t0": 3.541,
+    "t1": 4.144
+   },
+   {
+    "w": "arzimaydimi?",
+    "t0": 4.174,
+    "t1": 4.95
+   },
+   {
+    "w": "Siz",
+    "t0": 5.6,
+    "t1": 5.869
+   },
+   {
+    "w": "shunchaki",
+    "t0": 5.899,
+    "t1": 6.527
+   },
+   {
+    "w": "suratga",
+    "t0": 6.557,
+    "t1": 7.066
+   },
+   {
+    "w": "oling,",
+    "t0": 7.096,
+    "t1": 7.544
+   },
+   {
+    "w": "qolganini",
+    "t0": 7.574,
+    "t1": 8.203
+   },
+   {
+    "w": "biz",
+    "t0": 8.233,
+    "t1": 8.502
+   },
+   {
+    "w": "qilamiz.",
+    "t0": 8.532,
+    "t1": 9.1
+   },
+   {
+    "w": "B2B",
+    "t0": 9.35,
+    "t1": 10.04
+   },
+   {
+    "w": "SAS",
+    "t0": 10.07,
+    "t1": 10.76
+   },
+   {
+    "w": "keraksiz",
+    "t0": 10.87,
+    "t1": 11.457
+   },
+   {
+    "w": "joylarni",
+    "t0": 11.487,
+    "t1": 12.074
+   },
+   {
+    "w": "kesadi,",
+    "t0": 12.104,
+    "t1": 12.63
+   },
+   {
+    "w": "subtitr,",
+    "t0": 12.79,
+    "t1": 13.386
+   },
+   {
+    "w": "musiqa",
+    "t0": 13.416,
+    "t1": 13.886
+   },
+   {
+    "w": "va",
+    "t0": 13.916,
+    "t1": 14.136
+   },
+   {
+    "w": "rang",
+    "t0": 14.166,
+    "t1": 14.512
+   },
+   {
+    "w": "qo'shadi.",
+    "t0": 14.542,
+    "t1": 15.2
+   },
+   {
+    "w": "Natija —",
+    "t0": 15.56,
+    "t1": 16.35
+   },
+   {
+    "w": "oxirigacha",
+    "t0": 16.55,
+    "t1": 17.205
+   },
+   {
+    "w": "ko'riladigan",
+    "t0": 17.235,
+    "t1": 18.004
+   },
+   {
+    "w": "Reels.",
+    "t0": 18.034,
+    "t1": 18.46
+   },
+   {
+    "w": "Xohlang",
+    "t0": 18.84,
+    "t1": 19.395
+   },
+   {
+    "w": "tayyor",
+    "t0": 19.425,
+    "t1": 19.915
+   },
+   {
+    "w": "formatda,",
+    "t0": 19.945,
+    "t1": 20.63
+   },
+   {
+    "w": "xohlang",
+    "t0": 20.75,
+    "t1": 21.064
+   },
+   {
+    "w": "to'liq",
+    "t0": 21.094,
+    "t1": 21.37
+   },
+   {
+    "w": "o'z",
+    "t0": 21.53,
+    "t1": 21.846
+   },
+   {
+    "w": "brendingiz",
+    "t0": 21.876,
+    "t1": 22.677
+   },
+   {
+    "w": "ostida —",
+    "t0": 22.707,
+    "t1": 23.37
+   },
+   {
+    "w": "nomingiz",
+    "t0": 23.58,
+    "t1": 24.163
+   },
+   {
+    "w": "va",
+    "t0": 24.193,
+    "t1": 24.408
+   },
+   {
+    "w": "logongiz",
+    "t0": 24.438,
+    "t1": 25.02
+   },
+   {
+    "w": "bilan.",
+    "t0": 25.05,
+    "t1": 25.51
+   }
+  ],
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.86,
+  "size": 64,
+  "max_words": 3
+ },
+ "music": {
+  "src": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/media/b2b/music/b2b_beat_06.mp3",
+  "volume": 0.15,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 10.85,
+   "type": "click",
+   "volume": 0.8
+  },
+  {
+   "t": 12.8,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 13.6,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 14.4,
+   "type": "pop",
+   "volume": 0.8
+  },
+  {
+   "t": 18.8,
+   "type": "ding",
+   "volume": 0.8
+  },
+  {
+   "t": 25.3,
+   "type": "riser",
+   "volume": 0.4
+  }
+ ],
+ "crf": 19,
+ "preset": "slow"
+}
