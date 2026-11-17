@@ -7,7 +7,7 @@
 > 2. NO WHOOSH anywhere — not in render jobs, not in locally generated audio (taqqosNN.py / own SFX mixes), not on cuts,
 >    rounds or hooks. Only very soft tick/pop allowed. (Owner, 14 Nov.) Booms on hooks also off for Taqqos.
 > 3. Taqqos Tarix now runs only on Sunday. New rubric "Xarita" (map redrawn by data) runs Tue + Fri 18:00 Tashkent:
->    brief in `render/prompts/taqqos_xarita.md`. Don't schedule another Taqqos Short within 1 h of it.
+>    brief in `render/prompts/taqqos_xarita.md`. New rubric "Grafik" (self-drawing chart + "nega aynan?") runs Thu 18:00 Tashkent: `render/prompts/taqqos_grafik.md`. Don't schedule another Taqqos Short within 1 h of them.
 
 Free, watermark-free, 1080x1920 30 fps renderer running on GitHub Actions (branch `render`).
 The user wants top ("1000") quality on every channel. Use this INSTEAD of vidiq_compose / trim_media / VideoDB.
