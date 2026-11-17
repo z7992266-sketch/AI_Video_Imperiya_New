@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Taqqos #26 audio bed: drone + kick + SFX (whoosh on every whip transition, impact on the flag collision
+"""Taqqos #26 v2 audio bed (NO WHOOSH — owner 14 Nov; soft impacts; new bed 96 bpm, D minor): drone + kick + SFX (whoosh on every whip transition, impact on the flag collision
 and every round win, ticking while counters run, fanfare at the end).
 If tools/taqqos/sfx/*.mp3 (ElevenLabs SFX) exist they are used, otherwise synthesized fallbacks."""
 import numpy as np, wave, sys, os, subprocess
@@ -67,8 +67,8 @@ SFX = {k: (load_sfx(k) if load_sfx(k) is not None else fb) for k, fb in
 TICK = load_sfx("tick")
 
 # ---- bed: drone + heartbeat kick 110 bpm + hats ----
-beat = 60 / 110
-drone = 0.05 * (np.sin(2 * np.pi * 55 * t) + 0.6 * np.sin(2 * np.pi * 82.4 * t) + 0.3 * np.sin(2 * np.pi * 110 * t))
+beat = 60 / 96
+drone = 0.045 * (np.sin(2 * np.pi * 73.4 * t) + 0.6 * np.sin(2 * np.pi * 87.3 * t) + 0.35 * np.sin(2 * np.pi * 110 * t) + 0.2 * np.sin(2 * np.pi * 146.8 * t))
 drone *= 0.6 + 0.4 * np.sin(2 * np.pi * 0.1 * t); out += drone
 kn = int(0.25 * SR); kt = np.arange(kn) / SR
 kick = np.sin(2 * np.pi * (45 + 80 * np.exp(-kt * 30)) * kt) * env(kn, 0.001, 0.08) * 0.4
@@ -76,21 +76,16 @@ for k, s in enumerate(np.arange(0, OUTRO_START, beat)): add(kick * (0.6 if k % 2
 hn = int(0.05 * SR); hat = rng.standard_normal(hn) * env(hn, 0.001, 0.012) * 0.05
 for s in np.arange(beat / 2, OUTRO_START, beat): add(hat, s)
 
-# ---- cues ----
-add(SFX["whoosh"], 0.0, 0.7)                       # flags flying in
-add(SFX["impact"], T_COLLIDE - 0.02, 1.0)          # collision
-add(SFX["whoosh"], INTRO - 0.25, 0.8)              # whip into round 1
+# ---- cues (no whoosh anywhere, no boom on the hook) ----
 for i, s0 in enumerate(ROUND_STARTS):
-    if i > 0: add(SFX["whoosh"], s0 - 0.22, 0.8)   # whip between rounds
     if TICK is not None:
         reps = int(np.ceil(COUNT_D * SR / len(TICK)))
-        add(np.tile(TICK, reps)[: int(COUNT_D * SR)] * np.linspace(1, 0.4, int(COUNT_D * SR)), s0 + COUNT0, 0.5)
+        add(np.tile(TICK, reps)[: int(COUNT_D * SR)] * np.linspace(1, 0.4, int(COUNT_D * SR)), s0 + COUNT0, 0.3)
     else:
-        add(s_ticks(COUNT_D), s0 + COUNT0, 0.8)
-    add(SFX["impact"], s0 + T_DECIDE - 0.02, 0.55); add(SFX["win"], s0 + T_DECIDE, 0.7)
-add(SFX["whoosh"], OUTRO_START - 0.22, 0.8)
-add(SFX["impact"], OUTRO_START + 0.73, 1.0)        # G'OLIB stamp
-add(SFX["fanfare"], OUTRO_START + 0.8, 0.9)
+        add(s_ticks(COUNT_D), s0 + COUNT0, 0.5)
+    add(SFX["impact"], s0 + T_DECIDE - 0.02, 0.18); add(SFX["win"], s0 + T_DECIDE, 0.45)
+add(SFX["impact"], OUTRO_START + 0.73, 0.25)       # G'OLIB stamp (soft)
+add(SFX["fanfare"], OUTRO_START + 0.8, 0.6)
 
 fo = int(0.8 * SR); out[-fo:] *= np.linspace(1, 0, fo)
 out = out / (np.abs(out).max() + 1e-9) * 0.9

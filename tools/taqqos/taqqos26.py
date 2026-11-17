@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Taqqos #26: O'zbekiston vs Malayziya — MOTION version (27 Oct 2026 update).
+"""Taqqos #26 v2: O'zbekiston vs Malayziya — 'boy, lekin kim tez o'syapti?' (growth rules 15 Nov: 5 rounds, <30 s, new palette, no whoosh).
 Every second moves: flag collision hook, counters, race bars, live scoreboard with flips,
 moving background, whip-pan transitions with motion blur, full-screen winner + confetti,
 loop-friendly last frame.  Raw RGB frames to stdout (1080x1920, 30 fps)."""
@@ -18,28 +18,26 @@ def font(name, size):
     return _fc[k]
 BLACK = "InterDisplay-Black.otf"; XB = "Inter-ExtraBold.otf"; B = "Inter-Bold.otf"; SB = "Inter-SemiBold.otf"; MD = "Inter-Medium.otf"
 
-NAVY = (11, 17, 32); CARD = (22, 30, 54)
-GOLD = (243, 196, 72); YEL = (255, 213, 79); WHITE = (245, 247, 252); GREY = (160, 170, 195); INK = (8, 8, 12)
-UZC = (0, 153, 181); TRC = (204, 0, 1); RUBLUE = (0, 39, 118)
+NAVY = (20, 9, 36); CARD = (40, 22, 64)
+GOLD = (255, 146, 64); YEL = (255, 213, 79); WHITE = (245, 247, 252); GREY = (160, 170, 195); INK = (8, 8, 12)
+UZC = (0, 153, 181); TRC = (204, 0, 1); RUBLUE = (128, 64, 210)
 
 A = "‘"
 UZ_NAME = f"O{A}ZBEKISTON"; TR_NAME = "MALAYZIYA"; TR_CODE = "MAS"
 
 ROUNDS = [
-    dict(t="HUDUD", s="MAYDON, KM²", uz=447400, tr=329847, fmt="int", win="uz",
-         fact=f"O{A}zbekiston 1,4 barobar katta", src="CIA World Factbook"),
     dict(t="AHOLI", s="RASMIY: UZ 1.10.2026 · MY 3-CHORAK 2026", uz=39.54, tr=34.4, fmt="pop", win="uz",
          fact=f"O{A}zbekistonda 5 mln ko{A}proq odam!", src=f"Milliy statistika qo{A}mitasi · DOSM (Malayziya)"),
     dict(t=f"AHOLI O{A}SISHI", s="YILLIK", uz=1.8, tr=0.5, fmt="pcts", win="uz",
          fact=f"O{A}zbekiston 3,6 barobar tez", src=f"Milliy statistika qo{A}mitasi · DOSM (Malayziya)"),
-    dict(t="JON BOSHIGA YAIM", s="NOMINAL, 2025, USD", uz=3845, tr=13900, fmt="usd", win="tr",
-         fact="Malayziyada 3,6 barobar yuqori", src=f"Milliy statistika qo{A}mitasi · XVF baholashi"),
     dict(t=f"YAIM O{A}SISHI", s="REAL, 2025", uz=7.7, tr=5.2, fmt="pct", win="uz",
          fact=f"O{A}zbekiston 1,5 barobar tez!", src=f"Milliy statistika qo{A}mitasi · DOSM (Malayziya)"),
+    dict(t="JON BOSHIGA YAIM", s="NOMINAL, 2025, USD", uz=3845, tr=13900, fmt="usd", win="tr",
+         fact="Malayziyada 3,6 barobar yuqori", src=f"Milliy statistika qo{A}mitasi · XVF baholashi"),
     dict(t="XORIJIY TASHRIFLAR", s="2025, MLN KISHI", uz=11.7, tr=42.2, fmt="mln", win="tr",
          fact=f"Malayziyada 3,6 barobar ko{A}p", src=f"Milliy statistika qo{A}mitasi · Tourism Malaysia"),
 ]
-HOOK = ["39,5 mln vs 34,4 mln", f"O{A}ZBEKISTON AHOLISI", f"MALAYZIYADAN KO{A}P!"]
+HOOK = ["MALAYZIYA 3,6× BOY", "LEKIN…", f"KIM TEZ O{A}SYAPTI?"]
 
 INTRO, ROUND, OUTRO = 3.3, 2.9, 8.1
 _TJ = os.environ.get("TIMING_JSON")
@@ -211,7 +209,7 @@ def scoreboard(img, t, alpha=1.0):
         pf = (t - last[1]) / 0.6; pulse_side = ROUNDS[last[0]]["win"]
     x0, x1, y0, y1 = 150, 930, 60, 190
     glowc = mix((60, 72, 110), GOLD, math.sin(math.pi * pf) if pulse_side else 0)
-    d.rounded_rectangle([x0, y0, x1, y1], 65, fill=(10, 14, 26, 235), outline=glowc, width=5)
+    d.rounded_rectangle([x0, y0, x1, y1], 65, fill=(30, 12, 48, 235), outline=glowc, width=5)
     layer.alpha_composite(UZF_S, (x0 + 30, 101)); layer.alpha_composite(TRF_S, (x1 - 30 - 96, 101))
     d.text((x0 + 140, 125), "UZ", font=font(XB, 44), fill=WHITE, anchor="lm")
     d.text((x1 - 140, 125), TR_CODE, font=font(XB, 44), fill=WHITE, anchor="rm")
@@ -400,10 +398,10 @@ def outro_layer(ot):
     qa = eo((ot - 2.4) / 0.4)
     if qa > 0:
         d.rounded_rectangle([70, 1130, 1010, 1420], 36, fill=(14, 20, 38, int(235 * qa)), outline=GOLD + (int(255 * qa),), width=4)
-        q1 = "Sizningcha, kim kuchli?"
+        q1 = "10 yilda yetib olamizmi?"
         d.text((540, 1205), q1, font=fit(q1, BLACK, 72, 880), fill=WHITE + (int(255 * qa),), anchor="mm")
         d.text((540, 1300), f"Izohda yozing  ↓", font=font(BLACK, 66), fill=YEL + (int(255 * qa),), anchor="mm")
-        d.text((540, 1378), f"Malayziya boylik va sayyohlarda, O{A}zbekiston hudud, aholi va o{A}sishda", font=fit(f"Malayziya boylik va sayyohlarda, O{A}zbekiston hudud, aholi va o{A}sishda", SB, 34, 880, 20), fill=GREY + (int(255 * qa),), anchor="mm")
+        d.text((540, 1378), f"Malayziya boylik va sayyohlarda, O{A}zbekiston aholi va o{A}sishda", font=fit(f"Malayziya boylik va sayyohlarda, O{A}zbekiston aholi va o{A}sishda", SB, 34, 880, 20), fill=GREY + (int(255 * qa),), anchor="mm")
     return lay
 
 # ---------- captions (inside safe area) ----------
