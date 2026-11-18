@@ -1,16 +1,3 @@
-tg10_p10.jpg https://upload.wikimedia.org/wikipedia/commons/b/b1/Srednesibirskoe_ploskogorie_vid_s_reki_Tunguska_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_p11.jpg https://upload.wikimedia.org/wikipedia/commons/9/90/%D0%A1%D1%83%D0%BB%D0%BE%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D1%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_c01.jpg https://upload.wikimedia.org/wikipedia/commons/f/f9/Chelyabinsk_meteor_trace_15-02-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_c02.jpg https://upload.wikimedia.org/wikipedia/commons/d/d4/2013_Chelyabinsk_meteor_trace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-tg10_c03.jpg https://upload.wikimedia.org/wikipedia/commons/0/0f/Broken_window_in_Chelyabinsk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-tg10_a01.jpg https://upload.wikimedia.org/wikipedia/commons/7/77/Bennu_mosaic_OSIRIS-REx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_a02.jpg https://upload.wikimedia.org/wikipedia/commons/c/c3/Eros_southern_hemisphere_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-tg10_a03.jpg https://upload.wikimedia.org/wikipedia/commons/2/2e/433eros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-tg10_k01.jpg https://upload.wikimedia.org/wikipedia/commons/1/15/Comet_Hale-Bopp_Phot-mar14-hbs-1-hires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_k02.jpg https://upload.wikimedia.org/wikipedia/commons/a/af/C_1995_O1_%28Hale-Bopp%29_%2849845584893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 tg10_b01.jpg https://upload.wikimedia.org/wikipedia/commons/6/6c/Noctilucent_clouds_over_Gateshead%2C_Tyne_and_Wear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_x01.jpg https://upload.wikimedia.org/wikipedia/commons/f/f8/Moscow_State_University_Tunguska_event_2014-01_1389528699.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_x02.jpg https://upload.wikimedia.org/wikipedia/commons/3/3f/Moscow_State_University_Tunguska_event_2014-01_1389528722.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 tg10_x03.jpg https://upload.wikimedia.org/wikipedia/commons/c/c9/Tunguska_and_Washington%2C_DC_%284092451981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 tg10_n01.jpg https://upload.wikimedia.org/wikipedia/commons/2/22/A_Cosmic_Explosion_Over_Siberia_%28154488_-_russia_tunguskablast_oli_20240706_lrg%29.jpg
-tg_doc_nasaeo.html https://science.nasa.gov/earth/earth-observatory/a-cosmic-explosion-over-siberia/
