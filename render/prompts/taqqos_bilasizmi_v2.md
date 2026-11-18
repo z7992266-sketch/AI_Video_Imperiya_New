@@ -20,6 +20,11 @@ Also obey render/prompts/taqqos_growth.md. NO WHOOSH, no boom. Owner reads short
 - You may reuse globe/map code: Natural Earth (public domain) via `git clone --depth 1 --filter=blob:none --sparse
   https://github.com/nvkelso/natural-earth-vector.git` (sparse geojson), orthographic globe zoom like Abdufattoh/Xarita.
 
+## GUARD (19 Nov 2026)
+Before anything: Metricool getScheduledPosts brand 7705124 for today (Asia/Tashkent). If a YouTube post is already
+scheduled/published between 18:00 and 20:00 today → stop and do nothing (one 5-ta-fakt per day).
+DONE topics: 1. Diomid orollari (made manually, posted 19 Nov 19:00, Metricool id 433431308) — start from topic 2.
+
 ## Topics (never repeat — Drive Doc "Taqqos Bilasizmi log")
 Strange places & borders, money/prices around the world, records, Uzbekistan facts few know, space/nature numbers.
 NOT health/medicine, NOT religion, NOT politics opinions. Queue start:
