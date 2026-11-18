@@ -1,3 +1,21 @@
+# >>> LANGUAGE TEST 19 Nov – 2 Dec 2026 (owner approved 18 Nov: "xa") — WINS over the Russian-language rules below <<<
+Goal: decide whether CineMatrix moves to Uzbek or Arabic. Run date (Asia/Tashkent) decides the language:
+- ODD day of month → UZBEK (Latin). Title/description/captions/pinned comment in Uzbek, series name "Joylar sirlari".
+  Voice: ElevenLabs-ee62b10f voice_id cZs7lwgnHDDa1vRHHGT1, eleven_v3, generations_count 1. Topics: Uzbekistan /
+  Central Asia / world records (Toshkent zilzilasi 1966, Muruntau, Orol dengizi, Toshkent teleminorasi, Chorvoq, Boyqo'ng'ir).
+- EVEN day of month → ARABIC (Modern Standard). Title/description/pinned comment in Arabic, series "أسرار الأماكن".
+  Voice: pick ONE male Arabic narrator via creative_list_voices (languages ["ar"], use_cases ["narrative_story"]); write its
+  voice_id into Drive "CineMatrix log" and reuse the same voice every Arabic day. Model eleven_v3, generations_count 1.
+  Topics: Arab-world / Gulf records and engineering (Burj Khalifa poydevori, Rub' al-Xoli, Petra, Hijoz temir yo'li,
+  Nil to'g'oni Asvon, Dubay palma orollari, Qatar Lusail). NO religious sites or religion, NO politics.
+  Arabic on-screen text: render.py may not shape RTL text — use captions style "none" and only big numbers/years
+  (Western digits) as on-screen texts; put the Arabic text in title/description only. QA must show no broken glyphs.
+- If ElevenLabs is unavailable on a test day: skip that day's video and report one Uzbek line to 8355820653
+  (no Russian Piper fallback during the test).
+- Title prefix for tracking: Uzbek titles end with "#uzbek", Arabic titles end with "#عربي" (plus #shorts, max 5 tags).
+- Drive log title: "CineMatrix log | <YYYY-MM-DD> | UZ|AR | <topic> | finished".
+Everything else below (licensing, facts with 2 sources, render, QA, log fields, Telegram) stays the same.
+
 # CineMatrix daily Short — production (executor instructions, 13 Nov 2026)
 Owner reads short Uzbek (Latin); times for him in Tashkent time. Channel CineMatrix (YouTube @CineMatrix_AI, brand 7653061),
 Russian, format "Секреты мест": 35–50 s mini-documentary about a real place/structure with a record or secret.
