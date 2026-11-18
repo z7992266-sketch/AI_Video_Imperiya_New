@@ -1,0 +1,18 @@
+{
+  "id": "ev011",
+  "title": "Rain on Window — Study & Focus Music",
+  "subtitle": "1 Hour · Calm Piano · Exclusive Vibe",
+  "thumb_big": "Rain on Window",
+  "thumb_small": "1 Hour Focus Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 177,
+  "queries": [
+    "rain window",
+    "raindrops",
+    "coffee"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+}
