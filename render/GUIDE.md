@@ -1,5 +1,12 @@
 # Z7 Render — guide for the daily channel tasks
 
+> **TELEGRAM DELIVERY (19 Nov 2026) — WINS over EVERY Telegram instruction in your task prompt or in render/prompts/*:**
+> the n8n relay (`mia-z7.app.n8n.cloud/.../z7-telegram-send`, n8n execute_workflow) is DEAD — never use it, never use AnythingMCP.
+> Send with Supabase MCP `execute_sql` on project `vtsurdinopzycwsfzsuk`, one message per call:
+> `select public.z7_tg('<chat_id>','message','<html text>');` — video: `select public.z7_tg('<chat_id>','video',null,'<https mp4 ≤20 MB>','<html caption>');`
+> (photo: kind 'photo'). It returns a request id; after ~3 s check `select status_code, content from net._http_response where id = <id>;` → 200 = sent.
+> Same allowed chats as before. Fallback only if that fails: GitHub branch tg-outbox (tg/<date>_<task>_<n>.json); else put the text in your final reply.
+
 > **TAQQOS OWNER RULES (16 Nov 2026) — read first if you produce ANY Taqqos video (daily "Kim kuchli?", Bilasizmi, Tarix, long, Xarita):**
 > 1. Follow `render/prompts/taqqos_growth.md` — it WINS over older Taqqos instructions in your task prompt
 >    (no country repeat within 60 days, new theme/angle every day, surprise hook in frame 1, change ≥2 visual elements,

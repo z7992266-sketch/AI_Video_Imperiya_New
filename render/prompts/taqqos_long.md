@@ -1,3 +1,5 @@
+> TELEGRAM (19 Nov 2026): use `select public.z7_tg(chat_id, kind, text, file_url, caption);` via Supabase execute_sql (project vtsurdinopzycwsfzsuk) — the n8n relay below is dead. See render/GUIDE.md top.
+
 # TAQQOS LONG VIDEO — twice a week (Wed + Sun, 18:00 Asia/Tashkent)
 
 Owner (14 Nov 2026): "haftada 2 ta long", "faktlar, rasm va animatsiyalar juda qiziq bo'lishi kerak; vjuuv degan ovoz kerak emas".

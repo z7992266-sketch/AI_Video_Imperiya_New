@@ -1,3 +1,5 @@
+> TELEGRAM (19 Nov 2026): use `select public.z7_tg(chat_id, kind, text, file_url, caption);` via Supabase execute_sql (project vtsurdinopzycwsfzsuk) — the n8n relay below is dead. See render/GUIDE.md top.
+
 # OUJ daily Short — production + posting (executor instructions, 13 Nov 2026)
 Owner reads short Uzbek (Latin). Times for him in Tashkent time (UTC+5). Posting times below are Europe/Moscow.
 Channel: OUJ_Official (@ouj_n1, YouTube UCRnmG4C7n5eH2u0lK5vPflw), English, US/EU audience. Promise: "Is this place even real?"
