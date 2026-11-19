@@ -1,3 +1,5 @@
+> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+
 # >>> LANGUAGE TEST 19 Nov – 2 Dec 2026 (owner approved 18 Nov: "xa") — WINS over the Russian-language rules below <<<
 Goal: decide whether CineMatrix moves to Uzbek or Arabic. Run date (Asia/Tashkent) decides the language:
 - ODD day of month → UZBEK (Latin). Title/description/captions/pinned comment in Uzbek, series name "Joylar sirlari".

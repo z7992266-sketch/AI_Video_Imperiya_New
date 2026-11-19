@@ -1,3 +1,5 @@
+> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+
 > TELEGRAM (19 Nov 2026): use `select public.z7_tg(chat_id, kind, text, file_url, caption);` via Supabase execute_sql (project vtsurdinopzycwsfzsuk) — the n8n relay below is dead. See render/GUIDE.md top.
 
 # TAQQOS LONG VIDEO — twice a week (Wed + Sun, 18:00 Asia/Tashkent)

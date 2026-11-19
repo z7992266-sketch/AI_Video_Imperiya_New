@@ -1,3 +1,5 @@
+> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+
 # TAQQOS "GRAFIK" SHORT — production brief (owner approved 17 Nov 2026)
 
 Owner (17 Nov 2026): "kanal ochmaymiz, Taqqosga olamiz" — take the animated-chart + mystery-question format into Taqqos.

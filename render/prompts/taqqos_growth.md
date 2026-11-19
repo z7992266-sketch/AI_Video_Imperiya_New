@@ -1,3 +1,5 @@
+> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+
 # TAQQOS GROWTH RULES (owner approved 15 Nov 2026) — WIN over every older Taqqos instruction
 
 Why: "Kim kuchli?" views fell 262k (2 Nov, Rossiya 2) → 96k → 42k → 19k → 7k (9 Nov), Rossiya 3rd time = 141 views (10 Nov). Avg view 11–16 s on ~30 s Shorts. Same template every day = viewers swipe; repeated topic = YouTube stops pushing.

@@ -1,3 +1,5 @@
+> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+
 # TAQQOS "XARITA" SHORT — production brief (owner approved 16 Nov 2026)
 
 Owner (16 Nov 2026): "shunaqa qiziq taqqoslashni ham yo'lga qo'yishimiz kerak, taqqos tushib ketyapti, prosmotr kuchaytirishimiz kerak".
