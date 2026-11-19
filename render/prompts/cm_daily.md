@@ -14,6 +14,10 @@ Goal: decide whether CineMatrix moves to Uzbek or Arabic. Run date (Asia/Tashken
   (no Russian Piper fallback during the test).
 - Title prefix for tracking: Uzbek titles end with "#uzbek", Arabic titles end with "#عربي" (plus #shorts, max 5 tags).
 - Drive log title: "CineMatrix log | <YYYY-MM-DD> | UZ|AR | <topic> | finished".
+- SIMPLE LANGUAGE (owner, 19 Nov — both UZ and AR): talk like a friend, not like a book. Short sentences (≤ 10 words),
+  everyday words (Uzbek: "ishlatadi" not "foydalaniladi", "boshlandi" not "ibtido oldi"; Arabic: simple MSA close to
+  spoken, no classical/literary words). One idea per sentence. Numbers rounded ("qariyb 300 metr").
+  On screen: a counter chip like "SIR 1/5" + one big 2–4-word label per point; captions word-by-word in big bold text.
 Everything else below (licensing, facts with 2 sources, render, QA, log fields, Telegram) stays the same.
 
 # CineMatrix daily Short — production (executor instructions, 13 Nov 2026)
