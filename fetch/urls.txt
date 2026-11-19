@@ -1,4 +1,2 @@
-tg10_b01.jpg https://upload.wikimedia.org/wikipedia/commons/6/6c/Noctilucent_clouds_over_Gateshead%2C_Tyne_and_Wear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-tg10_x03.jpg https://upload.wikimedia.org/wikipedia/commons/c/c9/Tunguska_and_Washington%2C_DC_%284092451981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-tg10_n01.jpg https://upload.wikimedia.org/wikipedia/commons/2/22/A_Cosmic_Explosion_Over_Siberia_%28154488_-_russia_tunguskablast_oli_20240706_lrg%29.jpg
-dio_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/3257Poiy811ZxDUyWNDu/Gbsn5AIvA1EGXkHZ8CQE/content.mp3?Expires=1795046400&KeyName=assets-cdn-key-1&Signature=m9S9v5PCmwwB42R8SCReF54Ko74=
+dl11_api1.json https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Dallol%20filetype:bitmap&gsrnamespace=6&gsrlimit=80&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&format=json
+dl11_api2.json https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Danakil%20filetype:bitmap&gsrnamespace=6&gsrlimit=60&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&format=json
