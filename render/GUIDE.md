@@ -1,11 +1,9 @@
 # Z7 Render — guide for the daily channel tasks
 
-> **"5-SINF QOIDASI" (owner, 19 Nov 2026) — ALL channels (Taqqos, CineMatrix, GLITCHVERSE, Sog'liq, OUJ, B2B), ALL languages:**
-> write every script, title and on-screen text so a 5th-grade pupil understands it at first listen. Talk like a friend:
-> short sentences (≤ 10 words), one idea per sentence, everyday words (Uzbek: "ishlatadi" not "foydalaniladi",
-> "qildi" not "amalga oshirdi", "boshlandi" not "ibtido oldi"), round numbers ("qariyb 300 metr"), ask the viewer
-> questions ("ishonasizmi?"). Simple ≠ rude: no slang insults, no vulgar words. Facts stay exact and sourced.
-> Before voicing, reread the script and replace every bookish word.
+> **SIMPLE-LANGUAGE RULE (owner, 19 Nov 2026) — ONLY CineMatrix and GLITCHVERSE (NOT Taqqos, Sog'liq, OUJ, B2B):**
+> plain everyday language that anyone understands at first listen — like an adult telling a friend, NOT childish
+> (no baby talk, no cartoon tone, no "bolajonlar"). Short sentences (≤ 10–12 words), one idea per sentence, common words
+> instead of bookish ones, round numbers, an occasional question to the viewer. No slang insults. Facts stay exact and sourced.
 
 > **TELEGRAM DELIVERY (19 Nov 2026) — WINS over EVERY Telegram instruction in your task prompt or in render/prompts/*:**
 > the n8n relay (`mia-z7.app.n8n.cloud/.../z7-telegram-send`, n8n execute_workflow) is DEAD — never use it, never use AnythingMCP.

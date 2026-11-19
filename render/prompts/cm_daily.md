@@ -1,4 +1,4 @@
-> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
+> Also obey the SIMPLE-LANGUAGE RULE (CineMatrix/GLITCHVERSE only) at the top of render/GUIDE.md — plain, adult, not childish.
 
 # >>> LANGUAGE TEST 19 Nov – 2 Dec 2026 (owner approved 18 Nov: "xa") — WINS over the Russian-language rules below <<<
 Goal: decide whether CineMatrix moves to Uzbek or Arabic. Run date (Asia/Tashkent) decides the language:

@@ -1,5 +1,3 @@
-> Also obey the "5-SINF QOIDASI" (simple friendly language) at the top of render/GUIDE.md.
-
 # TAQQOS "BILASIZMI" v2 — production brief (owner, 18 Nov 2026)
 
 Owner: "bulut ko'rinishini olib tashla, Bilasizmi'dan boshqacha — grafikli, rasmlari bilan, animatsiyalar qo'shish kerak"
