@@ -38,8 +38,10 @@ QA ≥ 6 frames: numbers = narration = sources, readable, loop.
 
 ## Post & report
 Metricool brand 7697106, providers [{"network":"youtube"}] ONLY (this brand's Instagram is B2B — never post there),
-type "short", public, madeForKids false, category EDUCATION, isAiGeneratedContent true, 20:00 Asia/Tashkent
-(if past: next free slot ≥ 1 h from other posts, latest 23:00). Title: hook + #shorts + 2 hashtags
+type "short", public, madeForKids false, category EDUCATION, isAiGeneratedContent true.
+POSTING TIME (owner 20 Nov: US evening): 19:00 America/New_York of the same US calendar day = 05:00 Asia/Tashkent the
+NEXT morning. Use publicationDate {"dateTime":"<YYYY-MM-DD>T19:00:00","timezone":"America/New_York"}. Guard against
+duplicates by checking that US date (America/New_York) for an existing YouTube post on brand 7697106. Title: hook + #shorts + 2 hashtags
 (e.g. "Japan vs Germany: who's really stronger? ⚔️ #shorts #japan #germany"). Description: hook line, question
 ("Which one would you pick? 👇"), Sources (URLs + year), Image credits, "Voice: AI-generated.", ≤5 hashtags.
 Pinned comment idea in the log. Report one short Uzbek line: select public.z7_tg('8355820653','message','🌍 OUJ (EN): <mavzu> — <HH:MM>');
