@@ -15,6 +15,17 @@ Also obey the top of render/GUIDE.md (Telegram, ElevenLabs fallback). Plain Engl
   graphics over licensed real photos/maps, last fact strangest, loop). Strange borders, places, records, money.
 Never repeat a topic/pair: Drive Google Doc "OUJ EN log" (create if missing).
 
+## MOTION & GRAPHICS — exactly the Taqqos level (owner 20 Nov: "Taqqos'dagidek elementlar, animatsiya, grafiklar")
+Every second something moves. Use these templates (working code, Pillow+numpy, 1080x1920):
+- render/templates/five_facts_diomid.py — globe zoom (Natural Earth), progress bar 01/05, counters, ruler, clock cards,
+  date-line draw, panels, loop to frame 1; render/templates/five_facts_warp_to_voice.py — retime frames to narration.
+- render/templates/xarita_cartogram.py — cartogram morph by data with labels and number cards.
+- "Who's stronger?": the newest Taqqos taqqosNN.py on branch media (tools/taqqos/) — flags fly in with bounce + flash +
+  camera shake, counters count up, race bars grow, winner glow + "+1", live scoreboard flip, confetti winner card.
+Required in every video: animated counters (never static numbers), at least one chart/bar/map that draws itself,
+flags or maps drawn accurately, smooth eased transitions (no hard static cuts), word-synced big captions, loop ending.
+Preview ≥ 6 frames before rendering and fix anything static.
+
 ## Build
 22–35 s, 1080x1920, 30 fps; dark navy + gold accent; first frame = shocking claim + motion; text never in the bottom 18 %.
 Every number from 2 reliable sources (World Bank, IMF, UN, CIA Factbook, NASA/USGS, Britannica) with the year; no invented
