@@ -1,0 +1,13 @@
+{
+ "name": "oujen_20261120_popmap",
+ "grade": "none",
+ "transition": "none",
+ "scenes": [{"src": "render/assets/oujen_20261120/map.mp4", "type": "video", "dur": 26.76, "move": "none", "grade": "none"}],
+ "native_audio": false,
+ "voice": {"src": "render/assets/oujen_20261120/voice.wav", "start": 0.35, "volume": 1.0},
+ "music": {"gen": "calm", "volume": 0.12, "duck": true},
+ "captions": {"style": "none"},
+ "sfx": false,
+ "fade_in": 0,
+ "fade_out": 0
+}
