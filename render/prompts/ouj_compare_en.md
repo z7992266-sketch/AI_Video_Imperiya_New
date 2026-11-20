@@ -19,8 +19,8 @@ Never repeat a topic/pair: Drive Google Doc "OUJ EN log" (create if missing).
 22–35 s, 1080x1920, 30 fps; dark navy + gold accent; first frame = shocking claim + motion; text never in the bottom 18 %.
 Every number from 2 reliable sources (World Bank, IMF, UN, CIA Factbook, NASA/USGS, Britannica) with the year; no invented
 numbers. Licensed media only (Wikimedia Commons with credit, NASA/USGS PD, Natural Earth). Free Z7 Render or local
-Pillow/ffmpeg (see GUIDE / the Taqqos briefs). Voice: English male narrator — use the SAME free voice method as
-render/prompts/ouj_daily.md if it works; otherwise ElevenLabs (connector "ElevenLabs-ee62b10f" or fallback "ElevenLabs"),
+Pillow/ffmpeg (see GUIDE / the Taqqos briefs). Voice (owner 20 Nov: FREE voice): Kokoro via the same method as render/prompts/ouj_daily.md, English MALE voice
+`#voice=am_michael speed=1.0` (keep the same voice every day). Only if Kokoro fails twice: ElevenLabs (connector "ElevenLabs-ee62b10f" or fallback "ElevenLabs"),
 one calm-confident English male voice chosen once via creative_list_voices (languages ["en"]) — record its voice_id in the
 Drive log and reuse it; eleven_v3, generations_count 1. Music bed generated in code, ducked under voice, −14 LUFS.
 QA ≥ 6 frames: numbers = narration = sources, readable, loop.
