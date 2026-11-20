@@ -8,7 +8,8 @@ Goal: decide whether CineMatrix moves to Uzbek or Arabic. Run date (Asia/Tashken
 - EVEN day of month → ARABIC (Modern Standard). Title/description/pinned comment in Arabic, series "أسرار الأماكن".
   Voice: pick ONE male Arabic narrator via creative_list_voices (languages ["ar"], use_cases ["narrative_story"]); write its
   voice_id into Drive "CineMatrix log" and reuse the same voice every Arabic day. Model eleven_v3, generations_count 1.
-  Topics: Arab-world / Gulf records and engineering (Burj Khalifa poydevori, Rub' al-Xoli, Petra, Hijoz temir yo'li,
+  CHOSEN ARABIC VOICE (20 Nov): connector "ElevenLabs" voice_id LvGZo8HAarKT1pAjwlhx (MSA documentary narrator) — reuse every Arabic day.
+  DONE topics: Burj Khalifa (20 Nov). Topics: Arab-world / Gulf records and engineering (Burj Khalifa poydevori, Rub' al-Xoli, Petra, Hijoz temir yo'li,
   Nil to'g'oni Asvon, Dubay palma orollari, Qatar Lusail). NO religious sites or religion, NO politics.
   Arabic on-screen text: render.py may not shape RTL text — use captions style "none" and only big numbers/years
   (Western digits) as on-screen texts; put the Arabic text in title/description only. QA must show no broken glyphs.
