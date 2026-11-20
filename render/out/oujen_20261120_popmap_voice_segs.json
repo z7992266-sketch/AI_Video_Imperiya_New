@@ -1,0 +1,50 @@
+{
+ "voice": "am_michael",
+ "speed": 1.0,
+ "sr": 24000,
+ "duration": 25.528,
+ "segments": [
+  {
+   "i": 0,
+   "text": "Russia is the biggest country on Earth.",
+   "s": 0.0,
+   "e": 2.287
+  },
+  {
+   "i": 1,
+   "text": "But what if we drew the world map by people, not land?",
+   "s": 2.587,
+   "e": 5.802
+  },
+  {
+   "i": 2,
+   "text": "Watch Russia and Canada almost disappear.",
+   "s": 6.102,
+   "e": 8.764
+  },
+  {
+   "i": 3,
+   "text": "India and China take over. Together, they are home to more than one in three people on Earth.",
+   "s": 9.064,
+   "e": 15.128
+  },
+  {
+   "i": 4,
+   "text": "Tiny Bangladesh is now bigger than all of Russia.",
+   "s": 15.428,
+   "e": 18.642
+  },
+  {
+   "i": 5,
+   "text": "And Nigeria outgrows Russia and Canada combined.",
+   "s": 18.942,
+   "e": 22.499
+  },
+  {
+   "i": 6,
+   "text": "Where does your country land? Tell me in the comments.",
+   "s": 22.799,
+   "e": 25.528
+  }
+ ]
+}
