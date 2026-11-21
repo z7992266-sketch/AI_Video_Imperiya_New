@@ -1,0 +1,50 @@
+{
+ "voice": "am_michael",
+ "speed": 1.0,
+ "sr": 24000,
+ "duration": 38.923,
+ "segments": [
+  {
+   "i": 0,
+   "text": "Five border facts that sound fake. Number five is the strangest.",
+   "s": 0.0,
+   "e": 4.325
+  },
+  {
+   "i": 1,
+   "text": "One. Point Roberts is a US town you can only drive to through Canada.",
+   "s": 4.625,
+   "e": 9.511
+  },
+  {
+   "i": 2,
+   "text": "Two. Nobody agrees where the border is on Lake Constance. Three countries share it anyway.",
+   "s": 9.811,
+   "e": 15.575
+  },
+  {
+   "i": 3,
+   "text": "Three. In Baarle, the border runs right through houses. Your front door decides your country.",
+   "s": 15.875,
+   "e": 21.521
+  },
+  {
+   "i": 4,
+   "text": "Four. The Diomede Islands are less than four kilometers apart, but twenty one hours apart in time.",
+   "s": 21.821,
+   "e": 28.568
+  },
+  {
+   "i": 5,
+   "text": "Five. Pheasant Island is Spanish for six months, then French for six months. Since sixteen fifty nine.",
+   "s": 28.868,
+   "e": 35.524
+  },
+  {
+   "i": 6,
+   "text": "Which one did you not believe? Tell me in the comments.",
+   "s": 35.824,
+   "e": 38.923
+  }
+ ]
+}
