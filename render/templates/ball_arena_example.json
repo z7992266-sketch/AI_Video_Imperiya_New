@@ -1,0 +1,4 @@
+{"title": "VODIY DERBISI", "subtitle": "Kim oxirgi qoladi?", "seed": 9, "grace": 10,
+ "teams": [{"name": "NEFTCHI", "short": "NEF", "color": [40, 120, 230]},
+           {"name": "ANDIJON", "short": "AND", "color": [220, 50, 60]},
+           {"name": "NAVBAHOR", "short": "NAV", "color": [40, 175, 90]}]}

@@ -16,6 +16,10 @@
 > a scoreboard, 1–2 key moments in words (goals, red cards, comebacks), animated table showing who moved up/down (arrows),
 > one surprising number. Results/table from ≥2 Uzbek sports sites (aniq.uz, zamin.uz, tribuna.uz, kun.uz, daryo.uz, pfl.uz)
 > checked on the day; never guess a score. No match video — our own scoreboard/table graphics only.
+> SIMULATION ELEMENT "KIM OXIRGI QOLADI?" (owner 21 Nov liked a flag-ball arena Short): our own physics template
+> render/templates/ball_arena.py (config example ball_arena_example.json) — team/country balls with strings in a circle, last one
+> standing wins. Use as a standalone 30–40 s Short at most 1–2× a week, or a 5–8 s hook/transition inside other videos.
+> Always show "Tasodifiy fizik simulyatsiya — haqiqiy natija emas". Team balls = short name + colour only (no logos).
 > Club facts (founded year, titles, stadium capacity, top scorers) need ≥2 sources (PFL.uz / club site / Wikipedia / Transfermarkt). Sog'liq "30 kun" series stays health (unchanged).
 > RULES: stats from ≥2 sources with the date ("2026-yil noyabr holatiga"); never match footage, TV broadcast clips, club /
 > league / FIFA logos or kits with crests, never AI-generated real players. Visuals = our own graphics (generic numbered
