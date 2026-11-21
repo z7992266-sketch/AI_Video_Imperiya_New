@@ -1,1 +1,2 @@
 cm_ar_20261120_burj.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/t1Bsi5It8q45LPi4Z29h/kLT0SHjyAcIh4aftLwq3/content.mp3?Expires=1795201200&KeyName=assets-cdn-key-1&Signature=Ol4U7iDM30v4nXLDBbOy5BnMvOM=
+b2b_vo_20261121_ofitsant.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/pSE5JlUygGDJKwRFYrZp/dTZIO4fqUCm02i1RJrSP/content.mp3?Expires=1795244400&KeyName=assets-cdn-key-1&Signature=H2D-VT7BHWqlqrppizkLLxwhUe8=
