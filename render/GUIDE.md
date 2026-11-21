@@ -11,6 +11,11 @@
 > FOCUS (owner 21 Nov): mostly O'ZBEKISTON — terma jamoa (Jahon chempionati 2026, Osiyo kubogi, o'yinchilar), Superliga
 > klublari, ESPECIALLY Farg'ona vodiysi jamoalari: Navbahor (Namangan), Andijon, Neftchi (Farg'ona) — plus Pakhtakor,
 > Nasaf, Paxtakor derbilari, o'zbek futbolchilari xorijda. World stars (Messi/Ronaldo…) at most 1 in 4 videos.
+> NEWS FORMAT "SUPERLIGA: N-TUR YAKUNLARI" (owner 21 Nov: "kechagi Navbahor–Neftchi o'yini, Paxtakor o'yini, Nasaf jadvalda
+> tushib ketdi — shunaqa qiziq faktlar"): after each Superliga round (or a big terma jamoa match) a 40–55 s Short — scores as
+> a scoreboard, 1–2 key moments in words (goals, red cards, comebacks), animated table showing who moved up/down (arrows),
+> one surprising number. Results/table from ≥2 Uzbek sports sites (aniq.uz, zamin.uz, tribuna.uz, kun.uz, daryo.uz, pfl.uz)
+> checked on the day; never guess a score. No match video — our own scoreboard/table graphics only.
 > Club facts (founded year, titles, stadium capacity, top scorers) need ≥2 sources (PFL.uz / club site / Wikipedia / Transfermarkt). Sog'liq "30 kun" series stays health (unchanged).
 > RULES: stats from ≥2 sources with the date ("2026-yil noyabr holatiga"); never match footage, TV broadcast clips, club /
 > league / FIFA logos or kits with crests, never AI-generated real players. Visuals = our own graphics (generic numbered
