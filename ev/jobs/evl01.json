@@ -1,0 +1,39 @@
+{
+ "id": "evl01",
+ "title": "Laura's Rainy Night \u2014 Calm Music",
+ "subtitle": "1 Hour \u00b7 Rain & Soft Piano \u00b7 Exclusive Vibe",
+ "thumb_big": "Laura's Rainy Night",
+ "thumb_small": "1 Hour Calm Music",
+ "minutes": 60,
+ "mood": "rain",
+ "seed": 301,
+ "count": 6,
+ "seg": 30,
+ "slow": 1.0,
+ "clips": [
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c1.mp4",
+   "place": "Laura"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c2.mp4",
+   "place": "Laura"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c3.mp4",
+   "place": "Laura"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c4.mp4",
+   "place": "Laura"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c5.mp4",
+   "place": "Laura"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/z7992266-sketch/AI_Video_Imperiya_New/fetch-media/fetch/out/laura_c6.mp4",
+   "place": "Laura"
+  }
+ ]
+}
