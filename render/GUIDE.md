@@ -1,5 +1,20 @@
 # Z7 Render — guide for the daily channel tasks
 
+> **TAQQOS = FUTBOL (owner, 21 Nov 2026: "eski usulimizni futbolga o'zgartir") — WINS over the topic lists in every
+> render/prompts/taqqos_*.md and every Taqqos task prompt. Keep each format's look, motion, voice, timing and posting slot;
+> only the SUBJECT becomes football:** "Kim kuchli?" → player vs player / club vs club / national team vs national team in
+> numbers (goals, assists, trophies, Ballon d'Or, transfer fees, attendance); "Xarita" → football maps (where World Cup /
+> Ballon d'Or winners come from, biggest stadiums per country, where Uzbekistan's players play); "Grafik" → self-drawing
+> stat charts (goals per season, transfer record over time, World Cup goals per tournament); "5 ta fakt" → 5 surprising
+> football facts; "Tarix" → football history stories; Taqqos long → 8–12 min football rankings / history ("Futbol tarixidagi
+> 10 ta eng …"). Uzbek angle whenever possible (O'zbekiston terma jamoasi, Jahon chempionati 2026, Pakhtakor, O'zbek
+> futbolchilari xorijda). Sog'liq "30 kun" series stays health (unchanged).
+> RULES: stats from ≥2 sources with the date ("2026-yil noyabr holatiga"); never match footage, TV broadcast clips, club /
+> league / FIFA logos or kits with crests, never AI-generated real players. Visuals = our own graphics (generic numbered
+> shirts in team colours, bars, counters, pitch, trophies, maps) + optional Wikimedia Commons CC photos of players with
+> credit. No betting or bookmaker mentions. No "raund"/"jang" in long videos. Neutral and respectful to every player/club.
+> Example done 21 Nov: Messi vs Ronaldo (render template scratch: fut/make.py style — two shirts, scoreboard, category bars).
+
 > **ELEVENLABS CONNECTOR (20 Nov 2026) — WINS over any "use ElevenLabs-ee62b10f only" line in your task prompt:**
 > the "ElevenLabs-ee62b10f" connector is often disconnected. If its tools are missing or error, use the other connector
 > named **"ElevenLabs"** — it is now signed in to the SAME paid B2BSAS account, so the same voice_ids work
