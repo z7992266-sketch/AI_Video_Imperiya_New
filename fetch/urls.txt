@@ -1,6 +1,7 @@
-cm_ar_20261120_burj.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/t1Bsi5It8q45LPi4Z29h/kLT0SHjyAcIh4aftLwq3/content.mp3?Expires=1795201200&KeyName=assets-cdn-key-1&Signature=Ol4U7iDM30v4nXLDBbOy5BnMvOM=
-b2b_vo_20261121_ofitsant.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/pSE5JlUygGDJKwRFYrZp/dTZIO4fqUCm02i1RJrSP/content.mp3?Expires=1795244400&KeyName=assets-cdn-key-1&Signature=H2D-VT7BHWqlqrppizkLLxwhUe8=
-b2b_pex_6174393.mp4 https://www.pexels.com/download/video/6174393/
-b2b_pex_6589392.mp4 https://www.pexels.com/download/video/6589392/
-b2b_pex_34720127.mp4 https://www.pexels.com/download/video/34720127/
-b2b_pex_39498949.mp4 https://www.pexels.com/download/video/39498949/
+evl_1.jpg https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/e9e46480da8011ad9fd349ba198d3f4c_c2pa_6fadfcdf0db508b3d7ba9009.jpeg?x-kcdn-pid=112372
+evl_2.jpg https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/07d87e23956be3c12384e15a5a306070_c2pa_bc3fa6dd01d708eb4af18e28.jpeg?x-kcdn-pid=112372
+evl_3.png https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/731aa3664c811dac2692bee91d2b0e13_c2pa_87c5088c8d1d4bbe966fbe48.png?x-kcdn-pid=112372
+evl_4.jpg https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/d805a5677bd61519ddfd8d641390d75b_c2pa_e231df6924ba89a25075542a.jpeg?x-kcdn-pid=112372
+evl_5.png https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/99a357f3ac12b0b5c1f6b7a1020608bb_c2pa_f4ed017df506864dd0f46dde.png?x-kcdn-pid=112372
+evl_6.png https://s15-kling.klingai.com/klingai-stream-sgp/kling/agent/5c408842bda95acc4917090d238abd69_c2pa_2c8f005846434b6d031bdfe8.png?x-kcdn-pid=112372
+evl_ref.jpg https://s15-kling.klingai.com/kimg/EMXN1y8qPgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBokMGQ4NTg4NDItZjFhYS00NzcwLWEwNjAtMzU3NmU3MjNjZDk1.origin?x-kcdn-pid=112372
