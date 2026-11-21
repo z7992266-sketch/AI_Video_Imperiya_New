@@ -7,8 +7,11 @@
 > Ballon d'Or winners come from, biggest stadiums per country, where Uzbekistan's players play); "Grafik" → self-drawing
 > stat charts (goals per season, transfer record over time, World Cup goals per tournament); "5 ta fakt" → 5 surprising
 > football facts; "Tarix" → football history stories; Taqqos long → 8–12 min football rankings / history ("Futbol tarixidagi
-> 10 ta eng …"). Uzbek angle whenever possible (O'zbekiston terma jamoasi, Jahon chempionati 2026, Pakhtakor, O'zbek
-> futbolchilari xorijda). Sog'liq "30 kun" series stays health (unchanged).
+> 10 ta eng …").
+> FOCUS (owner 21 Nov): mostly O'ZBEKISTON — terma jamoa (Jahon chempionati 2026, Osiyo kubogi, o'yinchilar), Superliga
+> klublari, ESPECIALLY Farg'ona vodiysi jamoalari: Navbahor (Namangan), Andijon, Neftchi (Farg'ona) — plus Pakhtakor,
+> Nasaf, Paxtakor derbilari, o'zbek futbolchilari xorijda. World stars (Messi/Ronaldo…) at most 1 in 4 videos.
+> Club facts (founded year, titles, stadium capacity, top scorers) need ≥2 sources (PFL.uz / club site / Wikipedia / Transfermarkt). Sog'liq "30 kun" series stays health (unchanged).
 > RULES: stats from ≥2 sources with the date ("2026-yil noyabr holatiga"); never match footage, TV broadcast clips, club /
 > league / FIFA logos or kits with crests, never AI-generated real players. Visuals = our own graphics (generic numbered
 > shirts in team colours, bars, counters, pitch, trophies, maps) + optional Wikimedia Commons CC photos of players with
