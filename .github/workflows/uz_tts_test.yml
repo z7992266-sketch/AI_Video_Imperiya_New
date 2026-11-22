@@ -16,17 +16,23 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - id: chk
+        run: grep -qx '${{ matrix.model }}' fetch/tts/uz/models.txt && echo run=1 >> $GITHUB_OUTPUT || echo run=0 >> $GITHUB_OUTPUT
+      - if: steps.chk.outputs.run == '1'
+        uses: actions/setup-python@v5
         with: { python-version: '3.11' }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - name: ref clip
+      - if: steps.chk.outputs.run == '1'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - if: steps.chk.outputs.run == '1'
+        name: ref clip
         run: mkdir -p uzout && ffmpeg -y -loglevel error -i fetch/out/taqqos_fut_20261121_voice.mp3 -t 8.5 -ac 1 -ar 24000 uzout/ref.wav
-      - name: deps
+      - if: steps.chk.outputs.run == '1'
+        name: deps
         run: |
           pip install -q --upgrade pip
           case "${{ matrix.model }}" in
             mms) pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q transformers soundfile numpy ;;
-            f5) pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q f5-tts soundfile ;;
+            f5) echo 'torch==2.6.0' > c.txt && echo 'torchaudio==2.6.0' >> c.txt && pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && pip install -q -c c.txt f5-tts soundfile && (pip uninstall -y -q torchcodec || true) ;;
             chatterbox)
               git clone -q --depth 1 https://github.com/gokhaneraslan/chatterbox-finetuning cbft
               sed -i 's/is_turbo: bool = True/is_turbo: bool = False/' cbft/src/config.py
@@ -47,10 +53,13 @@ jobs:
           PY
               ;;
           esac
-      - name: generate
+      - if: steps.chk.outputs.run == '1'
+        name: generate
         run: python fetch/tts/uz/uz_tts_test.py ${{ matrix.model }}
-      - run: ffmpeg -y -loglevel error -i uzout/uz_test_${{ matrix.model }}.wav -af loudnorm=I=-16 -b:a 128k uzout/uz_test_${{ matrix.model }}.mp3
-      - uses: actions/upload-artifact@v4
+      - if: steps.chk.outputs.run == '1'
+        run: ffmpeg -y -loglevel error -i uzout/uz_test_${{ matrix.model }}.wav -af loudnorm=I=-16 -b:a 128k uzout/uz_test_${{ matrix.model }}.mp3
+      - if: steps.chk.outputs.run == '1'
+        uses: actions/upload-artifact@v4
         with: { name: 'uz-${{ matrix.model }}', path: 'uzout/uz_test_${{ matrix.model }}.mp3' }
   collect:
     needs: tts
