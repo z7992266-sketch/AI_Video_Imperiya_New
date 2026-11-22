@@ -1,6 +1,7 @@
-taqqos_fut_20261121_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/a9pX0Qp7hGpdPHlB5Pk0/avXKU9XZt3zqGLT17G7k/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=m6ooSprdMKgu7bh98dW2OYS3_bQ=
-b2b_vo_20261122_bot100.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/yGD3smVTATT7rlM8LrhJ/eVQt52PmLwfeBJeiaxbk/content.mp3?Expires=1795330800&KeyName=assets-cdn-key-1&Signature=fy3R86eUtkjiYxPk1kUl3VHc6D4=
-b2b_pex_34786856.mp4 https://www.pexels.com/download/video/34786856/
-b2b_pex_34786788.mp4 https://www.pexels.com/download/video/34786788/
-b2b_pex_5923356.mp4 https://www.pexels.com/download/video/5923356/
-b2b_pex_3135924.mp4 https://www.pexels.com/download/video/3135924/
+cm_petra_wp.json https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=Petra&format=json
+cm_petra_wpkh.json https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=Al-Khazneh&format=json
+cm_petra_c1.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&gsrsearch=Petra+Treasury+Khazneh+filetype:bitmap
+cm_petra_c2.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&gsrsearch=Petra+Siq+Jordan+filetype:bitmap
+cm_petra_c3.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&gsrsearch=Petra+Monastery+Ad+Deir+filetype:bitmap
+cm_petra_c4.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&gsrsearch=Petra+Nabataean+water+channel+filetype:bitmap
+cm_petra_c5.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1600&gsrsearch=Petra+Jordan+tombs+royal+filetype:bitmap
