@@ -1,6 +1,1 @@
-tx6_k.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&gsrsearch=Fayzullaev&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&iiextmetadatafilter=LicenseShortName|Artist
-tx6_i_oly1.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28120%29.jpg/1920px-Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28120%29.jpg
-tx6_i_oly2.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28243%29.jpg/1920px-Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28243%29.jpg
-tx6_i_arch.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Hiroshima_Big_Arch.jpg/1920px-Hiroshima_Big_Arch.jpg
-tx6_i_gate.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Main_gate_of_Hiroshima_Big_Arch.jpg/1920px-Main_gate_of_Hiroshima_Big_Arch.jpg
-tx6_i_azt2.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Estadio_Azteca1706_Intp1.jpg/1920px-Estadio_Azteca1706_Intp1.jpg
+tx6_i_fay.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%281%29.jpg/1280px-Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%281%29.jpg
