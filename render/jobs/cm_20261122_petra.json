@@ -1,0 +1,218 @@
+{
+ "name": "cm_20261122_petra",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "render/assets/cm_20261122_petra/i1.jpg",
+   "type": "image",
+   "dur": 5.5,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i9.jpg",
+   "type": "image",
+   "dur": 3.9,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i3.jpg",
+   "type": "image",
+   "dur": 3.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i2.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i5.jpg",
+   "type": "image",
+   "dur": 3.8,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i8.jpg",
+   "type": "image",
+   "dur": 2.9,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i5.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i1.jpg",
+   "type": "image",
+   "dur": 5.6,
+   "move": "up",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i8.jpg",
+   "type": "image",
+   "dur": 3.8,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i7.jpg",
+   "type": "image",
+   "dur": 4.6,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i4.jpg",
+   "type": "image",
+   "dur": 5.0,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i6.jpg",
+   "type": "image",
+   "dur": 3.6,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i10.jpg",
+   "type": "image",
+   "dur": 5.2,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i6.jpg",
+   "type": "image",
+   "dur": 4.2,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i9.jpg",
+   "type": "image",
+   "dur": 6.6,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261122_petra/i1.jpg",
+   "type": "image",
+   "dur": 7.1,
+   "move": "out",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "PETRA",
+  "dur": 2.6,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/cm_20261122_petra/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0,
+  "max_pause": 0.16,
+  "fit": 56
+ },
+ "captions": {
+  "style": "none"
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.15,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 10.3,
+   "t1": 13.200000000000001,
+   "text": "3 m",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 16.900000000000002,
+   "t1": 19.6,
+   "text": "37 m",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 46.3,
+   "t1": 48.3,
+   "text": "20 000",
+   "pos": 0.27,
+   "size": 140,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 50.3,
+   "t1": 53.3,
+   "text": "363",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 60.8,
+   "t1": 64.0,
+   "text": "1812",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 66.5,
+   "t1": 69.7,
+   "text": "1 000 000",
+   "pos": 0.27,
+   "size": 120,
+   "color": "#FFD54F",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "Photo: Wikimedia Commons · AI voice",
+  "color": "#DDDDDD",
+  "pos": "top-left"
+ },
+ "endcard": {
+  "title": "PETRA",
+  "subtitle": "Jordan",
+  "small": "CineMatrix",
+  "dur": 2.5,
+  "bg": "#000000",
+  "accent": "#FFD54F"
+ }
+}
