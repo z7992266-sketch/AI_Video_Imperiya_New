@@ -1,0 +1,46 @@
+{
+ "segments": [
+  {
+   "i": 0,
+   "text": "Five size facts that sound fake. Number five is the strangest.",
+   "s": 0.0,
+   "e": 3.322
+  },
+  {
+   "i": 1,
+   "text": "One. Africa is bigger than the USA, China and India combined. And there is still room left.",
+   "s": 3.505,
+   "e": 8.304
+  },
+  {
+   "i": 2,
+   "text": "Two. On most maps, Greenland looks as big as Africa. In real life, Africa is fourteen times bigger.",
+   "s": 8.487,
+   "e": 13.786
+  },
+  {
+   "i": 3,
+   "text": "Three. Australia is wider than the Moon. About four thousand kilometers, versus three thousand four hundred seventy five.",
+   "s": 13.969,
+   "e": 19.969
+  },
+  {
+   "i": 4,
+   "text": "Four. Everest is not the tallest mountain. Measured from its base on the sea floor, Mauna Kea is over ten thousand meters.",
+   "s": 20.152,
+   "e": 26.369
+  },
+  {
+   "i": 5,
+   "text": "Five. Alaska is the most northern, the most western, and the most eastern state in the USA.",
+   "s": 26.552,
+   "e": 31.281
+  },
+  {
+   "i": 6,
+   "text": "Which one did you not believe? Tell me in the comments.",
+   "s": 31.465,
+   "e": 33.75
+  }
+ ]
+}
