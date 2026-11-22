@@ -1,5 +1,16 @@
 # Z7 Render — guide for the daily channel tasks
 
+> **YANGI YIL KAYFIYATI (owner, 22 Nov 2026: "yangi yil ruhi bo'lsin, ertadan videolarda chekkasiga animatsiyali archa qo'y")
+> — from 23 Nov 2026 to 7 Jan 2027, WINS for every Short and long video of Taqqos, CineMatrix (Uzbek/Russian/English days),
+> OUJ, GLITCHVERSE and Sog'liq:** as the LAST step after QA, run
+> `bash render/templates/newyear_overlay.sh final.mp4 final_ny.mp4 [top-right|top-left|bottom-left]` and post final_ny.mp4.
+> It adds our own animated tree (twinkling lights, pulsing star, light snow; render/assets/newyear/archa_overlay.mov,
+> preview sample.png) in a corner, 170 px wide on vertical / 150 px on 16:9, below the platform top UI. Pick the corner that
+> covers NO text, score, timer, face or key graphic (default top-right; Sog'liq timer and Taqqos scoreboards are top-right →
+> use top-left there). Check 2 frames after the overlay. NOT on: CineMatrix Arabic-language days, Exclusive Vibe hour videos,
+> B2B portfolio reels (they already contain it from CineMatrix), anything about tragedy/war/disasters/memorial days.
+> No whoosh. Optional: one line "Yangi yil muborak bo'lsin! 🎄" / "С наступающим! 🎄" in the description from 20 Dec.
+
 > **TAQQOS = FUTBOL (owner, 21 Nov 2026: "eski usulimizni futbolga o'zgartir") — WINS over the topic lists in every
 > render/prompts/taqqos_*.md and every Taqqos task prompt. Keep each format's look, motion, voice, timing and posting slot;
 > only the SUBJECT becomes football:** "Kim kuchli?" → player vs player / club vs club / national team vs national team in
