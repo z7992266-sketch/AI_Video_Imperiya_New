@@ -14,3 +14,5 @@ bil2_scolari.jpg https://upload.wikimedia.org/wikipedia/commons/2/29/Luiz_Felipe
 bil2_neftchi.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Istiqlol_stadium_2.jpg/960px-Istiqlol_stadium_2.jpg
 bil2_khusanov.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Palermo_FC_v_Manchester_City_FC%2C_9_August_2025_-_22.jpg/960px-Palermo_FC_v_Manchester_City_FC%2C_9_August_2025_-_22.jpg
 bil2_khusanov2.jpg https://upload.wikimedia.org/wikipedia/commons/8/86/Khusanov_ASSE_RCL_2425.jpg
+bil2_istiklal_front.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Front_of_Istiklal_Stadium.jpg/960px-Front_of_Istiklal_Stadium.jpg
+bil2_istiklal_pano.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Istiklal_Stadium_Panarama_view.jpg/1280px-Istiklal_Stadium_Panarama_view.jpg
