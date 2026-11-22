@@ -41,7 +41,7 @@ elif model == "f5":
     tts.infer(ref_file=REF, ref_text=REF_TEXT, gen_text=TEXT, nfe_step=16, file_wave=OUT, seed=7)
 
 elif model == "chatterbox":
-    sys.path.insert(0, "cbft"); os.chdir("cbft")
+    sys.path.insert(0, os.path.abspath("cbft")); os.chdir("cbft")
     import torch, inference as inf
     eng = inf.load_finetuned_engine_lora("cpu")
     inf.set_seed(42)
