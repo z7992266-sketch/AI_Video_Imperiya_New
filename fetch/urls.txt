@@ -1,15 +1,1 @@
-dl11_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/yDvK5UEWms5gYZnGPTBC/G3Qj3cKN8JYJgvyxWQLZ/content.mp3?Expires=1795345200&KeyName=assets-cdn-key-1&Signature=fbpdC8UHY1GhDDn6FuIxaiURqDo=
-dl11_c15.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dallol-Ethiopie_%2829%29.jpg/1280px-Dallol-Ethiopie_%2829%29.jpg
-dl11_c16.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Dallol-Ethiopie_%283%29.jpg/1280px-Dallol-Ethiopie_%283%29.jpg
-dl11_c17.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Dallol-Ethiopie_%2830%29.jpg/1280px-Dallol-Ethiopie_%2830%29.jpg
-dl11_c18.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dallol-Ethiopie_%2833%29.jpg/1280px-Dallol-Ethiopie_%2833%29.jpg
-dl11_c19.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Dallol-Ethiopie_%2834%29.jpg/1280px-Dallol-Ethiopie_%2834%29.jpg
-dl11_c20.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dallol-Ethiopie_%2835%29.jpg/1280px-Dallol-Ethiopie_%2835%29.jpg
-dl11_c21.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Dallol-Ethiopie_%2836%29.jpg/1280px-Dallol-Ethiopie_%2836%29.jpg
-dl11_c22.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dallol-Ethiopie_%2837%29.jpg/1280px-Dallol-Ethiopie_%2837%29.jpg
-dl11_c23.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dallol-Ethiopie_%2838%29.jpg/1280px-Dallol-Ethiopie_%2838%29.jpg
-dl11_c24.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Dallol-Ethiopie_%284%29.jpg/1280px-Dallol-Ethiopie_%284%29.jpg
-dl11_c25.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Dallol-Ethiopie_%2840%29.jpg/1280px-Dallol-Ethiopie_%2840%29.jpg
-dl11_c27.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dallol-Ethiopie_%2842%29.jpg/1280px-Dallol-Ethiopie_%2842%29.jpg
-dl11_c28.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dallol-Ethiopie_%2843%29.jpg/1280px-Dallol-Ethiopie_%2843%29.jpg
-dl11_c29.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dallol-Ethiopie_%2844%29.jpg/1280px-Dallol-Ethiopie_%2844%29.jpg
+taqqos_sl28_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/8K4PiYWgSvQ3jMZcdodg/SiXwOjBMLPJdbKXpwc04/content.mp3?Expires=1795363200&KeyName=assets-cdn-key-1&Signature=_oFC25yupJPQRI8vCvcCsgld01k=
