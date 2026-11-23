@@ -1,5 +1,10 @@
-cm1123_s1.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Muruntau
-cm1123_s2.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Zarafshan%20Uzbekistan
-cm1123_s3.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Kyzylkum%20desert
-cm1123_s4.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=open%20pit%20gold%20mine
-cm1123_s5.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=gold%20bars
+cm1123_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/7Gkz0H04jJw7E42yNW5r/49G2mFKltTT74qCmuWsL/content.mp3?Expires=1795420800&KeyName=assets-cdn-key-1&Signature=dbTkrgjILyB8GaNnt8dnmBrTH5E=
+cm1123_i1.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kyzylkum_Desert_in_Uzbekistan.jpg/1920px-Kyzylkum_Desert_in_Uzbekistan.jpg
+cm1123_i2.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Muruntau_Mine%2C_Uzbekistan_%28ASTER%29.jpg/1920px-Muruntau_Mine%2C_Uzbekistan_%28ASTER%29.jpg
+cm1123_i3.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Muruntov_mine.JPG/1920px-Muruntov_mine.JPG
+cm1123_i4.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Zaravshan-1988.jpg/1920px-Zaravshan-1988.jpg
+cm1123_i5.jpg https://upload.wikimedia.org/wikipedia/commons/b/bd/Gold-containing_rock_from_Muruntau.JPG
+cm1123_i6.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Gold_bullion_bars.jpg/1920px-Gold_bullion_bars.jpg
+cm1123_i7.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Zarafsham_town.JPG/1920px-Zarafsham_town.JPG
+cm1123_i8.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Desert_Kyzyl_Kum_in_Uzbekistan_IGP2436.jpg/1920px-Desert_Kyzyl_Kum_in_Uzbekistan_IGP2436.jpg
+cm1123_i9.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Toshkent_metropolitening_ramziy_kalitlari_va_Muruntov_oltinni_saralash_zavodining_II_nabatining_ramziy_kaliti._1973-yil.jpg/1920px-Toshkent_metropolitening_ramziy_kalitlari_va_Muruntov_oltinni_saralash_zavodining_II_nabatining_ramziy_kaliti._1973-yil.jpg
