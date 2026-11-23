@@ -1,0 +1,18 @@
+{
+  "id": "ev013",
+  "title": "Waterfall in the Jungle — Relaxing Music",
+  "subtitle": "1 Hour · Nature Ambience · Exclusive Vibe",
+  "thumb_big": "Jungle Waterfall",
+  "thumb_small": "1 Hour Relaxing Music",
+  "minutes": 60,
+  "mood": "rain",
+  "seed": 191,
+  "queries": [
+    "waterfall",
+    "jungle",
+    "river"
+  ],
+  "count": 12,
+  "seg": 26,
+  "slow": 1.5
+}
