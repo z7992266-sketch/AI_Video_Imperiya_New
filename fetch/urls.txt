@@ -1,1 +1,5 @@
-taqqos_soz1_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/xHqPYBCXLrAFM2FsagKm/FAO4F0M6BwrUIhVdUgh3/content.mp3?Expires=1795420800&KeyName=assets-cdn-key-1&Signature=4MtxjdY1B2mB448KGJfUqJqT21s=
+cm1123_s1.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Muruntau
+cm1123_s2.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Zarafshan%20Uzbekistan
+cm1123_s3.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=Kyzylkum%20desert
+cm1123_s4.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=open%20pit%20gold%20mine
+cm1123_s5.json https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&gsrsearch=gold%20bars
