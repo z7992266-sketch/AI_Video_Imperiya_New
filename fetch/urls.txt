@@ -1,1 +1,1 @@
-taqqos_kubok_sf_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/3Oh3GkgX0aBpKhJMMdFY/tRRQWLmc8sDjtmWEf6E0/content.mp3?Expires=1795420800&KeyName=assets-cdn-key-1&Signature=gKpKglM-388avsnVVsRO3GMloXU=
+taqqos_soz1_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/xHqPYBCXLrAFM2FsagKm/FAO4F0M6BwrUIhVdUgh3/content.mp3?Expires=1795420800&KeyName=assets-cdn-key-1&Signature=4MtxjdY1B2mB448KGJfUqJqT21s=
