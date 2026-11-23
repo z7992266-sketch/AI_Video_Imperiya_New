@@ -1,5 +1,8 @@
 # Z7 Render — guide for the daily channel tasks
 
+> **YOUTUBE TEXT RULE (23 Nov 2026 — an OUJ Short failed with "invalid video description"):** never put the characters
+> `<` or `>` in a YouTube title, description or tags (YouTube rejects them). Write "is bigger than", "vs", "→" instead.
+
 > **YANGI YIL KAYFIYATI (owner, 22 Nov 2026: "yangi yil ruhi bo'lsin, ertadan videolarda chekkasiga animatsiyali archa qo'y")
 > — from 23 Nov 2026 to 7 Jan 2027, WINS for every Short and long video of Taqqos, CineMatrix (Uzbek/Russian/English days),
 > OUJ, GLITCHVERSE and Sog'liq:** as the LAST step after QA, run
