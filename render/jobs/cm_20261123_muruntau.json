@@ -1,0 +1,257 @@
+{
+ "name": "cm_20261123_muruntau",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "scenes": [
+  {
+   "src": "render/assets/cm_20261123_muruntau/i3.jpg",
+   "type": "image",
+   "dur": 4.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i2c.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i4.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i2c.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i3.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/ai.png",
+   "type": "image",
+   "dur": 5.4,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i4.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i5.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i6.jpg",
+   "type": "image",
+   "dur": 3.6,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i2c.jpg",
+   "type": "image",
+   "dur": 3.9,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i2.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i7.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261123_muruntau/i1.jpg",
+   "type": "image",
+   "dur": 4.2,
+   "move": "in",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "600 METR",
+  "dur": 2.6,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/cm_20261123_muruntau/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Qizilqum cho'li. O'rtasida ulkan chuqur bor. Bu — Muruntau. Dunyodagi eng katta oltin konlaridan biri. Uni ming to'qqiz yuz ellik sakkizinchi yilda topishgan. Chuqurning uzunligi qariyb uch yarim kilometr. Chuqurligi esa olti yuz metrga yaqin. Toshkent teleminorasini ichiga qo'ysangiz, ustida yana ikki yuz metr joy qoladi. Pastga zinapoyadek yo'llar tushadi. Ulkan yuk mashinalari rudani tepaga olib chiqadi. Har yili bu yerdan oltmish tonnadan ko'p oltin olinadi. Chuqur shunchalik kattaki, uni kosmosdan ham ko'rsa bo'ladi. NASA sun'iy yo'ldoshi uni suratga olgan. Konni Navoiy kon-metallurgiya kombinati boshqaradi. Bizning cho'lda shunday boylik yashiringanini bilarmidingiz?",
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.66
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.15,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 7.5,
+   "t1": 10.6,
+   "text": "1958",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 11.0,
+   "t1": 13.9,
+   "text": "SIR 1/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 11.0,
+   "t1": 13.9,
+   "text": "3,5 KM",
+   "pos": 0.27,
+   "size": 110,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 14.1,
+   "t1": 17.0,
+   "text": "SIR 2/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 14.1,
+   "t1": 17.0,
+   "text": "~600 METR",
+   "pos": 0.27,
+   "size": 104,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 17.1,
+   "t1": 22.3,
+   "text": "AI rekonstruksiya",
+   "pos": 0.8,
+   "size": 44,
+   "color": "#DDDDDD",
+   "pop": true
+  },
+  {
+   "t0": 17.1,
+   "t1": 22.3,
+   "text": "TELEMINORA 375 M",
+   "pos": 0.27,
+   "size": 84,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 25.1,
+   "t1": 31.6,
+   "text": "SIR 3/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 28.3,
+   "t1": 31.6,
+   "text": "60+ TONNA / YIL",
+   "pos": 0.27,
+   "size": 90,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 31.9,
+   "t1": 38.8,
+   "text": "SIR 4/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 31.9,
+   "t1": 38.8,
+   "text": "KOSMOSDAN KO'RINADI",
+   "pos": 0.27,
+   "size": 74,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 39.1,
+   "t1": 42.2,
+   "text": "SIR 5/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 39.1,
+   "t1": 42.2,
+   "text": "NAVOIY KMK",
+   "pos": 0.27,
+   "size": 100,
+   "color": "#FFD54F",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "Foto: Wikimedia Commons, NASA · Ovoz: AI",
+  "color": "#DDDDDD",
+  "pos": "top-left"
+ },
+ "endcard": {
+  "title": "JOYLAR SIRLARI",
+  "subtitle": "Muruntau oltin koni",
+  "small": "CineMatrix",
+  "dur": 2.5,
+  "bg": "#000000",
+  "accent": "#FFD54F"
+ }
+}
