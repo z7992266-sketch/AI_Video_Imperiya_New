@@ -2,3 +2,4 @@ oujen1124_wbgdp.json https://api.worldbank.org/v2/country/all/indicator/NY.GDP.M
 oujen1124_imfgdp.json https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2024
 oujen1124_wbpop.json https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2024&format=json&per_page=400
 taqqos28_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/yfHJrdh6i2BZywpQT5mR/ElPjhcKtba9L7pzr3qvM/content.mp3?Expires=1795510800&KeyName=assets-cdn-key-1&Signature=xfwhDUUgoRf-_l_zg1ezgNLdjhQ=
+taqqos_sog_20261124_narr.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/2ZyBoSo7Bnwvo55ZDpZ4/c4GVytVtTKCYqQIerUGX/content.mp3?Expires=1795518000&KeyName=assets-cdn-key-1&Signature=_KbzmUVwTMFT5sZxnDWsIOcyqEk=
