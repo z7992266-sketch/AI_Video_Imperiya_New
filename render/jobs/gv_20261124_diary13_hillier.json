@@ -1,0 +1,1107 @@
+{
+ "name": "gv_20261124_diary13_hillier",
+ "rev": "1",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "dark",
+ "transition": "none",
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s01.jpg",
+   "type": "image",
+   "dur": 2.143,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s02.jpg",
+   "type": "image",
+   "dur": 1.416,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s03.jpg",
+   "type": "image",
+   "dur": 2.144,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s04.jpg",
+   "type": "image",
+   "dur": 2.571,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s05.jpg",
+   "type": "image",
+   "dur": 1.463,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s06.jpg",
+   "type": "image",
+   "dur": 2.59,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s07.jpg",
+   "type": "image",
+   "dur": 2.544,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s08.jpg",
+   "type": "image",
+   "dur": 1.902,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s09.jpg",
+   "type": "image",
+   "dur": 2.691,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s10.jpg",
+   "type": "image",
+   "dur": 2.762,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s11.jpg",
+   "type": "image",
+   "dur": 2.504,
+   "move": "out",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "flash"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s12.jpg",
+   "type": "image",
+   "dur": 2.347,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch",
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s13.jpg",
+   "type": "image",
+   "dur": 2.439,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s14.jpg",
+   "type": "image",
+   "dur": 2.078,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s03.jpg",
+   "type": "image",
+   "dur": 2.638,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s15.jpg",
+   "type": "image",
+   "dur": 1.8,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s16.jpg",
+   "type": "image",
+   "dur": 2.192,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s17.jpg",
+   "type": "image",
+   "dur": 1.865,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "flash",
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s18.jpg",
+   "type": "image",
+   "dur": 3.166,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s19.jpg",
+   "type": "image",
+   "dur": 2.57,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s20.jpg",
+   "type": "image",
+   "dur": 2.135,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s21.jpg",
+   "type": "image",
+   "dur": 3.773,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s22.jpg",
+   "type": "image",
+   "dur": 2.516,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "punch"
+   ]
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s23.jpg",
+   "type": "image",
+   "dur": 2.286,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s24.jpg",
+   "type": "image",
+   "dur": 1.82,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s25.jpg",
+   "type": "image",
+   "dur": 2.821,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/gv_20261124_diary13_hillier/s01.jpg",
+   "type": "image",
+   "dur": 2.264,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "glitch_end"
+   ]
+  }
+ ],
+ "hook": {
+  "text": "THIS LAKE IS PINK",
+  "dur": 2.14,
+  "color": "#FF80AB"
+ },
+ "voice": {
+  "src": "render/assets/gv_20261124_diary13_hillier/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0,
+  "max_pause": 0.22,
+  "fit": 53.0
+ },
+ "music": {
+  "gen": "dark",
+  "volume": 0.2,
+  "duck": true
+ },
+ "sfx_events": [
+  {
+   "t": 24.74,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 34.24,
+   "type": "zap",
+   "volume": 0.9
+  },
+  {
+   "t": 36.09,
+   "type": "riser",
+   "volume": 0.7
+  },
+  {
+   "t": 38.23,
+   "type": "boom",
+   "volume": 0.9
+  },
+  {
+   "t": 61.24,
+   "type": "zap",
+   "volume": 0.9
+  }
+ ],
+ "fade_out": 0,
+ "texts": [
+  {
+   "t0": 5.763,
+   "t1": 8.283999999999999,
+   "text": "GLITCH DIARY #13",
+   "pos": 0.28,
+   "size": 80,
+   "color": "#80D8FF"
+  },
+  {
+   "t0": 8.334,
+   "t1": 12.337,
+   "text": "LAKE HILLIER, AUSTRALIA",
+   "pos": 0.28,
+   "size": 70,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 12.387,
+   "t1": 14.880999999999998,
+   "text": "~600 M LONG",
+   "pos": 0.28,
+   "size": 88,
+   "color": "#FF80AB"
+  },
+  {
+   "t0": 19.524,
+   "t1": 22.236,
+   "text": "PINK vs BLUE",
+   "pos": 0.28,
+   "size": 90,
+   "color": "#FF80AB"
+  },
+  {
+   "t0": 29.576,
+   "t1": 31.604,
+   "text": "STILL PINK",
+   "pos": 0.28,
+   "size": 92,
+   "color": "#FF80AB"
+  },
+  {
+   "t0": 34.292,
+   "t1": 36.042,
+   "text": "WHY?",
+   "pos": 0.28,
+   "size": 100,
+   "color": "#FFD54F"
+  },
+  {
+   "t0": 40.149,
+   "t1": 43.265,
+   "text": "AS SALTY AS THE DEAD SEA",
+   "pos": 0.28,
+   "size": 66,
+   "color": "#80D8FF"
+  },
+  {
+   "t0": 45.885,
+   "t1": 51.743,
+   "text": "ALGAE + BACTERIA",
+   "pos": 0.28,
+   "size": 80,
+   "color": "#FFAB40"
+  },
+  {
+   "t0": 54.309,
+   "t1": 56.545,
+   "text": "WOULD YOU SWIM?",
+   "pos": 0.28,
+   "size": 84,
+   "color": "#FFD54F"
+  }
+ ],
+ "captions": {
+  "script": "This lake is pink. Not at sunset. In broad daylight. Glitch Diary, entry thirteen. Lake Hillier, on an island off Western Australia. It's about six hundred metres long. Just a thin strip of sand and trees keeps it from the deep blue ocean. Pink, right next to blue. Like a bug in the colour settings. But that's not the strange part. Scoop the water into a glass... and it stays pink. The colour is in the water itself. And for a long time, nobody knew exactly why... Now we do. The lake is about as salty as the Dead Sea. Only tiny life survives there. Salt-loving algae and bacteria make red and pink pigments, like sunscreen. Billions of them tint the whole lake. Would you swim in a pink lake? Tell me in the comments. Follow for the next entry of my glitch diary. Because this lake is pink...",
+  "words": [
+   {
+    "w": "This",
+    "t0": 0.3,
+    "t1": 0.46
+   },
+   {
+    "w": "lake",
+    "t0": 0.524,
+    "t1": 0.78
+   },
+   {
+    "w": "is",
+    "t0": 0.833,
+    "t1": 0.94
+   },
+   {
+    "w": "pink.",
+    "t0": 1.02,
+    "t1": 1.42
+   },
+   {
+    "w": "Not",
+    "t0": 2.203,
+    "t1": 2.3
+   },
+   {
+    "w": "at",
+    "t0": 2.327,
+    "t1": 2.38
+   },
+   {
+    "w": "sunset.",
+    "t0": 2.46,
+    "t1": 3.02
+   },
+   {
+    "w": "In",
+    "t0": 3.619,
+    "t1": 3.66
+   },
+   {
+    "w": "broad",
+    "t0": 3.713,
+    "t1": 3.98
+   },
+   {
+    "w": "daylight.",
+    "t0": 4.033,
+    "t1": 4.54
+   },
+   {
+    "w": "Glitch",
+    "t0": 5.763,
+    "t1": 5.9
+   },
+   {
+    "w": "Diary,",
+    "t0": 5.967,
+    "t1": 6.38
+   },
+   {
+    "w": "entry",
+    "t0": 6.447,
+    "t1": 6.78
+   },
+   {
+    "w": "thirteen.",
+    "t0": 6.842,
+    "t1": 7.42
+   },
+   {
+    "w": "Lake",
+    "t0": 8.334,
+    "t1": 8.46
+   },
+   {
+    "w": "Hillier,",
+    "t0": 8.508,
+    "t1": 9.079
+   },
+   {
+    "w": "on",
+    "t0": 9.593,
+    "t1": 9.66
+   },
+   {
+    "w": "an",
+    "t0": 9.687,
+    "t1": 9.74
+   },
+   {
+    "w": "island",
+    "t0": 9.797,
+    "t1": 10.14
+   },
+   {
+    "w": "off",
+    "t0": 10.18,
+    "t1": 10.3
+   },
+   {
+    "w": "Western",
+    "t0": 10.34,
+    "t1": 10.62
+   },
+   {
+    "w": "Australia.",
+    "t0": 10.676,
+    "t1": 11.34
+   },
+   {
+    "w": "It's",
+    "t0": 12.387,
+    "t1": 12.46
+   },
+   {
+    "w": "about",
+    "t0": 12.5,
+    "t1": 12.7
+   },
+   {
+    "w": "six",
+    "t0": 12.76,
+    "t1": 12.94
+   },
+   {
+    "w": "hundred",
+    "t0": 12.97,
+    "t1": 13.18
+   },
+   {
+    "w": "metres",
+    "t0": 13.226,
+    "t1": 13.5
+   },
+   {
+    "w": "long.",
+    "t0": 13.58,
+    "t1": 14.039
+   },
+   {
+    "w": "Just",
+    "t0": 14.931,
+    "t1": 15.02
+   },
+   {
+    "w": "a",
+    "t0": 15.06,
+    "t1": 15.1
+   },
+   {
+    "w": "thin",
+    "t0": 15.164,
+    "t1": 15.42
+   },
+   {
+    "w": "strip",
+    "t0": 15.473,
+    "t1": 15.74
+   },
+   {
+    "w": "of",
+    "t0": 15.767,
+    "t1": 15.82
+   },
+   {
+    "w": "sand",
+    "t0": 15.9,
+    "t1": 16.22
+   },
+   {
+    "w": "and",
+    "t0": 16.24,
+    "t1": 16.3
+   },
+   {
+    "w": "trees",
+    "t0": 16.38,
+    "t1": 16.78
+   },
+   {
+    "w": "keeps",
+    "t0": 16.833,
+    "t1": 17.1
+   },
+   {
+    "w": "it",
+    "t0": 17.127,
+    "t1": 17.18
+   },
+   {
+    "w": "from",
+    "t0": 17.212,
+    "t1": 17.34
+   },
+   {
+    "w": "the",
+    "t0": 17.36,
+    "t1": 17.42
+   },
+   {
+    "w": "deep",
+    "t0": 17.468,
+    "t1": 17.66
+   },
+   {
+    "w": "blue",
+    "t0": 17.708,
+    "t1": 17.9
+   },
+   {
+    "w": "ocean.",
+    "t0": 17.98,
+    "t1": 18.54
+   },
+   {
+    "w": "Pink,",
+    "t0": 19.524,
+    "t1": 19.977
+   },
+   {
+    "w": "right",
+    "t0": 20.364,
+    "t1": 20.46
+   },
+   {
+    "w": "next",
+    "t0": 20.508,
+    "t1": 20.7
+   },
+   {
+    "w": "to",
+    "t0": 20.753,
+    "t1": 20.86
+   },
+   {
+    "w": "blue.",
+    "t0": 20.924,
+    "t1": 21.26
+   },
+   {
+    "w": "Like",
+    "t0": 22.286,
+    "t1": 22.38
+   },
+   {
+    "w": "a",
+    "t0": 22.42,
+    "t1": 22.46
+   },
+   {
+    "w": "bug",
+    "t0": 22.52,
+    "t1": 22.7
+   },
+   {
+    "w": "in",
+    "t0": 22.753,
+    "t1": 22.86
+   },
+   {
+    "w": "the",
+    "t0": 22.88,
+    "t1": 22.94
+   },
+   {
+    "w": "colour",
+    "t0": 22.974,
+    "t1": 23.18
+   },
+   {
+    "w": "settings.",
+    "t0": 23.242,
+    "t1": 23.82
+   },
+   {
+    "w": "But",
+    "t0": 24.79,
+    "t1": 24.91
+   },
+   {
+    "w": "that's",
+    "t0": 24.828,
+    "t1": 25.1
+   },
+   {
+    "w": "not",
+    "t0": 25.12,
+    "t1": 25.18
+   },
+   {
+    "w": "the",
+    "t0": 25.2,
+    "t1": 25.26
+   },
+   {
+    "w": "strange",
+    "t0": 25.3,
+    "t1": 25.58
+   },
+   {
+    "w": "part.",
+    "t0": 25.66,
+    "t1": 26.06
+   },
+   {
+    "w": "Scoop",
+    "t0": 27.137,
+    "t1": 27.42
+   },
+   {
+    "w": "the",
+    "t0": 27.44,
+    "t1": 27.5
+   },
+   {
+    "w": "water",
+    "t0": 27.54,
+    "t1": 27.74
+   },
+   {
+    "w": "into",
+    "t0": 27.788,
+    "t1": 27.98
+   },
+   {
+    "w": "a",
+    "t0": 28.02,
+    "t1": 28.06
+   },
+   {
+    "w": "glass...",
+    "t0": 28.14,
+    "t1": 28.709
+   },
+   {
+    "w": "and",
+    "t0": 29.576,
+    "t1": 29.58
+   },
+   {
+    "w": "it",
+    "t0": 29.633,
+    "t1": 29.74
+   },
+   {
+    "w": "stays",
+    "t0": 29.807,
+    "t1": 30.14
+   },
+   {
+    "w": "pink.",
+    "t0": 30.204,
+    "t1": 30.62
+   },
+   {
+    "w": "The",
+    "t0": 31.654,
+    "t1": 31.66
+   },
+   {
+    "w": "colour",
+    "t0": 31.717,
+    "t1": 32.06
+   },
+   {
+    "w": "is",
+    "t0": 32.113,
+    "t1": 32.22
+   },
+   {
+    "w": "in",
+    "t0": 32.273,
+    "t1": 32.38
+   },
+   {
+    "w": "the",
+    "t0": 32.4,
+    "t1": 32.46
+   },
+   {
+    "w": "water",
+    "t0": 32.513,
+    "t1": 32.78
+   },
+   {
+    "w": "itself.",
+    "t0": 32.871,
+    "t1": 33.421
+   },
+   {
+    "w": "And",
+    "t0": 34.292,
+    "t1": 34.3
+   },
+   {
+    "w": "for",
+    "t0": 34.34,
+    "t1": 34.46
+   },
+   {
+    "w": "a",
+    "t0": 34.5,
+    "t1": 34.54
+   },
+   {
+    "w": "long",
+    "t0": 34.588,
+    "t1": 34.78
+   },
+   {
+    "w": "time,",
+    "t0": 34.86,
+    "t1": 35.382
+   },
+   {
+    "w": "nobody",
+    "t0": 35.752,
+    "t1": 36.06
+   },
+   {
+    "w": "knew",
+    "t0": 36.092,
+    "t1": 36.22
+   },
+   {
+    "w": "exactly",
+    "t0": 36.28,
+    "t1": 36.7
+   },
+   {
+    "w": "why...",
+    "t0": 36.8,
+    "t1": 37.277
+   },
+   {
+    "w": "Now",
+    "t0": 38.284,
+    "t1": 38.38
+   },
+   {
+    "w": "we",
+    "t0": 38.433,
+    "t1": 38.54
+   },
+   {
+    "w": "do.",
+    "t0": 38.647,
+    "t1": 38.94
+   },
+   {
+    "w": "The",
+    "t0": 40.149,
+    "t1": 40.269
+   },
+   {
+    "w": "lake",
+    "t0": 40.204,
+    "t1": 40.46
+   },
+   {
+    "w": "is",
+    "t0": 40.487,
+    "t1": 40.54
+   },
+   {
+    "w": "about",
+    "t0": 40.58,
+    "t1": 40.78
+   },
+   {
+    "w": "as",
+    "t0": 40.833,
+    "t1": 40.94
+   },
+   {
+    "w": "salty",
+    "t0": 41.007,
+    "t1": 41.34
+   },
+   {
+    "w": "as",
+    "t0": 41.393,
+    "t1": 41.5
+   },
+   {
+    "w": "the",
+    "t0": 41.52,
+    "t1": 41.58
+   },
+   {
+    "w": "Dead",
+    "t0": 41.628,
+    "t1": 41.82
+   },
+   {
+    "w": "Sea.",
+    "t0": 41.92,
+    "t1": 42.38
+   },
+   {
+    "w": "Only",
+    "t0": 43.315,
+    "t1": 43.5
+   },
+   {
+    "w": "tiny",
+    "t0": 43.564,
+    "t1": 43.82
+   },
+   {
+    "w": "life",
+    "t0": 43.884,
+    "t1": 44.14
+   },
+   {
+    "w": "survives",
+    "t0": 44.184,
+    "t1": 44.54
+   },
+   {
+    "w": "there.",
+    "t0": 44.593,
+    "t1": 45.024
+   },
+   {
+    "w": "Salt-loving",
+    "t0": 45.885,
+    "t1": 46.38
+   },
+   {
+    "w": "algae",
+    "t0": 46.46,
+    "t1": 46.86
+   },
+   {
+    "w": "and",
+    "t0": 46.88,
+    "t1": 46.94
+   },
+   {
+    "w": "bacteria",
+    "t0": 47.002,
+    "t1": 47.5
+   },
+   {
+    "w": "make",
+    "t0": 47.548,
+    "t1": 47.74
+   },
+   {
+    "w": "red",
+    "t0": 47.8,
+    "t1": 47.98
+   },
+   {
+    "w": "and",
+    "t0": 48.02,
+    "t1": 48.14
+   },
+   {
+    "w": "pink",
+    "t0": 48.188,
+    "t1": 48.38
+   },
+   {
+    "w": "pigments,",
+    "t0": 48.44,
+    "t1": 49.128
+   },
+   {
+    "w": "like",
+    "t0": 49.484,
+    "t1": 49.58
+   },
+   {
+    "w": "sunscreen.",
+    "t0": 49.636,
+    "t1": 50.3
+   },
+   {
+    "w": "Billions",
+    "t0": 51.444,
+    "t1": 51.74
+   },
+   {
+    "w": "of",
+    "t0": 51.793,
+    "t1": 51.9
+   },
+   {
+    "w": "them",
+    "t0": 51.932,
+    "t1": 52.06
+   },
+   {
+    "w": "tint",
+    "t0": 52.124,
+    "t1": 52.38
+   },
+   {
+    "w": "the",
+    "t0": 52.4,
+    "t1": 52.46
+   },
+   {
+    "w": "whole",
+    "t0": 52.5,
+    "t1": 52.7
+   },
+   {
+    "w": "lake.",
+    "t0": 52.78,
+    "t1": 53.18
+   },
+   {
+    "w": "Would",
+    "t0": 54.309,
+    "t1": 54.38
+   },
+   {
+    "w": "you",
+    "t0": 54.4,
+    "t1": 54.46
+   },
+   {
+    "w": "swim",
+    "t0": 54.508,
+    "t1": 54.7
+   },
+   {
+    "w": "in",
+    "t0": 54.727,
+    "t1": 54.78
+   },
+   {
+    "w": "a",
+    "t0": 54.86,
+    "t1": 54.94
+   },
+   {
+    "w": "pink",
+    "t0": 54.972,
+    "t1": 55.1
+   },
+   {
+    "w": "lake?",
+    "t0": 55.164,
+    "t1": 55.58
+   },
+   {
+    "w": "Tell",
+    "t0": 56.595,
+    "t1": 56.7
+   },
+   {
+    "w": "me",
+    "t0": 56.727,
+    "t1": 56.78
+   },
+   {
+    "w": "in",
+    "t0": 56.807,
+    "t1": 56.86
+   },
+   {
+    "w": "the",
+    "t0": 56.9,
+    "t1": 57.02
+   },
+   {
+    "w": "comments.",
+    "t0": 57.082,
+    "t1": 57.726
+   },
+   {
+    "w": "Follow",
+    "t0": 58.415,
+    "t1": 58.62
+   },
+   {
+    "w": "for",
+    "t0": 58.66,
+    "t1": 58.78
+   },
+   {
+    "w": "the",
+    "t0": 58.8,
+    "t1": 58.86
+   },
+   {
+    "w": "next",
+    "t0": 58.908,
+    "t1": 59.1
+   },
+   {
+    "w": "entry",
+    "t0": 59.153,
+    "t1": 59.42
+   },
+   {
+    "w": "of",
+    "t0": 59.447,
+    "t1": 59.5
+   },
+   {
+    "w": "my",
+    "t0": 59.553,
+    "t1": 59.66
+   },
+   {
+    "w": "glitch",
+    "t0": 59.706,
+    "t1": 59.98
+   },
+   {
+    "w": "diary.",
+    "t0": 60.047,
+    "t1": 60.54
+   },
+   {
+    "w": "Because",
+    "t0": 61.236,
+    "t1": 61.42
+   },
+   {
+    "w": "this",
+    "t0": 61.452,
+    "t1": 61.58
+   },
+   {
+    "w": "lake",
+    "t0": 61.628,
+    "t1": 61.82
+   },
+   {
+    "w": "is",
+    "t0": 61.873,
+    "t1": 61.98
+   },
+   {
+    "w": "pink...",
+    "t0": 62.06,
+    "t1": 62.54
+   }
+  ]
+ }
+}
