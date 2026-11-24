@@ -1,5 +1,18 @@
 > TELEGRAM (19 Nov 2026): use `select public.z7_tg(chat_id, kind, text, file_url, caption);` via Supabase execute_sql (project vtsurdinopzycwsfzsuk) — the n8n relay below is dead. See render/GUIDE.md top.
 
+> **ONE-OFF TOPIC FOR 25 NOV 2026 (owner, 24 Nov 23:19: "ertaga uzun video qo'y, final haqida, Navbahor yutdi") — WINS over the queue for the 25 Nov run only:**
+> "Navbahor finalda! O'zbekiston kubogi: Namangan klubining kubok tarixi va final yo'li" (8–10 min, 16:9, 18:00 Tashkent).
+> Verified facts so far (each checked; re-verify, 2 sources): semifinal 24 Nov 2026, Toshkent, Lokomotiv stadioni: OKMK 0:1 Navbahor,
+> 22' Joël Kodjo (kun.uz, sports.uz). Other semifinal, Olmaliq: Andijon 0:2 Lokomotiv after extra time, 98' Muhammadali Reimov,
+> 109' Temurxo'ja Abduxoliqov (kun.uz). Final Navbahor – Lokomotiv, Toshkentda; kun.uz says planned 10 Dec 2026 at Paxtakor
+> stadium — say "rejaga ko'ra". Navbahor won the cup in 1992, 1995, 1998 (Wikipedia "Uzbekistan Cup"); lost the 2022 final to
+> Nasaf (daryo.uz) and the 2024 final to Andijon with a last-minute goal (kun.uz). Superliga 23-tur OKMK 2:2 Navbahor (90+14' pen),
+> 28-tur Navbahor 3:2 Neftchi. Chapters idea: 1) bugungi g'alaba 2) finalgacha yo'l (each round, verify) 3) 1992–1998 oltin davr
+> 4) 2022 va 2024 alamli finallar 5) Navbahor vs Lokomotiv raqamlarda (head-to-head this season, verify) 6) "Sizningcha kubok
+> kimda?" No match footage, no club logos (use our own colour badges), no betting. Our own graphics + licensed photos only
+> (stadiums/city of Namangan from Wikimedia with credit). New Year tree overlay (render/templates/newyear_overlay.sh).
+> After this run, delete this block from the file.
+
 # TAQQOS LONG VIDEO — twice a week (Wed + Sun, 18:00 Asia/Tashkent)
 
 Owner (14 Nov 2026): "haftada 2 ta long", "faktlar, rasm va animatsiyalar juda qiziq bo'lishi kerak; vjuuv degan ovoz kerak emas".
