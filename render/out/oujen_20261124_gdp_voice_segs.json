@@ -1,0 +1,50 @@
+{
+ "voice": "am_michael",
+ "speed": 1.0,
+ "sr": 24000,
+ "duration": 26.314,
+ "segments": [
+  {
+   "i": 0,
+   "text": "Africa looks huge on the map. On a money map, it almost vanishes.",
+   "s": 0.0,
+   "e": 4.144
+  },
+  {
+   "i": 1,
+   "text": "Let's redraw the world by the size of each economy.",
+   "s": 4.444,
+   "e": 7.589
+  },
+  {
+   "i": 2,
+   "text": "The USA explodes. It makes about one quarter of all the money on Earth.",
+   "s": 7.889,
+   "e": 12.651
+  },
+  {
+   "i": 3,
+   "text": "China is number two. Together, they make over forty percent.",
+   "s": 12.951,
+   "e": 16.846
+  },
+  {
+   "i": 4,
+   "text": "Japan alone makes more than all of Africa combined.",
+   "s": 17.146,
+   "e": 20.548
+  },
+  {
+   "i": 5,
+   "text": "And giant Russia? Smaller than Italy.",
+   "s": 20.848,
+   "e": 23.285
+  },
+  {
+   "i": 6,
+   "text": "Where does your country land? Tell me in the comments.",
+   "s": 23.585,
+   "e": 26.314
+  }
+ ]
+}
