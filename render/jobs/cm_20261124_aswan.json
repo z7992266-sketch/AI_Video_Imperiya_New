@@ -1,0 +1,243 @@
+{
+ "name": "cm_20261124_aswan",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "sync_scenes": true,
+ "scenes": [
+  {
+   "src": "render/assets/cm_20261124_aswan/i12.jpg",
+   "type": "image",
+   "dur": 3.4,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i7.jpg",
+   "type": "image",
+   "dur": 3.2,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i2.jpg",
+   "type": "image",
+   "dur": 3.5,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i3.jpg",
+   "type": "image",
+   "dur": 2.2,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i5.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i6.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i4.jpg",
+   "type": "image",
+   "dur": 2.1,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i11.jpg",
+   "type": "image",
+   "dur": 3.7,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i1.jpg",
+   "type": "image",
+   "dur": 3.0,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i2.jpg",
+   "type": "image",
+   "dur": 4.8,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i10.jpg",
+   "type": "image",
+   "dur": 3.3,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i13.jpg",
+   "type": "image",
+   "dur": 2.0,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i9.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i8.jpg",
+   "type": "image",
+   "dur": 3.5,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i5.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i12.jpg",
+   "type": "image",
+   "dur": 4.9,
+   "move": "in",
+   "fit": "fill",
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i1.jpg",
+   "type": "image",
+   "dur": 3.9,
+   "move": "left",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261124_aswan/i7.jpg",
+   "type": "image",
+   "dur": 2.9,
+   "move": "out",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "ASWAN",
+  "dur": 2.6,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/cm_20261124_aswan/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0,
+  "max_pause": 0.2
+ },
+ "captions": {
+  "style": "none"
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.15,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 6.8,
+   "t1": 10.0,
+   "text": "1960",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 12.4,
+   "t1": 14.9,
+   "text": "4 km",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 15.2,
+   "t1": 17.9,
+   "text": "111 m",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 20.4,
+   "t1": 23.7,
+   "text": "1 km",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 27.0,
+   "t1": 31.5,
+   "text": "17 ×",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 37.1,
+   "t1": 39.4,
+   "text": "500 km",
+   "pos": 0.27,
+   "size": 140,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 39.8,
+   "t1": 43.0,
+   "text": "12",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "Photo: Wikimedia Commons · AI voice",
+  "color": "#DDDDDD",
+  "pos": "top-left"
+ },
+ "endcard": {
+  "title": "ASWAN HIGH DAM",
+  "subtitle": "Egypt",
+  "small": "CineMatrix",
+  "dur": 2.5,
+  "bg": "#000000",
+  "accent": "#FFD54F"
+ }
+}
