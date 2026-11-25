@@ -1,0 +1,18 @@
+{
+ "id": "ev014",
+ "title": "Cozy Cabin Fire on a Rainy Night",
+ "subtitle": "1 Hour · Fire & Rain · Exclusive Vibe",
+ "thumb_big": "Cozy Cabin",
+ "thumb_small": "1 Hour Sleep Music",
+ "minutes": 60,
+ "mood": "fire",
+ "seed": 198,
+ "queries": [
+  "fireplace",
+  "cabin",
+  "rain"
+ ],
+ "count": 12,
+ "seg": 26,
+ "slow": 1.5
+}
