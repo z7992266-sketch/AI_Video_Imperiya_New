@@ -1,0 +1,133 @@
+[
+{
+"i": 0,
+"text": "Yigirma sakkiz yil. Navbahor oxirgi marta O'zbekiston kubogini bir ming to'qqiz yuz to'qson sakkizinchi yilda ko'targan.",
+"s": 0.0,
+"e": 8.304,
+"words": [
+{
+"w": "Yigirma",
+"t0": 0.15,
+"t1": 0.487
+},
+{
+"w": "sakkiz",
+"t0": 0.537,
+"t1": 0.975
+},
+{
+"w": "yil",
+"t0": 0.988,
+"t1": 1.2
+},
+{
+"w": "Navbahor",
+"t0": 2.125,
+"t1": 2.65
+},
+{
+"w": "oxirgi",
+"t0": 2.712,
+"t1": 3.1
+},
+{
+"w": "marta",
+"t0": 3.1,
+"t1": 3.413
+},
+{
+"w": "O'zbekiston",
+"t0": 3.413,
+"t1": 3.987
+},
+{
+"w": "kubogini",
+"t0": 3.987,
+"t1": 4.487
+},
+{
+"w": "bir",
+"t0": 4.5,
+"t1": 4.688
+},
+{
+"w": "ming",
+"t0": 4.713,
+"t1": 4.9
+},
+{
+"w": "to'qqiz",
+"t0": 4.9,
+"t1": 5.312
+},
+{
+"w": "yuz",
+"t0": 5.325,
+"t1": 5.513
+},
+{
+"w": "to'qson",
+"t0": 5.525,
+"t1": 5.95
+},
+{
+"w": "sakkizinchi",
+"t0": 5.95,
+"t1": 6.575
+},
+{
+"w": "yilda",
+"t0": 6.575,
+"t1": 6.85
+},
+{
+"w": "ko'targan",
+"t0": 6.85,
+"t1": 7.425
+}
+]
+},
+{
+"i": 1,
+"text": "Kecha esa Namangan jamoasi yana finalga chiqdi!",
+"s": 8.604,
+"e": 12.156,
+"words": [
+{
+"w": "Kecha",
+"t0": 8.742,
+"t1": 8.979
+},
+{
+"w": "esa",
+"t0": 9.017,
+"t1": 9.229
+},
+{
+"w": "Namangan",
+"t0": 9.229,
+"t1": 9.717
+},
+{
+"w": "jamoasi",
+"t0": 9.717,
+"t1": 10.242
+},
+{
+"w": "yana",
+"t0": 10.242,
+"t1": 10.454
+},
+{
+"w": "finalga",
+"t0": 10.454,
+"t1": 10.879
+},
+{
+"w": "chiqdi",
+"t0": 10.879,
+"t1": 11.216
+}
+]
+}
+]
