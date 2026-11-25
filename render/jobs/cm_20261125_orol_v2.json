@@ -1,0 +1,747 @@
+{
+ "name": "cm_20261125_orol_v2",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grade": "cinematic",
+ "transition": "auto",
+ "scenes": [
+  {
+   "src": "render/assets/cm_20261125_orol/i1.jpg",
+   "type": "image",
+   "dur": 4.6,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i11.jpg",
+   "type": "image",
+   "dur": 2.6,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i4.jpg",
+   "type": "image",
+   "dur": 2.4,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i9.jpg",
+   "type": "image",
+   "dur": 2.7,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i3.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "out",
+   "fit": "blur"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i10.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "left",
+   "fit": "blur"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i2.jpg",
+   "type": "image",
+   "dur": 4.1,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i8.jpg",
+   "type": "image",
+   "dur": 1.9,
+   "move": "right",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i6.jpg",
+   "type": "image",
+   "dur": 4.2,
+   "move": "up",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i5.jpg",
+   "type": "image",
+   "dur": 2.8,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i2.jpg",
+   "type": "image",
+   "dur": 3.8,
+   "move": "out",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i11.jpg",
+   "type": "image",
+   "dur": 4.1,
+   "move": "left",
+   "fit": "fill",
+   "fx": [
+    "grain"
+   ]
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i9.jpg",
+   "type": "image",
+   "dur": 5.2,
+   "move": "in",
+   "fit": "fill"
+  },
+  {
+   "src": "render/assets/cm_20261125_orol/i1.jpg",
+   "type": "image",
+   "dur": 3.3,
+   "move": "out",
+   "fit": "fill"
+  }
+ ],
+ "hook": {
+  "text": "CHO'LDA KEMALAR",
+  "dur": 2.6,
+  "color": "#FFD54F"
+ },
+ "voice": {
+  "src": "render/assets/cm_20261125_orol/voice.mp3",
+  "start": 0.3,
+  "volume": 1.0
+ },
+ "captions": {
+  "script": "Cho'l o'rtasida kemalar turibdi. Atrofda esa bir tomchi ham suv yo'q. Bu — Orol dengizi. Aniqrog'i, undan qolgan joy. Ming to'qqiz yuz oltmishinchi yilda u dunyodagi to'rtinchi eng katta ko'l edi. Maydoni oltmish sakkiz ming kvadrat kilometr. Keyin Amudaryo va Sirdaryo suvini paxta dalalariga burishdi. Dengiz qurib boshladi. Mo'ynoq shahri port edi. Hozir sohil undan juda uzoqda. Baliqchilikda qirq mingdan ko'p odam ishlardi. Bu ish deyarli yo'q bo'ldi. Suv o'n barobar sho'r bo'lib ketdi. Shamol tubdagi tuz va zaharli changni ko'taradi. Ikki ming beshinchi yilda Ko'korol to'g'oni qurildi. Shimoliy qismi biroz tiklandi. Siz Mo'ynoqdagi kemalarni ko'rganmisiz?",
+  "lang": "uz",
+  "style": "karaoke",
+  "pos": 0.66,
+  "words": [
+   {
+    "w": "Cho'l",
+    "t0": 0.35,
+    "t1": 0.677
+   },
+   {
+    "w": "o'rtasida",
+    "t0": 0.677,
+    "t1": 1.19
+   },
+   {
+    "w": "kemalar",
+    "t0": 1.19,
+    "t1": 1.61
+   },
+   {
+    "w": "turibdi.",
+    "t0": 1.61,
+    "t1": 2.076
+   },
+   {
+    "w": "Atrofda",
+    "t0": 2.578,
+    "t1": 3.055
+   },
+   {
+    "w": "esa",
+    "t0": 3.055,
+    "t1": 3.32
+   },
+   {
+    "w": "bir",
+    "t0": 3.32,
+    "t1": 3.585
+   },
+   {
+    "w": "tomchi",
+    "t0": 3.585,
+    "t1": 4.009
+   },
+   {
+    "w": "ham",
+    "t0": 4.009,
+    "t1": 4.274
+   },
+   {
+    "w": "suv",
+    "t0": 4.274,
+    "t1": 4.539
+   },
+   {
+    "w": "yo'q.",
+    "t0": 4.539,
+    "t1": 4.91
+   },
+   {
+    "w": "Bu",
+    "t0": 5.166,
+    "t1": 5.395
+   },
+   {
+    "w": "—",
+    "t0": 5.395,
+    "t1": 5.567
+   },
+   {
+    "w": "Orol",
+    "t0": 5.896,
+    "t1": 6.227
+   },
+   {
+    "w": "dengizi.",
+    "t0": 6.227,
+    "t1": 6.778
+   },
+   {
+    "w": "Aniqrog'i,",
+    "t0": 7.49,
+    "t1": 8.198
+   },
+   {
+    "w": "undan",
+    "t0": 8.198,
+    "t1": 8.611
+   },
+   {
+    "w": "qolgan",
+    "t0": 8.611,
+    "t1": 9.083
+   },
+   {
+    "w": "joy.",
+    "t0": 9.083,
+    "t1": 9.437
+   },
+   {
+    "w": "Ming",
+    "t0": 9.958,
+    "t1": 10.294
+   },
+   {
+    "w": "to'qqiz",
+    "t0": 10.294,
+    "t1": 10.798
+   },
+   {
+    "w": "yuz",
+    "t0": 10.798,
+    "t1": 11.078
+   },
+   {
+    "w": "oltmishinchi",
+    "t0": 11.078,
+    "t1": 11.862
+   },
+   {
+    "w": "yilda",
+    "t0": 11.862,
+    "t1": 12.254
+   },
+   {
+    "w": "u",
+    "t0": 12.254,
+    "t1": 12.422
+   },
+   {
+    "w": "dunyodagi",
+    "t0": 12.422,
+    "t1": 13.037
+   },
+   {
+    "w": "to'rtinchi",
+    "t0": 13.037,
+    "t1": 13.709
+   },
+   {
+    "w": "eng",
+    "t0": 13.709,
+    "t1": 13.989
+   },
+   {
+    "w": "katta",
+    "t0": 13.989,
+    "t1": 14.381
+   },
+   {
+    "w": "ko'l",
+    "t0": 14.381,
+    "t1": 14.717
+   },
+   {
+    "w": "edi.",
+    "t0": 14.717,
+    "t1": 15.053
+   },
+   {
+    "w": "Maydoni",
+    "t0": 15.398,
+    "t1": 15.838
+   },
+   {
+    "w": "oltmish",
+    "t0": 15.838,
+    "t1": 16.277
+   },
+   {
+    "w": "sakkiz",
+    "t0": 16.277,
+    "t1": 16.668
+   },
+   {
+    "w": "ming",
+    "t0": 16.668,
+    "t1": 16.961
+   },
+   {
+    "w": "kvadrat",
+    "t0": 16.961,
+    "t1": 17.401
+   },
+   {
+    "w": "kilometr.",
+    "t0": 17.401,
+    "t1": 17.938
+   },
+   {
+    "w": "Keyin",
+    "t0": 18.22,
+    "t1": 18.588
+   },
+   {
+    "w": "Amudaryo",
+    "t0": 18.588,
+    "t1": 19.114
+   },
+   {
+    "w": "va",
+    "t0": 19.114,
+    "t1": 19.324
+   },
+   {
+    "w": "Sirdaryo",
+    "t0": 19.324,
+    "t1": 19.85
+   },
+   {
+    "w": "suvini",
+    "t0": 19.85,
+    "t1": 20.27
+   },
+   {
+    "w": "paxta",
+    "t0": 20.27,
+    "t1": 20.638
+   },
+   {
+    "w": "dalalariga",
+    "t0": 20.638,
+    "t1": 21.269
+   },
+   {
+    "w": "burishdi.",
+    "t0": 21.269,
+    "t1": 21.847
+   },
+   {
+    "w": "Dengiz",
+    "t0": 22.29,
+    "t1": 22.744
+   },
+   {
+    "w": "qurib",
+    "t0": 22.744,
+    "t1": 23.142
+   },
+   {
+    "w": "boshladi.",
+    "t0": 23.142,
+    "t1": 23.766
+   },
+   {
+    "w": "Mo'ynoq",
+    "t0": 24.19,
+    "t1": 24.701
+   },
+   {
+    "w": "shahri",
+    "t0": 24.701,
+    "t1": 25.154
+   },
+   {
+    "w": "port",
+    "t0": 25.154,
+    "t1": 25.495
+   },
+   {
+    "w": "edi.",
+    "t0": 25.495,
+    "t1": 25.835
+   },
+   {
+    "w": "Hozir",
+    "t0": 26.26,
+    "t1": 26.624
+   },
+   {
+    "w": "sohil",
+    "t0": 26.624,
+    "t1": 26.989
+   },
+   {
+    "w": "undan",
+    "t0": 26.989,
+    "t1": 27.353
+   },
+   {
+    "w": "juda",
+    "t0": 27.353,
+    "t1": 27.666
+   },
+   {
+    "w": "uzoqda.",
+    "t0": 27.666,
+    "t1": 28.134
+   },
+   {
+    "w": "Baliqchilikda",
+    "t0": 28.43,
+    "t1": 29.136
+   },
+   {
+    "w": "qirq",
+    "t0": 29.136,
+    "t1": 29.419
+   },
+   {
+    "w": "mingdan",
+    "t0": 29.419,
+    "t1": 29.843
+   },
+   {
+    "w": "ko'p",
+    "t0": 29.843,
+    "t1": 30.125
+   },
+   {
+    "w": "odam",
+    "t0": 30.125,
+    "t1": 30.408
+   },
+   {
+    "w": "ishlardi.",
+    "t0": 30.408,
+    "t1": 30.926
+   },
+   {
+    "w": "Bu",
+    "t0": 31.198,
+    "t1": 31.429
+   },
+   {
+    "w": "ish",
+    "t0": 31.429,
+    "t1": 31.718
+   },
+   {
+    "w": "deyarli",
+    "t0": 31.718,
+    "t1": 32.238
+   },
+   {
+    "w": "yo'q",
+    "t0": 32.238,
+    "t1": 32.584
+   },
+   {
+    "w": "bo'ldi.",
+    "t0": 32.584,
+    "t1": 33.104
+   },
+   {
+    "w": "Suv",
+    "t0": 33.33,
+    "t1": 33.607
+   },
+   {
+    "w": "o'n",
+    "t0": 33.607,
+    "t1": 33.884
+   },
+   {
+    "w": "barobar",
+    "t0": 33.884,
+    "t1": 34.383
+   },
+   {
+    "w": "sho'r",
+    "t0": 34.383,
+    "t1": 34.771
+   },
+   {
+    "w": "bo'lib",
+    "t0": 34.771,
+    "t1": 35.214
+   },
+   {
+    "w": "ketdi.",
+    "t0": 35.214,
+    "t1": 35.657
+   },
+   {
+    "w": "Shamol",
+    "t0": 35.88,
+    "t1": 36.288
+   },
+   {
+    "w": "tubdagi",
+    "t0": 36.288,
+    "t1": 36.747
+   },
+   {
+    "w": "tuz",
+    "t0": 36.747,
+    "t1": 37.002
+   },
+   {
+    "w": "va",
+    "t0": 37.002,
+    "t1": 37.206
+   },
+   {
+    "w": "zaharli",
+    "t0": 37.206,
+    "t1": 37.666
+   },
+   {
+    "w": "changni",
+    "t0": 37.666,
+    "t1": 38.125
+   },
+   {
+    "w": "ko'taradi.",
+    "t0": 38.125,
+    "t1": 38.737
+   },
+   {
+    "w": "Ikki",
+    "t0": 39.15,
+    "t1": 39.421
+   },
+   {
+    "w": "ming",
+    "t0": 39.421,
+    "t1": 39.693
+   },
+   {
+    "w": "beshinchi",
+    "t0": 39.693,
+    "t1": 40.19
+   },
+   {
+    "w": "yilda",
+    "t0": 40.19,
+    "t1": 40.507
+   },
+   {
+    "w": "Ko'korol",
+    "t0": 40.507,
+    "t1": 40.959
+   },
+   {
+    "w": "to'g'oni",
+    "t0": 40.959,
+    "t1": 41.412
+   },
+   {
+    "w": "qurildi.",
+    "t0": 41.412,
+    "t1": 41.864
+   },
+   {
+    "w": "Shimoliy",
+    "t0": 42.2,
+    "t1": 42.732
+   },
+   {
+    "w": "qismi",
+    "t0": 42.732,
+    "t1": 43.105
+   },
+   {
+    "w": "biroz",
+    "t0": 43.105,
+    "t1": 43.477
+   },
+   {
+    "w": "tiklandi.",
+    "t0": 43.477,
+    "t1": 44.063
+   },
+   {
+    "w": "Siz",
+    "t0": 44.35,
+    "t1": 44.631
+   },
+   {
+    "w": "Mo'ynoqdagi",
+    "t0": 44.631,
+    "t1": 45.362
+   },
+   {
+    "w": "kemalarni",
+    "t0": 45.362,
+    "t1": 45.981
+   },
+   {
+    "w": "ko'rganmisiz?",
+    "t0": 45.981,
+    "t1": 46.824
+   }
+  ]
+ },
+ "music": {
+  "gen": "tension",
+  "volume": 0.15,
+  "duck": true
+ },
+ "texts": [
+  {
+   "t0": 10.0,
+   "t1": 15.2,
+   "text": "SIR 1/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 10.0,
+   "t1": 15.2,
+   "text": "1960",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 15.4,
+   "t1": 18.1,
+   "text": "SIR 2/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 15.4,
+   "t1": 18.1,
+   "text": "68 000 KV KM",
+   "pos": 0.27,
+   "size": 96,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 18.2,
+   "t1": 24.0,
+   "text": "SIR 3/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 18.2,
+   "t1": 24.0,
+   "text": "PAXTAGA SUV",
+   "pos": 0.27,
+   "size": 100,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 24.2,
+   "t1": 28.3,
+   "text": "SIR 4/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 24.2,
+   "t1": 28.3,
+   "text": "MO'YNOQ PORT EDI",
+   "pos": 0.27,
+   "size": 80,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 28.4,
+   "t1": 31.1,
+   "text": "40 000+ BALIQCHI",
+   "pos": 0.27,
+   "size": 80,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 31.2,
+   "t1": 39.0,
+   "text": "SIR 5/5",
+   "pos": 0.2,
+   "size": 54,
+   "color": "#FFFFFF",
+   "pop": true
+  },
+  {
+   "t0": 33.0,
+   "t1": 39.0,
+   "text": "10 BAROBAR SHO'R",
+   "pos": 0.27,
+   "size": 80,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 39.1,
+   "t1": 44.2,
+   "text": "2005",
+   "pos": 0.27,
+   "size": 150,
+   "color": "#FFD54F",
+   "pop": true
+  },
+  {
+   "t0": 39.1,
+   "t1": 44.2,
+   "text": "KO'KOROL TO'G'ONI",
+   "pos": 0.35,
+   "size": 62,
+   "color": "#FFFFFF",
+   "pop": true
+  }
+ ],
+ "badge": {
+  "text": "Foto: Wikimedia Commons, NASA · Ovoz: AI",
+  "color": "#DDDDDD",
+  "pos": "top-left"
+ },
+ "endcard": {
+  "title": "JOYLAR SIRLARI",
+  "subtitle": "Orol dengizi",
+  "small": "CineMatrix",
+  "dur": 2.5,
+  "bg": "#000000",
+  "accent": "#FFD54F"
+ },
+ "rev": 2
+}
