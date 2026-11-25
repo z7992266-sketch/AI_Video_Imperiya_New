@@ -1,0 +1,63 @@
+# Taqqos long 25 Nov 2026 — "Navbahor finalda!" — narration segments (Uzbek Latin), one visual scene per segment.
+# (chapter, scene_type, narration)
+SEG = [
+# 0 HOOK
+("hook", "hook28", "Yigirma sakkiz yil. Navbahor O'zbekiston kubogini oxirgi marta bir ming to'qqiz yuz to'qson sakkizinchi yilda ko'targan. Kecha esa Namangan jamoasi yana finalga chiqdi!"),
+("hook", "hookfinal", "Finalda uni Lokomotiv kutmoqda. Bu ikki jamoa haqida bitta raqam bor, u hammasini o'zgartiradi. Eng hayratlanarlisi videoning oxirida."),
+("hook", "chapters", "Bugun biz Navbahorning final yo'lini, oltin davrini, alamli ikki finalini va Lokomotiv bilan taqqosini raqamlarda ko'rib chiqamiz."),
+# 1 YARIM FINAL
+("ch1", "title1", "Birinchi bo'lim. Kechagi g'alaba."),
+("ch1", "semi_score", "Yigirma to'rtinchi noyabr, Toshkent, Lokomotiv stadioni. O'zbekiston kubogining yarim finali. OKMK va Navbahor."),
+("ch1", "goal22", "Yigirma ikkinchi daqiqa. Joel Kodjo gol uradi. Hisob nol bir. Bu gol o'yindagi yagona gol bo'lib qoldi."),
+("ch1", "clock", "Keyingi oltmish sakkiz daqiqa davomida OKMK hisobni tenglashtira olmadi. Navbahor durang uchun emas, final uchun o'ynadi va maqsadiga yetdi."),
+("ch1", "semi2", "Ikkinchi yarim finalda esa Olmaliqda Andijon va Lokomotiv uchrashdi. Asosiy vaqt golsiz tugadi."),
+("ch1", "extra", "Qo'shimcha vaqtda Lokomotiv ikki marta gol urdi. To'qson sakkizinchi daqiqada Muhammadali Reimov, bir yuz to'qqizinchi daqiqada Temurxo'ja Abduxoliqov. Andijon nol, Lokomotiv ikki."),
+("ch1", "final_card", "Shunday qilib, final juftligi aniq: Navbahor va Lokomotiv. Rejaga ko'ra final o'ninchi dekabrda Toshkentdagi Paxtakor stadionida bo'lib o'tadi."),
+("ch1", "question1", "Sizningcha, qaysi jamoaning yo'li qiyinroq bo'lgan? Keling, raqamlarga qaraymiz."),
+# 2 FINAL YO'LI
+("ch2", "title2", "Ikkinchi bo'lim. Finalgacha yo'l."),
+("ch2", "path_nasaf", "Navbahorning bu kubokdagi eng og'ir sinovi sakkizdan bir finalda bo'ldi. Raqib to'rt karra kubok sohibi Nasaf edi. Hisob uzoq vaqt ochilmadi."),
+("ch2", "path_nasaf2", "Va so'nggi daqiqalarda Navbahor gol urdi. Bir nol! Kuchli Nasaf turnirni shu bosqichda tark etdi."),
+("ch2", "path_gaz", "Chorak final, yigirma birinchi oktyabr. Navbahor G'azalkent bilan o'ynadi va uch bir hisobida ishonchli g'alaba qozondi."),
+("ch2", "path_okmk", "Yarim finalda esa OKMK. Kodjoning yagona goli. Bir nol."),
+("ch2", "path_sum", "Oxirgi uch bosqich natijasi: uch o'yin, uch g'alaba, besh gol urildi, faqat bitta gol o'tkazildi."),
+("ch2", "loko_path", "Lokomotivning yo'li ham oson bo'lmadi. Chorak finalda u Farg'onaga borib, Neftchini to'rt ikki hisobida yutdi. Barcha olti gol birinchi bo'limda urildi."),
+("ch2", "loko_path2", "Yarim finalda esa Andijonni qo'shimcha vaqtda ikki nol hisobida yengdi. Ya'ni ikki jamoa ham finalga katta raqiblarni chetlatib keldi."),
+("ch2", "question2", "Kim kuchliroq raqiblarni yengdi? Nasaf va OKMK, yoki Neftchi va Andijon? Fikringizni izohda yozing."),
+# 3 OLTIN DAVR
+("ch3", "title3", "Uchinchi bo'lim. Oltin davr: bir ming to'qqiz yuz to'qson ikki va to'qson sakkiz."),
+("ch3", "founded", "Navbahor bir ming to'qqiz yuz yetmish sakkizinchi yilda tashkil topgan. Dastlab jamoa Tekstilshchik deb atalgan, Navbahor nomini esa saksoninchi yilda olgan."),
+("ch3", "stadium", "Jamoaning uyi Namangan Markaziy stadioni. U bir ming to'qqiz yuz ellik oltinchi yilda ochilgan va hozir yigirma ikki ming o'rinli."),
+("ch3", "cup1992", "O'zbekiston kubogi bir ming to'qqiz yuz to'qson ikkinchi yilda boshlangan. Va eng birinchi kubok sohibi kim bo'ldi? Navbahor! Mustaqil O'zbekistonning birinchi kubogi Namanganga ketdi."),
+("ch3", "cup95_98", "Keyin to'qson beshinchi yil va to'qson sakkizinchi yil. Olti yil ichida uchta kubok. Bu Navbahorning eng yorqin davri edi."),
+("ch3", "champ1996", "Bir ming to'qqiz yuz to'qson oltinchi yilda esa Navbahor O'zbekiston chempioni bo'ldi. O'ttiz o'yinda yigirma uch g'alaba, besh durang va atigi ikki mag'lubiyat."),
+("ch3", "champ1996b", "Sakson sakkizta gol urildi, yetmish to'rt ochko to'plandi. Ikkinchi o'rindagi Neftchidan atigi ikki ochko oldinda."),
+("ch3", "supercup", "Bir yil o'tib, bir ming to'qqiz yuz to'qson to'qqizinchi yilda Navbahor Superkubokni ham yutdi."),
+("ch3", "gap28", "Lekin shundan keyin uzoq tanaffus boshlandi. Navbahorning kubok vitrinasi yigirma sakkiz yildan beri yangi kubok kutmoqda."),
+# 4 ALAMLI FINALLAR
+("ch4", "title4", "To'rtinchi bo'lim. Ikki alamli final."),
+("ch4", "f2022", "Ikki ming yigirma ikkinchi yil, o'ttizinchi oktyabr, Buxoro Arena. Final: Navbahor va Nasaf. Tribunada o'n bir mingdan ortiq tomoshabin."),
+("ch4", "f2022b", "Nasaf yigirma to'qqizinchi daqiqada oldinga chiqdi. Ellik yettinchi daqiqada Doniyor Abdumannopov hisobni tenglashtirdi. Bir bir. O'yin qo'shimcha vaqtga o'tdi."),
+("ch4", "f2022c", "Yuzinchi daqiqada Nasaf yana gol urdi. Ikki bir. Kubok Qarshiga ketdi. Navbahor ikkinchi o'rin bilan qoldi."),
+("ch4", "f2024", "Ikki yil o'tib, ikki ming yigirma to'rtinchi yil, beshinchi oktyabr. Farg'onadagi Istiqlol stadioni, yigirma ming tomoshabin. Final: Navbahor va Andijon. Bu vodiy derbisi edi."),
+("ch4", "f2024b", "Navbahor birinchi gol urdi. Andijon sakson ikkinchi daqiqada tenglashtirdi. Qo'shimcha vaqtda Andijon oldinga chiqdi, Navbahor esa deyarli oxirgi daqiqada yana hisobni tenglashtirdi. Ikki ikki."),
+("ch4", "f2024c", "Hamma penaltilar seriyasini kutayotgan edi. Ammo bir yuz yigirmanchi daqiqadan keyin, qo'shimcha vaqtning eng oxirgi soniyalarida Andijon uchinchi golni urdi. Uch ikki."),
+("ch4", "f2024d", "Andijon o'z tarixidagi birinchi kubokni yutdi. Navbahor esa ikkinchi marta finalni qo'shimcha vaqtda boy berdi."),
+("ch4", "twofinals", "Ikki final, ikkalasi ham qo'shimcha vaqtda, ikkalasida ham farq atigi bitta gol. Shuning uchun Namangan muxlislari uchun o'ninchi dekabr shunchaki o'yin emas."),
+# 5 TAQQOS
+("ch5", "title5", "Beshinchi bo'lim. Navbahor va Lokomotiv raqamlarda."),
+("ch5", "cmp_cups", "Birinchi taqqos: kuboklar soni. Navbahorda uchta kubok. Lokomotivda ham uchta: ikki ming o'n to'rt, o'n olti va o'n yetti. Hisob teng."),
+("ch5", "cmp_last", "Ikkinchi taqqos: oxirgi kubok. Navbahor uchun bu bir ming to'qqiz yuz to'qson sakkiz, ya'ni yigirma sakkiz yil oldin. Lokomotiv uchun ikki ming o'n yetti, to'qqiz yil oldin. Bu yerda Lokomotiv yaqinroq."),
+("ch5", "cmp_finals", "Uchinchi taqqos: finallar tajribasi. Navbahor uchun bu oltinchi final. Lokomotiv uchun esa to'rtinchi final."),
+("ch5", "cmp_asia", "To'rtinchi taqqos: Osiyo tajribasi. Navbahor ikki ming yigirma uch, yigirma to'rtinchi mavsumda Osiyo Chempionlar ligasida guruhdan chiqib, sakkizdan bir finalga yetgan."),
+("ch5", "cmp_table", "Endi umumiy jadvalga qaraymiz. Eng ko'p kubok Paxtakorda: o'n to'rtta. Keyin Bunyodkor va Nasaf: to'rttadan. Keyin Navbahor va Lokomotiv: uchtadan."),
+("ch5", "cmp_table2", "Demak, o'ninchi dekabrda kim yutsa ham, to'rtinchi kubokni oladi va Bunyodkor hamda Nasaf bilan tenglashadi."),
+("ch5", "question5", "Sizningcha qaysi biri muhimroq: tajriba yoki yigirma sakkiz yillik sog'inch? Ikki soniya o'ylab ko'ring."),
+("ch5", "reveal", "Va endi videoning boshida va'da qilgan raqam. Lokomotiv O'zbekiston kubogi finalida hech qachon yutqazmagan. Uch final, uch g'alaba. Yuz foiz!"),
+("ch5", "reveal2", "Navbahorda esa besh finalda uch g'alaba va ikki mag'lubiyat. Ya'ni o'ninchi dekabrda bitta seriya albatta uziladi: yo Lokomotivning yuz foizi, yo Navbahorning yigirma sakkiz yillik kutishi."),
+# 6 FINAL
+("ch6", "title6", "Oltinchi bo'lim. Sizningcha kubok kimda?"),
+("ch6", "final_info", "Final rejaga ko'ra o'ninchi dekabrda, Toshkentdagi Paxtakor stadionida bo'ladi. Navbahor va Lokomotiv. Uch kubok va uch kubok."),
+("ch6", "vote", "Sizningcha kubok kimda bo'ladi? Navbahor bo'lsa izohga bir, Lokomotiv bo'lsa ikki deb yozing. Hisobni ham taxmin qiling."),
+("ch6", "outro", "Videoni oxirigacha ko'rganingiz uchun rahmat. Taqqos kanaliga obuna bo'ling, finaldan keyin natijalarni raqamlarda ko'rsatamiz. Xayr!"),
+]
