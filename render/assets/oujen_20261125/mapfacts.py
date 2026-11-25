@@ -156,7 +156,11 @@ def progress(im, t):
 
 def headline(im, t, a, b, txt, y=250, size=84, fill=CREAM):
     al = win(t, a, b, 0.3, 0.3)
-    if al > 0: text_c(im, txt, y, F(FB, size), fill=fill, alpha=al, spacing=12, scale=lerp(1.2, 1.0, eob((t - a) / 0.45)))
+    if al <= 0: return
+    f = F(FB, size); dd = ImageDraw.Draw(im)
+    while dd.multiline_textbbox((0, 0), txt, font=f, spacing=12)[2] > 680 and size > 50:
+        size -= 2; f = F(FB, size)
+    text_c(im, txt, y, f, fill=fill, alpha=al, spacing=12, scale=lerp(1.08, 1.0, eob((t - a) / 0.45)))
 
 def captions(im, t):
     if t > VOICE_END + 0.2: return
@@ -279,9 +283,9 @@ def calendar(im, t, a, lt, cy=820, mode='hook'):
 # ---------- scenes ----------
 def hook(im, t, a, t0):
     lt = t - t0
-    calendar(im, t, a, lt, cy=860 + 10 * math.sin(lt * 2.4), mode='hook')
-    text_c(im, 'THIS DAY\nNEVER HAPPENED', 225, F(FB, 104), fill=GOLD, alpha=a, spacing=14,
-           scale=lerp(1.08, 1, eob(lt / 0.5)) if lt < 0.6 else 1)
+    calendar(im, t, a, lt, cy=900 + 10 * math.sin(lt * 2.4), mode='hook')
+    text_c(im, 'THIS DAY\nNEVER\nHAPPENED', 215, F(FB, 108), fill=GOLD, alpha=a, spacing=12,
+           scale=lerp(1.05, 1, eob(lt / 0.5)) if lt < 0.6 else 1)
     chip(im, '5 map facts that sound fake · #5 is the strangest', 1150, a)
 
 def fact1(im, t):
