@@ -1,5 +1,5 @@
-"""Template "edge_tts": free Microsoft Edge neural TTS on GitHub Actions (e.g. Uzbek uz-UZ-SardorNeural).
-Job: {"template":"edge_tts","voice":"uz-UZ-SardorNeural","rate":"+0%","gap":0.35,"segments":["line 1",...]}
+"""Template "uz_tts": free Microsoft Edge neural TTS on GitHub Actions (e.g. Uzbek uz-UZ-SardorNeural).
+Job: {"template":"uz_tts","voice":"uz-UZ-SardorNeural","rate":"+0%","gap":0.35,"segments":["line 1",...]}
 Output: <out>.mp4 (black 1280x720 + voice), render/out/<name>_voice.mp3, render/out/<name>_segs.json
 (segment start/end seconds + word timings). Last stdout line = JSON info."""
 import json, os, subprocess, sys, asyncio
