@@ -1,3 +1,5 @@
+> **DIKTOR OVOZI QOIDASI (25.11.2026):** Barcha o'zbekcha ovozli videolar faqat ElevenLabs 269BA7xEbcFPbGfqUFwe ovozida. Edge TTS yoki boshqa ovoz ishlatilmaydi. Kredit yetmasa — video kutadi, egasiga xabar beriladi.
+
 # Z7 Render — guide for the daily channel tasks
 
 > **YOUTUBE TEXT RULE (23 Nov 2026 — an OUJ Short failed with "invalid video description"):** never put the characters

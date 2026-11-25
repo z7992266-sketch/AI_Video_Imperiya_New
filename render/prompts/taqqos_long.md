@@ -1,5 +1,7 @@
 > TELEGRAM (19 Nov 2026): use `select public.z7_tg(chat_id, kind, text, file_url, caption);` via Supabase execute_sql (project vtsurdinopzycwsfzsuk) — the n8n relay below is dead. See render/GUIDE.md top.
 
+> **VOICE RULE (owner, 25 Nov 2026) — overrides everything below:** every Taqqos long uses ONLY the ElevenLabs voice 269BA7xEbcFPbGfqUFwe (eleven_v3). NEVER use Edge TTS / uz_tts.py / any other voice. Check credits first (account_get_usage): if remaining credits are below what the script needs, DO NOT render with another voice — write the script, save it to render/jobs, skip publishing, and tell the owner in bot chat 8355820653 (short Uzbek) that the video waits for the ElevenLabs credit reset.
+
 # TAQQOS LONG VIDEO — twice a week (Wed + Sun, 18:00 Asia/Tashkent)
 
 Owner (14 Nov 2026): "haftada 2 ta long", "faktlar, rasm va animatsiyalar juda qiziq bo'lishi kerak; vjuuv degan ovoz kerak emas".
@@ -41,7 +43,7 @@ Every number verified with 2 reliable sources (World Bank, IMF, UN, stat.uz, off
 Uzbek narration: ElevenLabs connector "ElevenLabs-ee62b10f", voice_id 269BA7xEbcFPbGfqUFwe, eleven_v3 (fallback eleven_multilingual_v2), chunks ≤ 2,500 chars, generations_count 1; check credits first (≤ 12,000 per video; if the plan is low, shorten to 7–8 min). Never name the voice publicly. Soft generated music bed, ducked. ABSOLUTELY NO WHOOSH (render.py has whoosh off by default; never add whoosh sfx_events). ≈ -14 LUFS, true peak ≤ -1 dB.
 
 ## Build
-25 Nov 2026 pipeline (Navbahor finalda, 8:43): render/templates/taqqos_long_build.py (PIL frames: scoreboards, match timelines, road/bracket, stat cards, bars, trophies; captions from word timings) + render/uz_tts.py (free Edge TTS uz-UZ-SardorNeural on Actions, used when ElevenLabs credits are too low; word timings in render/out/<job>_segs.json).
+25 Nov 2026 pipeline (Navbahor finalda, 8:43): render/templates/taqqos_long_build.py (PIL frames: scoreboards, match timelines, road/bracket, stat cards, bars, trophies; captions from word timings). NOTE: that run used Edge TTS (SardorNeural) because ElevenLabs credits were low — the owner rejected it (25 Nov: "diktor ovozi nega boshqa, talaffuzi chotkiy emas, bir xil chiqsin").
 Reuse and upgrade the previous long-video pipeline: look at branch media taqqos/long/*.mp4 (orol_v1, founders_v1) and any build code/logs, the kit on branch kit-glitchverse (glitch/build.py = 16:9 documentary renderer with maps, cards, Ken Burns, credits) and render/render.py. Heavy renders can run in GitHub Actions on your own work branch. Use fetch-media to download files the sandbox proxy blocks.
 QA: extract ≥ 20 frames and LOOK at them (readable text, no overlap, no black frames, credits visible); check audio sync at 3 points. Thumbnail 1280x720: flags/visual, big number or "?", 2–4 words, high contrast.
 
