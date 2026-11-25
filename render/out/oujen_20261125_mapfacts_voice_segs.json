@@ -1,0 +1,50 @@
+{
+ "voice": "am_michael",
+ "speed": 1.0,
+ "sr": 24000,
+ "duration": 35.043,
+ "segments": [
+  {
+   "i": 0,
+   "text": "Five map facts that sound fake. Number five is the strangest.",
+   "s": 0.0,
+   "e": 4.25
+  },
+  {
+   "i": 1,
+   "text": "One. Reno, Nevada is farther west than Los Angeles.",
+   "s": 4.55,
+   "e": 8.3
+  },
+  {
+   "i": 2,
+   "text": "Two. The whole country of Monaco is smaller than Central Park in New York.",
+   "s": 8.6,
+   "e": 13.151
+  },
+  {
+   "i": 3,
+   "text": "Three. Canada has sixty two percent of the world's big lakes. Almost nine hundred thousand of them.",
+   "s": 13.451,
+   "e": 19.421
+  },
+  {
+   "i": 4,
+   "text": "Four. France has twelve time zones. More than any other country, even Russia.",
+   "s": 19.721,
+   "e": 24.737
+  },
+  {
+   "i": 5,
+   "text": "Five. In Samoa, Friday, December thirtieth, twenty eleven, never happened. The whole country skipped it.",
+   "s": 25.037,
+   "e": 31.644
+  },
+  {
+   "i": 6,
+   "text": "Which one did you not believe? Tell me in the comments.",
+   "s": 31.944,
+   "e": 35.043
+  }
+ ]
+}
