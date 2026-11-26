@@ -1,0 +1,30 @@
+name: Taqqos YouTube comments (official API)
+# Push yt/request.txt (any change) -> fetch unanswered comments into yt/inbox/taqqos.json
+# Push yt/replies/pending.json -> post the replies, then refresh the inbox
+on:
+  push:
+    branches: [fetch-media]
+    paths: ['yt/request.txt', 'yt/replies/pending.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: yt-comments
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post pending replies
+        if: hashFiles('yt/replies/pending.json') != ''
+        run: python3 yt/yt_comments.py post
+      - name: Fetch unanswered comments
+        run: python3 yt/yt_comments.py fetch
+      - name: Commit
+        run: |
+          git config user.name "fetch-bot"; git config user.email "fetch-bot@users.noreply.github.com"
+          git add -A yt
+          git diff --cached --quiet || (git commit -m "yt comments sync" && git pull --rebase -q && git push)
