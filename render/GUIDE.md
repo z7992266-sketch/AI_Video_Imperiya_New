@@ -1,3 +1,5 @@
+> **FETCH-MEDIA SAFETY (26.11.2026):** a B2B story commit on 26 Nov deleted 329 files on branch fetch-media incl. .github/workflows/fetch.yml (restored). On fetch-media NEVER use `git add -A`, `git rm -r`, `git commit -a` or orphan/sparse commits — add ONLY your own new files by explicit path. Never delete .github/, fetch/urls.txt, fetch/README.md or yt/.
+
 > **PAUSED CHANNELS (owner, 26.11.2026 — tejash rejimi):** CineMatrix, GLITCHVERSE (Shorts + long), OUJ_Official EN, Exclusive Vibe are PAUSED (their scheduled tasks are disabled). Do NOT produce, re-fire or report them as "missing". Only Taqqos (YouTube) + Instagram @b2bsas_premium (B2B portfolio + Taqqos Reels) are active. B2B portfolio: reuse already-published CineMatrix/older videos — no new CineMatrix production. The owner will say when to resume.
 
 > **DIKTOR OVOZI QOIDASI (25.11.2026):** Barcha o'zbekcha ovozli videolar faqat ElevenLabs 269BA7xEbcFPbGfqUFwe ovozida. Edge TTS yoki boshqa ovoz ishlatilmaydi. Kredit yetmasa — video kutadi, egasiga xabar beriladi.
