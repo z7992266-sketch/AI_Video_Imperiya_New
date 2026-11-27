@@ -48,3 +48,4 @@ bil2_1126_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f0
 bil2_1126_night.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Bunyodkor_Stadium_in_night.jpg/1920px-Bunyodkor_Stadium_in_night.jpg
 bil2_1126_s2024.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bunyodkor_Stadium_2024.jpg/1920px-Bunyodkor_Stadium_2024.jpg
 bil2_1126_tash2.jpg https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bunyodkor_Stadium_in_Tashkent_2.jpg/1920px-Bunyodkor_Stadium_in_Tashkent_2.jpg
+sog1127_voice.mp3 https://elevenlabsusercontent.com/database/workspace/7cc47f07542244198929ee3028fc0974/content_generation/iBXPkuLoeXEYBp8UdAui/YLzzgYQu7rZJMOGwlZBw/content.mp3?Expires=1795777200&KeyName=assets-cdn-key-1&Signature=osOlBD4RbDeKdU0JUQ5SQkYZT1Y=
