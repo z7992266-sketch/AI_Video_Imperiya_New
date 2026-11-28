@@ -1,0 +1,30 @@
+{
+ "name": "taqqos_brend_20261128_iphone_samsung",
+ "status": "SCRIPT ONLY - not voiced: ElevenLabs credits 318 left (120890/121208 used, reset ~1 Dec 2026)",
+ "format": "Taqqos 'Kim kuchli?' BRAND vs BRAND (Saturday)",
+ "pair": "iPhone (Apple) vs Samsung",
+ "voice": {"voice_id": "269BA7xEbcFPbGfqUFwe", "model": "eleven_v3", "generations_count": 1},
+ "hook_variants": [
+  {"text": "iPhone'chimisiz yoki Samsung'chimi? Hisob hozir chiqadi.", "score": 8},
+  {"text": "Samsung yoshi katta. Lekin bir narsada yutqazdi.", "score": 7},
+  {"text": "99% odam bu savolga xato javob beradi.", "score": 6}
+ ],
+ "hook_used": "iPhone'chimisiz yoki Samsung'chimi? Hisob hozir chiqadi.",
+ "script": "iPhone'chimisiz yoki Samsung'chimi? Hisob hozir chiqadi. Birinchi: yoshi. Samsung ming to'qqiz yuz o'ttiz sakkizinchi yilda tug'ilgan, Apple esa ming to'qqiz yuz yetmish oltinchi yilda. Samsung — bir nol. Ikkinchi: bozor ulushi, ikki ming yigirma beshinchi yil. Apple — yigirma foiz, Samsung — o'n to'qqiz foiz. Bir bir. Uchinchi: sotilgan telefonlar. Apple — ikki yuz qirq sakkiz million, Samsung — ikki yuz qirq bir million. Farq juda oz, lekin Apple — ikki bir. Eng qizig'i oxirida: yillik daromad. Apple — to'rt yuz o'n olti milliard dollar. Samsung Electronics — uch yuz o'ttiz uch trillion von. Hisob: uch bir, Apple. Siz qaysi tomondasiz? Izohda yozing!",
+ "rounds": [
+  {"t": "YOSHI", "uz": "Samsung 1938", "tr": "Apple 1976", "win": "Samsung", "src": "Samsung (samsung.com/sec/aboutsamsung) · Apple (Wikipedia/Britannica) — VERIFY 2nd source before voicing"},
+  {"t": "BOZOR ULUSHI 2025", "a": "Apple 20%", "b": "Samsung 19%", "win": "Apple", "src": "Counterpoint (androidauthority.com, 12.01.2026) · IDC 19.7% vs 19.1% (gsmarena.com, 13.01.2026)"},
+  {"t": "SOTUV 2025, MLN DONA", "a": 247.8, "b": 241.2, "win": "Apple", "src": "IDC prelim 13.01.2026 (gsmarena.com) · Counterpoint (androidauthority.com)"},
+  {"t": "YILLIK DAROMAD", "a": "416 mlrd $ (FY2025)", "b": "333,6 trln von (2025)", "win": "Apple", "src": "Apple newsroom 30.10.2025 · phonearena.com · Samsung newsroom 29.01.2026 · koreatimes.co.kr — NOTE: add USD conversion with a sourced 2025 avg KRW/USD rate before voicing"}
+ ],
+ "title": "iPhone vs Samsung: kim kuchli? ⚔️ #shorts #iphone #samsung #taqqos",
+ "first_comment": "Siz qaysi tomondasiz — iPhone yoki Samsung? Izohda yozing 👇 Keyingi safar kimni taqqoslaylik?",
+ "sources": [
+  "https://m.gsmarena.com/idc_smartphone_shipments_up_23_in_q4_2025_apple_is_the_clear_winner_-news-71096.php",
+  "https://www.androidauthority.com/apple-beat-samsung-top-phone-seller-3631771",
+  "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results",
+  "https://www.koreatimes.co.kr/business/companies/20260129/samsung-reports-solid-recovery-in-2025-set-to-deliver-hbm4-starting-next-month",
+  "https://www.phonearena.com/news/apple-reports-fiscal-and-full-year-earnings_id175356",
+  "https://www.apple.com/lv/newsroom/2025/10/apple-reports-fourth-quarter-results/"
+ ]
+}
